@@ -21,7 +21,6 @@ assets/
   css/page.css        子页面的标题区、面包屑、空状态
   js/main.js          打字效果、滚动进度条、入场动画、移动端菜单
   img/favicon.svg     站点图标
-.github/workflows/    推送到 main 后自动部署
 ```
 
 ## 已经填好的信息
@@ -89,8 +88,9 @@ python3 -m http.server 8000
 git add . && git commit -m "..." && git push
 ```
 
-`.github/workflows/pages-deploy.yml` 把整个仓库当静态产物上传，不跑 Jekyll，
-构建只要十几秒。GitHub 仓库 Settings → Pages 里 Source 需要保持 **GitHub Actions**。
+GitHub Pages 直接从 `main` 分支发布静态文件，不跑 Jekyll。仓库
+Settings → Pages 的 Source 保持 **Deploy from a branch**，分支选择
+`main`、目录选择 `/ (root)`。
 
 远程走 SSH，用 `~/.ssh/id_ed25519`。
 

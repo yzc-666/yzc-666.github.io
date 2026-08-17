@@ -5,11 +5,9 @@
 ## 上线步骤（只做一次）
 
 1. 在 GitHub 上新建一个**空**仓库，名字必须是 `zichao.github.io`（不要勾选 README / .gitignore / license）。
-2. 提交并推送本地代码（当前分支已经是 `main`）：
+2. 推送本地代码（首次提交已经在 `main` 分支上了）：
 
    ```bash
-   git add -A
-   git commit -m "init: Chirpy 个人主页"
    git remote add origin https://github.com/zichao/zichao.github.io.git
    git push -u origin main
    ```

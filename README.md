@@ -1,48 +1,51 @@
 # yzc-666.github.io
 
-Personal academic homepage for Zichao Yu. Dark cyberpunk theme, hand-written
-static HTML/CSS/JS — no framework, no build step, no dependencies beyond two
-Google webfonts.
+Zichao Yu 的个人学术主页。暗黑赛博朋克风格，手写静态 HTML/CSS/JS，
+无框架、无构建步骤，除两个 Google 字体外没有任何依赖。
 
-Live at <https://yzc-666.github.io>.
+线上地址：<https://yzc-666.github.io>
 
-## Layout
+## 结构
+
+着陆页只做自我介绍，具体内容分在两个子页面里。
 
 ```
-index.html              单页主页：About / News / Research / Publications / CV / Notes / Contact
-404.html                找不到页面时的赛博朋克 404
-robots.txt              搜索引擎抓取规则
-sitemap.xml             新增页面时记得同步这里
-blog/
-  index.html            文章列表页
-  hello-world.html      示例文章，同时是排版参考
-  _template.html        新文章模板，复制它开始写
+index.html            着陆页：姓名、身份、简介、研究关键词、两张入口卡片
+publications.html     论文列表（当前是「暂无」状态，模板已备好）
+experience.html       教育经历、研究与工作经历、服务与教学
+404.html              找不到页面时的赛博朋克 404
+robots.txt            搜索引擎抓取规则
+sitemap.xml           新增页面时记得同步这里
 assets/
-  css/style.css         全站样式（配色、背景特效、导航、各板块）
-  css/post.css          文章正文排版
-  js/main.js            打字效果、滚动高亮、进度条、入场动画、移动端菜单
-  img/favicon.svg       站点图标
-.github/workflows/      推送到 main 后自动部署
+  css/style.css       全站样式：配色、背景特效、导航、卡片、论文列表、时间线
+  css/page.css        子页面的标题区、面包屑、空状态
+  js/main.js          打字效果、滚动进度条、入场动画、移动端菜单
+  img/favicon.svg     站点图标
+.github/workflows/    推送到 main 后自动部署
 ```
 
-## 需要你填的内容
+## 已经填好的信息
 
-主页 `index.html` 里所有待替换的地方都标了 `<!-- EDIT: ... -->` 注释。按板块列一下：
+- 姓名 Zichao Yu
+- 身份 Incoming PhD Student, Fall 2026
+- 单位 School of Computing and Data Science, The University of Hong Kong
+- 研究兴趣 large language models, machine learning
+- GitHub <https://github.com/yzc-666>
 
-| 位置 | 现在是什么 | 要改成 |
-|---|---|---|
-| Hero | Your Lab / Your University | 实验室和学校 |
-| Hero | 两段 bio | 你的自我介绍 |
-| Hero 按钮 | `you@example.com`、Scholar 链接 `#` | 真实邮箱和 Google Scholar 地址 |
-| Hero 卡片 | 首字母 `ZY` 占位方块 | 照片，见下方说明 |
-| Hero 卡片 | Your City | 所在城市 |
-| News | 三条占位动态 | 真实动态 |
-| Research | 三张卡片 | 你的研究方向 |
-| Publications | 三条占位论文 | 真实论文，`#` 链接换成 PDF/arXiv/Code |
-| CV | 学历和经历 | 真实经历 |
-| Contact | 邮箱、Scholar、办公室 | 真实信息 |
+## 还需要你填的
 
-打字机效果的那几句话在 `index.html` 的 `data-typed` 属性里，是一个 JSON 数组，改成你自己的标签就行。
+所有待补充的地方在 HTML 里都标了 `<!-- EDIT: ... -->` 注释。
+
+| 文件 | 内容 |
+|---|---|
+| `index.html` | 邮箱按钮（现在整段注释掉了，有地址后取消注释） |
+| `index.html` | Google Scholar 链接（现在指向 `#`） |
+| `index.html` | 头像（见下方） |
+| `index.html` | 第三段自我介绍，可以换成你自己的说法 |
+| `experience.html` | 本科（及硕士）学历 |
+| `experience.html` | 实习、研究助理等经历 |
+| `experience.html` | 服务与教学，没有的话整段删掉 |
+| `publications.html` | 有论文后删掉 `.empty` 区块，取消下面 `.pubs` 列表的注释 |
 
 ### 换头像
 
@@ -62,20 +65,13 @@ assets/
 </div>
 ```
 
-样式已经写好了，图片会自动裁切成正方形并带一点灰度处理。
+样式已经写好，图片会自动裁成正方形并带一点灰度处理。
 
-### 放 CV
+### 加论文
 
-把 PDF 放到 `assets/cv.pdf`，Hero 里的 CV 按钮就能用了。
-
-## 写一篇新文章
-
-1. 复制 `blog/_template.html`，改名成 `blog/你的标题.html`
-2. 填标题、描述、canonical 链接、日期、正文（每处都有 `<!-- EDIT -->` 注释），并删掉那行 `noindex`
-3. 在 `blog/index.html` 的列表里加一行，需要的话主页 Notes 板块也加一行
-4. 在 `sitemap.xml` 里补一条
-
-正文直接写语义化 HTML 就行，`h2` `h3` `p` `ul` `ol` `blockquote` `pre` `table` `img` 都已经配好样式，参考 `blog/hello-world.html`。
+`publications.html` 里有一段注释掉的 `<ol class="pubs">` 示例，直接照抄改内容即可。
+`badge--cyan` 是会议/期刊，`badge--magenta` 是 preprint，不带修饰符是普通标签。
+作者列表里用 `<strong>` 包住自己的名字，`<span class="asterisk">*</span>` 表示共同一作。
 
 ## 本地预览
 
@@ -85,7 +81,7 @@ assets/
 python3 -m http.server 8000
 ```
 
-然后打开 <http://localhost:8000>。改完文件刷新即可。
+然后打开 <http://localhost:8000>，改完文件刷新即可。
 
 ## 部署
 
@@ -95,14 +91,14 @@ python3 -m http.server 8000
 git add . && git commit -m "..." && git push
 ```
 
-`.github/workflows/pages-deploy.yml` 直接把整个仓库当静态产物上传，不跑 Jekyll，
-所以构建只要十几秒。GitHub 仓库的 Settings → Pages 里 Source 需要保持
-**GitHub Actions**。
+`.github/workflows/pages-deploy.yml` 把整个仓库当静态产物上传，不跑 Jekyll，
+构建只要十几秒。GitHub 仓库 Settings → Pages 里 Source 需要保持 **GitHub Actions**。
 
-远程仓库走 SSH，用的是 `~/.ssh/id_ed25519`。
+远程走 SSH，用 `~/.ssh/id_ed25519`。
 
 ## 设计说明
 
-配色是青（`#00f0ff`）配品红（`#ff2bd6`），底色接近纯黑。视觉效果包括透视网格背景、
-CRT 扫描线加轻微闪烁、标题的故障（glitch）动画、霓虹辉光边框和悬停扫光。
-所有动画都在 `prefers-reduced-motion` 下自动关闭，键盘焦点样式和跳转链接也都保留了。
+青（`#00f0ff`）配品红（`#ff2bd6`），底色接近纯黑。视觉效果包括透视网格背景、
+CRT 扫描线加轻微闪烁、姓名的故障（glitch）动画、霓虹辉光边框、卡片悬停扫光。
+所有动画在 `prefers-reduced-motion` 下自动关闭；入场动画由 JS 添加 `js` 类来启用，
+因此 JS 失效时内容依然可见。

@@ -1,0 +1,74 @@
+/* Header and section chrome for the inner pages. Loaded on top of style.css. */
+
+.crumbs {
+  font-size: 0.75rem;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--text-dim);
+  padding-top: 1.75rem;
+}
+
+.crumbs a {
+  color: var(--text-dim);
+}
+
+.crumbs a:hover {
+  color: var(--cyan);
+}
+
+.crumbs span {
+  margin: 0 0.6rem;
+  color: var(--magenta);
+}
+
+.page-head {
+  padding: clamp(2rem, 6vw, 3.5rem) 0 2rem;
+  border-bottom: 1px solid var(--line-soft);
+}
+
+.page-head__kicker {
+  font-family: var(--font-mono);
+  font-size: 0.7rem;
+  letter-spacing: 0.28em;
+  color: var(--magenta);
+  margin-bottom: 0.6rem;
+}
+
+.page-head__title {
+  font-size: clamp(1.9rem, 5.5vw, 3rem);
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  margin-bottom: 0.9rem;
+  text-shadow: 0 0 26px rgba(0, 240, 255, 0.22);
+}
+
+.page-head__meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  font-size: 0.78rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--text-dim);
+  margin: 0;
+}
+
+.page-section {
+  padding: clamp(2.5rem, 6vw, 3.5rem) 0 0;
+}
+
+/* ------------------------------------------------------------ empty state */
+
+.empty {
+  max-width: 60ch;
+  padding: clamp(2.5rem, 6vw, 3.5rem) 0 0;
+  color: var(--text-dim);
+}
+
+.empty__mark {
+  font-size: 0.72rem;
+  letter-spacing: 0.24em;
+  text-transform: uppercase;
+  color: var(--cyan);
+  margin-bottom: 1rem;
+}

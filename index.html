@@ -6,7 +6,7 @@
     <title>Zichao Yu</title>
     <meta
       name="description"
-      content="Zichao Yu — researcher working on machine learning theory. Publications, research interests, and notes."
+      content="Zichao Yu — incoming PhD student at the School of Computing and Data Science, The University of Hong Kong. Working on large language models and machine learning."
     />
     <link rel="canonical" href="https://yzc-666.github.io/" />
 
@@ -14,7 +14,7 @@
     <meta property="og:title" content="Zichao Yu" />
     <meta
       property="og:description"
-      content="Zichao Yu — researcher working on machine learning theory."
+      content="Incoming PhD student at HKU CDS, working on large language models and machine learning."
     />
     <meta property="og:url" content="https://yzc-666.github.io/" />
     <meta name="twitter:card" content="summary" />
@@ -31,8 +31,8 @@
     <link rel="stylesheet" href="assets/css/style.css" />
 
     <script>
-      // Gates the scroll-reveal animation so content is never hidden from
-      // visitors whose JS never runs.
+      // Gates the reveal animation so content is never hidden from visitors
+      // whose JS never runs.
       document.documentElement.classList.add("js");
     </script>
   </head>
@@ -46,7 +46,7 @@
 
     <header class="nav" id="nav">
       <div class="nav__inner">
-        <a class="nav__brand" href="#top">
+        <a class="nav__brand" href="./">
           <span class="nav__brand-bracket">[</span>
           ZY
           <span class="nav__brand-bracket">]</span>
@@ -63,381 +63,133 @@
         </button>
 
         <nav class="nav__menu" id="nav-menu" aria-label="Main">
-          <a href="#about">About</a>
-          <a href="#news">News</a>
-          <a href="#research">Research</a>
-          <a href="#publications">Publications</a>
-          <a href="#cv">CV</a>
-          <a href="#blog">Blog</a>
-          <a href="#contact">Contact</a>
+          <a href="./" class="is-active">Home</a>
+          <a href="publications.html">Publications</a>
+          <a href="experience.html">Experience</a>
         </nav>
       </div>
       <div class="nav__progress" aria-hidden="true"></div>
     </header>
 
-    <main id="main">
-      <!-- ─────────────────────────── HERO / ABOUT ─────────────────────────── -->
-      <section class="hero" id="about" data-nav="about">
-        <span id="top"></span>
-        <div class="wrap hero__inner">
-          <div class="hero__body">
-            <p class="prompt">
-              <span class="prompt__sigil">$</span> whoami
-              <span class="caret" aria-hidden="true"></span>
-            </p>
-
-            <h1 class="glitch" data-text="ZICHAO YU">ZICHAO YU</h1>
-
-            <p class="hero__role">
-              <span
-                class="typed"
-                data-typed='["PhD Student, Machine Learning Theory","Learning Theory · Optimization","Building things that provably work"]'
-                >PhD Student, Machine Learning Theory</span
-              >
-            </p>
-
-            <!-- EDIT: affiliation -->
-            <p class="hero__affil">
-              <a href="#" class="link">Your Lab</a> ·
-              <a href="#" class="link">Your University</a>
-            </p>
-
-            <!-- EDIT: bio -->
-            <p class="hero__bio">
-              I work on the theoretical foundations of machine learning — why
-              modern models generalize, when optimization succeeds, and what the
-              fundamental limits are. My goal is to turn empirical practice into
-              statements you can actually prove.
-            </p>
-            <p class="hero__bio">
-              Previously at
-              <a href="#" class="link">Somewhere Interesting</a>. Always happy to
-              talk about open problems, collaborations, or a good counterexample.
-            </p>
-
-            <div class="hero__actions">
-              <a class="btn btn--primary" href="mailto:you@example.com">
-                <span class="btn__glyph">✉</span> Email
-              </a>
-              <a class="btn" href="#" rel="noopener">Google Scholar</a>
-              <a class="btn" href="https://github.com/yzc-666" rel="noopener">
-                GitHub
-              </a>
-              <!-- EDIT: point at assets/cv.pdf once the file is added -->
-              <a class="btn" href="#">CV</a>
-            </div>
-          </div>
-
-          <aside class="hero__card" aria-label="Profile">
-            <div class="portrait">
-              <!-- EDIT: drop a photo at assets/img/avatar.jpg and swap this block for <img> -->
-              <div class="portrait__frame">
-                <span class="portrait__initials">ZY</span>
-              </div>
-              <span class="portrait__corner portrait__corner--tl"></span>
-              <span class="portrait__corner portrait__corner--tr"></span>
-              <span class="portrait__corner portrait__corner--bl"></span>
-              <span class="portrait__corner portrait__corner--br"></span>
-            </div>
-
-            <dl class="statline">
-              <div>
-                <dt>STATUS</dt>
-                <dd><span class="dot"></span> Available for collaboration</dd>
-              </div>
-              <div>
-                <dt>BASED IN</dt>
-                <dd>Your City</dd>
-              </div>
-              <div>
-                <dt>FOCUS</dt>
-                <dd>Learning theory</dd>
-              </div>
-            </dl>
-          </aside>
-        </div>
-      </section>
-
-      <!-- ─────────────────────────────── NEWS ─────────────────────────────── -->
-      <section class="section" id="news" data-nav="news">
-        <div class="wrap">
-          <h2 class="section__title" data-index="01">News</h2>
-
-          <ul class="news">
-            <li class="news__item reveal">
-              <time class="news__date" datetime="2026-08">2026.08</time>
-              <p class="news__text">
-                Launched this site. Everything below is placeholder text waiting
-                to be replaced.
-              </p>
-            </li>
-            <li class="news__item reveal">
-              <time class="news__date" datetime="2026-06">2026.06</time>
-              <p class="news__text">
-                Paper accepted at <em>Venue Name</em>. Camera-ready and code
-                coming soon.
-              </p>
-            </li>
-            <li class="news__item reveal">
-              <time class="news__date" datetime="2026-03">2026.03</time>
-              <p class="news__text">
-                Gave a talk on <em>Some Topic</em> at
-                <a class="link" href="#">Some Workshop</a>.
-              </p>
-            </li>
-          </ul>
-        </div>
-      </section>
-
-      <!-- ───────────────────────────── RESEARCH ───────────────────────────── -->
-      <section class="section" id="research" data-nav="research">
-        <div class="wrap">
-          <h2 class="section__title" data-index="02">Research Interests</h2>
-          <p class="section__lede">
-            Broadly, I want to understand why learning algorithms work. Three
-            threads I keep coming back to:
+    <main id="main" class="landing">
+      <div class="wrap landing__inner">
+        <div class="landing__body">
+          <p class="prompt">
+            <span class="prompt__sigil">$</span> whoami
+            <span class="caret" aria-hidden="true"></span>
           </p>
 
-          <div class="cards">
-            <article class="card reveal">
-              <span class="card__num">01</span>
-              <h3 class="card__title">Generalization Theory</h3>
-              <p class="card__text">
-                Why do overparameterized models generalize when classical bounds
-                say they should not? Implicit bias, margin theory, and what the
-                right complexity measure actually is.
-              </p>
-              <ul class="tags">
-                <li>PAC-Bayes</li>
-                <li>implicit bias</li>
-                <li>benign overfitting</li>
-              </ul>
-            </article>
+          <h1 class="glitch" data-text="ZICHAO YU">ZICHAO YU</h1>
 
-            <article class="card reveal">
-              <span class="card__num">02</span>
-              <h3 class="card__title">Optimization Dynamics</h3>
-              <p class="card__text">
-                Non-convex landscapes, the trajectory gradient methods actually
-                take, and convergence guarantees that survive contact with
-                practice.
-              </p>
-              <ul class="tags">
-                <li>SGD</li>
-                <li>non-convex</li>
-                <li>convergence rates</li>
-              </ul>
-            </article>
-
-            <article class="card reveal">
-              <span class="card__num">03</span>
-              <h3 class="card__title">Fundamental Limits</h3>
-              <p class="card__text">
-                Lower bounds, minimax rates, and information-theoretic barriers —
-                the results that tell you when to stop looking for a better
-                algorithm.
-              </p>
-              <ul class="tags">
-                <li>minimax</li>
-                <li>lower bounds</li>
-                <li>information theory</li>
-              </ul>
-            </article>
-          </div>
-        </div>
-      </section>
-
-      <!-- ─────────────────────────── PUBLICATIONS ─────────────────────────── -->
-      <section class="section" id="publications" data-nav="publications">
-        <div class="wrap">
-          <h2 class="section__title" data-index="03">Publications</h2>
-          <p class="section__lede">
-            <span class="asterisk">*</span> denotes equal contribution.
+          <p class="landing__role">
+            <span
+              class="typed"
+              data-typed='["Incoming PhD Student, Fall 2026","Large Language Models","Machine Learning"]'
+              >Incoming PhD Student, Fall 2026</span
+            >
           </p>
 
-          <ol class="pubs">
-            <li class="pub reveal">
-              <div class="pub__year">2026</div>
-              <div class="pub__body">
-                <span class="badge badge--cyan">Venue 2026</span>
-                <h3 class="pub__title">
-                  A Precise Title Describing the Main Result
-                </h3>
-                <p class="pub__authors">
-                  <strong>Zichao Yu</strong>, Second Author, Third Author
-                </p>
-                <p class="pub__note">
-                  One sentence on why the result matters, in plain language.
-                </p>
-                <div class="pub__links">
-                  <a class="chip" href="#">PDF</a>
-                  <a class="chip" href="#">arXiv</a>
-                  <a class="chip" href="#">Code</a>
-                  <a class="chip" href="#">BibTeX</a>
-                </div>
-              </div>
-            </li>
-
-            <li class="pub reveal">
-              <div class="pub__year">2025</div>
-              <div class="pub__body">
-                <span class="badge badge--magenta">Preprint</span>
-                <h3 class="pub__title">
-                  Another Paper Title, Ideally Not Too Clever
-                </h3>
-                <p class="pub__authors">
-                  <strong>Zichao Yu</strong><span class="asterisk">*</span>,
-                  Coauthor Name<span class="asterisk">*</span>
-                </p>
-                <p class="pub__note">
-                  What was surprising about this one.
-                </p>
-                <div class="pub__links">
-                  <a class="chip" href="#">arXiv</a>
-                  <a class="chip" href="#">Slides</a>
-                </div>
-              </div>
-            </li>
-
-            <li class="pub reveal">
-              <div class="pub__year">2025</div>
-              <div class="pub__body">
-                <span class="badge">Workshop</span>
-                <h3 class="pub__title">An Early Version of a Bigger Idea</h3>
-                <p class="pub__authors">
-                  First Author, <strong>Zichao Yu</strong>, Senior Author
-                </p>
-                <div class="pub__links">
-                  <a class="chip" href="#">PDF</a>
-                  <a class="chip" href="#">Poster</a>
-                </div>
-              </div>
-            </li>
-          </ol>
-        </div>
-      </section>
-
-      <!-- ──────────────────────────────── CV ──────────────────────────────── -->
-      <section class="section" id="cv" data-nav="cv">
-        <div class="wrap">
-          <h2 class="section__title" data-index="04">Education &amp; Experience</h2>
-
-          <div class="cv">
-            <div class="cv__col">
-              <h3 class="cv__heading">Education</h3>
-              <ol class="timeline">
-                <li class="timeline__item reveal">
-                  <span class="timeline__when">2024 — present</span>
-                  <h4 class="timeline__what">PhD, Computer Science</h4>
-                  <p class="timeline__where">Your University</p>
-                  <p class="timeline__note">
-                    Advised by <a class="link" href="#">Advisor Name</a>.
-                  </p>
-                </li>
-                <li class="timeline__item reveal">
-                  <span class="timeline__when">2020 — 2024</span>
-                  <h4 class="timeline__what">BSc, Mathematics</h4>
-                  <p class="timeline__where">Undergrad University</p>
-                  <p class="timeline__note">Thesis on something you enjoyed.</p>
-                </li>
-              </ol>
-            </div>
-
-            <div class="cv__col">
-              <h3 class="cv__heading">Experience</h3>
-              <ol class="timeline">
-                <li class="timeline__item reveal">
-                  <span class="timeline__when">Summer 2026</span>
-                  <h4 class="timeline__what">Research Intern</h4>
-                  <p class="timeline__where">Company or Lab</p>
-                  <p class="timeline__note">What you worked on, in one line.</p>
-                </li>
-                <li class="timeline__item reveal">
-                  <span class="timeline__when">2023 — 2024</span>
-                  <h4 class="timeline__what">Research Assistant</h4>
-                  <p class="timeline__where">Some Group</p>
-                  <p class="timeline__note">What you worked on, in one line.</p>
-                </li>
-              </ol>
-            </div>
-          </div>
-
-          <h3 class="cv__heading cv__heading--wide">Service &amp; Teaching</h3>
-          <ul class="service">
-            <li class="reveal"><span class="service__k">Reviewer</span> NeurIPS, ICML, ICLR</li>
-            <li class="reveal"><span class="service__k">Teaching</span> TA, Course Name (2025, 2026)</li>
-            <li class="reveal"><span class="service__k">Organizer</span> Reading group on learning theory</li>
-          </ul>
-        </div>
-      </section>
-
-      <!-- ─────────────────────────────── BLOG ─────────────────────────────── -->
-      <section class="section" id="blog" data-nav="blog">
-        <div class="wrap">
-          <h2 class="section__title" data-index="05">Notes</h2>
-          <p class="section__lede">
-            Longer-form writing — proofs I found instructive, papers I read,
-            occasional opinions.
+          <p class="landing__affil">
+            School of Computing and Data Science ·
+            <a class="link" href="https://www.hku.hk/" rel="noopener"
+              >The University of Hong Kong</a
+            >
           </p>
 
-          <ul class="postlist">
-            <li class="postlist__item reveal">
-              <a class="postlist__link" href="blog/hello-world.html">
-                <time class="postlist__date" datetime="2026-08-17">2026.08.17</time>
-                <span class="postlist__title">Setting Up This Site</span>
-                <span class="postlist__arrow" aria-hidden="true">→</span>
-              </a>
-            </li>
+          <div class="landing__bio">
+            <p>
+              I am an incoming PhD student at the School of Computing and Data
+              Science, HKU, starting in Fall 2026. My research centres on large
+              language models and machine learning more broadly.
+            </p>
+            <p>
+              I am drawn to the questions that sit underneath the benchmarks:
+              how these models actually acquire their capabilities, where those
+              capabilities break down, and what we can say about them with some
+              rigour rather than by anecdote.
+            </p>
+            <!-- EDIT: replace with your own framing once you settle on a direction -->
+            <p>
+              I am always glad to hear from people working on similar problems —
+              whether that is a collaboration, a question about something I have
+              written, or a paper you think I should read.
+            </p>
+          </div>
+
+          <ul class="keywords" aria-label="Research interests">
+            <li>large language models</li>
+            <li>machine learning</li>
           </ul>
 
-          <p class="more">
-            <a class="link link--arrow" href="blog/">All notes</a>
-          </p>
-        </div>
-      </section>
-
-      <!-- ────────────────────────────── CONTACT ───────────────────────────── -->
-      <section class="section section--last" id="contact" data-nav="contact">
-        <div class="wrap">
-          <h2 class="section__title" data-index="06">Contact</h2>
-
-          <div class="contact">
-            <p class="contact__lede">
-              Email is the surest way to reach me. I read everything, and I
-              usually reply within a few days.
-            </p>
-
-            <ul class="contact__list">
-              <li>
-                <span class="contact__k">Email</span>
-                <a class="link" href="mailto:you@example.com">you@example.com</a>
-              </li>
-              <li>
-                <span class="contact__k">GitHub</span>
-                <a class="link" href="https://github.com/yzc-666" rel="noopener"
-                  >@yzc-666</a
-                >
-              </li>
-              <li>
-                <span class="contact__k">Scholar</span>
-                <a class="link" href="#" rel="noopener">Google Scholar</a>
-              </li>
-              <li>
-                <span class="contact__k">Office</span>
-                <span>Building, Room, Your University</span>
-              </li>
-            </ul>
+          <div class="landing__actions">
+            <!-- EDIT: add an email button here once you have an address to publish:
+                 <a class="btn btn--primary" href="mailto:you@example.com">Email</a> -->
+            <a class="btn" href="https://github.com/yzc-666" rel="noopener">
+              GitHub
+            </a>
+            <!-- EDIT: point at your Google Scholar profile -->
+            <a class="btn" href="#">Google Scholar</a>
           </div>
         </div>
-      </section>
+
+        <aside class="landing__card" aria-label="Profile">
+          <div class="portrait">
+            <!-- EDIT: drop a photo at assets/img/avatar.jpg and swap this block for
+                 <img src="assets/img/avatar.jpg" alt="Zichao Yu" /> -->
+            <div class="portrait__frame">
+              <span class="portrait__initials">ZY</span>
+            </div>
+            <span class="portrait__corner portrait__corner--tl"></span>
+            <span class="portrait__corner portrait__corner--tr"></span>
+            <span class="portrait__corner portrait__corner--bl"></span>
+            <span class="portrait__corner portrait__corner--br"></span>
+          </div>
+
+          <dl class="statline">
+            <div>
+              <dt>STATUS</dt>
+              <dd><span class="dot"></span> Incoming PhD, Fall 2026</dd>
+            </div>
+            <div>
+              <dt>AFFILIATION</dt>
+              <dd>HKU CDS</dd>
+            </div>
+            <div>
+              <dt>BASED IN</dt>
+              <dd>Hong Kong</dd>
+            </div>
+          </dl>
+        </aside>
+      </div>
+
+      <!-- ─────────────────────────── entry points ─────────────────────────── -->
+      <div class="wrap">
+        <nav class="entries" aria-label="Sections">
+          <a class="entry reveal" href="publications.html">
+            <span class="entry__num">01</span>
+            <h2 class="entry__title">Publications</h2>
+            <p class="entry__text">
+              Papers, preprints, and the occasional workshop note.
+            </p>
+            <span class="entry__go" aria-hidden="true">Enter →</span>
+          </a>
+
+          <a class="entry reveal" href="experience.html">
+            <span class="entry__num">02</span>
+            <h2 class="entry__title">Experience</h2>
+            <p class="entry__text">
+              Education, research and industry experience, service.
+            </p>
+            <span class="entry__go" aria-hidden="true">Enter →</span>
+          </a>
+        </nav>
+      </div>
     </main>
 
     <footer class="footer">
       <div class="wrap footer__inner">
         <p>&copy; <span id="year">2026</span> Zichao Yu</p>
-        <p class="footer__meta">
-          Built by hand · Deployed on GitHub Pages
-        </p>
+        <p class="footer__meta">Built by hand · Deployed on GitHub Pages</p>
       </div>
     </footer>
 

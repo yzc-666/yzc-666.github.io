@@ -5,11 +5,11 @@
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://yzc-666.github.io/blog/</loc>
-    <priority>0.7</priority>
+    <loc>https://yzc-666.github.io/publications.html</loc>
+    <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://yzc-666.github.io/blog/hello-world.html</loc>
-    <priority>0.5</priority>
+    <loc>https://yzc-666.github.io/experience.html</loc>
+    <priority>0.8</priority>
   </url>
 </urlset>

@@ -12,7 +12,7 @@
   var year = document.getElementById("year");
   if (year) year.textContent = String(new Date().getFullYear());
 
-  /* ------------------------------------------------------- mobile menu -- */
+  /* -------------------------------------------------------- mobile menu - */
 
   var toggle = document.querySelector(".nav__toggle");
   var menu = document.getElementById("nav-menu");
@@ -22,73 +22,41 @@
       var open = menu.classList.toggle("is-open");
       toggle.setAttribute("aria-expanded", String(open));
     });
-
-    menu.addEventListener("click", function (e) {
-      if (e.target.tagName === "A") {
-        menu.classList.remove("is-open");
-        toggle.setAttribute("aria-expanded", "false");
-      }
-    });
   }
 
-  /* ----------------------------------------------------- reading progress */
+  /* ---------------------------------------------------- reading progress - */
 
   var nav = document.getElementById("nav");
 
-  function updateProgress() {
-    if (!nav) return;
-    var max = document.documentElement.scrollHeight - window.innerHeight;
-    var ratio = max > 0 ? window.scrollY / max : 0;
-    nav.style.setProperty("--progress", String(Math.min(1, Math.max(0, ratio))));
-  }
+  if (nav) {
+    var ticking = false;
 
-  /* ------------------------------------------------------------ scrollspy */
+    var updateProgress = function () {
+      var max = document.documentElement.scrollHeight - window.innerHeight;
+      var ratio = max > 0 ? window.scrollY / max : 0;
+      nav.style.setProperty(
+        "--progress",
+        String(Math.min(1, Math.max(0, ratio)))
+      );
+    };
 
-  var sections = Array.prototype.slice.call(
-    document.querySelectorAll("[data-nav]")
-  );
-  var links = {};
-
-  sections.forEach(function (section) {
-    var link = document.querySelector(
-      '.nav__menu a[href="#' + section.id + '"]'
+    window.addEventListener(
+      "scroll",
+      function () {
+        if (ticking) return;
+        ticking = true;
+        window.requestAnimationFrame(function () {
+          updateProgress();
+          ticking = false;
+        });
+      },
+      { passive: true }
     );
-    if (link) links[section.id] = link;
-  });
 
-  function updateActiveLink() {
-    // The section whose top has most recently passed the header wins.
-    var probe = window.scrollY + window.innerHeight * 0.3;
-    var current = null;
-
-    sections.forEach(function (section) {
-      if (section.offsetTop <= probe) current = section.id;
-    });
-
-    Object.keys(links).forEach(function (id) {
-      links[id].classList.toggle("is-active", id === current);
-    });
+    updateProgress();
   }
 
-  var ticking = false;
-  window.addEventListener(
-    "scroll",
-    function () {
-      if (ticking) return;
-      ticking = true;
-      window.requestAnimationFrame(function () {
-        updateProgress();
-        updateActiveLink();
-        ticking = false;
-      });
-    },
-    { passive: true }
-  );
-
-  updateProgress();
-  updateActiveLink();
-
-  /* -------------------------------------------------------- reveal on scroll */
+  /* ----------------------------------------------------- reveal on scroll - */
 
   var revealables = document.querySelectorAll(".reveal");
 
@@ -109,13 +77,13 @@
     );
 
     Array.prototype.forEach.call(revealables, function (el, i) {
-      // Stagger items within the same row so they cascade rather than pop.
+      // Stagger items in the same row so they cascade rather than pop.
       el.style.transitionDelay = (i % 4) * 70 + "ms";
       observer.observe(el);
     });
   }
 
-  /* ------------------------------------------------------- typing effect - */
+  /* -------------------------------------------------------- typing effect - */
 
   var typed = document.querySelector(".typed");
 

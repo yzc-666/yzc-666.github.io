@@ -31,7 +31,7 @@ assets/
 - 单位 School of Computing and Data Science, The University of Hong Kong
 - 导师 [Prof. Difan Zou](https://difanzou.github.io/)
 - 研究兴趣 AI4AI、autoresearch、large language models、interdisciplinary AI
-- 工作经历 Kling Intern, June 2026 to Present
+- 工作经历 [Kling](https://kling.ai/) Intern, June 2026 to Present
 - GitHub <https://github.com/yzc-666>
 
 ## 还需要你填的

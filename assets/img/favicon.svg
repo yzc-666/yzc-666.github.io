@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <rect width="64" height="64" fill="#04060a" />
+  <rect
+    x="3.5"
+    y="3.5"
+    width="57"
+    height="57"
+    fill="none"
+    stroke="#00f0ff"
+    stroke-width="2"
+  />
+  <text
+    x="32"
+    y="43"
+    font-family="'Chakra Petch', 'Segoe UI', sans-serif"
+    font-size="30"
+    font-weight="700"
+    letter-spacing="1"
+    text-anchor="middle"
+    fill="#00f0ff"
+  >
+    ZY
+  </text>
+</svg>

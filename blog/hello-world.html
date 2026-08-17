@@ -1,0 +1,197 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Setting Up This Site — Zichao Yu</title>
+    <meta
+      name="description"
+      content="How this site is built and how to add a new note to it."
+    />
+    <link
+      rel="canonical"
+      href="https://yzc-666.github.io/blog/hello-world.html"
+    />
+    <meta name="theme-color" content="#04060a" />
+
+    <link rel="icon" href="../assets/img/favicon.svg" type="image/svg+xml" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@400;600;700&family=JetBrains+Mono:wght@300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../assets/css/style.css" />
+    <link rel="stylesheet" href="../assets/css/post.css" />
+  </head>
+
+  <body>
+    <div class="fx-grid" aria-hidden="true"></div>
+    <div class="fx-glow" aria-hidden="true"></div>
+    <div class="fx-scanlines" aria-hidden="true"></div>
+
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <header class="nav" id="nav">
+      <div class="nav__inner">
+        <a class="nav__brand" href="../index.html">
+          <span class="nav__brand-bracket">[</span>
+          ZY
+          <span class="nav__brand-bracket">]</span>
+        </a>
+
+        <nav class="nav__menu" aria-label="Main">
+          <a href="../index.html#about">About</a>
+          <a href="../index.html#research">Research</a>
+          <a href="../index.html#publications">Publications</a>
+          <a href="../index.html#cv">CV</a>
+          <a href="./" class="is-active">Blog</a>
+          <a href="../index.html#contact">Contact</a>
+        </nav>
+      </div>
+      <div class="nav__progress" aria-hidden="true"></div>
+    </header>
+
+    <main id="main">
+      <div class="wrap">
+        <p class="crumbs">
+          <a href="../index.html">Home</a><span>/</span>
+          <a href="./">Notes</a><span>/</span> Setting Up This Site
+        </p>
+
+        <header class="page-head">
+          <p class="page-head__kicker">// note</p>
+          <h1 class="page-head__title">Setting Up This Site</h1>
+          <p class="page-head__meta">
+            <time datetime="2026-08-17">17 August 2026</time>
+            <span>3 min read</span>
+          </p>
+        </header>
+
+        <article class="prose">
+          <p>
+            This site is hand-written HTML and CSS with a single small
+            JavaScript file. There is no build step, no framework, and no
+            dependencies beyond two webfonts. Pushing to
+            <code>main</code> deploys it.
+          </p>
+
+          <p>
+            That trade-off is deliberate: full control over the visual design,
+            nothing to upgrade, and nothing that can break between me and the
+            browser. The cost is that adding a note means copying an HTML file
+            instead of writing Markdown.
+          </p>
+
+          <h2>Adding a new note</h2>
+
+          <p>Three steps, all inside the <code>blog/</code> directory:</p>
+
+          <ol>
+            <li>
+              Copy <code>_template.html</code> to something like
+              <code>my-new-note.html</code>.
+            </li>
+            <li>
+              Fill in the title, description, canonical URL, date, and body.
+              Every spot that needs editing is marked with an HTML comment.
+            </li>
+            <li>
+              Add a row to the list in <code>blog/index.html</code>, and
+              optionally to the Notes section on the homepage.
+            </li>
+          </ol>
+
+          <p>Then the usual:</p>
+
+          <pre><code>git add .
+git commit -m "note: my new note"
+git push</code></pre>
+
+          <h2>What you can use in the body</h2>
+
+          <p>
+            The <code>.prose</code> container styles all the ordinary elements,
+            so plain semantic HTML is enough. Headings, lists, and
+            <a href="../index.html">links</a> all pick up the theme
+            automatically.
+          </p>
+
+          <blockquote>
+            <p>
+              Blockquotes get a magenta rule and a tinted background — useful
+              for pulling out a definition or a result you want to emphasise.
+            </p>
+          </blockquote>
+
+          <h3>Code</h3>
+
+          <p>
+            Inline <code>code</code> is amber. Blocks are bordered on the left
+            in cyan and scroll horizontally when they need to:
+          </p>
+
+          <pre><code>def gradient_step(w, grad, lr):
+    return w - lr * grad</code></pre>
+
+          <h3>Tables</h3>
+
+          <table>
+            <thead>
+              <tr>
+                <th>Element</th>
+                <th>Styled</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Headings, lists, quotes</td>
+                <td>Yes</td>
+              </tr>
+              <tr>
+                <td>Code blocks and tables</td>
+                <td>Yes</td>
+              </tr>
+              <tr>
+                <td>Images and captions</td>
+                <td>Yes</td>
+              </tr>
+            </tbody>
+          </table>
+
+          <h2>Images</h2>
+
+          <p>
+            Drop files in <code>assets/img/</code> and reference them with
+            <code>../assets/img/name.png</code> from a note. They get a subtle
+            border automatically.
+          </p>
+
+          <h2>Maths</h2>
+
+          <p>
+            There is no maths renderer wired up yet. If notes end up needing
+            it, adding KaTeX is two lines in the <code>&lt;head&gt;</code> — a
+            deliberate choice not to load it on every page until it earns its
+            place.
+          </p>
+        </article>
+
+        <footer class="post-foot">
+          <hr class="post-foot__rule" />
+          <p><a class="link link--arrow" href="./">All notes</a></p>
+        </footer>
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="wrap footer__inner">
+        <p>&copy; <span id="year">2026</span> Zichao Yu</p>
+        <p class="footer__meta">Built by hand · Deployed on GitHub Pages</p>
+      </div>
+    </footer>
+
+    <script src="../assets/js/main.js" defer></script>
+  </body>
+</html>

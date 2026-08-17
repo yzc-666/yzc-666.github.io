@@ -1,54 +1,108 @@
 # yzc-666.github.io
 
-个人主页 + 博客，基于 [Chirpy](https://github.com/cotes2020/jekyll-theme-chirpy) 主题，由 GitHub Actions 构建并部署到 GitHub Pages。
+Personal academic homepage for Zichao Yu. Dark cyberpunk theme, hand-written
+static HTML/CSS/JS — no framework, no build step, no dependencies beyond two
+Google webfonts.
 
-## 上线步骤（只做一次）
+Live at <https://yzc-666.github.io>.
 
-1. 在 GitHub 上新建一个**空**仓库，名字必须是 `yzc-666.github.io`（不要勾选 README / .gitignore / license）。
-2. 推送本地代码（remote 已配好 SSH 地址，首次提交也已在 `main` 分支上）：
+## Layout
 
-   ```bash
-   git push -u origin main
-   ```
-
-3. 打开仓库的 **Settings → Pages**，把 **Source** 改成 **GitHub Actions**。
-4. 到 **Actions** 标签页看构建，跑完后访问 <https://yzc-666.github.io>。
-
-首次构建大约 1–2 分钟。之后每次 push 到 `main` 都会自动重新部署。
-
-## 日常使用
-
-写文章：在 `_posts/` 下新建 `YYYY-MM-DD-标题.md`，写好 front matter 后提交推送即可。
-
-```bash
-git add . && git commit -m "新文章：xxx" && git push
+```
+index.html              单页主页：About / News / Research / Publications / CV / Notes / Contact
+404.html                找不到页面时的赛博朋克 404
+robots.txt              搜索引擎抓取规则
+sitemap.xml             新增页面时记得同步这里
+blog/
+  index.html            文章列表页
+  hello-world.html      示例文章，同时是排版参考
+  _template.html        新文章模板，复制它开始写
+assets/
+  css/style.css         全站样式（配色、背景特效、导航、各板块）
+  css/post.css          文章正文排版
+  js/main.js            打字效果、滚动高亮、进度条、入场动画、移动端菜单
+  img/favicon.svg       站点图标
+.github/workflows/      推送到 main 后自动部署
 ```
 
-改站点信息：编辑 `_config.yml`。目前还留着几处待填：
+## 需要你填的内容
 
-- `social.email` — 填邮箱后，把 `_data/contact.yml` 里的 `email` 项取消注释
-- `twitter.username` — 同理，填完再取消注释 `twitter` 项
-- `avatar` — 头像，放到 `assets/img/` 后填相对路径，例如 `/assets/img/avatar.jpg`
+主页 `index.html` 里所有待替换的地方都标了 `<!-- EDIT: ... -->` 注释。按板块列一下：
 
-改导航栏页面：编辑 `_tabs/` 下的文件，`order` 决定顺序。
+| 位置 | 现在是什么 | 要改成 |
+|---|---|---|
+| Hero | Your Lab / Your University | 实验室和学校 |
+| Hero | 两段 bio | 你的自我介绍 |
+| Hero 按钮 | `you@example.com`、Scholar 链接 `#` | 真实邮箱和 Google Scholar 地址 |
+| Hero 卡片 | 首字母 `ZY` 占位方块 | 照片，见下方说明 |
+| Hero 卡片 | Your City | 所在城市 |
+| News | 三条占位动态 | 真实动态 |
+| Research | 三张卡片 | 你的研究方向 |
+| Publications | 三条占位论文 | 真实论文，`#` 链接换成 PDF/arXiv/Code |
+| CV | 学历和经历 | 真实经历 |
+| Contact | 邮箱、Scholar、办公室 | 真实信息 |
 
-图片放 `assets/img/`，正文里用 `/assets/img/xxx.png` 引用。
+打字机效果的那几句话在 `index.html` 的 `data-typed` 属性里，是一个 JSON 数组，改成你自己的标签就行。
 
-## 关于认证
+### 换头像
 
-远程仓库走 SSH（`git@github.com:...`），用的是 `~/.ssh/id_ed25519`，已验证可用。
-HTTPS 方式不能用密码，需要 Personal Access Token，所以这里统一用 SSH。
+把照片放到 `assets/img/avatar.jpg`，然后把 `index.html` 里这一段：
 
-## 本地预览（可选）
-
-系统自带的 Ruby 2.6 版本太旧，跑不了 Jekyll 4。要本地预览得先装新版 Ruby：
-
-```bash
-brew install ruby
-echo 'export PATH="/opt/homebrew/opt/ruby/bin:$PATH"' >> ~/.zshrc
-exec zsh
-bundle install
-bundle exec jekyll serve
+```html
+<div class="portrait__frame">
+  <span class="portrait__initials">ZY</span>
+</div>
 ```
 
-然后访问 <http://127.0.0.1:4000>。不预览也完全可以，直接推上去看线上效果。
+换成：
+
+```html
+<div class="portrait__frame">
+  <img src="assets/img/avatar.jpg" alt="Zichao Yu" />
+</div>
+```
+
+样式已经写好了，图片会自动裁切成正方形并带一点灰度处理。
+
+### 放 CV
+
+把 PDF 放到 `assets/cv.pdf`，Hero 里的 CV 按钮就能用了。
+
+## 写一篇新文章
+
+1. 复制 `blog/_template.html`，改名成 `blog/你的标题.html`
+2. 填标题、描述、canonical 链接、日期、正文（每处都有 `<!-- EDIT -->` 注释），并删掉那行 `noindex`
+3. 在 `blog/index.html` 的列表里加一行，需要的话主页 Notes 板块也加一行
+4. 在 `sitemap.xml` 里补一条
+
+正文直接写语义化 HTML 就行，`h2` `h3` `p` `ul` `ol` `blockquote` `pre` `table` `img` 都已经配好样式，参考 `blog/hello-world.html`。
+
+## 本地预览
+
+不需要 Ruby 或 Node，Python 自带的服务器就够：
+
+```bash
+python3 -m http.server 8000
+```
+
+然后打开 <http://localhost:8000>。改完文件刷新即可。
+
+## 部署
+
+推送到 `main` 就会自动部署：
+
+```bash
+git add . && git commit -m "..." && git push
+```
+
+`.github/workflows/pages-deploy.yml` 直接把整个仓库当静态产物上传，不跑 Jekyll，
+所以构建只要十几秒。GitHub 仓库的 Settings → Pages 里 Source 需要保持
+**GitHub Actions**。
+
+远程仓库走 SSH，用的是 `~/.ssh/id_ed25519`。
+
+## 设计说明
+
+配色是青（`#00f0ff`）配品红（`#ff2bd6`），底色接近纯黑。视觉效果包括透视网格背景、
+CRT 扫描线加轻微闪烁、标题的故障（glitch）动画、霓虹辉光边框和悬停扫光。
+所有动画都在 `prefers-reduced-motion` 下自动关闭，键盘焦点样式和跳转链接也都保留了。

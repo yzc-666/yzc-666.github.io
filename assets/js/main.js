@@ -3,6 +3,28 @@
 (function () {
   "use strict";
 
+  /* -------------------------------------------------- retire old Chirpy PWA
+     The previous version of this site installed a service worker. A normal
+     redesign does not remove it from returning visitors' browsers, so it can
+     keep serving the old site indefinitely. This site has no offline mode:
+     remove all registrations and same-origin caches once the new JS loads. */
+
+  if ("serviceWorker" in navigator) {
+    navigator.serviceWorker.getRegistrations().then(function (registrations) {
+      registrations.forEach(function (registration) {
+        registration.unregister();
+      });
+    });
+  }
+
+  if ("caches" in window) {
+    caches.keys().then(function (keys) {
+      keys.forEach(function (key) {
+        caches.delete(key);
+      });
+    });
+  }
+
   var reduceMotion = window.matchMedia(
     "(prefers-reduced-motion: reduce)"
   ).matches;

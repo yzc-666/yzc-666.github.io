@@ -12,7 +12,7 @@ Zichao Yu 的个人学术主页。暗黑赛博朋克风格，手写静态 HTML/C
 ```
 index.html            着陆页：姓名、身份、简介、研究关键词、两张入口卡片
 publications.html     论文列表（当前是「暂无」状态，模板已备好）
-experience.html       教育经历、研究与工作经历、服务与教学
+experience.html       工作经历（目前为 Kling 实习）
 404.html              找不到页面时的赛博朋克 404
 robots.txt            搜索引擎抓取规则
 sitemap.xml           新增页面时记得同步这里
@@ -29,7 +29,9 @@ assets/
 - 姓名 Zichao Yu
 - 身份 Incoming PhD Student, Fall 2026
 - 单位 School of Computing and Data Science, The University of Hong Kong
-- 研究兴趣 large language models, machine learning
+- 导师 [Prof. Difan Zou](https://difanzou.github.io/)
+- 研究兴趣 AI4AI、autoresearch、large language models、interdisciplinary AI
+- 工作经历 Kling Intern, June 2026 to Present
 - GitHub <https://github.com/yzc-666>
 
 ## 还需要你填的
@@ -41,10 +43,6 @@ assets/
 | `index.html` | 邮箱按钮（现在整段注释掉了，有地址后取消注释） |
 | `index.html` | Google Scholar 链接（现在指向 `#`） |
 | `index.html` | 头像（见下方） |
-| `index.html` | 第三段自我介绍，可以换成你自己的说法 |
-| `experience.html` | 本科（及硕士）学历 |
-| `experience.html` | 实习、研究助理等经历 |
-| `experience.html` | 服务与教学，没有的话整段删掉 |
 | `publications.html` | 有论文后删掉 `.empty` 区块，取消下面 `.pubs` 列表的注释 |
 
 ### 换头像

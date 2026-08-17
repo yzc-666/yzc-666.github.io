@@ -1,19 +1,18 @@
-# zichao.github.io
+# yzc-666.github.io
 
 个人主页 + 博客，基于 [Chirpy](https://github.com/cotes2020/jekyll-theme-chirpy) 主题，由 GitHub Actions 构建并部署到 GitHub Pages。
 
 ## 上线步骤（只做一次）
 
-1. 在 GitHub 上新建一个**空**仓库，名字必须是 `zichao.github.io`（不要勾选 README / .gitignore / license）。
-2. 推送本地代码（首次提交已经在 `main` 分支上了）：
+1. 在 GitHub 上新建一个**空**仓库，名字必须是 `yzc-666.github.io`（不要勾选 README / .gitignore / license）。
+2. 推送本地代码（remote 已配好 SSH 地址，首次提交也已在 `main` 分支上）：
 
    ```bash
-   git remote add origin https://github.com/zichao/zichao.github.io.git
    git push -u origin main
    ```
 
 3. 打开仓库的 **Settings → Pages**，把 **Source** 改成 **GitHub Actions**。
-4. 到 **Actions** 标签页看构建，跑完后访问 <https://zichao.github.io>。
+4. 到 **Actions** 标签页看构建，跑完后访问 <https://yzc-666.github.io>。
 
 首次构建大约 1–2 分钟。之后每次 push 到 `main` 都会自动重新部署。
 
@@ -34,6 +33,11 @@ git add . && git commit -m "新文章：xxx" && git push
 改导航栏页面：编辑 `_tabs/` 下的文件，`order` 决定顺序。
 
 图片放 `assets/img/`，正文里用 `/assets/img/xxx.png` 引用。
+
+## 关于认证
+
+远程仓库走 SSH（`git@github.com:...`），用的是 `~/.ssh/id_ed25519`，已验证可用。
+HTTPS 方式不能用密码，需要 Personal Access Token，所以这里统一用 SSH。
 
 ## 本地预览（可选）
 

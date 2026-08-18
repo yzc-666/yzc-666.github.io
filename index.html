@@ -37,10 +37,10 @@
     </script>
   </head>
 
-  <body>
-    <div class="fx-grid" aria-hidden="true"></div>
-    <div class="fx-glow" aria-hidden="true"></div>
+  <body class="is-cosmos">
+    <canvas id="cosmos" class="cosmos" aria-hidden="true"></canvas>
     <div class="fx-scanlines" aria-hidden="true"></div>
+    <div class="warp-overlay is-active" aria-hidden="true"></div>
 
     <a class="skip-link" href="#main">Skip to content</a>
 
@@ -71,117 +71,79 @@
       <div class="nav__progress" aria-hidden="true"></div>
     </header>
 
-    <main id="main" class="landing">
-      <div class="wrap landing__inner">
-        <div class="landing__body">
-          <p class="prompt">
-            <span class="prompt__sigil">$</span> whoami
-            <span class="caret" aria-hidden="true"></span>
+    <main id="main" class="hero">
+      <div class="wrap hero__core">
+        <p class="prompt">
+          <span class="prompt__sigil">$</span> whoami
+          <span class="caret" aria-hidden="true"></span>
+        </p>
+
+        <h1 class="glitch" data-text="ZICHAO YU">ZICHAO YU</h1>
+
+        <p class="landing__role">
+          <span
+            class="typed"
+            data-typed='["Incoming PhD Student, Fall 2026","AI4AI · Autoresearch","Large Language Models"]'
+            >Incoming PhD Student, Fall 2026</span
+          >
+        </p>
+
+        <p class="landing__affil">
+          School of Computing and Data Science ·
+          <a class="link" href="https://www.hku.hk/" rel="noopener"
+            >The University of Hong Kong</a
+          >
+        </p>
+
+        <div class="hero__bio">
+          <p>
+            I am an incoming PhD student at the School of Computing and Data
+            Science, The University of Hong Kong, starting in Fall 2026. I am
+            fortunate to be advised by
+            <a class="link" href="https://difanzou.github.io/" rel="noopener"
+              >Prof. Difan Zou</a
+            >.
           </p>
-
-          <h1 class="glitch" data-text="ZICHAO YU">ZICHAO YU</h1>
-
-          <p class="landing__role">
-            <span
-              class="typed"
-              data-typed='["Incoming PhD Student, Fall 2026","AI4AI · Autoresearch","Large Language Models"]'
-              >Incoming PhD Student, Fall 2026</span
-            >
+          <p>
+            My research interests lie broadly in AI4AI and large language
+            models. In particular, I am interested in autoresearch, especially
+            building LLM-based agents that can formulate, refine, and validate
+            novel research ideas. I am also interested in interdisciplinary
+            research that connects AI with other scientific fields.
           </p>
-
-          <p class="landing__affil">
-            School of Computing and Data Science ·
-            <a class="link" href="https://www.hku.hk/" rel="noopener"
-              >The University of Hong Kong</a
-            >
-          </p>
-
-          <div class="landing__bio">
-            <p>
-              I am an incoming PhD student at the School of Computing and Data
-              Science, The University of Hong Kong, starting in Fall 2026. I am
-              fortunate to be advised by
-              <a class="link" href="https://difanzou.github.io/" rel="noopener"
-                >Prof. Difan Zou</a
-              >.
-            </p>
-            <p>
-              My research interests lie broadly in AI4AI and large language
-              models. In particular, I am interested in autoresearch,
-              especially building LLM-based agents that can formulate, refine,
-              and validate novel research ideas. I am also interested in
-              interdisciplinary research that connects AI with other scientific
-              fields.
-            </p>
-          </div>
-
-          <ul class="keywords" aria-label="Research interests">
-            <li>AI4AI</li>
-            <li>autoresearch</li>
-            <li>large language models</li>
-            <li>interdisciplinary AI</li>
-          </ul>
-
-          <div class="landing__actions">
-            <!-- EDIT: add an email button here once you have an address to publish:
-                 <a class="btn btn--primary" href="mailto:you@example.com">Email</a> -->
-            <a class="btn" href="https://github.com/yzc-666" rel="noopener">
-              GitHub
-            </a>
-            <!-- EDIT: point at your Google Scholar profile -->
-            <a class="btn" href="#">Google Scholar</a>
-          </div>
         </div>
 
-        <aside class="landing__card" aria-label="Profile">
-          <div class="portrait">
-            <!-- EDIT: drop a photo at assets/img/avatar.jpg and swap this block for
-                 <img src="assets/img/avatar.jpg" alt="Zichao Yu" /> -->
-            <div class="portrait__frame">
-              <span class="portrait__initials">ZY</span>
-            </div>
-            <span class="portrait__corner portrait__corner--tl"></span>
-            <span class="portrait__corner portrait__corner--tr"></span>
-            <span class="portrait__corner portrait__corner--bl"></span>
-            <span class="portrait__corner portrait__corner--br"></span>
-          </div>
+        <ul class="keywords" aria-label="Research interests">
+          <li>AI4AI</li>
+          <li>autoresearch</li>
+          <li>large language models</li>
+          <li>interdisciplinary AI</li>
+        </ul>
 
-          <dl class="statline">
-            <div>
-              <dt>STATUS</dt>
-              <dd><span class="dot"></span> Incoming PhD, Fall 2026</dd>
-            </div>
-            <div>
-              <dt>AFFILIATION</dt>
-              <dd>HKU CDS</dd>
-            </div>
-            <div>
-              <dt>BASED IN</dt>
-              <dd>Hong Kong</dd>
-            </div>
-          </dl>
-        </aside>
-      </div>
+        <div class="landing__actions">
+          <!-- EDIT: add an email button here once you have an address to publish:
+               <a class="btn btn--primary" href="mailto:you@example.com">Email</a> -->
+          <a class="btn" href="https://github.com/yzc-666" rel="noopener">
+            GitHub
+          </a>
+          <!-- EDIT: point at your Google Scholar profile -->
+          <a class="btn" href="#">Google Scholar</a>
+        </div>
 
-      <!-- ─────────────────────────── entry points ─────────────────────────── -->
-      <div class="wrap">
-        <nav class="entries" aria-label="Sections">
-          <a class="entry reveal" href="publications.html">
-            <span class="entry__num">01</span>
-            <h2 class="entry__title">Publications</h2>
-            <p class="entry__text">
-              Papers, preprints, and the occasional workshop note.
-            </p>
-            <span class="entry__go" aria-hidden="true">Enter →</span>
+        <!-- ───────────────────────── planet portals ───────────────────────── -->
+        <nav class="portals" aria-label="Sections">
+          <a class="portal portal--cyan" href="publications.html">
+            <span class="portal__planet" aria-hidden="true"></span>
+            <span class="portal__num" aria-hidden="true">01</span>
+            <span class="portal__label">Publications</span>
+            <span class="portal__go" aria-hidden="true">Enter →</span>
           </a>
 
-          <a class="entry reveal" href="experience.html">
-            <span class="entry__num">02</span>
-            <h2 class="entry__title">Experience</h2>
-            <p class="entry__text">
-              Industry experience.
-            </p>
-            <span class="entry__go" aria-hidden="true">Enter →</span>
+          <a class="portal portal--magenta" href="experience.html">
+            <span class="portal__planet" aria-hidden="true"></span>
+            <span class="portal__num" aria-hidden="true">02</span>
+            <span class="portal__label">Experience</span>
+            <span class="portal__go" aria-hidden="true">Enter →</span>
           </a>
         </nav>
       </div>

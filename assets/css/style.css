@@ -1119,25 +1119,6 @@ ol {
   color: var(--cyan);
 }
 
-/* ---------------------------------------------------------- warp overlay - */
-
-.warp-overlay {
-  position: fixed;
-  inset: 0;
-  z-index: 300;
-  background: #000;
-  opacity: 0;
-  pointer-events: none;
-  transition: opacity 0.32s var(--ease);
-}
-
-/* Opaque only while JS is in charge: pages load black then fade in, and
-   fade back to black before navigating. Without JS it never shows. */
-.js .warp-overlay.is-active {
-  opacity: 1;
-  pointer-events: auto;
-}
-
 /* ------------------------------------------------------------ responsive - */
 
 @media (max-width: 900px) {

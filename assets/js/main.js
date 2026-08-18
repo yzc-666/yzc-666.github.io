@@ -29,25 +29,6 @@
     "(prefers-reduced-motion: reduce)"
   ).matches;
 
-  /* -------------------------------------------------- arrival fade-in
-     Runs before anything that could throw: if any later code fails, the
-     overlay must still clear or the page would stay black. */
-
-  var overlay = document.querySelector(".warp-overlay");
-
-  if (overlay) {
-    // Two frames so the initial opaque state is committed before we fade.
-    window.requestAnimationFrame(function () {
-      window.requestAnimationFrame(function () {
-        overlay.classList.remove("is-active");
-      });
-    });
-
-    window.addEventListener("pageshow", function (e) {
-      if (e.persisted) overlay.classList.remove("is-active");
-    });
-  }
-
   /* ------------------------------------------------------- current year - */
 
   var year = document.getElementById("year");
@@ -166,11 +147,9 @@
 
   /* ------------------------------------------------------- galaxy canvas - */
   /* A spiral galaxy of particles slowly rotating behind the hero. The bio
-     sits at the galactic core. On navigation the whole field "warps": stars
-     streak outward while the page fades to black. */
+     sits at the galactic core. */
 
   var canvas = document.getElementById("cosmos");
-  var startWarp = null; // set below when the canvas exists
 
   try {
     if (canvas && canvas.getContext) {
@@ -191,8 +170,6 @@
     var particles = [];
 
     var rotation = 0;
-    var warp = 0; // 0 → cruising, 1 → fully warped
-    var warping = false;
 
     var mouseX = 0; // parallax offset targets, in px
     var mouseY = 0;
@@ -271,47 +248,26 @@
       buildScene();
     };
 
-    var easeWarp = function (t) {
-      return t * t * (3 - 2 * t); // smoothstep
-    };
-
-    var draw = function (now, dt) {
-      var w = easeWarp(warp);
-
+    var draw = function (now) {
       ctx.clearRect(0, 0, W, H);
 
       var ox = cx + lookX;
       var oy = cy + lookY;
 
-      /* background stars — points normally, radial streaks during warp */
+      /* background stars */
       for (var s = 0; s < stars.length; s++) {
         var star = stars[s];
         var tw = 0.65 + 0.35 * Math.sin(now * 0.001 * star.twinkle + star.phase);
-        var alpha = star.alpha * tw;
-
-        if (w > 0.01) {
-          var dx = star.x - ox;
-          var dy = star.y - oy;
-          var dist = Math.sqrt(dx * dx + dy * dy) || 1;
-          var len = w * w * (dist * 0.9 + 60);
-          ctx.strokeStyle = "rgba(234,243,255," + alpha * (1 - w * 0.3) + ")";
-          ctx.lineWidth = star.size * (0.7 + w * 0.6);
-          ctx.beginPath();
-          ctx.moveTo(star.x, star.y);
-          ctx.lineTo(star.x + (dx / dist) * len, star.y + (dy / dist) * len);
-          ctx.stroke();
-        } else {
-          ctx.fillStyle = "rgba(234,243,255," + alpha + ")";
-          ctx.beginPath();
-          ctx.arc(star.x, star.y, star.size, 0, Math.PI * 2);
-          ctx.fill();
-        }
+        ctx.fillStyle = "rgba(234,243,255," + star.alpha * tw + ")";
+        ctx.beginPath();
+        ctx.arc(star.x, star.y, star.size, 0, Math.PI * 2);
+        ctx.fill();
       }
 
       /* galactic core glow */
       var glow = ctx.createRadialGradient(ox, oy, 0, ox, oy, maxR * 0.55);
-      glow.addColorStop(0, "rgba(0,240,255," + 0.16 * (1 - w) + ")");
-      glow.addColorStop(0.35, "rgba(120,80,220," + 0.08 * (1 - w) + ")");
+      glow.addColorStop(0, "rgba(0,240,255,0.16)");
+      glow.addColorStop(0.35, "rgba(120,80,220,0.08)");
       glow.addColorStop(1, "rgba(0,0,0,0)");
       ctx.fillStyle = glow;
       ctx.fillRect(0, 0, W, H);
@@ -321,17 +277,13 @@
       ctx.translate(ox, oy);
       ctx.rotate(PLANE);
 
-      var stretch = 1 + w * 3.2; // particles fly outward during warp
       for (var i = 0; i < particles.length; i++) {
         var p = particles[i];
         var a = p.angle + rotation * p.speed;
-        var pr = p.r * stretch;
-        var px = Math.cos(a) * pr;
-        var py = Math.sin(a) * pr * TILT;
-        var pa = p.alpha * (1 - w * 0.85);
-        if (pa <= 0.01) continue;
+        var px = Math.cos(a) * p.r;
+        var py = Math.sin(a) * p.r * TILT;
 
-        ctx.fillStyle = "rgba(" + p.color + "," + pa + ")";
+        ctx.fillStyle = "rgba(" + p.color + "," + p.alpha + ")";
         ctx.beginPath();
         ctx.arc(px, py, p.size, 0, Math.PI * 2);
         ctx.fill();
@@ -345,14 +297,12 @@
       var dt = Math.min(0.05, (now - last) / 1000 || 0.016);
       last = now;
 
-      // Slow cruise normally; the warp spins everything up.
-      rotation += dt * (1 + warp * 10);
-      if (warping) warp = Math.min(1, warp + dt / 0.35);
+      rotation += dt;
 
       lookX += (mouseX - lookX) * 0.04;
       lookY += (mouseY - lookY) * 0.04;
 
-      draw(now, dt);
+      draw(now);
       window.requestAnimationFrame(frame);
     };
 
@@ -361,7 +311,7 @@
 
     if (reduceMotion) {
       // One static frame: the galaxy poses, nothing moves.
-      draw(0, 0);
+      draw(0);
     } else {
       window.addEventListener(
         "pointermove",
@@ -377,56 +327,8 @@
         window.requestAnimationFrame(frame);
       });
     }
-
-    startWarp = function () {
-      warping = true;
-    };
-
-    // Reset if the page is restored from the back/forward cache.
-    window.addEventListener("pageshow", function (e) {
-      if (e.persisted) {
-        warping = false;
-        warp = 0;
-      }
-    });
     }
   } catch (err) {
-    // The galaxy is decoration; never let it take down navigation.
-    startWarp = null;
-  }
-
-  /* ----------------------------------------------------- page transitions - */
-  /* The overlay fades back in on internal navigation — and, on the home
-     page, triggers the starfield warp — before moving on. */
-
-  if (overlay) {
-    document.addEventListener("click", function (e) {
-      if (e.defaultPrevented) return;
-      if (e.metaKey || e.ctrlKey || e.shiftKey || e.altKey || e.button !== 0)
-        return;
-
-      var link = e.target.closest ? e.target.closest("a[href]") : null;
-      if (!link) return;
-      if (link.target && link.target !== "_self") return;
-      if (link.origin !== window.location.origin) return;
-
-      // Same-page anchors scroll, they don't navigate.
-      var href = link.getAttribute("href") || "";
-      if (href.charAt(0) === "#") return;
-      if (
-        link.pathname === window.location.pathname &&
-        link.hash
-      )
-        return;
-
-      e.preventDefault();
-      overlay.classList.add("is-active");
-      if (startWarp && !reduceMotion) startWarp();
-
-      var delay = reduceMotion ? 0 : 350;
-      window.setTimeout(function () {
-        window.location.href = link.href;
-      }, delay);
-    });
+    // The galaxy is decoration; never let it break the page.
   }
 })();

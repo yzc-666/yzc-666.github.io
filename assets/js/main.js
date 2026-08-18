@@ -347,7 +347,7 @@
 
       // Slow cruise normally; the warp spins everything up.
       rotation += dt * (1 + warp * 10);
-      if (warping) warp = Math.min(1, warp + dt / 0.7);
+      if (warping) warp = Math.min(1, warp + dt / 0.35);
 
       lookX += (mouseX - lookX) * 0.04;
       lookY += (mouseY - lookY) * 0.04;
@@ -423,7 +423,7 @@
       overlay.classList.add("is-active");
       if (startWarp && !reduceMotion) startWarp();
 
-      var delay = reduceMotion ? 0 : 680;
+      var delay = reduceMotion ? 0 : 350;
       window.setTimeout(function () {
         window.location.href = link.href;
       }, delay);

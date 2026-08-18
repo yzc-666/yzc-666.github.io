@@ -1128,7 +1128,7 @@ ol {
   background: #000;
   opacity: 0;
   pointer-events: none;
-  transition: opacity 0.55s var(--ease);
+  transition: opacity 0.32s var(--ease);
 }
 
 /* Opaque only while JS is in charge: pages load black then fade in, and

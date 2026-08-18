@@ -25,6 +25,14 @@
     });
   }
 
+  /* Older cached HTML may still contain the retired warp overlay, which the
+     old CSS renders as an opaque black layer. Remove it unconditionally so
+     stale HTML/CSS + fresh JS can never black out the page. */
+  var staleOverlays = document.querySelectorAll(".warp-overlay");
+  for (var so = 0; so < staleOverlays.length; so++) {
+    staleOverlays[so].parentNode.removeChild(staleOverlays[so]);
+  }
+
   var reduceMotion = window.matchMedia(
     "(prefers-reduced-motion: reduce)"
   ).matches;

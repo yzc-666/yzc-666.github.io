@@ -268,6 +268,24 @@ ol {
   width: 100%;
 }
 
+.nav__follow {
+  padding: 0.28rem 0.72rem !important;
+  border: 1px solid rgba(255, 43, 214, 0.55);
+  color: var(--text-strong) !important;
+  letter-spacing: 0.14em;
+}
+
+.nav__follow::after {
+  display: none !important;
+}
+
+.nav__follow:hover,
+.nav__follow.is-active {
+  color: var(--magenta) !important;
+  border-color: var(--magenta);
+  box-shadow: 0 0 14px rgba(255, 43, 214, 0.28);
+}
+
 .nav__toggle {
   display: none;
   margin-left: auto;
@@ -492,6 +510,33 @@ ol {
   border-color: var(--magenta);
   box-shadow: 0 0 18px rgba(255, 43, 214, 0.3),
     inset 0 0 18px rgba(255, 43, 214, 0.07);
+}
+
+.btn__count:empty {
+  display: none;
+}
+
+.btn__count::before {
+  content: "·";
+  margin-right: 0.35rem;
+  opacity: 0.7;
+}
+
+.btn--like {
+  cursor: pointer;
+  font-family: inherit;
+}
+
+.btn--like.is-on {
+  color: #04060a;
+  background: var(--magenta);
+  border-color: var(--magenta);
+}
+
+.btn--like.is-on:hover {
+  color: #04060a;
+  border-color: var(--magenta);
+  box-shadow: 0 0 18px rgba(255, 43, 214, 0.35);
 }
 
 /* ---------------------------------------------------------- profile card - */

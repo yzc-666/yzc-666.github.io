@@ -42,6 +42,68 @@
   var year = document.getElementById("year");
   if (year) year.textContent = String(new Date().getFullYear());
 
+  /* ---------------------------------------------- follow + like counts - */
+
+  var LIKE_KEY = "zy-site-liked";
+  var likeBtns = document.querySelectorAll("[data-like-btn]");
+  var likeCountEls = document.querySelectorAll("[data-like-count]");
+  var followCountEls = document.querySelectorAll("[data-github-followers]");
+  var liked = false;
+  try {
+    liked = window.localStorage.getItem(LIKE_KEY) === "1";
+  } catch (err) {
+    liked = false;
+  }
+  var starCount = 0;
+
+  var paintLike = function () {
+    Array.prototype.forEach.call(likeBtns, function (btn) {
+      btn.classList.toggle("is-on", liked);
+      btn.setAttribute("aria-pressed", String(liked));
+    });
+    Array.prototype.forEach.call(likeCountEls, function (el) {
+      el.textContent = String(starCount + (liked ? 1 : 0));
+    });
+  };
+
+  paintLike();
+
+  Array.prototype.forEach.call(likeBtns, function (btn) {
+    btn.addEventListener("click", function () {
+      liked = !liked;
+      try {
+        window.localStorage.setItem(LIKE_KEY, liked ? "1" : "0");
+      } catch (err) {
+        /* private mode: keep the in-memory toggle */
+      }
+      paintLike();
+    });
+  });
+
+  fetch("https://api.github.com/users/yzc-666")
+    .then(function (resp) {
+      return resp.ok ? resp.json() : null;
+    })
+    .then(function (user) {
+      if (!user || user.followers == null) return;
+      var label = String(user.followers);
+      Array.prototype.forEach.call(followCountEls, function (el) {
+        el.textContent = label;
+      });
+    })
+    .catch(function () {});
+
+  fetch("https://api.github.com/repos/yzc-666/yzc-666.github.io")
+    .then(function (resp) {
+      return resp.ok ? resp.json() : null;
+    })
+    .then(function (repo) {
+      if (!repo || repo.stargazers_count == null) return;
+      starCount = Number(repo.stargazers_count) || 0;
+      paintLike();
+    })
+    .catch(function () {});
+
   /* -------------------------------------------------------- mobile menu - */
 
   var toggle = document.querySelector(".nav__toggle");

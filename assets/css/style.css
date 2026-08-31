@@ -512,16 +512,6 @@ ol {
     inset 0 0 18px rgba(255, 43, 214, 0.07);
 }
 
-.btn__count:empty {
-  display: none;
-}
-
-.btn__count::before {
-  content: "·";
-  margin-right: 0.35rem;
-  opacity: 0.7;
-}
-
 .btn--like {
   cursor: pointer;
   font-family: inherit;

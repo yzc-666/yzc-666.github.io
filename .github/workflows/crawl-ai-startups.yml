@@ -1,0 +1,40 @@
+name: Crawl AI startups
+
+on:
+  schedule:
+    - cron: "0 8 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: crawl-ai-startups
+  cancel-in-progress: true
+
+jobs:
+  crawl:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Crawl public sources
+        run: python scripts/crawl_ai_startups.py
+
+      - name: Commit if the tracker changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/ai-startups.json
+          if git diff --staged --quiet; then
+            echo "No tracker changes"
+            exit 0
+          fi
+          git commit -m "chore: refresh AI startup tracker"
+          git push

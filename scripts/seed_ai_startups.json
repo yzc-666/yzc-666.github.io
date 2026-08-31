@@ -1,0 +1,428 @@
+{
+  "companies": [
+    {
+      "name": "DeepSeek",
+      "country": "CN",
+      "website": "https://www.deepseek.com/",
+      "one_liner": "Hangzhou lab known for strong open-weight reasoning and coding models.",
+      "tags": ["Foundation Model", "LLM", "Open Weight"],
+      "products": [
+        { "name": "DeepSeek-V3", "note": "Mixture-of-experts general model" },
+        { "name": "DeepSeek-R1", "note": "Reasoning model" },
+        { "name": "DeepSeek-Coder", "note": "Code model family" }
+      ],
+      "wiki_title": "DeepSeek"
+    },
+    {
+      "name": "Moonshot AI",
+      "country": "CN",
+      "website": "https://www.moonshot.cn/",
+      "one_liner": "Beijing startup behind the Kimi assistant and long-context models.",
+      "tags": ["Foundation Model", "Assistant"],
+      "products": [
+        { "name": "Kimi", "note": "Consumer assistant" },
+        { "name": "Kimi K2", "note": "Open agentic model" }
+      ],
+      "wiki_title": "Moonshot AI"
+    },
+    {
+      "name": "Zhipu AI",
+      "country": "CN",
+      "website": "https://www.zhipuai.cn/",
+      "one_liner": "Tsinghua-rooted lab building the GLM model family and Qingyan assistant.",
+      "tags": ["Foundation Model", "Assistant", "Agent"],
+      "products": [
+        { "name": "GLM", "note": "Foundation model family" },
+        { "name": "ChatGLM", "note": "Open chat models" },
+        { "name": "Qingyan", "note": "Consumer assistant" },
+        { "name": "AutoGLM", "note": "GUI / agent product" }
+      ],
+      "wiki_title": "Zhipu AI"
+    },
+    {
+      "name": "MiniMax",
+      "country": "CN",
+      "website": "https://www.minimax.io/",
+      "one_liner": "Shanghai company shipping foundation models plus video and social AI apps.",
+      "tags": ["Foundation Model", "Video", "Consumer"],
+      "products": [
+        { "name": "Hailuo", "note": "Video generation" },
+        { "name": "Talkie", "note": "Character chat" },
+        { "name": "MiniMax M-series", "note": "Text / agent models" }
+      ],
+      "wiki_title": "MiniMax"
+    },
+    {
+      "name": "01.AI",
+      "country": "CN",
+      "website": "https://www.01.ai/",
+      "one_liner": "Kai-Fu Lee's Yi lab, focused on bilingual foundation models.",
+      "tags": ["Foundation Model", "LLM"],
+      "products": [
+        { "name": "Yi", "note": "Open-weight LLM family" },
+        { "name": "Wanwu", "note": "Assistant / API stack" }
+      ],
+      "wiki_title": "01.AI"
+    },
+    {
+      "name": "Baichuan AI",
+      "country": "CN",
+      "website": "https://www.baichuan-ai.com/",
+      "one_liner": "Wang Xiaochuan's foundation-model startup in Beijing.",
+      "tags": ["Foundation Model", "LLM"],
+      "products": [
+        { "name": "Baichuan", "note": "LLM family" },
+        { "name": "Baichuan4", "note": "Flagship model line" }
+      ]
+    },
+    {
+      "name": "StepFun",
+      "country": "CN",
+      "website": "https://www.stepfun.com/",
+      "one_liner": "Shanghai multimodal lab behind Step models and the Yuewen assistant.",
+      "tags": ["Foundation Model", "Multimodal"],
+      "products": [
+        { "name": "Step-1 / Step-2", "note": "Foundation models" },
+        { "name": "Yuewen", "note": "Consumer assistant" }
+      ]
+    },
+    {
+      "name": "ModelBest",
+      "country": "CN",
+      "website": "https://www.modelbest.cn/",
+      "one_liner": "Tsinghua CPM team spun out as 面壁智能, building small and edge models.",
+      "tags": ["Foundation Model", "Edge AI"],
+      "products": [
+        { "name": "CPM", "note": "Model family" },
+        { "name": "MiniCPM", "note": "On-device multimodal models" }
+      ]
+    },
+    {
+      "name": "Shengshu Technology",
+      "country": "CN",
+      "website": "https://vidu.com/",
+      "one_liner": "Tsinghua-related video lab behind Vidu.",
+      "tags": ["Video", "Generative"],
+      "products": [{ "name": "Vidu", "note": "Text-to-video" }]
+    },
+    {
+      "name": "Kling",
+      "country": "CN",
+      "website": "https://kling.ai/",
+      "one_liner": "Kuaishou's video generation model and consumer video studio.",
+      "tags": ["Video", "Generative"],
+      "products": [
+        { "name": "Kling AI", "note": "Text-to-video / image-to-video" }
+      ]
+    },
+    {
+      "name": "PixVerse",
+      "country": "CN",
+      "website": "https://pixverse.ai/",
+      "one_liner": "Consumer video generation app from Aishi Tech.",
+      "tags": ["Video", "Consumer"],
+      "products": [{ "name": "PixVerse", "note": "Video generation app" }]
+    },
+    {
+      "name": "SiliconFlow",
+      "country": "CN",
+      "website": "https://siliconflow.cn/",
+      "one_liner": "Inference cloud for open models, with the OneDiff / SiliconCloud stack.",
+      "tags": ["Infrastructure", "Inference"],
+      "products": [
+        { "name": "SiliconCloud", "note": "Model API" },
+        { "name": "OneDiff", "note": "Acceleration toolkit" }
+      ]
+    },
+    {
+      "name": "Infinigence",
+      "country": "CN",
+      "website": "https://www.infini-ai.com/",
+      "one_liner": "无问芯穹 — AI infrastructure and inference platform.",
+      "tags": ["Infrastructure"],
+      "products": [{ "name": "Infini-AI Cloud", "note": "Training / inference platform" }]
+    },
+    {
+      "name": "HPC-AI Tech",
+      "country": "CN",
+      "website": "https://www.hpc-ai.com/",
+      "one_liner": "Team behind Colossal-AI, now selling training and inference systems.",
+      "tags": ["Infrastructure", "Training"],
+      "products": [
+        { "name": "Colossal-AI", "note": "Open training system" },
+        { "name": "Energon AI", "note": "Inference stack" }
+      ]
+    },
+    {
+      "name": "Metaso",
+      "country": "CN",
+      "website": "https://metaso.cn/",
+      "one_liner": "秘塔 — AI search and research assistant popular in China.",
+      "tags": ["Search", "Assistant"],
+      "products": [{ "name": "Metaso", "note": "AI search" }]
+    },
+    {
+      "name": "Kunlun Tech",
+      "country": "CN",
+      "website": "https://www.skywork.ai/",
+      "one_liner": "Listed company shipping Skywork / Tiangong models and agents.",
+      "tags": ["Foundation Model", "Agent"],
+      "products": [
+        { "name": "Skywork", "note": "Model family" },
+        { "name": "Tiangong", "note": "Assistant" }
+      ]
+    },
+    {
+      "name": "4Paradigm",
+      "country": "CN",
+      "website": "https://www.4paradigm.com/",
+      "one_liner": "Enterprise AutoML and decision-intelligence company.",
+      "tags": ["Enterprise", "AutoML"],
+      "products": [{ "name": "SageAI", "note": "Enterprise AI platform" }],
+      "wiki_title": "4Paradigm"
+    },
+    {
+      "name": "SenseTime",
+      "country": "CN",
+      "website": "https://www.sensetime.com/",
+      "one_liner": "Computer-vision unicorn now pushing the SenseNova generative stack.",
+      "tags": ["Computer Vision", "Foundation Model"],
+      "products": [
+        { "name": "SenseNova", "note": "Generative model family" },
+        { "name": "SenseMirage", "note": "Image generation" }
+      ],
+      "wiki_title": "SenseTime"
+    },
+    {
+      "name": "Megvii",
+      "country": "CN",
+      "website": "https://www.megvii.com/",
+      "one_liner": "Face++ lab expanding from vision into broader AI systems.",
+      "tags": ["Computer Vision"],
+      "products": [{ "name": "Face++", "note": "Vision API" }],
+      "wiki_title": "Megvii"
+    },
+    {
+      "name": "Mobvoi",
+      "country": "CN",
+      "website": "https://www.mobvoi.com/",
+      "one_liner": "出门问问 — speech and on-device assistants, now with TicNote and Sequence Monkey.",
+      "tags": ["Speech", "Consumer"],
+      "products": [
+        { "name": "TicNote", "note": "AI recorder" },
+        { "name": "Sequence Monkey", "note": "On-device model line" }
+      ],
+      "wiki_title": "Mobvoi"
+    },
+    {
+      "name": "Xiaoice",
+      "country": "CN",
+      "website": "https://www.xiaoice.com/",
+      "one_liner": "Microsoft-spun conversational AI company in China.",
+      "tags": ["Consumer", "Assistant"],
+      "products": [{ "name": "Xiaoice", "note": "Companion / content agents" }],
+      "wiki_title": "Xiaoice"
+    },
+    {
+      "name": "OpenAI",
+      "country": "US",
+      "website": "https://openai.com/",
+      "one_liner": "Frontier lab behind ChatGPT, GPT models, and Sora.",
+      "tags": ["Foundation Model", "Assistant", "Video"],
+      "products": [
+        { "name": "ChatGPT", "note": "Consumer / work assistant" },
+        { "name": "GPT API", "note": "Model platform" },
+        { "name": "Sora", "note": "Video generation" }
+      ],
+      "wiki_title": "OpenAI"
+    },
+    {
+      "name": "Anthropic",
+      "country": "US",
+      "website": "https://www.anthropic.com/",
+      "one_liner": "Constitutional AI lab behind Claude.",
+      "tags": ["Foundation Model", "Assistant", "Safety"],
+      "products": [
+        { "name": "Claude", "note": "Assistant and API" },
+        { "name": "Claude Code", "note": "Agentic coding" }
+      ],
+      "wiki_title": "Anthropic"
+    },
+    {
+      "name": "xAI",
+      "country": "US",
+      "website": "https://x.ai/",
+      "one_liner": "Elon Musk's lab building Grok and large GPU clusters.",
+      "tags": ["Foundation Model", "Assistant"],
+      "products": [
+        { "name": "Grok", "note": "Assistant on X and grok.com" }
+      ],
+      "wiki_title": "xAI"
+    },
+    {
+      "name": "Perplexity",
+      "country": "US",
+      "website": "https://www.perplexity.ai/",
+      "one_liner": "Answer engine combining search with frontier models.",
+      "tags": ["Search", "Assistant"],
+      "products": [
+        { "name": "Perplexity", "note": "AI search" },
+        { "name": "Comet", "note": "AI browser" }
+      ],
+      "wiki_title": "Perplexity AI"
+    },
+    {
+      "name": "Cohere",
+      "country": "US",
+      "website": "https://cohere.com/",
+      "one_liner": "Enterprise LLM lab for retrieval, agents, and private deployments.",
+      "tags": ["Foundation Model", "Enterprise"],
+      "products": [
+        { "name": "Command", "note": "LLM family" },
+        { "name": "Embed / Rerank", "note": "Retrieval models" }
+      ],
+      "wiki_title": "Cohere"
+    },
+    {
+      "name": "Hugging Face",
+      "country": "US",
+      "website": "https://huggingface.co/",
+      "one_liner": "Open model hub, inference, and training tools.",
+      "tags": ["Open Source", "Infrastructure"],
+      "products": [
+        { "name": "Hub", "note": "Models, datasets, Spaces" },
+        { "name": "Inference / Training", "note": "Cloud stack" }
+      ],
+      "wiki_title": "Hugging Face"
+    },
+    {
+      "name": "Scale AI",
+      "country": "US",
+      "website": "https://scale.com/",
+      "one_liner": "Data engine for frontier labs, plus enterprise agents.",
+      "tags": ["Data", "Enterprise"],
+      "products": [
+        { "name": "Data Engine", "note": "Labeling / eval" },
+        { "name": "Donovan", "note": "Defense / enterprise agent" }
+      ],
+      "wiki_title": "Scale AI"
+    },
+    {
+      "name": "Anysphere",
+      "country": "US",
+      "website": "https://cursor.com/",
+      "one_liner": "Team behind Cursor, the AI code editor.",
+      "tags": ["Coding", "Developer Tools"],
+      "products": [{ "name": "Cursor", "note": "AI IDE" }]
+    },
+    {
+      "name": "Cognition",
+      "country": "US",
+      "website": "https://cognition.ai/",
+      "one_liner": "Builders of Devin, an autonomous software engineer.",
+      "tags": ["Coding", "Agent"],
+      "products": [{ "name": "Devin", "note": "Software-engineering agent" }]
+    },
+    {
+      "name": "Harvey",
+      "country": "US",
+      "website": "https://www.harvey.ai/",
+      "one_liner": "AI copilot for law firms and in-house legal teams.",
+      "tags": ["Legal", "Enterprise"],
+      "products": [{ "name": "Harvey", "note": "Legal assistant" }]
+    },
+    {
+      "name": "Glean",
+      "country": "US",
+      "website": "https://www.glean.com/",
+      "one_liner": "Enterprise AI search and work assistant.",
+      "tags": ["Search", "Enterprise"],
+      "products": [{ "name": "Glean Assistant", "note": "Workplace search / agents" }]
+    },
+    {
+      "name": "Sierra",
+      "country": "US",
+      "website": "https://sierra.ai/",
+      "one_liner": "Bret Taylor and Clay Bavor's customer-agent platform.",
+      "tags": ["Agent", "Enterprise"],
+      "products": [{ "name": "Sierra", "note": "Customer-facing agents" }]
+    },
+    {
+      "name": "Runway",
+      "country": "US",
+      "website": "https://runwayml.com/",
+      "one_liner": "Applied research lab for generative video and film tools.",
+      "tags": ["Video", "Generative"],
+      "products": [
+        { "name": "Gen-3 / Gen-4", "note": "Video models" },
+        { "name": "Aleph", "note": "Video editing model" }
+      ],
+      "wiki_title": "Runway (company)"
+    },
+    {
+      "name": "Luma AI",
+      "country": "US",
+      "website": "https://lumalabs.ai/",
+      "one_liner": "Multimodal generative company behind Dream Machine.",
+      "tags": ["Video", "3D"],
+      "products": [
+        { "name": "Dream Machine", "note": "Video generation" },
+        { "name": "Ray", "note": "Video model line" }
+      ]
+    },
+    {
+      "name": "ElevenLabs",
+      "country": "US",
+      "website": "https://elevenlabs.io/",
+      "one_liner": "Voice generation, dubbing, and conversational agents.",
+      "tags": ["Speech", "Generative"],
+      "products": [
+        { "name": "Text to Speech", "note": "Voice API" },
+        { "name": "Conversational AI", "note": "Voice agents" }
+      ],
+      "wiki_title": "ElevenLabs"
+    },
+    {
+      "name": "Suno",
+      "country": "US",
+      "website": "https://suno.com/",
+      "one_liner": "Generative music studio.",
+      "tags": ["Audio", "Consumer"],
+      "products": [{ "name": "Suno", "note": "Text-to-music" }]
+    },
+    {
+      "name": "Together AI",
+      "country": "US",
+      "website": "https://www.together.ai/",
+      "one_liner": "Open-model inference and fine-tuning cloud.",
+      "tags": ["Infrastructure", "Open Source"],
+      "products": [{ "name": "Together Inference", "note": "GPU cloud / APIs" }]
+    },
+    {
+      "name": "Groq",
+      "country": "US",
+      "website": "https://groq.com/",
+      "one_liner": "LPU inference hardware and hosted open-model APIs.",
+      "tags": ["Infrastructure", "Hardware"],
+      "products": [{ "name": "GroqCloud", "note": "Low-latency inference" }],
+      "wiki_title": "Groq"
+    },
+    {
+      "name": "Thinking Machines Lab",
+      "country": "US",
+      "website": "https://thinkingmachines.ai/",
+      "one_liner": "Mira Murati's new frontier lab.",
+      "tags": ["Foundation Model"],
+      "products": [{ "name": "Tinker", "note": "Early research / API surface" }]
+    },
+    {
+      "name": "Safe Superintelligence",
+      "country": "US",
+      "website": "https://ssi.inc/",
+      "one_liner": "Ilya Sutskever's lab with a single-product bet on safe superintelligence.",
+      "tags": ["Foundation Model", "Safety"],
+      "products": [{ "name": "SSI", "note": "Research lab" }],
+      "wiki_title": "Safe Superintelligence"
+    }
+  ]
+}

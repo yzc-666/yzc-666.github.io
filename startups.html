@@ -1,0 +1,148 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>AI Startups — Zichao Yu</title>
+    <meta
+      name="description"
+      content="Auto-updated tracker of AI startups and product lines in China and the United States."
+    />
+    <link rel="canonical" href="https://yzc-666.github.io/startups.html" />
+    <meta name="theme-color" content="#04060a" />
+
+    <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@400;600;700&family=JetBrains+Mono:wght@300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assets/css/style.css?v=20260901" />
+    <link rel="stylesheet" href="assets/css/page.css?v=20260901" />
+
+    <script>
+      document.documentElement.classList.add("js");
+    </script>
+  </head>
+
+  <body>
+    <div class="fx-grid" aria-hidden="true"></div>
+    <div class="fx-glow" aria-hidden="true"></div>
+    <div class="fx-scanlines" aria-hidden="true"></div>
+
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <header class="nav" id="nav">
+      <div class="nav__inner">
+        <a class="nav__brand" href="./">
+          <span class="nav__brand-bracket">[</span>
+          ZY
+          <span class="nav__brand-bracket">]</span>
+        </a>
+
+        <button
+          class="nav__toggle"
+          type="button"
+          aria-expanded="false"
+          aria-controls="nav-menu"
+          aria-label="Toggle navigation"
+        >
+          <span></span><span></span><span></span>
+        </button>
+
+        <nav class="nav__menu" id="nav-menu" aria-label="Main">
+          <a href="./">Home</a>
+          <a href="publications.html">Publications</a>
+          <a href="experience.html">Experience</a>
+          <a href="startups.html" class="is-active">AI Startups</a>
+        </nav>
+      </div>
+      <div class="nav__progress" aria-hidden="true"></div>
+    </header>
+
+    <main id="main">
+      <div class="wrap">
+        <p class="crumbs">
+          <a href="./">Home</a><span>/</span> AI Startups
+        </p>
+
+        <header class="page-head">
+          <p class="page-head__kicker">// 03</p>
+          <h1 class="page-head__title">AI Startups</h1>
+          <p class="page-head__meta">
+            <span>China and United States</span>
+            <span id="updated-meta"></span>
+          </p>
+        </header>
+
+        <p class="tracker-lead">
+          Daily crawl of public catalogs and news: notable labs, recent YC AI
+          companies, and newly launched products. Not investment advice.
+        </p>
+
+        <div class="tracker-stats" id="tracker-stats" hidden>
+          <div>
+            <strong id="stat-total">0</strong>
+            <span>companies</span>
+          </div>
+          <div>
+            <strong id="stat-cn">0</strong>
+            <span>China</span>
+          </div>
+          <div>
+            <strong id="stat-us">0</strong>
+            <span>United States</span>
+          </div>
+          <div>
+            <strong id="stat-projects">0</strong>
+            <span>recent launches</span>
+          </div>
+        </div>
+
+        <div class="tracker-toolbar">
+          <label class="tracker-search">
+            <span class="visually-hidden">Search companies</span>
+            <input
+              id="tracker-q"
+              type="search"
+              placeholder="Search company, product, tag…"
+              autocomplete="off"
+            />
+          </label>
+          <div class="tracker-filters" role="group" aria-label="Country filter">
+            <button type="button" class="chip is-on" data-country="all">All</button>
+            <button type="button" class="chip" data-country="CN">China</button>
+            <button type="button" class="chip" data-country="US">United States</button>
+          </div>
+        </div>
+
+        <section class="page-section" aria-labelledby="companies-heading">
+          <h2 class="section-title" id="companies-heading">Companies</h2>
+          <p class="empty" id="tracker-empty" hidden>No matches.</p>
+          <ol class="startup-grid" id="startup-grid"></ol>
+        </section>
+
+        <section class="page-section" aria-labelledby="projects-heading">
+          <h2 class="section-title" id="projects-heading">Recent projects</h2>
+          <ol class="project-list" id="project-list"></ol>
+        </section>
+
+        <p class="more">
+          <a class="link link--arrow" href="./">Back to home</a>
+        </p>
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="wrap footer__inner">
+        <p>&copy; <span id="year">2026</span> Zichao Yu</p>
+        <p class="footer__meta">Built by hand · Deployed on GitHub Pages</p>
+      </div>
+    </footer>
+
+    <script src="assets/js/main.js?v=20260901" defer></script>
+    <script src="assets/js/startups.js?v=20260901" defer></script>
+  </body>
+</html>

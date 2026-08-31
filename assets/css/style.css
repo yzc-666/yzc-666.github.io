@@ -781,6 +781,9 @@ ol {
   padding: 0.2rem 0.7rem;
   border: 1px solid var(--line-soft);
   color: var(--text-dim);
+  background: transparent;
+  cursor: pointer;
+  font-family: inherit;
   transition: color 0.2s var(--ease), border-color 0.2s var(--ease),
     box-shadow 0.2s var(--ease);
 }
@@ -1061,6 +1064,18 @@ ol {
     inset -10px -12px 26px rgba(0, 0, 0, 0.75);
 }
 
+.portal--amber .portal__planet {
+  background: radial-gradient(
+    circle at 32% 28%,
+    rgba(255, 244, 214, 0.95),
+    rgba(255, 194, 71, 0.72) 28%,
+    rgba(150, 90, 20, 0.9) 58%,
+    #1a0e04 85%
+  );
+  box-shadow: 0 0 26px rgba(255, 194, 71, 0.38),
+    inset -10px -12px 26px rgba(0, 0, 0, 0.75);
+}
+
 .portal:hover .portal__planet,
 .portal:focus-visible .portal__planet {
   transform: scale(1.1) translateY(-3px);
@@ -1073,6 +1088,14 @@ ol {
 
 .portal--magenta:hover .portal__planet::after {
   border-color: rgba(255, 43, 214, 0.7);
+}
+
+.portal--amber:hover .portal__planet::after {
+  border-color: rgba(255, 194, 71, 0.7);
+}
+
+.portal--amber .portal__num {
+  color: var(--amber);
 }
 
 .portal__num {
@@ -1103,6 +1126,11 @@ ol {
 .portal--magenta:hover .portal__label {
   color: var(--magenta);
   text-shadow: 0 0 16px rgba(255, 43, 214, 0.4);
+}
+
+.portal--amber:hover .portal__label {
+  color: var(--amber);
+  text-shadow: 0 0 16px rgba(255, 194, 71, 0.4);
 }
 
 .portal__go {

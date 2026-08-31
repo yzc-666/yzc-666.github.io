@@ -32,6 +32,30 @@
     return code === "CN" ? "China" : code === "US" ? "United States" : code;
   };
 
+  var homepageOf = function (company) {
+    return String(company.website || "").trim();
+  };
+
+  var hostLabel = function (url) {
+    try {
+      return new URL(url).hostname.replace(/^www\./, "");
+    } catch (err) {
+      return "Homepage";
+    }
+  };
+
+  var extLink = function (href, label, className) {
+    return (
+      '<a class="' +
+      className +
+      '" href="' +
+      esc(href) +
+      '" target="_blank" rel="noopener">' +
+      label +
+      "</a>"
+    );
+  };
+
   var matches = function (company) {
     if (state.country !== "all" && company.country !== state.country) return false;
     var q = state.query.trim().toLowerCase();
@@ -59,19 +83,13 @@
     rows.forEach(function (company) {
       var li = document.createElement("li");
       li.className = "startup-card reveal is-visible";
+      var home = homepageOf(company);
 
       var products = (company.products || [])
         .map(function (p) {
           var label = esc(p.name);
-          if (p.url) {
-            return (
-              '<a class="chip" href="' +
-              esc(p.url) +
-              '" rel="noopener">' +
-              label +
-              "</a>"
-            );
-          }
+          var href = p.url || home;
+          if (href) return extLink(href, label, "chip");
           return '<span class="chip chip--static">' + label + "</span>";
         })
         .join("");
@@ -83,20 +101,16 @@
         })
         .join("");
 
+      var title = home
+        ? "<h3>" + extLink(home, esc(company.name), "startup-card__name") + "</h3>"
+        : "<h3>" + esc(company.name) + "</h3>";
+
       var links = [];
-      if (company.website) {
-        links.push(
-          '<a class="chip" href="' +
-            esc(company.website) +
-            '" rel="noopener">Site</a>'
-        );
+      if (home) {
+        links.push(extLink(home, esc(hostLabel(home)), "chip"));
       }
-      if (company.source_url) {
-        links.push(
-          '<a class="chip" href="' +
-            esc(company.source_url) +
-            '" rel="noopener">Source</a>'
-        );
+      if (company.source_url && company.source_url !== home) {
+        links.push(extLink(company.source_url, "Source", "chip"));
       }
 
       li.innerHTML =
@@ -110,9 +124,10 @@
           ? '<span class="startup-card__batch">' + esc(company.batch) + "</span>"
           : "") +
         "</div>" +
-        "<h3>" +
-        esc(company.name) +
-        "</h3>" +
+        title +
+        (home
+          ? '<p class="startup-card__url">' + esc(hostLabel(home)) + "</p>"
+          : "") +
         '<p class="startup-card__bio">' +
         esc(company.one_liner || "") +
         "</p>" +
@@ -151,7 +166,7 @@
           "</span>" +
           '<div><a class="link" href="' +
           esc(href) +
-          '" rel="noopener">' +
+          '" target="_blank" rel="noopener">' +
           esc(item.name) +
           "</a>" +
           (item.summary

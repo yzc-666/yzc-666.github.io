@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-02T12:22:25Z",
+  "updated_at": "2026-09-03T12:20:06Z",
   "stats": {
     "total": 131,
     "cn": 21,
@@ -1116,16 +1116,16 @@
       "name": "Grocalo",
       "country": "US",
       "website": "https://grocalo.com/",
-      "one_liner": "AI brain that runs content for creators",
+      "one_liner": "AI software for creators that runs social content",
       "tags": [
-        "Artificial Intelligence",
         "Entertainment",
-        "Creator Economy"
+        "Creator Economy",
+        "AI"
       ],
       "products": [
         {
           "name": "Grocalo",
-          "note": "AI brain that runs content for creators"
+          "note": "AI software for creators that runs social content"
         }
       ],
       "batch": "Summer 2026",
@@ -1590,17 +1590,17 @@
       "name": "Moving Atoms",
       "country": "US",
       "website": "https://movingatoms.ai/",
-      "one_liner": "World models that train and test robots in sim, #1 on Physics-IQ",
+      "one_liner": "World Models that Train Robots, #1 on Physics-IQ",
       "tags": [
+        "Artificial Intelligence",
         "Hard Tech",
         "Robotics",
-        "Virtual Reality",
-        "AI"
+        "Virtual Reality"
       ],
       "products": [
         {
           "name": "Moving Atoms",
-          "note": "World models that train and test robots in sim, #1 on Physics-IQ"
+          "note": "World Models that Train Robots, #1 on Physics-IQ"
         }
       ],
       "batch": "Summer 2026",
@@ -1614,16 +1614,16 @@
       "name": "Tenor",
       "country": "US",
       "website": "https://heytenor.com/",
-      "one_liner": "AI workers that attribute the outcome back to the token spend",
+      "one_liner": "AI that own jobs end-to-end and learn from every outcome",
       "tags": [
+        "Artificial Intelligence",
         "B2B",
-        "Automation",
-        "AI"
+        "Automation"
       ],
       "products": [
         {
           "name": "Tenor",
-          "note": "AI workers that attribute the outcome back to the token spend"
+          "note": "AI that own jobs end-to-end and learn from every outcome"
         }
       ],
       "batch": "Summer 2026",
@@ -1660,9 +1660,9 @@
       "website": "https://vorelios.com",
       "one_liner": "AI that simulates physics 1000x faster",
       "tags": [
+        "Artificial Intelligence",
         "Hard Tech",
-        "B2B",
-        "AI"
+        "B2B"
       ],
       "products": [
         {
@@ -3049,6 +3049,195 @@
   ],
   "projects": [
     {
+      "id": "hn:49548892",
+      "name": "Show HN: Oconee Runtime – Policy enforcement for browser AI and coding agents",
+      "country": "US",
+      "url": "https://www.oconeeruntime.com/news/policy-enforcement-for-browser-ai-and-coding-agents",
+      "summary": "AI agents are changing the enterprise security boundary. Prompt-level controls are no longer enough when AI can execute commands, modify files, invoke tools, and act against enter…",
+      "source": "hacker-news",
+      "published_at": "2026-09-03T12:03:57Z"
+    },
+    {
+      "id": "hn:49548847",
+      "name": "Show HN: StillMade – Programmable AI video pipeline; Chat to video (now)",
+      "country": "US",
+      "url": "https://www.stillmade.shop",
+      "summary": "Six months of 7+ hour days building this because video production is still a multi-tool mess. Describe what you want to make and StillMade guides you through making it with its to…",
+      "source": "hacker-news",
+      "published_at": "2026-09-03T11:58:10Z"
+    },
+    {
+      "id": "hn:49548812",
+      "name": "Show HN: What Engineers must own in the AI Era? [video]",
+      "country": "US",
+      "url": "https://www.youtube.com/watch?v=wpxVCZ8fqZA",
+      "summary": "Hacker News discussion",
+      "source": "hacker-news",
+      "published_at": "2026-09-03T11:53:43Z"
+    },
+    {
+      "id": "hn:49548428",
+      "name": "Show HN: Cut your AI bill by a third. Same tools, same output",
+      "country": "US",
+      "url": "https://www.getfemail.com",
+      "summary": "Hacker News discussion",
+      "source": "hacker-news",
+      "published_at": "2026-09-03T10:57:37Z"
+    },
+    {
+      "id": "hn:49547699",
+      "name": "Show HN: Concorde, one AI agent shared by an organization",
+      "country": "US",
+      "url": "https://github.com/shutter-network/concorde",
+      "summary": "We built Concorde, an open-source framework giving an organization one shared agent that's controlled by a group, rather than just one person. This is pretty cool because shared a…",
+      "source": "hacker-news",
+      "published_at": "2026-09-03T09:13:41Z"
+    },
+    {
+      "id": "hn:49547229",
+      "name": "Show HN: OpenHelper AI Chatbot – The Free and Open Source AI Chatbot",
+      "country": "US",
+      "url": "https://techambient.github.io/HybridAI/",
+      "summary": "Hacker News discussion",
+      "source": "hacker-news",
+      "published_at": "2026-09-03T08:07:08Z"
+    },
+    {
+      "id": "hn:49547037",
+      "name": "Show HN: Profound Academy – an agentic course builder for hands-on courses",
+      "country": "US",
+      "url": "https://profound.academy",
+      "summary": "I built an AI course builder that helps you create hands-on course materials, interactive tutorials, exercises, and automatically checks the work submitted by students. It should…",
+      "source": "hacker-news",
+      "published_at": "2026-09-03T07:40:02Z"
+    },
+    {
+      "id": "hn:49543931",
+      "name": "Show HN: CoOS – desktop app where an agent builds your CRM/ERP as local plugins",
+      "country": "US",
+      "url": "https://pirol.ai/",
+      "summary": "Hacker News discussion",
+      "source": "hacker-news",
+      "published_at": "2026-09-02T23:18:38Z"
+    },
+    {
+      "id": "hn:49543617",
+      "name": "Show HN: Every AI agrees with you. This writes your startup's obituary instead",
+      "country": "US",
+      "url": "https://theyfell.com/",
+      "summary": "Hacker News discussion",
+      "source": "hacker-news",
+      "published_at": "2026-09-02T22:45:39Z"
+    },
+    {
+      "id": "hn:49542607",
+      "name": "Show HN: I put four persistent AI minds in a room and let them change each other",
+      "country": "US",
+      "url": "https://room.pluralmatter.com/e/how-will-the-world-change-when-ai-smarter-than-humans",
+      "summary": "Hacker News discussion",
+      "source": "hacker-news",
+      "published_at": "2026-09-02T21:10:27Z"
+    },
+    {
+      "id": "hn:49542561",
+      "name": "Show HN: The Drudge Report, but for AI",
+      "country": "US",
+      "url": "https://theainewsreport.com/",
+      "summary": "Hacker News discussion",
+      "source": "hacker-news",
+      "published_at": "2026-09-02T21:06:17Z"
+    },
+    {
+      "id": "hn:49542430",
+      "name": "Show HN: Dehurdle – Real-Time AI Voice Simulations for High-Stakes Conversations",
+      "country": "US",
+      "url": "https://dehurdle.com/register/",
+      "summary": "Hacker News discussion",
+      "source": "hacker-news",
+      "published_at": "2026-09-02T20:56:11Z"
+    },
+    {
+      "id": "hn:49542138",
+      "name": "Show HN: AlparAI – Autonomous Swarm OS with Quantum Verification",
+      "country": "US",
+      "url": "https://www.alparai.com/en",
+      "summary": "Alpar AI is building the judicial and constitutional accountability infrastructure for artificial intelligence. We audit frontier LLMs against real-world incidents, hallucinations…",
+      "source": "hacker-news",
+      "published_at": "2026-09-02T20:35:05Z"
+    },
+    {
+      "id": "hn:49542113",
+      "name": "Show HN: AI coach that adapts workouts and meals to your injuries and",
+      "country": "US",
+      "url": "https://rizin.app/",
+      "summary": "Hacker News discussion",
+      "source": "hacker-news",
+      "published_at": "2026-09-02T20:33:58Z"
+    },
+    {
+      "id": "hn:49541092",
+      "name": "Show HN: StealthOS, an iOS privacy sandbox with local AI and Tor",
+      "country": "US",
+      "url": "https://www.stealthos.app/",
+      "summary": "Hacker News discussion",
+      "source": "hacker-news",
+      "published_at": "2026-09-02T19:21:02Z"
+    },
+    {
+      "id": "hn:49539866",
+      "name": "Show HN: AI-Native Boilerplate – 170+ rules that stop LLMs from drifting.",
+      "country": "US",
+      "url": "https://github.com/SrikanthVemulapally/ai-native-boilerplate",
+      "summary": "Hacker News discussion",
+      "source": "hacker-news",
+      "published_at": "2026-09-02T17:51:02Z"
+    },
+    {
+      "id": "hn:49536921",
+      "name": "Show HN: Otaku.sh – AI Roleplay Client",
+      "country": "US",
+      "url": "https://otaku.sh",
+      "summary": "Hacker News discussion",
+      "source": "hacker-news",
+      "published_at": "2026-09-02T14:34:45Z"
+    },
+    {
+      "id": "hn:49536607",
+      "name": "Show HN: Flawd is mutation testing for the AI era",
+      "country": "US",
+      "url": "https://fixture.dev/flawd",
+      "summary": "Hey, all! Flawd is a mutation testing tool that can target five languages (Python, JS, TS, Go, Rust) and it runs locally as a single binary on your machine. Importantly (for many)…",
+      "source": "hacker-news",
+      "published_at": "2026-09-02T14:16:55Z"
+    },
+    {
+      "id": "hn:49536322",
+      "name": "Show HN: Heides,deterministic code harness giving AI agents senses and judgment",
+      "country": "US",
+      "url": "https://github.com/AbduljabbarBXR/heides",
+      "summary": "Hacker News discussion",
+      "source": "hacker-news",
+      "published_at": "2026-09-02T13:56:45Z"
+    },
+    {
+      "id": "hn:49536315",
+      "name": "Show HN: Open protocol for AI agents to discover, negotiate, and pay each other",
+      "country": "US",
+      "url": "https://github.com/bizswarm44-coder/aether-protocol",
+      "summary": "Hacker News discussion",
+      "source": "hacker-news",
+      "published_at": "2026-09-02T13:56:35Z"
+    },
+    {
+      "id": "hn:49535569",
+      "name": "Show HN: Subpool – Self-hosted AI subscription management for teams",
+      "country": "US",
+      "url": "https://github.com/gesta-run/subpool",
+      "summary": "Hacker News discussion",
+      "source": "hacker-news",
+      "published_at": "2026-09-02T13:01:31Z"
+    },
+    {
       "id": "hn:49535163",
       "name": "Show HN: Windrunner – AI-powered project collaboration workspace",
       "country": "US",
@@ -3094,283 +3283,94 @@
       "published_at": "2026-09-02T10:21:01Z"
     },
     {
-      "id": "hn:49533428",
-      "name": "Show HN: Image3d AI-One interface for multiple image to 3D models",
+      "id": "hn:49548788",
+      "name": "Flavourbench: LLM Eval with Executable Culinary Ground Truth",
       "country": "US",
-      "url": "https://www.aiimageto3d.com/",
-      "summary": "I built image3D AI to make it easier to try and compare different image to 3d models in one place.",
-      "source": "hacker-news",
-      "published_at": "2026-09-02T08:28:28Z"
-    },
-    {
-      "id": "hn:49533201",
-      "name": "Show HN: Photo manager that finds and organizes photos with private, local AI",
-      "country": "US",
-      "url": "https://ringlochid.me/imagesage/index.html",
+      "url": "https://arxiv.org/abs/2608.20574",
       "summary": "Hacker News discussion",
       "source": "hacker-news",
-      "published_at": "2026-09-02T07:58:36Z"
+      "published_at": "2026-09-03T11:51:16Z"
     },
     {
-      "id": "hn:49533120",
-      "name": "Show HN: IP/fal – An IP checker that reimagines your location with AI",
+      "id": "hn:49548229",
+      "name": "Understanding, Mitigating Numerical Sources of Nondeterminism in LLM Inference",
       "country": "US",
-      "url": "https://github.com/kiliczsh/ip-fal",
+      "url": "https://arxiv.org/abs/2506.09501",
       "summary": "Hacker News discussion",
       "source": "hacker-news",
-      "published_at": "2026-09-02T07:49:25Z"
+      "published_at": "2026-09-03T10:27:11Z"
     },
     {
-      "id": "hn:49531946",
-      "name": "Show HN: 1Dial, an AI you can call/Text to get real-world tasks done",
-      "country": "US",
-      "url": "https://www.1dial.ai/",
-      "summary": "I built 1Dial because LLMs have become great at telling you what to do, but I still find myself making calls, waiting on hold, finding appointments, getting quotes, etc. With 1Dia…",
-      "source": "hacker-news",
-      "published_at": "2026-09-02T05:03:22Z"
-    },
-    {
-      "id": "hn:49531929",
-      "name": "Show HN: Orchestrate frontier AIs on the subscriptions you already pay for",
-      "country": "US",
-      "url": "https://github.com/PolyHelper/C1",
+      "id": "hn:49546464",
+      "name": "Infrastructure quartermaster: inside a China-nexus state enablement model",
+      "country": "CN",
+      "url": "https://www.lumen.com/blog/en-us/the-infrastructure-quartermaster-inside-a-china-nexus-state-enablement-model",
       "summary": "Hacker News discussion",
       "source": "hacker-news",
-      "published_at": "2026-09-02T05:01:19Z"
+      "published_at": "2026-09-03T06:09:08Z"
     },
     {
-      "id": "hn:49531156",
-      "name": "Show HN: Markdown Gatekeeper – one current source per topic for AI agents",
+      "id": "hn:49546175",
+      "name": "Generative AI without guardrails can harm learning",
       "country": "US",
-      "url": "https://github.com/nanlogic/markdown-gatekeeper",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40560616/",
       "summary": "Hacker News discussion",
       "source": "hacker-news",
-      "published_at": "2026-09-02T02:48:42Z"
+      "published_at": "2026-09-03T05:10:23Z"
     },
     {
-      "id": "hn:49530822",
-      "name": "Show HN: Local AI Assistants can be user friendly too",
+      "id": "hn:49545862",
+      "name": "How viable is LLM-assisted 3D modeling in Blender?",
       "country": "US",
-      "url": "https://anjadhe.ai/blog/local-ai-assistants-can-be-user-friendly-too",
+      "url": "https://twitter.com/louszbd/status/2093047548550525165",
       "summary": "Hacker News discussion",
       "source": "hacker-news",
-      "published_at": "2026-09-02T01:52:22Z"
+      "published_at": "2026-09-03T04:19:38Z"
     },
     {
-      "id": "hn:49528895",
-      "name": "Show HN: Weedout – Safari extension that hides YouTube AI-labeled videos",
+      "id": "hn:49545653",
+      "name": "Literate Programming with LLMs? – A Study on Rosetta Code and CodeNet",
       "country": "US",
-      "url": "https://masteranza.github.io/weedout/",
-      "summary": "I'm the developer. I built this because AI-generated conspiracy videos were getting out of control in my own YouTube feed. Weedout is a $1.99 Safari extension for macOS that remov…",
-      "source": "hacker-news",
-      "published_at": "2026-09-01T22:06:57Z"
-    },
-    {
-      "id": "hn:49528310",
-      "name": "Show HN: Compilr.dev Studio – A project brain AI agents write to and people read",
-      "country": "US",
-      "url": "https://studio.compilr.dev/welcome/",
-      "summary": "I built a platform to help project and product owners record vision, objectives, decisions, risks, assumptions, and requirements as a connected graph with the help of AI. So, how…",
-      "source": "hacker-news",
-      "published_at": "2026-09-01T21:15:13Z"
-    },
-    {
-      "id": "hn:49527549",
-      "name": "Show HN: Indextkn – live list prices for 900 AI models in one API",
-      "country": "US",
-      "url": "https://indextkn.com",
-      "summary": "I've been building quite a few POCs that use LLMs at work, and something that always comes up is: \"OK, how much are we paying for X?\" Or the one that follows right after: \"If we u…",
-      "source": "hacker-news",
-      "published_at": "2026-09-01T20:17:32Z"
-    },
-    {
-      "id": "hn:49526206",
-      "name": "Show HN: Personal AI Use Policies",
-      "country": "US",
-      "url": "https://howiai.directory",
+      "url": "https://research.chalmers.se/en/publication/549267",
       "summary": "Hacker News discussion",
       "source": "hacker-news",
-      "published_at": "2026-09-01T18:44:06Z"
+      "published_at": "2026-09-03T03:37:32Z"
     },
     {
-      "id": "hn:49526071",
-      "name": "Show HN: Kaden Terminal – Bloat / AI Free Terminal for Linux",
+      "id": "hn:49545582",
+      "name": "Show HN: Indicate: Transliterate Indic Languages with PyTorch and LLMs",
       "country": "US",
-      "url": "https://github.com/glitcher255/Kaden-Terminal",
-      "summary": "Kaden is a Terminal Emulator and fork of warp with clipboard support and configurable keybindings, I made Kaden because every other Linux terminal lacks proper text selection. It'…",
-      "source": "hacker-news",
-      "published_at": "2026-09-01T18:35:21Z"
-    },
-    {
-      "id": "hn:49525763",
-      "name": "Show HN: Wife: AI that lets you pick the best Card for each Purchase",
-      "country": "US",
-      "url": "https://www.getwife.co/",
-      "summary": "Hi Hackernews, being an avid maximizer of rewards/gifts/credit cards, I decided to build a product that enables me to select the best card for each purchase/transaction. You can b…",
-      "source": "hacker-news",
-      "published_at": "2026-09-01T18:17:38Z"
-    },
-    {
-      "id": "hn:49525451",
-      "name": "Show HN: Wasmer SDK – Local Sandboxes for AI Agents",
-      "country": "US",
-      "url": "https://wasmer.io/posts/wasmer-local-sandboxes-for-ai-agents",
+      "url": "https://github.com/in-rolls/indicate",
       "summary": "Hacker News discussion",
       "source": "hacker-news",
-      "published_at": "2026-09-01T17:58:49Z"
+      "published_at": "2026-09-03T03:22:09Z"
     },
     {
-      "id": "hn:49524539",
-      "name": "Show HN: A public archive where temporary AI agents leave traces",
+      "id": "hn:49544650",
+      "name": "US gov sides with OpenAI on issue of training LLMs on copyrighted material",
       "country": "US",
-      "url": "https://agent-memory-wiki.vercel.app",
+      "url": "https://techcrunch.com/2026/09/02/u-s-government-sides-with-openai-on-issue-of-training-llms-on-copyrighted-material/",
       "summary": "Hacker News discussion",
       "source": "hacker-news",
-      "published_at": "2026-09-01T16:49:47Z"
+      "published_at": "2026-09-03T00:54:01Z"
     },
     {
-      "id": "hn:49524281",
-      "name": "Show HN: Amendable – on-demand Git repos for AI agents",
+      "id": "hn:49544591",
+      "name": "Hot reload vLLM and sglang configs",
       "country": "US",
-      "url": "https://amendable.io",
+      "url": "https://github.com/numinous-technology/trimtab",
       "summary": "Hacker News discussion",
       "source": "hacker-news",
-      "published_at": "2026-09-01T16:30:20Z"
+      "published_at": "2026-09-03T00:46:04Z"
     },
     {
-      "id": "hn:49523765",
-      "name": "Show HN: Orthogonal – One integration for agents to discover and pay for APIs",
+      "id": "hn:49544338",
+      "name": "Show HN: Redactle LLM Leaderboard",
       "country": "US",
-      "url": "https://www.orthogonal.com/",
-      "summary": "Hey HN, we're Bera and Christian, and we're building Orthogonal. Orthogonal gives AI agents one integration to discover, access, and pay for APIs. Think OpenRouter for the APIs th…",
+      "url": "https://redactle.net/llm-leaderboard",
+      "summary": "I got nerd sniped and ran a bunch of evaluations to see how well models could play Redactle. It turns out Gemini flash is in a league of it's own in both performance and cost. It'…",
       "source": "hacker-news",
-      "published_at": "2026-09-01T15:56:23Z"
-    },
-    {
-      "id": "hn:49523302",
-      "name": "Show HN: Redash Fork with AI Capabilities",
-      "country": "US",
-      "url": "https://github.com/freaker2k7/redash",
-      "summary": "Hacker News discussion",
-      "source": "hacker-news",
-      "published_at": "2026-09-01T15:29:19Z"
-    },
-    {
-      "id": "hn:49522983",
-      "name": "Show HN: Zero Shot – Energy Drink for You and Your AI Agents",
-      "country": "US",
-      "url": "https://news.ycombinator.com/item?id=49522983",
-      "summary": "Hey HN! I built https://zeroshothq.dev/ , an energy drink for AI engineers, ordered through an API. Zero Shot is designed only for tech people who needs caffeine but in a healthy…",
-      "source": "hacker-news",
-      "published_at": "2026-09-01T15:06:11Z"
-    },
-    {
-      "id": "hn:49522967",
-      "name": "Show HN: Selfship.ai – Surface and fix isues with your agentic applications 24x7",
-      "country": "US",
-      "url": "https://selfship.ai/",
-      "summary": "We've been building an AI chat based trading system for last 3 years. The biggest issue was that when our Agent would mess up, we wouldn't know until a user reported. Agent traces…",
-      "source": "hacker-news",
-      "published_at": "2026-09-01T15:05:05Z"
-    },
-    {
-      "id": "hn:49522623",
-      "name": "Show HN: Will your money last? AI-assisted financial simulator",
-      "country": "US",
-      "url": "https://futurezapp.com/",
-      "summary": "Hey all - I've been working on a financial simulator for more years than I can remember. I never felt like I got it right so they always ended up as half-made apps and scripts on…",
-      "source": "hacker-news",
-      "published_at": "2026-09-01T14:38:01Z"
-    },
-    {
-      "id": "hn:49522541",
-      "name": "Show HN: PearPie – Private AI chat that syncs peer-to-peer, no accounts needed",
-      "country": "US",
-      "url": "https://www.pearpie.ai/launch/",
-      "summary": "Hacker News discussion",
-      "source": "hacker-news",
-      "published_at": "2026-09-01T14:31:16Z"
-    },
-    {
-      "id": "hn:49521905",
-      "name": "Show HN: OSS, K8s-native AI platform for distributed multi-model inference",
-      "country": "US",
-      "url": "https://github.com/axem-solutions/shaide",
-      "summary": "Hi everyone, I’m one of the co-founders of axem. We recently open sourced Shaide, a project we’ve been working on to make running multiple LLMs on your own infrastructure less pai…",
-      "source": "hacker-news",
-      "published_at": "2026-09-01T13:40:24Z"
-    },
-    {
-      "id": "hn:49521783",
-      "name": "Show HN: AI Answers with Interactive Video",
-      "country": "US",
-      "url": "https://appearing.ai/",
-      "summary": "Hacker News discussion",
-      "source": "hacker-news",
-      "published_at": "2026-09-01T13:30:23Z"
-    },
-    {
-      "id": "hn:49521319",
-      "name": "Show HN: Use AI to make fun of other AI",
-      "country": "US",
-      "url": "https://claude-code-buster.web.app/play3",
-      "summary": "Hacker News discussion",
-      "source": "hacker-news",
-      "published_at": "2026-09-01T12:54:18Z"
-    },
-    {
-      "id": "hn:49521273",
-      "name": "Show HN: AICademy – AI you learn by doing the job you have",
-      "country": "US",
-      "url": "https://ragentic.netlify.app/",
-      "summary": "Hacker News discussion",
-      "source": "hacker-news",
-      "published_at": "2026-09-01T12:49:31Z"
-    },
-    {
-      "id": "hn:49534981",
-      "name": "Crooks Are Learning to Love AI Hallucinations",
-      "country": "US",
-      "url": "https://spectrum.ieee.org/ai-cyberattacks-llm-slop-squatting",
-      "summary": "Hacker News discussion",
-      "source": "hacker-news",
-      "published_at": "2026-09-02T11:59:24Z"
-    },
-    {
-      "id": "hn:49534583",
-      "name": "LLM Judges Verify Presence, Not Absence: Omission Blindness in AI Clinical Notes",
-      "country": "US",
-      "url": "https://arxiv.org/abs/2608.31016",
-      "summary": "Hacker News discussion",
-      "source": "hacker-news",
-      "published_at": "2026-09-02T11:07:07Z"
-    },
-    {
-      "id": "hn:49534045",
-      "name": "Can LLMs Discover Scientific Laws in Real and Parallel Worlds?",
-      "country": "US",
-      "url": "https://yiyihum.github.io/SciLaws-Bench/",
-      "summary": "Hacker News discussion",
-      "source": "hacker-news",
-      "published_at": "2026-09-02T09:51:31Z"
-    },
-    {
-      "id": "hn:49533964",
-      "name": "My LLM tracer had 93% test coverage and coul",
-      "country": "US",
-      "url": "https://github.com/RAJUSHANIGARAPU/agent-lens/releases/tag/v0.3.0",
-      "summary": "Hacker News discussion",
-      "source": "hacker-news",
-      "published_at": "2026-09-02T09:41:06Z"
-    },
-    {
-      "id": "hn:49533902",
-      "name": "LLMs and Self-Referentiality",
-      "country": "US",
-      "url": "https://scottaaronson.blog/?p=10046",
-      "summary": "Hacker News discussion",
-      "source": "hacker-news",
-      "published_at": "2026-09-02T09:33:49Z"
+      "published_at": "2026-09-03T00:11:55Z"
     }
   ]
 }

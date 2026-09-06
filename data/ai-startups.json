@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-05T11:27:57Z",
+  "updated_at": "2026-09-06T11:49:06Z",
   "stats": {
     "total": 131,
     "cn": 21,
@@ -925,13 +925,37 @@
       "source_url": "https://en.wikipedia.org/wiki/Xai"
     },
     {
+      "id": 35850,
+      "name": "Dreamscale Labs",
+      "country": "US",
+      "website": "https://dreamscalelabs.com",
+      "one_liner": "Running robot brains in the cloud",
+      "tags": [
+        "Artificial Intelligence",
+        "Robotics",
+        "Infrastructure"
+      ],
+      "products": [
+        {
+          "name": "Dreamscale Labs",
+          "note": "Running robot brains in the cloud"
+        }
+      ],
+      "batch": "Fall 2026",
+      "status": "Active",
+      "source": "yc",
+      "source_url": "https://www.ycombinator.com/companies/dreamscale-labs",
+      "launched_at": 1788577910
+    },
+    {
       "id": 35265,
       "name": "Hopper",
       "country": "US",
       "website": "https://withhopper.com",
       "one_liner": "Fast inference for voice",
       "tags": [
-        "Artificial Intelligence"
+        "Infrastructure",
+        "AI"
       ],
       "products": [
         {
@@ -1374,7 +1398,7 @@
       "name": "Evergrove",
       "country": "US",
       "website": "https://www.evergrovelabs.com/",
-      "one_liner": "Voice agents that accelerate care coordination in workers' comp",
+      "one_liner": "Interoperability for all of US healthcare, staring with work comp",
       "tags": [
         "Healthcare",
         "Insurance",
@@ -1383,7 +1407,7 @@
       "products": [
         {
           "name": "Evergrove",
-          "note": "Voice agents that accelerate care coordination in workers' comp"
+          "note": "Interoperability for all of US healthcare, staring with work comp"
         }
       ],
       "batch": "Summer 2026",
@@ -1635,7 +1659,7 @@
       "name": "Moving Atoms",
       "country": "US",
       "website": "https://movingatoms.ai/",
-      "one_liner": "Solving the Data Problem in Robotics, #1 on Physics-IQ",
+      "one_liner": "World Models for training and evaluating robots",
       "tags": [
         "Hard Tech",
         "Robotics",
@@ -1646,7 +1670,7 @@
       "products": [
         {
           "name": "Moving Atoms",
-          "note": "Solving the Data Problem in Robotics, #1 on Physics-IQ"
+          "note": "World Models for training and evaluating robots"
         }
       ],
       "batch": "Summer 2026",
@@ -1888,7 +1912,7 @@
       "name": "Hebbian Robotics",
       "country": "US",
       "website": "https://hebbianrobotics.com/",
-      "one_liner": "Open source SDK for building quality control pipelines for Physical AI",
+      "one_liner": "APIs for robotics data teams to verify data quality for model training",
       "tags": [
         "Artificial Intelligence",
         "Robotics",
@@ -1899,7 +1923,7 @@
       "products": [
         {
           "name": "Hebbian Robotics",
-          "note": "Open source SDK for building quality control pipelines for Physical AI"
+          "note": "APIs for robotics data teams to verify data quality for model training"
         }
       ],
       "batch": "Summer 2026",
@@ -1915,9 +1939,9 @@
       "website": "https://www.getqlo.com/",
       "one_liner": "Legora for commercial insurance carriers",
       "tags": [
+        "Artificial Intelligence",
         "Insurance",
-        "Enterprise Software",
-        "AI"
+        "Enterprise Software"
       ],
       "products": [
         {
@@ -2503,15 +2527,15 @@
       "name": "Dock",
       "country": "US",
       "website": "https://trydock.ai",
-      "one_liner": "Multiplayer workspace for AI teammates and humans",
+      "one_liner": "Multiplayer workspace for agents and humans",
       "tags": [
-        "Artificial Intelligence",
-        "B2B"
+        "B2B",
+        "AI"
       ],
       "products": [
         {
           "name": "Dock",
-          "note": "Multiplayer workspace for AI teammates and humans"
+          "note": "Multiplayer workspace for agents and humans"
         }
       ],
       "batch": "Summer 2026",
@@ -2621,7 +2645,7 @@
       "name": "Traceforce",
       "country": "US",
       "website": "https://www.traceforce.ai",
-      "one_liner": "Securing AI native apps directly on devices",
+      "one_liner": "CrowdStrike for AI Agents",
       "tags": [
         "Artificial Intelligence",
         "SaaS",
@@ -2632,7 +2656,7 @@
       "products": [
         {
           "name": "Traceforce",
-          "note": "Securing AI native apps directly on devices"
+          "note": "CrowdStrike for AI Agents"
         }
       ],
       "batch": "Summer 2026",
@@ -2671,7 +2695,7 @@
       "name": "Waddle Labs",
       "country": "US",
       "website": "https://www.waddlelabs.ai/",
-      "one_liner": "Agents for robotics control.",
+      "one_liner": "LLMs that control robots",
       "tags": [
         "Developer Tools",
         "Generative AI",
@@ -2681,7 +2705,7 @@
       "products": [
         {
           "name": "Waddle Labs",
-          "note": "Agents for robotics control."
+          "note": "LLMs that control robots"
         }
       ],
       "batch": "Summer 2026",
@@ -2769,15 +2793,15 @@
       "name": "Proprio Robotics",
       "country": "US",
       "website": "https://www.propriorobotics.com/",
-      "one_liner": "Building autonomous data centers",
+      "one_liner": "Robots to maintain and assemble data centers",
       "tags": [
-        "Artificial Intelligence",
-        "Robotics"
+        "Robotics",
+        "AI"
       ],
       "products": [
         {
           "name": "Proprio Robotics",
-          "note": "Building autonomous data centers"
+          "note": "Robots to maintain and assemble data centers"
         }
       ],
       "batch": "Summer 2026",
@@ -3021,31 +3045,72 @@
       "source": "yc",
       "source_url": "https://www.ycombinator.com/companies/daqstra",
       "launched_at": 1784276991
-    },
-    {
-      "id": 33045,
-      "name": "Axelrod",
-      "country": "US",
-      "website": "https://axelrod.live/",
-      "one_liner": "Boutique Hotels that run themselves",
-      "tags": [
-        "Artificial Intelligence",
-        "Travel"
-      ],
-      "products": [
-        {
-          "name": "Axelrod",
-          "note": "Boutique Hotels that run themselves"
-        }
-      ],
-      "batch": "Summer 2026",
-      "status": "Active",
-      "source": "yc",
-      "source_url": "https://www.ycombinator.com/companies/axelrod",
-      "launched_at": 1784236014
     }
   ],
   "projects": [
+    {
+      "id": "hn:49585201",
+      "name": "Show HN: Wayfinder – A reference implementation for evaluating AI applications",
+      "country": "US",
+      "url": "https://github.com/DivakarUngatla/wayfinder",
+      "summary": "Testing is critical to software applications — first to make sure they reliably serve the purpose they were built for, and then to make sure they stay that way as they grow, evolv…",
+      "source": "hacker-news",
+      "published_at": "2026-09-06T10:45:53Z"
+    },
+    {
+      "id": "hn:49583994",
+      "name": "Show HN: I built a small arena where AI write robot and then fight each other",
+      "country": "US",
+      "url": "https://github.com/nigrosimone/llms-robot-arena",
+      "summary": "Hacker News discussion",
+      "source": "hacker-news",
+      "published_at": "2026-09-06T07:01:28Z"
+    },
+    {
+      "id": "hn:49580685",
+      "name": "Show HN: I replaced my portfolio with an AI that knows me",
+      "country": "US",
+      "url": "https://xlogic.sh/",
+      "summary": "I wanted to do something \"new\". I'm not 100% sure if this is really new since I don't really check out other people their portfolio's. It's been on my \"to do\" for a long time to r…",
+      "source": "hacker-news",
+      "published_at": "2026-09-05T21:05:21Z"
+    },
+    {
+      "id": "hn:49580654",
+      "name": "Show HN: Phntm-ONE: I built a local AI desk assistant",
+      "country": "US",
+      "url": "https://www.phntmcore.com/",
+      "summary": "I've spent the past several months building something I call PHNTM-One. And I am really curious what HN thinks of the idea and the product I've built. The basic concept is an AI a…",
+      "source": "hacker-news",
+      "published_at": "2026-09-05T21:03:22Z"
+    },
+    {
+      "id": "hn:49579835",
+      "name": "Show HN: ChatPanel Now Available on Firefox",
+      "country": "US",
+      "url": "https://chatpanel.net/",
+      "summary": "Privacy first AI Agent that integrates with any model provider, any CLI Agent like Codex, Claude and webllm - now available on Firefox, also available on chrome and edge. The best…",
+      "source": "hacker-news",
+      "published_at": "2026-09-05T19:30:01Z"
+    },
+    {
+      "id": "hn:49577267",
+      "name": "Show HN: Screenshotify – Rename Screenshots with AI",
+      "country": "US",
+      "url": "https://github.com/shaqkao/screenshotify",
+      "summary": "Your screenshots folder, but the filenames make sense.",
+      "source": "hacker-news",
+      "published_at": "2026-09-05T15:06:31Z"
+    },
+    {
+      "id": "hn:49575532",
+      "name": "Show HN: P(doom) – AI safety parody of DOOM 64",
+      "country": "US",
+      "url": "https://p-doom.transitivebullsh.it",
+      "summary": "I had astra build a DOOM 64 clone where you play as elizier fighting hordes of misaligned AI demons • the goal is to reach the shutdown button • it's actually really hard to beat…",
+      "source": "hacker-news",
+      "published_at": "2026-09-05T11:28:18Z"
+    },
     {
       "id": "hn:49575375",
       "name": "Show HN: I ate diet catering for a year and gained 5kg, so I built this",
@@ -3209,166 +3274,103 @@
       "published_at": "2026-09-04T14:16:01Z"
     },
     {
-      "id": "hn:49564980",
-      "name": "Show HN: Audioreality.ai – email to private daily podcast summary show",
+      "id": "hn:49584503",
+      "name": "GLM-5.2 RL weight transfer in 4 seconds using NIXL and ModelExpress",
       "country": "US",
-      "url": "https://www.audioreality.ai",
-      "summary": "Hey all, TLDR: When you sign up you get an email alias @audioreality.ai that you can use to sign up for newsletters, have agents send output to, etc. Once a day you get a private…",
-      "source": "hacker-news",
-      "published_at": "2026-09-04T14:15:33Z"
-    },
-    {
-      "id": "hn:49564974",
-      "name": "Show HN: Sentrint, Ship AI features without losing sleep",
-      "country": "US",
-      "url": "https://sentrint.com/",
+      "url": "https://www.primeintellect.ai/blog/nixl-modelexpress-weight-transfer",
       "summary": "Hacker News discussion",
       "source": "hacker-news",
-      "published_at": "2026-09-04T14:15:19Z"
+      "published_at": "2026-09-06T08:44:54Z"
     },
     {
-      "id": "hn:49564582",
-      "name": "Show HN: Kovavue – a rented Linux box where your AI agent works like a human",
+      "id": "hn:49584321",
+      "name": "How to evaluate LLMs before production",
       "country": "US",
-      "url": "https://kovavue.kovanex.dev",
+      "url": "https://github.blog/ai-and-ml/llms/how-to-evaluate-llms-before-production/",
       "summary": "Hacker News discussion",
       "source": "hacker-news",
-      "published_at": "2026-09-04T13:45:40Z"
+      "published_at": "2026-09-06T08:07:41Z"
     },
     {
-      "id": "hn:49564317",
-      "name": "Show HN: BullSniff – Sniff out bullshit AI sites",
+      "id": "hn:49584160",
+      "name": "Writing Docs in LLMese",
       "country": "US",
-      "url": "https://bullsniff.com",
+      "url": "https://passo.uno/write-docs-llms-language/",
       "summary": "Hacker News discussion",
       "source": "hacker-news",
-      "published_at": "2026-09-04T13:26:54Z"
+      "published_at": "2026-09-06T07:40:41Z"
     },
     {
-      "id": "hn:49563913",
-      "name": "Show HN: OpenHelper AI – The Free and Open Source AI Chatbot",
+      "id": "hn:49584144",
+      "name": "AI Programming: A Layered Model",
       "country": "US",
-      "url": "https://techambient.github.io/HybridAI/",
+      "url": "https://lemire.me/blog/2026/09/05/ai-programming-a-layered-model/",
       "summary": "Hacker News discussion",
       "source": "hacker-news",
-      "published_at": "2026-09-04T12:54:35Z"
+      "published_at": "2026-09-06T07:37:37Z"
     },
     {
-      "id": "hn:49563459",
-      "name": "Show HN: MRDown – a Mac Markdown app that diffs what your AI just rewrote",
+      "id": "hn:49584057",
+      "name": "GPT-6 Astra Plays Portal",
       "country": "US",
-      "url": "https://github.com/MR-TABATA/MRDown",
+      "url": "https://www.youtube.com/watch?v=g5u2y0BwRJ0",
       "summary": "Hacker News discussion",
       "source": "hacker-news",
-      "published_at": "2026-09-04T12:05:34Z"
+      "published_at": "2026-09-06T07:15:32Z"
     },
     {
-      "id": "hn:49563390",
-      "name": "Show HN: What if AI did the prompting – and humans did the thinking?",
+      "id": "hn:49583720",
+      "name": "Revealing a Hidden Class of Task-in-Prompt Adversarial Attacks on LLMs",
       "country": "US",
-      "url": "https://www.antiagent.site",
-      "summary": "The agent asks you questions until you have clarity on what to do. Experimenting with this idea through AntiAgent. I'd love Hacker News to challenge this idea.",
-      "source": "hacker-news",
-      "published_at": "2026-09-04T11:59:32Z"
-    },
-    {
-      "id": "hn:49562701",
-      "name": "Show HN: viaSocket – AI-built workflows, and your apps as an MCP server",
-      "country": "US",
-      "url": "https://viasocket.com",
+      "url": "https://aclanthology.org/2025.acl-long.334/",
       "summary": "Hacker News discussion",
       "source": "hacker-news",
-      "published_at": "2026-09-04T10:23:51Z"
+      "published_at": "2026-09-06T05:53:36Z"
     },
     {
-      "id": "hn:49562219",
-      "name": "Show HN: TERMy – A fast terminal assistant that does not use LLMs",
+      "id": "hn:49583457",
+      "name": "Using Blender with coding agents on macOS",
       "country": "US",
-      "url": "https://github.com/gioblu/NPC-Forge/blob/main/docs/development.md",
-      "summary": "I love research and development, you may have heard of me because of PJON (Padded Jittering Operative Network). It is a network protocol I started developing in 2010, which was re…",
-      "source": "hacker-news",
-      "published_at": "2026-09-04T09:03:00Z"
-    },
-    {
-      "id": "hn:49562099",
-      "name": "Show HN: Videm – An AI image generator with 3 free daily images",
-      "country": "US",
-      "url": "https://videm.ai/",
+      "url": "https://til.simonwillison.net/llms/blender-coding-agents-macos",
       "summary": "Hacker News discussion",
       "source": "hacker-news",
-      "published_at": "2026-09-04T08:41:45Z"
+      "published_at": "2026-09-06T04:56:40Z"
     },
     {
-      "id": "hn:49561903",
-      "name": "Show HN: Aurict – An open-source Terminal AI",
+      "id": "hn:49583167",
+      "name": "LLM-as-a-Verifier",
       "country": "US",
-      "url": "https://github.com/aurict/aurict",
+      "url": "https://github.com/llm-as-a-verifier/llm-as-a-verifier",
       "summary": "Hacker News discussion",
       "source": "hacker-news",
-      "published_at": "2026-09-04T08:08:14Z"
+      "published_at": "2026-09-06T03:52:57Z"
     },
     {
-      "id": "hn:49561198",
-      "name": "Show HN: AI game builder and editor built with Rails and Godot",
+      "id": "hn:49583058",
+      "name": "BLLM / ALLM – before and after LLM",
       "country": "US",
-      "url": "https://app.fusionery.com/",
+      "url": "https://news.ycombinator.com/item?id=49583058",
+      "summary": "Shall we start indicating the time as \"before llm\" and \"after llm\"? I've just talked with someone who wants to break into the industry and i've wrote something like \"i have few co…",
+      "source": "hacker-news",
+      "published_at": "2026-09-06T03:30:00Z"
+    },
+    {
+      "id": "hn:49582850",
+      "name": "Accelerating LLM Inference with Lossless Speculative Decoding Algorithms (2025)",
+      "country": "US",
+      "url": "https://arxiv.org/abs/2502.05202",
       "summary": "Hacker News discussion",
       "source": "hacker-news",
-      "published_at": "2026-09-04T06:29:25Z"
+      "published_at": "2026-09-06T02:51:10Z"
     },
     {
-      "id": "hn:49574887",
-      "name": "Toolcall-doctor – Shrink broken LLM tool-call reproducers",
+      "id": "hn:49581115",
+      "name": "An LLM runtime that boots from USB",
       "country": "US",
-      "url": "https://github.com/aldi949/toolcall-doctor",
+      "url": "https://nightrun.io/",
       "summary": "Hacker News discussion",
       "source": "hacker-news",
-      "published_at": "2026-09-05T09:46:47Z"
-    },
-    {
-      "id": "hn:49574780",
-      "name": "Desktop AI for ops is still subsidized",
-      "country": "US",
-      "url": "https://news.ycombinator.com/item?id=49574780",
-      "summary": "I'd like to share an opinion on the current situation in AI ops, not the coding/tech side. Right now the market has a pretty clear pattern. Big labs like OpenAI, Anthropic and xAI…",
-      "source": "hacker-news",
-      "published_at": "2026-09-05T09:23:39Z"
-    },
-    {
-      "id": "hn:49574719",
-      "name": "On niche subjects, you can control the message of LLMs",
-      "country": "US",
-      "url": "https://multitasked.net/2025/02/23/the-open-web-strikes-back/",
-      "summary": "Hacker News discussion",
-      "source": "hacker-news",
-      "published_at": "2026-09-05T09:08:31Z"
-    },
-    {
-      "id": "hn:49573010",
-      "name": "Aegis – Inline security sidecar and eBPF sandbox for LLM agents",
-      "country": "US",
-      "url": "https://aegiscruc.io",
-      "summary": "Hacker News discussion",
-      "source": "hacker-news",
-      "published_at": "2026-09-05T04:13:09Z"
-    },
-    {
-      "id": "hn:49572713",
-      "name": "Sharing files with ChatGPT when limit exceeded is legal?",
-      "country": "US",
-      "url": "https://news.ycombinator.com/item?id=49572713",
-      "summary": "for dropbox method: but the Dropbox connector cannot extract the binary contents needed to inspect its PE/COM registration details. I would need any practical workflows. possible?…",
-      "source": "hacker-news",
-      "published_at": "2026-09-05T03:05:51Z"
-    },
-    {
-      "id": "hn:49571537",
-      "name": "Show HN: Moadim.io – A scheduler for agents",
-      "country": "US",
-      "url": "https://moadim.io/",
-      "summary": "Why can't we get an agent scheduler that supports all of the following: - git compatible - agent agnostic - 100% open source - os and system-agnostic - multi-runner support - supp…",
-      "source": "hacker-news",
-      "published_at": "2026-09-04T23:50:29Z"
+      "published_at": "2026-09-05T21:59:24Z"
     }
   ]
 }

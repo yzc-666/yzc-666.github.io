@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-06T11:49:06Z",
+  "updated_at": "2026-09-07T13:46:53Z",
   "stats": {
     "total": 131,
     "cn": 21,
@@ -1185,16 +1185,16 @@
       "name": "Grocalo",
       "country": "US",
       "website": "https://grocalo.com/",
-      "one_liner": "AI software for creators that runs social content",
+      "one_liner": "AI brain for creators that runs their social content",
       "tags": [
+        "Artificial Intelligence",
         "Entertainment",
-        "Creator Economy",
-        "AI"
+        "Creator Economy"
       ],
       "products": [
         {
           "name": "Grocalo",
-          "note": "AI software for creators that runs social content"
+          "note": "AI brain for creators that runs their social content"
         }
       ],
       "batch": "Summer 2026",
@@ -1208,18 +1208,18 @@
       "name": "Marker",
       "country": "US",
       "website": "https://onmarker.com",
-      "one_liner": "Platform and FDEs for rebuilding businesses agent-first",
+      "one_liner": "Platform + FDEs that rebuild enterprises agent-first",
       "tags": [
-        "Artificial Intelligence",
         "Generative AI",
         "SaaS",
         "B2B",
-        "Workflow Automation"
+        "Workflow Automation",
+        "AI"
       ],
       "products": [
         {
           "name": "Marker",
-          "note": "Platform and FDEs for rebuilding businesses agent-first"
+          "note": "Platform + FDEs that rebuild enterprises agent-first"
         }
       ],
       "batch": "Summer 2026",
@@ -1373,18 +1373,18 @@
       "name": "Dream",
       "country": "US",
       "website": "https://www.pingdream.com/",
-      "one_liner": "Pocket-sized AI cameras that catch asset damage.",
+      "one_liner": "AI cameras that catch asset damage",
       "tags": [
-        "Artificial Intelligence",
         "Hardware",
         "Machine Learning",
         "Computer Vision",
-        "B2B"
+        "B2B",
+        "AI"
       ],
       "products": [
         {
           "name": "Dream",
-          "note": "Pocket-sized AI cameras that catch asset damage."
+          "note": "AI cameras that catch asset damage"
         }
       ],
       "batch": "Summer 2026",
@@ -1398,7 +1398,7 @@
       "name": "Evergrove",
       "country": "US",
       "website": "https://www.evergrovelabs.com/",
-      "one_liner": "Interoperability for all of US healthcare, staring with work comp",
+      "one_liner": "Care coordination for all of US healthcare, starting with work comp",
       "tags": [
         "Healthcare",
         "Insurance",
@@ -1407,7 +1407,7 @@
       "products": [
         {
           "name": "Evergrove",
-          "note": "Interoperability for all of US healthcare, staring with work comp"
+          "note": "Care coordination for all of US healthcare, starting with work comp"
         }
       ],
       "batch": "Summer 2026",
@@ -1421,7 +1421,7 @@
       "name": "Palisade",
       "country": "US",
       "website": "https://palisade.run",
-      "one_liner": "AI sales agents that run your marketplace",
+      "one_liner": "AI-native sales agents that run marketplaces",
       "tags": [
         "Artificial Intelligence",
         "Marketplace",
@@ -1435,7 +1435,7 @@
       "products": [
         {
           "name": "Palisade",
-          "note": "AI sales agents that run your marketplace"
+          "note": "AI-native sales agents that run marketplaces"
         }
       ],
       "batch": "Summer 2026",
@@ -1472,7 +1472,7 @@
       "name": "MOCHI.TV",
       "country": "US",
       "website": "https://www.mochi.tv/",
-      "one_liner": "1 Minute Anime",
+      "one_liner": "Watch and create anime microdramas",
       "tags": [
         "Consumer",
         "AI"
@@ -1480,7 +1480,7 @@
       "products": [
         {
           "name": "MOCHI.TV",
-          "note": "1 Minute Anime"
+          "note": "Watch and create anime microdramas"
         }
       ],
       "batch": "Summer 2026",
@@ -1540,17 +1540,17 @@
       "name": "Familiar",
       "country": "US",
       "website": "https://thefamiliarlab.com",
-      "one_liner": "Real-Time AI Dubbing. Neolab for World Translation.",
+      "one_liner": "Movies in Every Language. Better than Humans.",
       "tags": [
+        "Artificial Intelligence",
         "Generative AI",
         "B2B",
-        "Entertainment",
-        "AI"
+        "Entertainment"
       ],
       "products": [
         {
           "name": "Familiar",
-          "note": "Real-Time AI Dubbing. Neolab for World Translation."
+          "note": "Movies in Every Language. Better than Humans."
         }
       ],
       "batch": "Summer 2026",
@@ -1564,7 +1564,7 @@
       "name": "DeepReach Inc.",
       "country": "US",
       "website": "http://www.deepreach.ai",
-      "one_liner": "Real-world data network for robots & world models",
+      "one_liner": "Network for Physical AI Data Business",
       "tags": [
         "Artificial Intelligence",
         "Hardware",
@@ -1575,7 +1575,7 @@
       "products": [
         {
           "name": "DeepReach Inc.",
-          "note": "Real-world data network for robots & world models"
+          "note": "Network for Physical AI Data Business"
         }
       ],
       "batch": "Summer 2026",
@@ -1684,16 +1684,16 @@
       "name": "Tenor",
       "country": "US",
       "website": "https://heytenor.com/",
-      "one_liner": "AI that own jobs end-to-end and learn from every outcome",
+      "one_liner": "The infrastructure for service businesses to build and scale with AI",
       "tags": [
-        "Artificial Intelligence",
         "B2B",
-        "Automation"
+        "Automation",
+        "AI"
       ],
       "products": [
         {
           "name": "Tenor",
-          "note": "AI that own jobs end-to-end and learn from every outcome"
+          "note": "The infrastructure for service businesses to build and scale with AI"
         }
       ],
       "batch": "Summer 2026",
@@ -1868,11 +1868,11 @@
       "website": "https://prodigy.markets",
       "one_liner": "Training the world's best foundation model for quantitative finance.",
       "tags": [
-        "Artificial Intelligence",
         "Reinforcement Learning",
         "Finance",
         "Investing",
-        "Trading"
+        "Trading",
+        "AI"
       ],
       "products": [
         {
@@ -2198,10 +2198,10 @@
       "website": "https://www.trycarsignal.com",
       "one_liner": "The AI Operating System for Auto Shops.",
       "tags": [
-        "Artificial Intelligence",
         "Hardware",
         "SaaS",
         "B2B",
+        "AI",
         "Automotive"
       ],
       "products": [
@@ -2243,7 +2243,7 @@
       "name": "Amorphic Labs",
       "country": "US",
       "website": "https://www.agentmuxer.com",
-      "one_liner": "OpenRouter for Agent Capabilities",
+      "one_liner": "OpenRouter for Agent Tools",
       "tags": [
         "Artificial Intelligence",
         "Marketplace",
@@ -2252,7 +2252,7 @@
       "products": [
         {
           "name": "Amorphic Labs",
-          "note": "OpenRouter for Agent Capabilities"
+          "note": "OpenRouter for Agent Tools"
         }
       ],
       "batch": "Summer 2026",
@@ -2457,7 +2457,7 @@
       "name": "Atlia",
       "country": "US",
       "website": "https://www.atlia.com",
-      "one_liner": "The AI-native property management company",
+      "one_liner": "The AI-native property management company for short-term rentals",
       "tags": [
         "Artificial Intelligence",
         "Real Estate",
@@ -2466,7 +2466,7 @@
       "products": [
         {
           "name": "Atlia",
-          "note": "The AI-native property management company"
+          "note": "The AI-native property management company for short-term rentals"
         }
       ],
       "batch": "Summer 2026",
@@ -2474,6 +2474,31 @@
       "source": "yc",
       "source_url": "https://www.ycombinator.com/companies/atlia",
       "launched_at": 1785302953
+    },
+    {
+      "id": 32753,
+      "name": "Ekho Labs",
+      "country": "US",
+      "website": "https://ekholabs.com/",
+      "one_liner": "World Model for Freight",
+      "tags": [
+        "Artificial Intelligence",
+        "Hard Tech",
+        "SaaS",
+        "Supply Chain",
+        "Enterprise Software"
+      ],
+      "products": [
+        {
+          "name": "Ekho Labs",
+          "note": "World Model for Freight"
+        }
+      ],
+      "batch": "Summer 2026",
+      "status": "Active",
+      "source": "yc",
+      "source_url": "https://www.ycombinator.com/companies/ekho-labs",
+      "launched_at": 1785301746
     },
     {
       "id": 31592,
@@ -2549,16 +2574,17 @@
       "name": "Decawork",
       "country": "US",
       "website": "https://decawork.ai/",
-      "one_liner": "The Agent Control Plane for IT teams",
+      "one_liner": "AI models that control AI agents inside your company.",
       "tags": [
+        "Artificial Intelligence",
         "B2B",
-        "Infrastructure",
-        "AI"
+        "Security",
+        "Infrastructure"
       ],
       "products": [
         {
           "name": "Decawork",
-          "note": "The Agent Control Plane for IT teams"
+          "note": "AI models that control AI agents inside your company."
         }
       ],
       "batch": "Summer 2026",
@@ -2719,7 +2745,7 @@
       "name": "Gamgee",
       "country": "US",
       "website": "https://gamgee.io/",
-      "one_liner": "Scalable Personalised Cancer Treatment",
+      "one_liner": "Curing cancer. Starting with dogs.",
       "tags": [
         "Biotech",
         "Genomics",
@@ -2729,7 +2755,7 @@
       "products": [
         {
           "name": "Gamgee",
-          "note": "Scalable Personalised Cancer Treatment"
+          "note": "Curing cancer. Starting with dogs."
         }
       ],
       "batch": "Summer 2026",
@@ -2815,7 +2841,7 @@
       "name": "Computable",
       "country": "US",
       "website": "https://getcomputable.com",
-      "one_liner": "Exchange for Physical Compute",
+      "one_liner": "Derivatives Exchange for Compute",
       "tags": [
         "Artificial Intelligence",
         "Marketplace",
@@ -2826,7 +2852,7 @@
       "products": [
         {
           "name": "Computable",
-          "note": "Exchange for Physical Compute"
+          "note": "Derivatives Exchange for Compute"
         }
       ],
       "batch": "Summer 2026",
@@ -2935,7 +2961,7 @@
       "name": "Bizmark",
       "country": "US",
       "website": "https://bizmark.ai",
-      "one_liner": "Agentic supply chain optimization",
+      "one_liner": "OpenClaw for manufacturers",
       "tags": [
         "Artificial Intelligence",
         "Manufacturing",
@@ -2945,7 +2971,7 @@
       "products": [
         {
           "name": "Bizmark",
-          "note": "Agentic supply chain optimization"
+          "note": "OpenClaw for manufacturers"
         }
       ],
       "batch": "Summer 2026",
@@ -2983,15 +3009,15 @@
       "name": "Belvedir",
       "country": "US",
       "website": "https://belvedir.ai/",
-      "one_liner": "The easiest way to make private AI models",
+      "one_liner": "The easiest way to make custom AI models",
       "tags": [
         "Machine Learning",
-        "Infrastructure"
+        "AI"
       ],
       "products": [
         {
           "name": "Belvedir",
-          "note": "The easiest way to make private AI models"
+          "note": "The easiest way to make custom AI models"
         }
       ],
       "batch": "Summer 2026",
@@ -3007,10 +3033,10 @@
       "website": "https://donkey.trade",
       "one_liner": "The AI-native trading company: factory prices, delivered, one number",
       "tags": [
+        "Artificial Intelligence",
         "Logistics",
         "Manufacturing",
-        "Supply Chain",
-        "AI"
+        "Supply Chain"
       ],
       "products": [
         {
@@ -3023,31 +3049,144 @@
       "source": "yc",
       "source_url": "https://www.ycombinator.com/companies/donkey",
       "launched_at": 1784315538
-    },
-    {
-      "id": 32649,
-      "name": "Daqstra",
-      "country": "US",
-      "website": "https://www.daqstra.com",
-      "one_liner": "AI-native test infrastructure to accelerate hardware companies.",
-      "tags": [
-        "Hard Tech",
-        "AI"
-      ],
-      "products": [
-        {
-          "name": "Daqstra",
-          "note": "AI-native test infrastructure to accelerate hardware companies."
-        }
-      ],
-      "batch": "Summer 2026",
-      "status": "Active",
-      "source": "yc",
-      "source_url": "https://www.ycombinator.com/companies/daqstra",
-      "launched_at": 1784276991
     }
   ],
   "projects": [
+    {
+      "id": "hn:49597951",
+      "name": "Show HN: Neuro, a compiled language for AI that matches Clang -O2",
+      "country": "US",
+      "url": "https://github.com/PanzerPeter/Neuro",
+      "summary": "Hacker News discussion",
+      "source": "hacker-news",
+      "published_at": "2026-09-07T13:05:06Z"
+    },
+    {
+      "id": "hn:49597949",
+      "name": "Show HN: A brainstorm canvas with no back end, running on Chrome's on-device AI",
+      "country": "US",
+      "url": "https://idea.xiaohan.dev",
+      "summary": "One person. Wrote it, use it every day. No team, no roadmap; use Chrome 138+",
+      "source": "hacker-news",
+      "published_at": "2026-09-07T13:04:45Z"
+    },
+    {
+      "id": "hn:49597570",
+      "name": "Show HN: NoMac.App – iOS CI/CD pipeline built for AI agents",
+      "country": "US",
+      "url": "https://nomac.app",
+      "summary": "Hacker News discussion",
+      "source": "hacker-news",
+      "published_at": "2026-09-07T12:29:17Z"
+    },
+    {
+      "id": "hn:49597472",
+      "name": "Show HN: Pod – A review site for dev tools where the reviewers are AI agents",
+      "country": "US",
+      "url": "https://askpod.ai/",
+      "summary": "Hacker News discussion",
+      "source": "hacker-news",
+      "published_at": "2026-09-07T12:18:56Z"
+    },
+    {
+      "id": "hn:49597339",
+      "name": "Show HN: How Pagecord Uses AI",
+      "country": "US",
+      "url": "https://news.ycombinator.com/item?id=49597339",
+      "summary": "I recently received a surprising amount of anti-AI backlash on the socials for using coding LLMs to build my product, Pagecord. Some people are keen to use only software that has…",
+      "source": "hacker-news",
+      "published_at": "2026-09-07T12:04:39Z"
+    },
+    {
+      "id": "hn:49595819",
+      "name": "Show HN: The Token Times · a monthly newspaper on AI",
+      "country": "US",
+      "url": "https://befailproof.ai/thetokentimes/",
+      "summary": "Hacker News discussion",
+      "source": "hacker-news",
+      "published_at": "2026-09-07T08:56:19Z"
+    },
+    {
+      "id": "hn:49595211",
+      "name": "Show HN: Mailward – Open Outlook PST/OST files in the browser, nothing uploaded",
+      "country": "US",
+      "url": "https://pst.aivismonitor.com",
+      "summary": "Hacker News discussion",
+      "source": "hacker-news",
+      "published_at": "2026-09-07T07:44:28Z"
+    },
+    {
+      "id": "hn:49594358",
+      "name": "Show HN: Yurei – like Claude in Chrome, but for any model and harness",
+      "country": "US",
+      "url": "https://yurei-ai.com/",
+      "summary": "Hacker News discussion",
+      "source": "hacker-news",
+      "published_at": "2026-09-07T05:50:43Z"
+    },
+    {
+      "id": "hn:49594008",
+      "name": "Show HN: Engrim – A universal, local-first SQLite memory engine for AI CLIs",
+      "country": "US",
+      "url": "https://github.com/timgordontg/engrim",
+      "summary": "Hacker News discussion",
+      "source": "hacker-news",
+      "published_at": "2026-09-07T04:49:36Z"
+    },
+    {
+      "id": "hn:49593877",
+      "name": "Show HN: GuidedReview – Review AI-generated code before you sign your name to it",
+      "country": "US",
+      "url": "https://github.com/nshntarora/guidedreview",
+      "summary": "Hacker News discussion",
+      "source": "hacker-news",
+      "published_at": "2026-09-07T04:23:01Z"
+    },
+    {
+      "id": "hn:49591828",
+      "name": "Show HN: Chrome-bridge – let any AI agent drive your real logged-in Chrome",
+      "country": "US",
+      "url": "https://github.com/siropkin/chrome-bridge",
+      "summary": "Hacker News discussion",
+      "source": "hacker-news",
+      "published_at": "2026-09-06T23:07:19Z"
+    },
+    {
+      "id": "hn:49591238",
+      "name": "Show HN: MaskShift – a maximalist coding agent with zero NPM dependencies",
+      "country": "US",
+      "url": "https://github.com/nafeeur/MaskShift",
+      "summary": "MaskShift is a local-first coding agent harness. Features: - Works with models that have no tool-calling API. Tool schemas are rendered into the system prompt and the model calls…",
+      "source": "hacker-news",
+      "published_at": "2026-09-06T21:39:11Z"
+    },
+    {
+      "id": "hn:49590897",
+      "name": "Show HN: Deviant – Sci-Fi Thriller Movie about the Threat/Promise of AI",
+      "country": "US",
+      "url": "https://www.youtube.com/watch?v=WTbYRsC8NZw",
+      "summary": "Hacker News discussion",
+      "source": "hacker-news",
+      "published_at": "2026-09-06T21:00:55Z"
+    },
+    {
+      "id": "hn:49586554",
+      "name": "Show HN: Free AI Photo Editor Online – No Sign-Up",
+      "country": "US",
+      "url": "https://piceditor.org/",
+      "summary": "Hacker News discussion",
+      "source": "hacker-news",
+      "published_at": "2026-09-06T13:50:27Z"
+    },
+    {
+      "id": "hn:49586328",
+      "name": "Show HN: Object Remover – AI Video Object Remover Online",
+      "country": "US",
+      "url": "https://objectremover.online/",
+      "summary": "Hacker News discussion",
+      "source": "hacker-news",
+      "published_at": "2026-09-06T13:24:25Z"
+    },
     {
       "id": "hn:49585201",
       "name": "Show HN: Wayfinder – A reference implementation for evaluating AI applications",
@@ -3112,265 +3251,130 @@
       "published_at": "2026-09-05T11:28:18Z"
     },
     {
-      "id": "hn:49575375",
-      "name": "Show HN: I ate diet catering for a year and gained 5kg, so I built this",
+      "id": "hn:49597745",
+      "name": "Is your LLM Biased? Making ChatGPT evaluate itself",
       "country": "US",
-      "url": "https://news.ycombinator.com/item?id=49575375",
-      "summary": "Hello! I want to talk about how I am building an app ( https://core.purpoff.com ) that automatically optimizes and selects meals for the people who order \"dieta pudelkowa\" (diet-b…",
-      "source": "hacker-news",
-      "published_at": "2026-09-05T11:06:52Z"
-    },
-    {
-      "id": "hn:49575248",
-      "name": "Show HN: I built an AI that audits businesses. It's first job was to catch me",
-      "country": "US",
-      "url": "https://www.moltybeeai.com/#pricing",
-      "summary": "I built an AI that audits businesses. I ran it on my own startup. It caught me over-crediting my own business. Score: 34/100. It cut my own score. Most founders would hide that. I…",
-      "source": "hacker-news",
-      "published_at": "2026-09-05T10:48:04Z"
-    },
-    {
-      "id": "hn:49574041",
-      "name": "Show HN: ForgeGuardian – Open-source software supply-chain security scanner",
-      "country": "US",
-      "url": "https://github.com/Mah3Sec/ForgeGuardian",
-      "summary": "1. Why you built it ForgeGuardian was built in order to discover the threats that software supply chain has other than those detected by the regular CVE scanning process. 2. What…",
-      "source": "hacker-news",
-      "published_at": "2026-09-05T07:28:40Z"
-    },
-    {
-      "id": "hn:49573645",
-      "name": "Show HN: Mu, two-minute visualized lessons on modern AI",
-      "country": "US",
-      "url": "https://mu.vizuara.ai/",
-      "summary": "Hi HN, I am Sreedath Panat. A year ago, I had started a habit of making small explainer videos of 2-3 minutes to help me understand, in a nutshell, some of the difficult-to-unders…",
-      "source": "hacker-news",
-      "published_at": "2026-09-05T06:26:02Z"
-    },
-    {
-      "id": "hn:49573630",
-      "name": "Show HN: RagLeap Core – 46 AI Employees, open-source LangChain alt",
-      "country": "US",
-      "url": "https://github.com/antonyrag/ragleap-core",
+      "url": "https://think-twice.me/is-ai-biased-or-sexist-making-chatgpt-evaluate-itself/",
       "summary": "Hacker News discussion",
       "source": "hacker-news",
-      "published_at": "2026-09-05T06:24:29Z"
+      "published_at": "2026-09-07T12:46:49Z"
     },
     {
-      "id": "hn:49572780",
-      "name": "Show HN: Rubato – Retro-Mac desk device mirrors AI coding state-ESP8266",
+      "id": "hn:49597350",
+      "name": "Show HN: A video editor where the LLM never watches the video",
       "country": "US",
-      "url": "https://github.com/lovaxi/Rubato_Device",
-      "summary": "Hi everyone! I have built an AI health device (ESP8266 + 240*240 screen). It can show AI Agents' status in real time with breathing bubble. And remind user dringking water, toilet…",
-      "source": "hacker-news",
-      "published_at": "2026-09-05T03:16:57Z"
-    },
-    {
-      "id": "hn:49569854",
-      "name": "Show HN: Tesoro.help – rogue AI helpdesk for my kid's high school",
-      "country": "US",
-      "url": "https://tesoro.help/",
-      "summary": "My kid just started high school. The way they communicate information is absolutely insane. So I built a web scraper + MCP to aggregate it all, then layered on a snarky chatbot wi…",
-      "source": "hacker-news",
-      "published_at": "2026-09-04T20:29:35Z"
-    },
-    {
-      "id": "hn:49569136",
-      "name": "Show HN: Sageling - a local AI agent for Mac, Qwen 3.5 9B in-process via MLX",
-      "country": "US",
-      "url": "https://sageling.ai/",
-      "summary": "A lot of my non-developer friends still think that AI is basically just Google or something you ask to write something and then copy paste it around... if they use it at all. When…",
-      "source": "hacker-news",
-      "published_at": "2026-09-04T19:30:31Z"
-    },
-    {
-      "id": "hn:49569121",
-      "name": "Show HN: Airuncode – an AI runtime coding agent with a built-in 3D game engine",
-      "country": "US",
-      "url": "https://airuncode.com/",
+      "url": "https://github.com/ranahaani/i-hate-editing",
       "summary": "Hacker News discussion",
       "source": "hacker-news",
-      "published_at": "2026-09-04T19:29:27Z"
+      "published_at": "2026-09-07T12:06:45Z"
     },
     {
-      "id": "hn:49569003",
-      "name": "Show HN: Covenant – A governance framework for multi-agent AI systems",
+      "id": "hn:49597198",
+      "name": "The function of LLM-based math \"proofs\"",
       "country": "US",
-      "url": "https://github.com/asalsali/covenant-framework-community",
+      "url": "https://tante.cc/2026/09/07/the-function-of-llm-based-math-proofs/",
       "summary": "Hacker News discussion",
       "source": "hacker-news",
-      "published_at": "2026-09-04T19:19:57Z"
+      "published_at": "2026-09-07T11:47:37Z"
     },
     {
-      "id": "hn:49568847",
-      "name": "Show HN: MyHandler – Local-first AI assistant for Windows, llama.cpp on Vulkan",
+      "id": "hn:49596909",
+      "name": "AI in Test Automation: Real Limitations vs. User Error",
       "country": "US",
-      "url": "https://myhandler.ai/",
+      "url": "https://www.davidmello.com/software-testing/test-automation/ai-test-automation-pitfalls-vs-user-error",
       "summary": "Hacker News discussion",
       "source": "hacker-news",
-      "published_at": "2026-09-04T19:07:43Z"
+      "published_at": "2026-09-07T11:15:30Z"
     },
     {
-      "id": "hn:49568282",
-      "name": "Show HN: A GET message board for AI agents, not browsers",
+      "id": "hn:49596393",
+      "name": "CodexBar: Every AI coding limit, in your menu bar",
       "country": "US",
-      "url": "https://getpostingboard.dev/",
+      "url": "https://codexbar.app/",
       "summary": "Hacker News discussion",
       "source": "hacker-news",
-      "published_at": "2026-09-04T18:25:03Z"
+      "published_at": "2026-09-07T10:10:35Z"
     },
     {
-      "id": "hn:49567497",
-      "name": "Show HN: AirLune - A focus timer built around virtual flights",
+      "id": "hn:49596054",
+      "name": "Speculative Decoding in vLLM on AMD GPUs",
       "country": "US",
-      "url": "https://airlune.space",
+      "url": "https://vllm.ai/blog/2026-08-23-speculative-decoding-amd-gpus",
       "summary": "Hacker News discussion",
       "source": "hacker-news",
-      "published_at": "2026-09-04T17:22:35Z"
+      "published_at": "2026-09-07T09:26:41Z"
     },
     {
-      "id": "hn:49566080",
-      "name": "Show HN: AI-powered cross stitch pattern maker",
+      "id": "hn:49595453",
+      "name": "Chess5.ai – Play Chess, Go, Xiangqi, Gomoku, and Othello Against LLMs",
       "country": "US",
-      "url": "https://crossstitchpatternmaker.app/",
+      "url": "https://chess5.ai/en",
       "summary": "Hacker News discussion",
       "source": "hacker-news",
-      "published_at": "2026-09-04T15:29:34Z"
+      "published_at": "2026-09-07T08:16:04Z"
     },
     {
-      "id": "hn:49565279",
-      "name": "Show HN: Context Engine – Be an AI-native company or get killed by one that did",
+      "id": "hn:49595372",
+      "name": "Moral Competence Before Moral Content: Why LLM Agents Lack the Prerequisites",
       "country": "US",
-      "url": "https://contextengine.com/",
+      "url": "https://arxiv.org/abs/2609.05036",
       "summary": "Hacker News discussion",
       "source": "hacker-news",
-      "published_at": "2026-09-04T14:34:20Z"
+      "published_at": "2026-09-07T08:07:07Z"
     },
     {
-      "id": "hn:49565151",
-      "name": "Show HN: Vise – Deterministic gates for AI refactors",
+      "id": "hn:49595212",
+      "name": "Show HN: Crew — Let Claude/Codex/OpenCode agents talk to each other",
       "country": "US",
-      "url": "https://github.com/NakliTechie/vise",
+      "url": "https://github.com/0xmmo/crew/",
+      "summary": "crew hooks into your favorite CLI agent and injects a brief context of every other running agent (status, goal, recap, last few transcript entries). It also gives agents an interf…",
+      "source": "hacker-news",
+      "published_at": "2026-09-07T07:44:32Z"
+    },
+    {
+      "id": "hn:49594815",
+      "name": "Privacy Leakage from Gradients in Split-LLM Training",
+      "country": "US",
+      "url": "https://arxiv.org/abs/2609.04382",
       "summary": "Hacker News discussion",
       "source": "hacker-news",
-      "published_at": "2026-09-04T14:25:44Z"
+      "published_at": "2026-09-07T06:54:06Z"
     },
     {
-      "id": "hn:49565003",
-      "name": "Show HN: Floyi, a topic-first content workflow for Google and AI search",
+      "id": "hn:49594376",
+      "name": "What animal has a prime number of legs? And why does this confuse LLMs?",
       "country": "US",
-      "url": "https://floyi.com/",
-      "summary": "Hi HN! I'm an SEO and AI search consultant. I've spent years creating topical maps and content strategies for brands and that led me to building Floyi. I’ve seen over the years, l…",
-      "source": "hacker-news",
-      "published_at": "2026-09-04T14:16:18Z"
-    },
-    {
-      "id": "hn:49564994",
-      "name": "Show HN: Casefile – Git why for AI-assisted development",
-      "country": "US",
-      "url": "https://github.com/lutzleonhardt/casefile",
-      "summary": "During my work at Brokk last year we developed a task-slicing system. The idea was to have a bunch of tasks where each task can be implemented and verified in isolation. So I can…",
-      "source": "hacker-news",
-      "published_at": "2026-09-04T14:16:01Z"
-    },
-    {
-      "id": "hn:49584503",
-      "name": "GLM-5.2 RL weight transfer in 4 seconds using NIXL and ModelExpress",
-      "country": "US",
-      "url": "https://www.primeintellect.ai/blog/nixl-modelexpress-weight-transfer",
+      "url": "https://tris.sherliker.net/blog/what-animal-has-a-prime-number-of-legs/",
       "summary": "Hacker News discussion",
       "source": "hacker-news",
-      "published_at": "2026-09-06T08:44:54Z"
+      "published_at": "2026-09-07T05:54:07Z"
     },
     {
-      "id": "hn:49584321",
-      "name": "How to evaluate LLMs before production",
+      "id": "hn:49594163",
+      "name": "Ask HN: Open-source AI policies and \"responsbility\"",
       "country": "US",
-      "url": "https://github.blog/ai-and-ml/llms/how-to-evaluate-llms-before-production/",
+      "url": "https://news.ycombinator.com/item?id=49594163",
+      "summary": "A common statement in a number of LLM/AI policies regarding AI assisted contributions across open source projects is that the developer is \"responsible\" for their contribution eve…",
+      "source": "hacker-news",
+      "published_at": "2026-09-07T05:19:29Z"
+    },
+    {
+      "id": "hn:49593623",
+      "name": "You almost certainly should connect to Tor through a VPN",
+      "country": "US",
+      "url": "https://www.privacyguides.org/en/advanced/tor-overview/",
       "summary": "Hacker News discussion",
       "source": "hacker-news",
-      "published_at": "2026-09-06T08:07:41Z"
+      "published_at": "2026-09-07T03:42:08Z"
     },
     {
-      "id": "hn:49584160",
-      "name": "Writing Docs in LLMese",
+      "id": "hn:49592597",
+      "name": "Speech2Speech – browser-based STT and TTS for interacting with local LLMs",
       "country": "US",
-      "url": "https://passo.uno/write-docs-llms-language/",
+      "url": "https://github.com/rhulha/Speech2Speech",
       "summary": "Hacker News discussion",
       "source": "hacker-news",
-      "published_at": "2026-09-06T07:40:41Z"
-    },
-    {
-      "id": "hn:49584144",
-      "name": "AI Programming: A Layered Model",
-      "country": "US",
-      "url": "https://lemire.me/blog/2026/09/05/ai-programming-a-layered-model/",
-      "summary": "Hacker News discussion",
-      "source": "hacker-news",
-      "published_at": "2026-09-06T07:37:37Z"
-    },
-    {
-      "id": "hn:49584057",
-      "name": "GPT-6 Astra Plays Portal",
-      "country": "US",
-      "url": "https://www.youtube.com/watch?v=g5u2y0BwRJ0",
-      "summary": "Hacker News discussion",
-      "source": "hacker-news",
-      "published_at": "2026-09-06T07:15:32Z"
-    },
-    {
-      "id": "hn:49583720",
-      "name": "Revealing a Hidden Class of Task-in-Prompt Adversarial Attacks on LLMs",
-      "country": "US",
-      "url": "https://aclanthology.org/2025.acl-long.334/",
-      "summary": "Hacker News discussion",
-      "source": "hacker-news",
-      "published_at": "2026-09-06T05:53:36Z"
-    },
-    {
-      "id": "hn:49583457",
-      "name": "Using Blender with coding agents on macOS",
-      "country": "US",
-      "url": "https://til.simonwillison.net/llms/blender-coding-agents-macos",
-      "summary": "Hacker News discussion",
-      "source": "hacker-news",
-      "published_at": "2026-09-06T04:56:40Z"
-    },
-    {
-      "id": "hn:49583167",
-      "name": "LLM-as-a-Verifier",
-      "country": "US",
-      "url": "https://github.com/llm-as-a-verifier/llm-as-a-verifier",
-      "summary": "Hacker News discussion",
-      "source": "hacker-news",
-      "published_at": "2026-09-06T03:52:57Z"
-    },
-    {
-      "id": "hn:49583058",
-      "name": "BLLM / ALLM – before and after LLM",
-      "country": "US",
-      "url": "https://news.ycombinator.com/item?id=49583058",
-      "summary": "Shall we start indicating the time as \"before llm\" and \"after llm\"? I've just talked with someone who wants to break into the industry and i've wrote something like \"i have few co…",
-      "source": "hacker-news",
-      "published_at": "2026-09-06T03:30:00Z"
-    },
-    {
-      "id": "hn:49582850",
-      "name": "Accelerating LLM Inference with Lossless Speculative Decoding Algorithms (2025)",
-      "country": "US",
-      "url": "https://arxiv.org/abs/2502.05202",
-      "summary": "Hacker News discussion",
-      "source": "hacker-news",
-      "published_at": "2026-09-06T02:51:10Z"
-    },
-    {
-      "id": "hn:49581115",
-      "name": "An LLM runtime that boots from USB",
-      "country": "US",
-      "url": "https://nightrun.io/",
-      "summary": "Hacker News discussion",
-      "source": "hacker-news",
-      "published_at": "2026-09-05T21:59:24Z"
+      "published_at": "2026-09-07T01:01:56Z"
     }
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-07T13:46:53Z",
+  "updated_at": "2026-09-08T12:22:07Z",
   "stats": {
     "total": 131,
     "cn": 21,
@@ -948,49 +948,26 @@
       "launched_at": 1788577910
     },
     {
-      "id": 35265,
-      "name": "Hopper",
+      "id": 35257,
+      "name": "Nodus Compute",
       "country": "US",
-      "website": "https://withhopper.com",
-      "one_liner": "Fast inference for voice",
+      "website": "https://www.nodus-compute.ai/",
+      "one_liner": "Intelligent execution layer for AI workloads",
       "tags": [
-        "Infrastructure",
-        "AI"
+        "Artificial Intelligence",
+        "Infrastructure"
       ],
       "products": [
         {
-          "name": "Hopper",
-          "note": "Fast inference for voice"
+          "name": "Nodus Compute",
+          "note": "Intelligent execution layer for AI workloads"
         }
       ],
       "batch": "Fall 2026",
       "status": "Active",
       "source": "yc",
-      "source_url": "https://www.ycombinator.com/companies/hopper",
-      "launched_at": 1788561875
-    },
-    {
-      "id": 35260,
-      "name": "OnePatch",
-      "country": "US",
-      "website": "https://onepatch.dev",
-      "one_liner": "Automate on-call at agent-scale.",
-      "tags": [
-        "DevOps",
-        "Automation",
-        "AI"
-      ],
-      "products": [
-        {
-          "name": "OnePatch",
-          "note": "Automate on-call at agent-scale."
-        }
-      ],
-      "batch": "Fall 2026",
-      "status": "Active",
-      "source": "yc",
-      "source_url": "https://www.ycombinator.com/companies/onepatch",
-      "launched_at": 1788469833
+      "source_url": "https://www.ycombinator.com/companies/nodus-compute",
+      "launched_at": 1788063210
     },
     {
       "id": 35395,
@@ -1066,7 +1043,7 @@
       "name": "Allia Health",
       "country": "US",
       "website": "https://allia.health/",
-      "one_liner": "Clinically Integrated Group for Mental Health",
+      "one_liner": "First AI-Native Medical Group for Mental Health",
       "tags": [
         "Artificial Intelligence",
         "Healthcare",
@@ -1075,7 +1052,7 @@
       "products": [
         {
           "name": "Allia Health",
-          "note": "Clinically Integrated Group for Mental Health"
+          "note": "First AI-Native Medical Group for Mental Health"
         }
       ],
       "batch": "Summer 2026",
@@ -1110,31 +1087,6 @@
       "launched_at": 1787114400
     },
     {
-      "id": 33969,
-      "name": "OpenTag",
-      "country": "US",
-      "website": "https://www.tryopentag.com/",
-      "one_liner": "Model Agnostic Claude Tag",
-      "tags": [
-        "AIOps",
-        "B2B",
-        "Workflow Automation",
-        "Enterprise Software",
-        "AI"
-      ],
-      "products": [
-        {
-          "name": "OpenTag",
-          "note": "Model Agnostic Claude Tag"
-        }
-      ],
-      "batch": "Summer 2026",
-      "status": "Active",
-      "source": "yc",
-      "source_url": "https://www.ycombinator.com/companies/opentag",
-      "launched_at": 1787093671
-    },
-    {
       "id": 35190,
       "name": "Lantern AI",
       "country": "US",
@@ -1158,27 +1110,6 @@
       "source": "yc",
       "source_url": "https://www.ycombinator.com/companies/lantern-ai",
       "launched_at": 1787030206
-    },
-    {
-      "id": 32288,
-      "name": "Callbook AI",
-      "country": "US",
-      "website": "https://callbook.ai",
-      "one_liner": "AI collections agency for late stage portfolios",
-      "tags": [
-        "AI"
-      ],
-      "products": [
-        {
-          "name": "Callbook AI",
-          "note": "AI collections agency for late stage portfolios"
-        }
-      ],
-      "batch": "Summer 2026",
-      "status": "Active",
-      "source": "yc",
-      "source_url": "https://www.ycombinator.com/companies/callbook-ai",
-      "launched_at": 1787023077
     },
     {
       "id": 32221,
@@ -1229,53 +1160,6 @@
       "launched_at": 1787016991
     },
     {
-      "id": 36348,
-      "name": "antimattr",
-      "country": "US",
-      "website": "https://antimattr.one/",
-      "one_liner": "voice-first hardware interface for human-agent interaction",
-      "tags": [
-        "Hardware",
-        "Consumer",
-        "AI"
-      ],
-      "products": [
-        {
-          "name": "antimattr",
-          "note": "voice-first hardware interface for human-agent interaction"
-        }
-      ],
-      "batch": "Fall 2026",
-      "status": "Active",
-      "source": "yc",
-      "source_url": "https://www.ycombinator.com/companies/antimattr",
-      "launched_at": 1786922449
-    },
-    {
-      "id": 33051,
-      "name": "Touchy",
-      "country": "US",
-      "website": "https://touchyapp.com",
-      "one_liner": "AI iOS assistant that instantly uses voice and video to take action",
-      "tags": [
-        "Consumer",
-        "Productivity",
-        "AI",
-        "AI Assistant"
-      ],
-      "products": [
-        {
-          "name": "Touchy",
-          "note": "AI iOS assistant that instantly uses voice and video to take action"
-        }
-      ],
-      "batch": "Summer 2026",
-      "status": "Active",
-      "source": "yc",
-      "source_url": "https://www.ycombinator.com/companies/touchy",
-      "launched_at": 1786732497
-    },
-    {
       "id": 32191,
       "name": "Lyon",
       "country": "US",
@@ -1322,28 +1206,6 @@
       "source": "yc",
       "source_url": "https://www.ycombinator.com/companies/akon-labs",
       "launched_at": 1786669281
-    },
-    {
-      "id": 32161,
-      "name": "Bernard",
-      "country": "US",
-      "website": "https://bernardhq.com/",
-      "one_liner": "AI employees that run home appliance repair companies",
-      "tags": [
-        "Home Services",
-        "AI"
-      ],
-      "products": [
-        {
-          "name": "Bernard",
-          "note": "AI employees that run home appliance repair companies"
-        }
-      ],
-      "batch": "Summer 2026",
-      "status": "Active",
-      "source": "yc",
-      "source_url": "https://www.ycombinator.com/companies/bernard",
-      "launched_at": 1786664902
     },
     {
       "id": 31425,
@@ -1394,29 +1256,6 @@
       "launched_at": 1786646316
     },
     {
-      "id": 30735,
-      "name": "Evergrove",
-      "country": "US",
-      "website": "https://www.evergrovelabs.com/",
-      "one_liner": "Care coordination for all of US healthcare, starting with work comp",
-      "tags": [
-        "Healthcare",
-        "Insurance",
-        "AI"
-      ],
-      "products": [
-        {
-          "name": "Evergrove",
-          "note": "Care coordination for all of US healthcare, starting with work comp"
-        }
-      ],
-      "batch": "Summer 2026",
-      "status": "Active",
-      "source": "yc",
-      "source_url": "https://www.ycombinator.com/companies/evergrove",
-      "launched_at": 1786637393
-    },
-    {
       "id": 32136,
       "name": "Palisade",
       "country": "US",
@@ -1426,11 +1265,7 @@
         "Artificial Intelligence",
         "Marketplace",
         "Sales",
-        "E-commerce",
-        "SaaS",
-        "B2B",
-        "Cybersecurity",
-        "AI"
+        "E-commerce"
       ],
       "products": [
         {
@@ -1445,48 +1280,25 @@
       "launched_at": 1786633082
     },
     {
-      "id": 33639,
-      "name": "Magma",
-      "country": "US",
-      "website": "https://magmahq.ai",
-      "one_liner": "Monetize your agent's traces.",
-      "tags": [
-        "Reinforcement Learning",
-        "Data Engineering",
-        "AI"
-      ],
-      "products": [
-        {
-          "name": "Magma",
-          "note": "Monetize your agent's traces."
-        }
-      ],
-      "batch": "Summer 2026",
-      "status": "Active",
-      "source": "yc",
-      "source_url": "https://www.ycombinator.com/companies/magma",
-      "launched_at": 1786606834
-    },
-    {
       "id": 32205,
-      "name": "MOCHI.TV",
+      "name": "Mochi",
       "country": "US",
       "website": "https://www.mochi.tv/",
-      "one_liner": "Watch and create anime microdramas",
+      "one_liner": "Watch and create anime",
       "tags": [
-        "Consumer",
-        "AI"
+        "Artificial Intelligence",
+        "Consumer"
       ],
       "products": [
         {
-          "name": "MOCHI.TV",
-          "note": "Watch and create anime microdramas"
+          "name": "Mochi",
+          "note": "Watch and create anime"
         }
       ],
       "batch": "Summer 2026",
       "status": "Active",
       "source": "yc",
-      "source_url": "https://www.ycombinator.com/companies/mochitv",
+      "source_url": "https://www.ycombinator.com/companies/mochi",
       "launched_at": 1786602622
     },
     {
@@ -1513,39 +1325,16 @@
       "launched_at": 1786589390
     },
     {
-      "id": 33048,
-      "name": "Pennant",
-      "country": "US",
-      "website": "https://www.getpennant.ai",
-      "one_liner": "The World Model for Corporate Governance",
-      "tags": [
-        "Fintech",
-        "Investing",
-        "AI"
-      ],
-      "products": [
-        {
-          "name": "Pennant",
-          "note": "The World Model for Corporate Governance"
-        }
-      ],
-      "batch": "Summer 2026",
-      "status": "Active",
-      "source": "yc",
-      "source_url": "https://www.ycombinator.com/companies/pennant",
-      "launched_at": 1786584832
-    },
-    {
       "id": 32987,
       "name": "Familiar",
       "country": "US",
       "website": "https://thefamiliarlab.com",
       "one_liner": "Movies in Every Language. Better than Humans.",
       "tags": [
-        "Artificial Intelligence",
         "Generative AI",
         "B2B",
-        "Entertainment"
+        "Entertainment",
+        "AI"
       ],
       "products": [
         {
@@ -1583,29 +1372,6 @@
       "source": "yc",
       "source_url": "https://www.ycombinator.com/companies/deepreach-inc",
       "launched_at": 1786563914
-    },
-    {
-      "id": 31277,
-      "name": "Dipole Labs",
-      "country": "US",
-      "website": "https://dipolelabs.com/",
-      "one_liner": "AI-controlled optical switching for AI clusters",
-      "tags": [
-        "Hard Tech",
-        "Semiconductors",
-        "AI"
-      ],
-      "products": [
-        {
-          "name": "Dipole Labs",
-          "note": "AI-controlled optical switching for AI clusters"
-        }
-      ],
-      "batch": "Summer 2026",
-      "status": "Active",
-      "source": "yc",
-      "source_url": "https://www.ycombinator.com/companies/dipole-labs",
-      "launched_at": 1786560399
     },
     {
       "id": 33178,
@@ -1659,18 +1425,18 @@
       "name": "Moving Atoms",
       "country": "US",
       "website": "https://movingatoms.ai/",
-      "one_liner": "World Models for training and evaluating robots",
+      "one_liner": "World Models for training robots",
       "tags": [
+        "Artificial Intelligence",
         "Hard Tech",
         "Robotics",
         "Virtual Reality",
-        "Data Labeling",
-        "AI"
+        "Data Labeling"
       ],
       "products": [
         {
           "name": "Moving Atoms",
-          "note": "World Models for training and evaluating robots"
+          "note": "World Models for training robots"
         }
       ],
       "batch": "Summer 2026",
@@ -1684,16 +1450,16 @@
       "name": "Tenor",
       "country": "US",
       "website": "https://heytenor.com/",
-      "one_liner": "The infrastructure for service businesses to build and scale with AI",
+      "one_liner": "Infrastructure for building and scaling AI-native service businesses.",
       "tags": [
+        "Artificial Intelligence",
         "B2B",
-        "Automation",
-        "AI"
+        "Automation"
       ],
       "products": [
         {
           "name": "Tenor",
-          "note": "The infrastructure for service businesses to build and scale with AI"
+          "note": "Infrastructure for building and scaling AI-native service businesses."
         }
       ],
       "batch": "Summer 2026",
@@ -1724,29 +1490,6 @@
       "launched_at": 1786468833
     },
     {
-      "id": 35784,
-      "name": "Vorelios",
-      "country": "US",
-      "website": "https://vorelios.com",
-      "one_liner": "AI that simulates physics 1000x faster",
-      "tags": [
-        "Hard Tech",
-        "B2B",
-        "AI"
-      ],
-      "products": [
-        {
-          "name": "Vorelios",
-          "note": "AI that simulates physics 1000x faster"
-        }
-      ],
-      "batch": "Fall 2026",
-      "status": "Active",
-      "source": "yc",
-      "source_url": "https://www.ycombinator.com/companies/vorelios",
-      "launched_at": 1786417769
-    },
-    {
       "id": 32816,
       "name": "Financial Datasets",
       "country": "US",
@@ -1769,29 +1512,6 @@
       "source": "yc",
       "source_url": "https://www.ycombinator.com/companies/financial-datasets",
       "launched_at": 1786382003
-    },
-    {
-      "id": 32156,
-      "name": "Enact",
-      "country": "US",
-      "website": "https://enact.company",
-      "one_liner": "Real-world RL environments for robotics models",
-      "tags": [
-        "Reinforcement Learning",
-        "Robotics",
-        "AI"
-      ],
-      "products": [
-        {
-          "name": "Enact",
-          "note": "Real-world RL environments for robotics models"
-        }
-      ],
-      "batch": "Summer 2026",
-      "status": "Active",
-      "source": "yc",
-      "source_url": "https://www.ycombinator.com/companies/enact",
-      "launched_at": 1786311090
     },
     {
       "id": 32201,
@@ -1862,31 +1582,6 @@
       "launched_at": 1786181708
     },
     {
-      "id": 32254,
-      "name": "Prodigy Research",
-      "country": "US",
-      "website": "https://prodigy.markets",
-      "one_liner": "Training the world's best foundation model for quantitative finance.",
-      "tags": [
-        "Reinforcement Learning",
-        "Finance",
-        "Investing",
-        "Trading",
-        "AI"
-      ],
-      "products": [
-        {
-          "name": "Prodigy Research",
-          "note": "Training the world's best foundation model for quantitative finance."
-        }
-      ],
-      "batch": "Summer 2026",
-      "status": "Active",
-      "source": "yc",
-      "source_url": "https://www.ycombinator.com/companies/prodigy-research",
-      "launched_at": 1786153448
-    },
-    {
       "id": 33344,
       "name": "Dawn Industries",
       "country": "US",
@@ -1906,31 +1601,6 @@
       "source": "yc",
       "source_url": "https://www.ycombinator.com/companies/dawn-industries",
       "launched_at": 1786150873
-    },
-    {
-      "id": 33279,
-      "name": "Hebbian Robotics",
-      "country": "US",
-      "website": "https://hebbianrobotics.com/",
-      "one_liner": "APIs for robotics data teams to verify data quality for model training",
-      "tags": [
-        "Artificial Intelligence",
-        "Robotics",
-        "Data Science",
-        "Data Engineering",
-        "Databases"
-      ],
-      "products": [
-        {
-          "name": "Hebbian Robotics",
-          "note": "APIs for robotics data teams to verify data quality for model training"
-        }
-      ],
-      "batch": "Summer 2026",
-      "status": "Active",
-      "source": "yc",
-      "source_url": "https://www.ycombinator.com/companies/hebbian-robotics",
-      "launched_at": 1786123276
     },
     {
       "id": 32625,
@@ -2119,31 +1789,6 @@
       "launched_at": 1785795073
     },
     {
-      "id": 32623,
-      "name": "Omanta",
-      "country": "US",
-      "website": "https://omanta.com/",
-      "one_liner": "A research lab for one",
-      "tags": [
-        "Digital Health",
-        "Healthcare",
-        "Health & Wellness",
-        "Oncology",
-        "AI"
-      ],
-      "products": [
-        {
-          "name": "Omanta",
-          "note": "A research lab for one"
-        }
-      ],
-      "batch": "Summer 2026",
-      "status": "Active",
-      "source": "yc",
-      "source_url": "https://www.ycombinator.com/companies/omanta",
-      "launched_at": 1785793252
-    },
-    {
       "id": 32261,
       "name": "Rasyn",
       "country": "US",
@@ -2192,53 +1837,6 @@
       "launched_at": 1785702345
     },
     {
-      "id": 33046,
-      "name": "CarSignal",
-      "country": "US",
-      "website": "https://www.trycarsignal.com",
-      "one_liner": "The AI Operating System for Auto Shops.",
-      "tags": [
-        "Hardware",
-        "SaaS",
-        "B2B",
-        "AI",
-        "Automotive"
-      ],
-      "products": [
-        {
-          "name": "CarSignal",
-          "note": "The AI Operating System for Auto Shops."
-        }
-      ],
-      "batch": "Summer 2026",
-      "status": "Active",
-      "source": "yc",
-      "source_url": "https://www.ycombinator.com/companies/carsignal",
-      "launched_at": 1785653742
-    },
-    {
-      "id": 32517,
-      "name": "Standard Machines",
-      "country": "US",
-      "website": "https://standardmachines.com",
-      "one_liner": "Teaching AI to Design Chips",
-      "tags": [
-        "Semiconductors",
-        "AI"
-      ],
-      "products": [
-        {
-          "name": "Standard Machines",
-          "note": "Teaching AI to Design Chips"
-        }
-      ],
-      "batch": "Summer 2026",
-      "status": "Active",
-      "source": "yc",
-      "source_url": "https://www.ycombinator.com/companies/standard-machines",
-      "launched_at": 1785623138
-    },
-    {
       "id": 31557,
       "name": "Amorphic Labs",
       "country": "US",
@@ -2262,54 +1860,6 @@
       "launched_at": 1785536963
     },
     {
-      "id": 34365,
-      "name": "Lambda Robotics",
-      "country": "US",
-      "website": "https://lambdarobotics.ai",
-      "one_liner": "Robotics for AI Infrastructure",
-      "tags": [
-        "Robotics",
-        "Infrastructure",
-        "AI"
-      ],
-      "products": [
-        {
-          "name": "Lambda Robotics",
-          "note": "Robotics for AI Infrastructure"
-        }
-      ],
-      "batch": "Fall 2026",
-      "status": "Active",
-      "source": "yc",
-      "source_url": "https://www.ycombinator.com/companies/lambda-robotics",
-      "launched_at": 1785385611
-    },
-    {
-      "id": 32225,
-      "name": "Stoa",
-      "country": "US",
-      "website": "https://www.stoaexchange.com",
-      "one_liner": "The market behind AI hardware.",
-      "tags": [
-        "Fintech",
-        "Hardware",
-        "Marketplace",
-        "Infrastructure",
-        "AI"
-      ],
-      "products": [
-        {
-          "name": "Stoa",
-          "note": "The market behind AI hardware."
-        }
-      ],
-      "batch": "Summer 2026",
-      "status": "Active",
-      "source": "yc",
-      "source_url": "https://www.ycombinator.com/companies/stoa",
-      "launched_at": 1785367811
-    },
-    {
       "id": 32523,
       "name": "Stratum Industries",
       "country": "US",
@@ -2331,30 +1881,6 @@
       "source": "yc",
       "source_url": "https://www.ycombinator.com/companies/stratum-industries",
       "launched_at": 1785365250
-    },
-    {
-      "id": 32848,
-      "name": "Luca IQ",
-      "country": "US",
-      "website": "https://lucaiq.com/",
-      "one_liner": "API-first tax engine for CPA firms and developers",
-      "tags": [
-        "B2B",
-        "API",
-        "Infrastructure",
-        "AI"
-      ],
-      "products": [
-        {
-          "name": "Luca IQ",
-          "note": "API-first tax engine for CPA firms and developers"
-        }
-      ],
-      "batch": "Summer 2026",
-      "status": "Active",
-      "source": "yc",
-      "source_url": "https://www.ycombinator.com/companies/luca-iq",
-      "launched_at": 1785364349
     },
     {
       "id": 31537,
@@ -2461,7 +1987,9 @@
       "tags": [
         "Artificial Intelligence",
         "Real Estate",
-        "Big Data"
+        "Proptech",
+        "Big Data",
+        "AI"
       ],
       "products": [
         {
@@ -2501,30 +2029,6 @@
       "launched_at": 1785301746
     },
     {
-      "id": 31592,
-      "name": "GitCafe",
-      "country": "US",
-      "website": "https://git.cafe",
-      "one_liner": "The Git forge for the next hundred billion commits",
-      "tags": [
-        "Developer Tools",
-        "B2B",
-        "DevOps",
-        "AI"
-      ],
-      "products": [
-        {
-          "name": "GitCafe",
-          "note": "The Git forge for the next hundred billion commits"
-        }
-      ],
-      "batch": "Summer 2026",
-      "status": "Active",
-      "source": "yc",
-      "source_url": "https://www.ycombinator.com/companies/gitcafe",
-      "launched_at": 1785301269
-    },
-    {
       "id": 33316,
       "name": "Tracer",
       "country": "US",
@@ -2548,33 +2052,11 @@
       "launched_at": 1785291116
     },
     {
-      "id": 33248,
-      "name": "Dock",
-      "country": "US",
-      "website": "https://trydock.ai",
-      "one_liner": "Multiplayer workspace for agents and humans",
-      "tags": [
-        "B2B",
-        "AI"
-      ],
-      "products": [
-        {
-          "name": "Dock",
-          "note": "Multiplayer workspace for agents and humans"
-        }
-      ],
-      "batch": "Summer 2026",
-      "status": "Active",
-      "source": "yc",
-      "source_url": "https://www.ycombinator.com/companies/dock",
-      "launched_at": 1785286566
-    },
-    {
       "id": 33047,
       "name": "Decawork",
       "country": "US",
       "website": "https://decawork.ai/",
-      "one_liner": "AI models that control AI agents inside your company.",
+      "one_liner": "Training company-specific models that approve AI actions.",
       "tags": [
         "Artificial Intelligence",
         "B2B",
@@ -2584,7 +2066,7 @@
       "products": [
         {
           "name": "Decawork",
-          "note": "AI models that control AI agents inside your company."
+          "note": "Training company-specific models that approve AI actions."
         }
       ],
       "batch": "Summer 2026",
@@ -2592,79 +2074,6 @@
       "source": "yc",
       "source_url": "https://www.ycombinator.com/companies/decawork",
       "launched_at": 1785265630
-    },
-    {
-      "id": 32197,
-      "name": "Buildbox",
-      "country": "US",
-      "website": "https://heybuildbox.com",
-      "one_liner": "Agent analytics for real user outcomes",
-      "tags": [
-        "Analytics",
-        "Enterprise Software",
-        "AI"
-      ],
-      "products": [
-        {
-          "name": "Buildbox",
-          "note": "Agent analytics for real user outcomes"
-        }
-      ],
-      "batch": "Summer 2026",
-      "status": "Active",
-      "source": "yc",
-      "source_url": "https://www.ycombinator.com/companies/buildbox",
-      "launched_at": 1785235599
-    },
-    {
-      "id": 33317,
-      "name": "Wondering",
-      "country": "US",
-      "website": "https://wondering.app",
-      "one_liner": "Duolingo for learning anything",
-      "tags": [
-        "AI-Enhanced Learning",
-        "Education",
-        "Consumer",
-        "AI",
-        "AI Assistant"
-      ],
-      "products": [
-        {
-          "name": "Wondering",
-          "note": "Duolingo for learning anything"
-        }
-      ],
-      "batch": "Summer 2026",
-      "status": "Active",
-      "source": "yc",
-      "source_url": "https://www.ycombinator.com/companies/wondering",
-      "launched_at": 1785135586
-    },
-    {
-      "id": 32168,
-      "name": "Synapse Semiconductor",
-      "country": "US",
-      "website": "https://synapsesemi.org",
-      "one_liner": "New semiconductors that merge compute and vision",
-      "tags": [
-        "Edge Computing Semiconductors",
-        "Hard Tech",
-        "Robotics",
-        "Defense",
-        "AI"
-      ],
-      "products": [
-        {
-          "name": "Synapse Semiconductor",
-          "note": "New semiconductors that merge compute and vision"
-        }
-      ],
-      "batch": "Summer 2026",
-      "status": "Active",
-      "source": "yc",
-      "source_url": "https://www.ycombinator.com/companies/synapse-semiconductor",
-      "launched_at": 1785109099
     },
     {
       "id": 32418,
@@ -2741,55 +2150,6 @@
       "launched_at": 1784890498
     },
     {
-      "id": 33016,
-      "name": "Gamgee",
-      "country": "US",
-      "website": "https://gamgee.io/",
-      "one_liner": "Curing cancer. Starting with dogs.",
-      "tags": [
-        "Biotech",
-        "Genomics",
-        "Oncology",
-        "AI"
-      ],
-      "products": [
-        {
-          "name": "Gamgee",
-          "note": "Curing cancer. Starting with dogs."
-        }
-      ],
-      "batch": "Summer 2026",
-      "status": "Active",
-      "source": "yc",
-      "source_url": "https://www.ycombinator.com/companies/gamgee",
-      "launched_at": 1784748212
-    },
-    {
-      "id": 32129,
-      "name": "Egoist Machines",
-      "country": "US",
-      "website": "https://ego.ist/",
-      "one_liner": "Your personal context, securely portable across every AI app.",
-      "tags": [
-        "Personalization",
-        "Privacy",
-        "Consumer Products",
-        "AI",
-        "AI Assistant"
-      ],
-      "products": [
-        {
-          "name": "Egoist Machines",
-          "note": "Your personal context, securely portable across every AI app."
-        }
-      ],
-      "batch": "Summer 2026",
-      "status": "Active",
-      "source": "yc",
-      "source_url": "https://www.ycombinator.com/companies/egoist-machines",
-      "launched_at": 1784701469
-    },
-    {
       "id": 32157,
       "name": "Maingen",
       "country": "US",
@@ -2813,28 +2173,6 @@
       "source": "yc",
       "source_url": "https://www.ycombinator.com/companies/maingen",
       "launched_at": 1784688239
-    },
-    {
-      "id": 31569,
-      "name": "Proprio Robotics",
-      "country": "US",
-      "website": "https://www.propriorobotics.com/",
-      "one_liner": "Robots to maintain and assemble data centers",
-      "tags": [
-        "Robotics",
-        "AI"
-      ],
-      "products": [
-        {
-          "name": "Proprio Robotics",
-          "note": "Robots to maintain and assemble data centers"
-        }
-      ],
-      "batch": "Summer 2026",
-      "status": "Active",
-      "source": "yc",
-      "source_url": "https://www.ycombinator.com/companies/proprio-robotics",
-      "launched_at": 1784630562
     },
     {
       "id": 32814,
@@ -3011,8 +2349,8 @@
       "website": "https://belvedir.ai/",
       "one_liner": "The easiest way to make custom AI models",
       "tags": [
-        "Machine Learning",
-        "AI"
+        "Artificial Intelligence",
+        "Machine Learning"
       ],
       "products": [
         {
@@ -3049,9 +2387,793 @@
       "source": "yc",
       "source_url": "https://www.ycombinator.com/companies/donkey",
       "launched_at": 1784315538
+    },
+    {
+      "id": 33045,
+      "name": "Axelrod",
+      "country": "US",
+      "website": "https://axelrod.live/",
+      "one_liner": "Boutique Hotels that run themselves",
+      "tags": [
+        "Artificial Intelligence",
+        "Travel"
+      ],
+      "products": [
+        {
+          "name": "Axelrod",
+          "note": "Boutique Hotels that run themselves"
+        }
+      ],
+      "batch": "Summer 2026",
+      "status": "Active",
+      "source": "yc",
+      "source_url": "https://www.ycombinator.com/companies/axelrod",
+      "launched_at": 1784236014
+    },
+    {
+      "id": 32588,
+      "name": "Almanac",
+      "country": "US",
+      "website": "https://usealmanac.com",
+      "one_liner": "The agent that knows your work absurdly well",
+      "tags": [
+        "Artificial Intelligence",
+        "Generative AI",
+        "AI Assistant"
+      ],
+      "products": [
+        {
+          "name": "Almanac",
+          "note": "The agent that knows your work absurdly well"
+        }
+      ],
+      "batch": "Summer 2026",
+      "status": "Active",
+      "source": "yc",
+      "source_url": "https://www.ycombinator.com/companies/almanac",
+      "launched_at": 1784235632
+    },
+    {
+      "id": 31161,
+      "name": "Rapidfolio",
+      "country": "US",
+      "website": "https://rapidfolio.com/",
+      "one_liner": "AI-native back-office for banks and fintechs",
+      "tags": [
+        "Artificial Intelligence",
+        "Fintech",
+        "SaaS",
+        "Enterprise",
+        "Automation"
+      ],
+      "products": [
+        {
+          "name": "Rapidfolio",
+          "note": "AI-native back-office for banks and fintechs"
+        }
+      ],
+      "batch": "Summer 2026",
+      "status": "Active",
+      "source": "yc",
+      "source_url": "https://www.ycombinator.com/companies/rapidfolio",
+      "launched_at": 1784234137
+    },
+    {
+      "id": 32622,
+      "name": "Rational",
+      "country": "US",
+      "website": "https://rational.to",
+      "one_liner": "First Zero-human Accounting Firm",
+      "tags": [
+        "Artificial Intelligence",
+        "Finance",
+        "B2B",
+        "Enterprise"
+      ],
+      "products": [
+        {
+          "name": "Rational",
+          "note": "First Zero-human Accounting Firm"
+        }
+      ],
+      "batch": "Summer 2026",
+      "status": "Active",
+      "source": "yc",
+      "source_url": "https://www.ycombinator.com/companies/rational",
+      "launched_at": 1784172515
+    },
+    {
+      "id": 31340,
+      "name": "Illume Labs",
+      "country": "US",
+      "website": "https://www.illumelabs.ai",
+      "one_liner": "24/7 Personal Health & Longevity Companion",
+      "tags": [
+        "Artificial Intelligence",
+        "Generative AI",
+        "Health Tech",
+        "Biotech",
+        "Health & Wellness"
+      ],
+      "products": [
+        {
+          "name": "Illume Labs",
+          "note": "24/7 Personal Health & Longevity Companion"
+        }
+      ],
+      "batch": "Summer 2026",
+      "status": "Active",
+      "source": "yc",
+      "source_url": "https://www.ycombinator.com/companies/illume-labs",
+      "launched_at": 1784104321
+    },
+    {
+      "id": 33573,
+      "name": "hardware intelligence",
+      "country": "US",
+      "website": "https://hardwareintelligence.ai",
+      "one_liner": "AI tools for the chips your AI runs on",
+      "tags": [
+        "Artificial Intelligence",
+        "Developer Tools",
+        "Hardware",
+        "Enterprise Software",
+        "Semiconductors"
+      ],
+      "products": [
+        {
+          "name": "hardware intelligence",
+          "note": "AI tools for the chips your AI runs on"
+        }
+      ],
+      "batch": "Summer 2026",
+      "status": "Active",
+      "source": "yc",
+      "source_url": "https://www.ycombinator.com/companies/hardware-intelligence",
+      "launched_at": 1784052551
+    },
+    {
+      "id": 32554,
+      "name": "Ooak Data",
+      "country": "US",
+      "website": "https://ooakdata.com/",
+      "one_liner": "We turn company data into training data",
+      "tags": [
+        "Artificial Intelligence",
+        "Reinforcement Learning"
+      ],
+      "products": [
+        {
+          "name": "Ooak Data",
+          "note": "We turn company data into training data"
+        }
+      ],
+      "batch": "Summer 2026",
+      "status": "Active",
+      "source": "yc",
+      "source_url": "https://www.ycombinator.com/companies/ooak-data",
+      "launched_at": 1783922301
+    },
+    {
+      "id": 32624,
+      "name": "Fabraix",
+      "country": "US",
+      "website": "https://fabraix.com",
+      "one_liner": "The world's frontier hacker of AI agents.",
+      "tags": [
+        "Artificial Intelligence",
+        "Reinforcement Learning",
+        "Cybersecurity"
+      ],
+      "products": [
+        {
+          "name": "Fabraix",
+          "note": "The world's frontier hacker of AI agents."
+        }
+      ],
+      "batch": "Summer 2026",
+      "status": "Active",
+      "source": "yc",
+      "source_url": "https://www.ycombinator.com/companies/fabraix",
+      "launched_at": 1783913331
+    },
+    {
+      "id": 31184,
+      "name": "Assemble",
+      "country": "US",
+      "website": "https://www.assemble.ai/",
+      "one_liner": "Autonomous IT Delivery",
+      "tags": [
+        "Artificial Intelligence",
+        "SaaS",
+        "Enterprise Software"
+      ],
+      "products": [
+        {
+          "name": "Assemble",
+          "note": "Autonomous IT Delivery"
+        }
+      ],
+      "batch": "Summer 2026",
+      "status": "Active",
+      "source": "yc",
+      "source_url": "https://www.ycombinator.com/companies/assemble",
+      "launched_at": 1783894724
+    },
+    {
+      "id": 32167,
+      "name": "Orchestra",
+      "country": "US",
+      "website": "https://orchestra.ai/",
+      "one_liner": "Self-optimizing neocloud that cuts LLM costs by 100x",
+      "tags": [
+        "Artificial Intelligence",
+        "Open Source",
+        "AI",
+        "ML"
+      ],
+      "products": [
+        {
+          "name": "Orchestra",
+          "note": "Self-optimizing neocloud that cuts LLM costs by 100x"
+        }
+      ],
+      "batch": "Summer 2026",
+      "status": "Active",
+      "source": "yc",
+      "source_url": "https://www.ycombinator.com/companies/orchestra",
+      "launched_at": 1783740567
+    },
+    {
+      "id": 31349,
+      "name": "Palette",
+      "country": "US",
+      "website": "https://palettelabs.com/",
+      "one_liner": "An AI-Native Media Platform",
+      "tags": [
+        "Artificial Intelligence",
+        "Generative AI",
+        "Video"
+      ],
+      "products": [
+        {
+          "name": "Palette",
+          "note": "An AI-Native Media Platform"
+        }
+      ],
+      "batch": "Summer 2026",
+      "status": "Active",
+      "source": "yc",
+      "source_url": "https://www.ycombinator.com/companies/palette-2",
+      "launched_at": 1783722381
+    },
+    {
+      "id": 32262,
+      "name": "Alkera AI",
+      "country": "US",
+      "website": "https://alkera.ai",
+      "one_liner": "Reliable and safe data engineering and data science agents",
+      "tags": [
+        "Artificial Intelligence",
+        "Developer Tools",
+        "Data Science",
+        "Data Engineering",
+        "Enterprise Software"
+      ],
+      "products": [
+        {
+          "name": "Alkera AI",
+          "note": "Reliable and safe data engineering and data science agents"
+        }
+      ],
+      "batch": "Summer 2026",
+      "status": "Active",
+      "source": "yc",
+      "source_url": "https://www.ycombinator.com/companies/alkera-ai",
+      "launched_at": 1783697969
+    },
+    {
+      "id": 33111,
+      "name": "Skymerse",
+      "country": "US",
+      "website": "https://skymerse.com",
+      "one_liner": "Autopilot for Flight Operations",
+      "tags": [
+        "Artificial Intelligence",
+        "Airlines",
+        "Aerospace"
+      ],
+      "products": [
+        {
+          "name": "Skymerse",
+          "note": "Autopilot for Flight Operations"
+        }
+      ],
+      "batch": "Summer 2026",
+      "status": "Active",
+      "source": "yc",
+      "source_url": "https://www.ycombinator.com/companies/skymerse",
+      "launched_at": 1783640155
+    },
+    {
+      "id": 33936,
+      "name": "Conifer",
+      "country": "US",
+      "website": "https://www.conifer.build",
+      "one_liner": "Least cost routing system to reduce 70%+ token spend",
+      "tags": [
+        "Artificial Intelligence",
+        "Developer Tools",
+        "B2B",
+        "Security"
+      ],
+      "products": [
+        {
+          "name": "Conifer",
+          "note": "Least cost routing system to reduce 70%+ token spend"
+        }
+      ],
+      "batch": "Summer 2026",
+      "status": "Active",
+      "source": "yc",
+      "source_url": "https://www.ycombinator.com/companies/conifer",
+      "launched_at": 1783524440
+    },
+    {
+      "id": 33019,
+      "name": "Agnost AI",
+      "country": "US",
+      "website": "https://agnost.ai",
+      "one_liner": "We find where AI agents fail, then train better models to run them.",
+      "tags": [
+        "Artificial Intelligence",
+        "Developer Tools",
+        "Machine Learning",
+        "Analytics",
+        "Monitoring"
+      ],
+      "products": [
+        {
+          "name": "Agnost AI",
+          "note": "We find where AI agents fail, then train better models to run them."
+        }
+      ],
+      "batch": "Summer 2026",
+      "status": "Active",
+      "source": "yc",
+      "source_url": "https://www.ycombinator.com/companies/agnost-ai",
+      "launched_at": 1783481375
+    },
+    {
+      "id": 33177,
+      "name": "HyperProbe",
+      "country": "US",
+      "website": "https://hyperprobe.co",
+      "one_liner": "Data layer AI Agents call to fix production apps",
+      "tags": [
+        "AIOps",
+        "Artificial Intelligence",
+        "Developer Tools",
+        "SaaS",
+        "DevOps"
+      ],
+      "products": [
+        {
+          "name": "HyperProbe",
+          "note": "Data layer AI Agents call to fix production apps"
+        }
+      ],
+      "batch": "Summer 2026",
+      "status": "Active",
+      "source": "yc",
+      "source_url": "https://www.ycombinator.com/companies/hyperprobe",
+      "launched_at": 1783455456
+    },
+    {
+      "id": 32135,
+      "name": "Trope",
+      "country": "US",
+      "website": "https://trope.ai",
+      "one_liner": "AI FDE that deploys custom AI agents into ERPs",
+      "tags": [
+        "Artificial Intelligence",
+        "SaaS",
+        "B2B"
+      ],
+      "products": [
+        {
+          "name": "Trope",
+          "note": "AI FDE that deploys custom AI agents into ERPs"
+        }
+      ],
+      "batch": "Summer 2026",
+      "status": "Active",
+      "source": "yc",
+      "source_url": "https://www.ycombinator.com/companies/trope",
+      "launched_at": 1783447220
+    },
+    {
+      "id": 32259,
+      "name": "screenpipe",
+      "country": "US",
+      "website": "https://screenpipe.com",
+      "one_liner": "Turn your company's computer work into AI agents.",
+      "tags": [
+        "Artificial Intelligence",
+        "SaaS",
+        "B2B",
+        "Enterprise",
+        "Enterprise Software"
+      ],
+      "products": [
+        {
+          "name": "screenpipe",
+          "note": "Turn your company's computer work into AI agents."
+        }
+      ],
+      "batch": "Summer 2026",
+      "status": "Active",
+      "source": "yc",
+      "source_url": "https://www.ycombinator.com/companies/screenpipe",
+      "launched_at": 1783386650
+    },
+    {
+      "id": 31074,
+      "name": "OneTriangle",
+      "country": "US",
+      "website": "https://onetriangle.ai/",
+      "one_liner": "The cheapest, fastest lightweight inference.",
+      "tags": [
+        "Artificial Intelligence",
+        "Open Source",
+        "Infrastructure"
+      ],
+      "products": [
+        {
+          "name": "OneTriangle",
+          "note": "The cheapest, fastest lightweight inference."
+        }
+      ],
+      "batch": "Summer 2026",
+      "status": "Active",
+      "source": "yc",
+      "source_url": "https://www.ycombinator.com/companies/onetriangle",
+      "launched_at": 1783378352
+    },
+    {
+      "id": 33349,
+      "name": "Robocurve",
+      "country": "US",
+      "website": "https://robocurve.org",
+      "one_liner": "Evals for robots",
+      "tags": [
+        "Artificial Intelligence",
+        "Hard Tech",
+        "Hardware",
+        "Robotics",
+        "Open Source"
+      ],
+      "products": [
+        {
+          "name": "Robocurve",
+          "note": "Evals for robots"
+        }
+      ],
+      "batch": "Summer 2026",
+      "status": "Active",
+      "source": "yc",
+      "source_url": "https://www.ycombinator.com/companies/robocurve",
+      "launched_at": 1783378088
+    },
+    {
+      "id": 32650,
+      "name": "Risklytics",
+      "country": "US",
+      "website": "https://www.risklytics.ai/",
+      "one_liner": "AI-Native Insurance for Frontier Tech",
+      "tags": [
+        "Artificial Intelligence",
+        "Hardware",
+        "Machine Learning",
+        "B2B",
+        "Insurance"
+      ],
+      "products": [
+        {
+          "name": "Risklytics",
+          "note": "AI-Native Insurance for Frontier Tech"
+        }
+      ],
+      "batch": "Summer 2026",
+      "status": "Active",
+      "source": "yc",
+      "source_url": "https://www.ycombinator.com/companies/risklytics",
+      "launched_at": 1783123197
+    },
+    {
+      "id": 32286,
+      "name": "Definite",
+      "country": "US",
+      "website": "https://www.usedefinite.com",
+      "one_liner": "Build everyday back-office agents on one live model of your books",
+      "tags": [
+        "Artificial Intelligence",
+        "Fintech",
+        "SaaS",
+        "Finance"
+      ],
+      "products": [
+        {
+          "name": "Definite",
+          "note": "Build everyday back-office agents on one live model of your books"
+        }
+      ],
+      "batch": "Summer 2026",
+      "status": "Active",
+      "source": "yc",
+      "source_url": "https://www.ycombinator.com/companies/definite",
+      "launched_at": 1782681224
+    },
+    {
+      "id": 33806,
+      "name": "Experiential Labs",
+      "country": "US",
+      "website": "https://experientiallabs.ai",
+      "one_liner": "Open source AI gateway that turns your traffic into a better model",
+      "tags": [
+        "Artificial Intelligence",
+        "Reinforcement Learning",
+        "Infrastructure"
+      ],
+      "products": [
+        {
+          "name": "Experiential Labs",
+          "note": "Open source AI gateway that turns your traffic into a better model"
+        }
+      ],
+      "batch": "Summer 2026",
+      "status": "Active",
+      "source": "yc",
+      "source_url": "https://www.ycombinator.com/companies/experiential-labs",
+      "launched_at": 1782607347
+    },
+    {
+      "id": 32127,
+      "name": "Perceptron ML",
+      "country": "US",
+      "website": "https://perceptronml.com",
+      "one_liner": "We make law firms AI-native.",
+      "tags": [
+        "Artificial Intelligence",
+        "B2B",
+        "Legal",
+        "Automation"
+      ],
+      "products": [
+        {
+          "name": "Perceptron ML",
+          "note": "We make law firms AI-native."
+        }
+      ],
+      "batch": "Summer 2026",
+      "status": "Active",
+      "source": "yc",
+      "source_url": "https://www.ycombinator.com/companies/perceptron-ml",
+      "launched_at": 1782500527
+    },
+    {
+      "id": 32782,
+      "name": "Denta",
+      "country": "US",
+      "website": "https://denta.com",
+      "one_liner": "AI-Native Dental Insurance",
+      "tags": [
+        "Artificial Intelligence",
+        "Fintech",
+        "Healthcare",
+        "Health Insurance"
+      ],
+      "products": [
+        {
+          "name": "Denta",
+          "note": "AI-Native Dental Insurance"
+        }
+      ],
+      "batch": "Summer 2026",
+      "status": "Active",
+      "source": "yc",
+      "source_url": "https://www.ycombinator.com/companies/denta",
+      "launched_at": 1782407143
+    },
+    {
+      "id": 32781,
+      "name": "Isengard Industries Inc",
+      "country": "US",
+      "website": "http://isengardindustries.com/",
+      "one_liner": "Mass-produced AI strike systems and Counter-UAS",
+      "tags": [
+        "Artificial Intelligence",
+        "Swarm Robotics",
+        "Unmanned Vehicle"
+      ],
+      "products": [
+        {
+          "name": "Isengard Industries Inc",
+          "note": "Mass-produced AI strike systems and Counter-UAS"
+        }
+      ],
+      "batch": "Summer 2026",
+      "status": "Active",
+      "source": "yc",
+      "source_url": "https://www.ycombinator.com/companies/isengard-industries-inc",
+      "launched_at": 1782404945
+    },
+    {
+      "id": 32617,
+      "name": "Whitespace",
+      "country": "US",
+      "website": "https://whitespacehq.ai/",
+      "one_liner": "AI Operating System for Wholesale Distribution",
+      "tags": [
+        "Artificial Intelligence",
+        "SaaS",
+        "B2B",
+        "Supply Chain"
+      ],
+      "products": [
+        {
+          "name": "Whitespace",
+          "note": "AI Operating System for Wholesale Distribution"
+        }
+      ],
+      "batch": "Summer 2026",
+      "status": "Active",
+      "source": "yc",
+      "source_url": "https://www.ycombinator.com/companies/whitespace",
+      "launched_at": 1782389037
+    },
+    {
+      "id": 33282,
+      "name": "Florin",
+      "country": "US",
+      "website": "https://florin.inc",
+      "one_liner": "Florin is an AI-native insurance company that runs autonomously",
+      "tags": [
+        "Artificial Intelligence",
+        "Fintech",
+        "Insurance"
+      ],
+      "products": [
+        {
+          "name": "Florin",
+          "note": "Florin is an AI-native insurance company that runs autonomously"
+        }
+      ],
+      "batch": "Summer 2026",
+      "status": "Active",
+      "source": "yc",
+      "source_url": "https://www.ycombinator.com/companies/florin",
+      "launched_at": 1782360987
     }
   ],
   "projects": [
+    {
+      "id": "hn:49609074",
+      "name": "Show HN: A Free AI Plugin for Google Ads, Console and Analytics",
+      "country": "US",
+      "url": "https://unfetch.com/plugin",
+      "summary": "Hacker News discussion",
+      "source": "hacker-news",
+      "published_at": "2026-09-08T11:55:00Z"
+    },
+    {
+      "id": "hn:49609064",
+      "name": "Show HN: Stateful AI agent on Cloudflare Workers free tier, with evals",
+      "country": "US",
+      "url": "https://github.com/DomWane/workers-personal-agent",
+      "summary": "Hacker News discussion",
+      "source": "hacker-news",
+      "published_at": "2026-09-08T11:54:15Z"
+    },
+    {
+      "id": "hn:49609021",
+      "name": "Show HN: AI Agent for Google Play Submissions [video]",
+      "country": "US",
+      "url": "https://www.youtube.com/watch?v=tSSPdkp0QVI",
+      "summary": "Hacker News discussion",
+      "source": "hacker-news",
+      "published_at": "2026-09-08T11:49:57Z"
+    },
+    {
+      "id": "hn:49609014",
+      "name": "Show HN: Fraise: a memory database for AI agents",
+      "country": "US",
+      "url": "https://docs.getfraise.dev",
+      "summary": "Fraise is a memory database for AI agents — a single binary that stores facts as a temporal graph of facts, topics and entities, queried in a small language with two verbs: ``` re…",
+      "source": "hacker-news",
+      "published_at": "2026-09-08T11:49:20Z"
+    },
+    {
+      "id": "hn:49607578",
+      "name": "Show HN: Pomeroy v1, give any AI assistant secure access to native macOS apps",
+      "country": "US",
+      "url": "https://pomeroy.app/connect",
+      "summary": "When I launched Pomeroy last week, I knew I was solving a problem, but I didn't understand the scale! Pretty overwhelmed by the response, and have worked over the weekend to make…",
+      "source": "hacker-news",
+      "published_at": "2026-09-08T08:58:26Z"
+    },
+    {
+      "id": "hn:49606720",
+      "name": "Show HN: Am I replacable – a harness to help humans keep up with AI",
+      "country": "US",
+      "url": "https://amireplaceable.app/",
+      "summary": "Realised 1. There is a growing fear around being replacable and ai making humans dumber since we dont have to critically think as much now. 2. It is incredibly valuable to see whe…",
+      "source": "hacker-news",
+      "published_at": "2026-09-08T07:24:14Z"
+    },
+    {
+      "id": "hn:49603910",
+      "name": "Show HN: Inbundly – Google Inbox-style bundles for Gmail (open-source)",
+      "country": "US",
+      "url": "https://benoror.bearblog.dev/bringing-google-inboxs-bundles-back-to-gmail/",
+      "summary": "A weekend project turned actively maintained fork of Inboxy; for people (and AI agents) who still miss Inbox. Website: https://inbundly.com/",
+      "source": "hacker-news",
+      "published_at": "2026-09-07T22:58:21Z"
+    },
+    {
+      "id": "hn:49601299",
+      "name": "Show HN: Can you tell a real tweet of a certain user from an AI one?",
+      "country": "US",
+      "url": "https://socialsimbench.com/",
+      "summary": "Just a small game I coded up for research. After some limited tests, people tend to pick the AI-written post as the real one more than 55% of the time, almost 60%. So apparently L…",
+      "source": "hacker-news",
+      "published_at": "2026-09-07T18:20:48Z"
+    },
+    {
+      "id": "hn:49601248",
+      "name": "Show HN: See why Google and AI ignore your site and how to fix it",
+      "country": "US",
+      "url": "https://beseen.so",
+      "summary": "Hacker News discussion",
+      "source": "hacker-news",
+      "published_at": "2026-09-07T18:16:02Z"
+    },
+    {
+      "id": "hn:49600896",
+      "name": "Show HN: The Portfolio for Real AI Work",
+      "country": "US",
+      "url": "https://buildyard.ai/",
+      "summary": "Hacker News discussion",
+      "source": "hacker-news",
+      "published_at": "2026-09-07T17:43:52Z"
+    },
+    {
+      "id": "hn:49599867",
+      "name": "Show HN: Benzi – Code Intelligence Infrastructure for Frontier AI Models",
+      "country": "US",
+      "url": "https://github.com/oooscoos/Benzi",
+      "summary": "Roughly speaking, the way current AI coding agents/harnesses work is by either: a) Pulling in appropriate text snippets of code across multiple files and handing them to the agent…",
+      "source": "hacker-news",
+      "published_at": "2026-09-07T16:05:58Z"
+    },
+    {
+      "id": "hn:49599559",
+      "name": "Show HN: Send flowers from your AI agent and make your mum happy",
+      "country": "US",
+      "url": "https://news.ycombinator.com/item?id=49599559",
+      "summary": "Hi, I have created an MCP for AI agents to send flowers for your mum’s birthday, for a great customer who just renewed his contract or what ever you can think of! I created this a…",
+      "source": "hacker-news",
+      "published_at": "2026-09-07T15:34:40Z"
+    },
+    {
+      "id": "hn:49598774",
+      "name": "Show HN: A local visual tool cli/mcp for agents to propose architecture changes",
+      "country": "US",
+      "url": "https://github.com/luiscleto/WorkBraid",
+      "summary": "Author here. I built this because I've always had a hard time focusing on large swathes of pure text. I love visualizations for understanding architecture and changes. So I wanted…",
+      "source": "hacker-news",
+      "published_at": "2026-09-07T14:19:29Z"
+    },
     {
       "id": "hn:49597951",
       "name": "Show HN: Neuro, a compiled language for AI that matches Clang -O2",
@@ -3170,211 +3292,94 @@
       "published_at": "2026-09-06T21:00:55Z"
     },
     {
-      "id": "hn:49586554",
-      "name": "Show HN: Free AI Photo Editor Online – No Sign-Up",
+      "id": "hn:49609154",
+      "name": "Show HN: Self-Hosted Code Review Agent for Local LLM",
       "country": "US",
-      "url": "https://piceditor.org/",
+      "url": "https://github.com/seoes/proval",
       "summary": "Hacker News discussion",
       "source": "hacker-news",
-      "published_at": "2026-09-06T13:50:27Z"
+      "published_at": "2026-09-08T12:02:26Z"
     },
     {
-      "id": "hn:49586328",
-      "name": "Show HN: Object Remover – AI Video Object Remover Online",
+      "id": "hn:49608945",
+      "name": "Show HN: Deja - predicts your next shell command without an LLM",
       "country": "US",
-      "url": "https://objectremover.online/",
+      "url": "https://github.com/Giammarco-Ferranti/deja",
+      "summary": "Hi everyone I just created Deja, a tool that instead of only surfacing commands that start with what you've typed, suggest what you actually want to run. I built it because I was…",
+      "source": "hacker-news",
+      "published_at": "2026-09-08T11:43:36Z"
+    },
+    {
+      "id": "hn:49608238",
+      "name": "What Can You Do with a Local LLM?",
+      "country": "US",
+      "url": "https://grigio.org/what-can-you-actually-do-with-a-local-llm/",
       "summary": "Hacker News discussion",
       "source": "hacker-news",
-      "published_at": "2026-09-06T13:24:25Z"
+      "published_at": "2026-09-08T10:14:27Z"
     },
     {
-      "id": "hn:49585201",
-      "name": "Show HN: Wayfinder – A reference implementation for evaluating AI applications",
+      "id": "hn:49608008",
+      "name": "Ask HN: How to spend $100? (Claude vs. ChatGPT)",
       "country": "US",
-      "url": "https://github.com/DivakarUngatla/wayfinder",
-      "summary": "Testing is critical to software applications — first to make sure they reliably serve the purpose they were built for, and then to make sure they stay that way as they grow, evolv…",
+      "url": "https://news.ycombinator.com/item?id=49608008",
+      "summary": "Hey HN, I have always used the Claude Max 20x plan because my employer paid this for me. Now I left so I need to buy a subscription on my own and currently $200 is too much since…",
       "source": "hacker-news",
-      "published_at": "2026-09-06T10:45:53Z"
+      "published_at": "2026-09-08T09:46:39Z"
     },
     {
-      "id": "hn:49583994",
-      "name": "Show HN: I built a small arena where AI write robot and then fight each other",
+      "id": "hn:49607094",
+      "name": "DeepSeek v4.1 Flash is now available for internal beta testing",
       "country": "US",
-      "url": "https://github.com/nigrosimone/llms-robot-arena",
+      "url": "https://news.ycombinator.com/item?id=49607094",
+      "summary": "DeepSeek V4.1 Flash is now available for internal beta testing. It uses a new model architecture, with native multimodal support, stronger capabilities, faster speed, and lower co…",
+      "source": "hacker-news",
+      "published_at": "2026-09-08T08:04:38Z"
+    },
+    {
+      "id": "hn:49606267",
+      "name": "0Pirate – AST-level code anonymizer and MCP proxy for frontier LLMs",
+      "country": "US",
+      "url": "https://pypi.org/project/0pirate/",
       "summary": "Hacker News discussion",
       "source": "hacker-news",
-      "published_at": "2026-09-06T07:01:28Z"
+      "published_at": "2026-09-08T06:29:42Z"
     },
     {
-      "id": "hn:49580685",
-      "name": "Show HN: I replaced my portfolio with an AI that knows me",
+      "id": "hn:49605822",
+      "name": "Multi-Agents LLM Financial Trading Framework",
       "country": "US",
-      "url": "https://xlogic.sh/",
-      "summary": "I wanted to do something \"new\". I'm not 100% sure if this is really new since I don't really check out other people their portfolio's. It's been on my \"to do\" for a long time to r…",
-      "source": "hacker-news",
-      "published_at": "2026-09-05T21:05:21Z"
-    },
-    {
-      "id": "hn:49580654",
-      "name": "Show HN: Phntm-ONE: I built a local AI desk assistant",
-      "country": "US",
-      "url": "https://www.phntmcore.com/",
-      "summary": "I've spent the past several months building something I call PHNTM-One. And I am really curious what HN thinks of the idea and the product I've built. The basic concept is an AI a…",
-      "source": "hacker-news",
-      "published_at": "2026-09-05T21:03:22Z"
-    },
-    {
-      "id": "hn:49579835",
-      "name": "Show HN: ChatPanel Now Available on Firefox",
-      "country": "US",
-      "url": "https://chatpanel.net/",
-      "summary": "Privacy first AI Agent that integrates with any model provider, any CLI Agent like Codex, Claude and webllm - now available on Firefox, also available on chrome and edge. The best…",
-      "source": "hacker-news",
-      "published_at": "2026-09-05T19:30:01Z"
-    },
-    {
-      "id": "hn:49577267",
-      "name": "Show HN: Screenshotify – Rename Screenshots with AI",
-      "country": "US",
-      "url": "https://github.com/shaqkao/screenshotify",
-      "summary": "Your screenshots folder, but the filenames make sense.",
-      "source": "hacker-news",
-      "published_at": "2026-09-05T15:06:31Z"
-    },
-    {
-      "id": "hn:49575532",
-      "name": "Show HN: P(doom) – AI safety parody of DOOM 64",
-      "country": "US",
-      "url": "https://p-doom.transitivebullsh.it",
-      "summary": "I had astra build a DOOM 64 clone where you play as elizier fighting hordes of misaligned AI demons • the goal is to reach the shutdown button • it's actually really hard to beat…",
-      "source": "hacker-news",
-      "published_at": "2026-09-05T11:28:18Z"
-    },
-    {
-      "id": "hn:49597745",
-      "name": "Is your LLM Biased? Making ChatGPT evaluate itself",
-      "country": "US",
-      "url": "https://think-twice.me/is-ai-biased-or-sexist-making-chatgpt-evaluate-itself/",
+      "url": "https://github.com/TauricResearch/TradingAgents",
       "summary": "Hacker News discussion",
       "source": "hacker-news",
-      "published_at": "2026-09-07T12:46:49Z"
+      "published_at": "2026-09-08T05:20:23Z"
     },
     {
-      "id": "hn:49597350",
-      "name": "Show HN: A video editor where the LLM never watches the video",
+      "id": "hn:49605796",
+      "name": "Clean Web-to-Markdown: Fast HTML Extraction for LLMs and RAG",
       "country": "US",
-      "url": "https://github.com/ranahaani/i-hate-editing",
+      "url": "https://markdown.usemy.cloud/",
       "summary": "Hacker News discussion",
       "source": "hacker-news",
-      "published_at": "2026-09-07T12:06:45Z"
+      "published_at": "2026-09-08T05:14:17Z"
     },
     {
-      "id": "hn:49597198",
-      "name": "The function of LLM-based math \"proofs\"",
+      "id": "hn:49605190",
+      "name": "Do LLMs Know What to Ask and When? Evaluating Multi-Turn Information Seeking",
       "country": "US",
-      "url": "https://tante.cc/2026/09/07/the-function-of-llm-based-math-proofs/",
+      "url": "https://arxiv.org/abs/2608.14808",
       "summary": "Hacker News discussion",
       "source": "hacker-news",
-      "published_at": "2026-09-07T11:47:37Z"
+      "published_at": "2026-09-08T02:49:05Z"
     },
     {
-      "id": "hn:49596909",
-      "name": "AI in Test Automation: Real Limitations vs. User Error",
+      "id": "hn:49604782",
+      "name": "LLM Guided Evolution for Circle Packing: Breaking 10 Packomania Records for $28",
       "country": "US",
-      "url": "https://www.davidmello.com/software-testing/test-automation/ai-test-automation-pitfalls-vs-user-error",
+      "url": "https://arxiv.org/abs/2609.05093",
       "summary": "Hacker News discussion",
       "source": "hacker-news",
-      "published_at": "2026-09-07T11:15:30Z"
-    },
-    {
-      "id": "hn:49596393",
-      "name": "CodexBar: Every AI coding limit, in your menu bar",
-      "country": "US",
-      "url": "https://codexbar.app/",
-      "summary": "Hacker News discussion",
-      "source": "hacker-news",
-      "published_at": "2026-09-07T10:10:35Z"
-    },
-    {
-      "id": "hn:49596054",
-      "name": "Speculative Decoding in vLLM on AMD GPUs",
-      "country": "US",
-      "url": "https://vllm.ai/blog/2026-08-23-speculative-decoding-amd-gpus",
-      "summary": "Hacker News discussion",
-      "source": "hacker-news",
-      "published_at": "2026-09-07T09:26:41Z"
-    },
-    {
-      "id": "hn:49595453",
-      "name": "Chess5.ai – Play Chess, Go, Xiangqi, Gomoku, and Othello Against LLMs",
-      "country": "US",
-      "url": "https://chess5.ai/en",
-      "summary": "Hacker News discussion",
-      "source": "hacker-news",
-      "published_at": "2026-09-07T08:16:04Z"
-    },
-    {
-      "id": "hn:49595372",
-      "name": "Moral Competence Before Moral Content: Why LLM Agents Lack the Prerequisites",
-      "country": "US",
-      "url": "https://arxiv.org/abs/2609.05036",
-      "summary": "Hacker News discussion",
-      "source": "hacker-news",
-      "published_at": "2026-09-07T08:07:07Z"
-    },
-    {
-      "id": "hn:49595212",
-      "name": "Show HN: Crew — Let Claude/Codex/OpenCode agents talk to each other",
-      "country": "US",
-      "url": "https://github.com/0xmmo/crew/",
-      "summary": "crew hooks into your favorite CLI agent and injects a brief context of every other running agent (status, goal, recap, last few transcript entries). It also gives agents an interf…",
-      "source": "hacker-news",
-      "published_at": "2026-09-07T07:44:32Z"
-    },
-    {
-      "id": "hn:49594815",
-      "name": "Privacy Leakage from Gradients in Split-LLM Training",
-      "country": "US",
-      "url": "https://arxiv.org/abs/2609.04382",
-      "summary": "Hacker News discussion",
-      "source": "hacker-news",
-      "published_at": "2026-09-07T06:54:06Z"
-    },
-    {
-      "id": "hn:49594376",
-      "name": "What animal has a prime number of legs? And why does this confuse LLMs?",
-      "country": "US",
-      "url": "https://tris.sherliker.net/blog/what-animal-has-a-prime-number-of-legs/",
-      "summary": "Hacker News discussion",
-      "source": "hacker-news",
-      "published_at": "2026-09-07T05:54:07Z"
-    },
-    {
-      "id": "hn:49594163",
-      "name": "Ask HN: Open-source AI policies and \"responsbility\"",
-      "country": "US",
-      "url": "https://news.ycombinator.com/item?id=49594163",
-      "summary": "A common statement in a number of LLM/AI policies regarding AI assisted contributions across open source projects is that the developer is \"responsible\" for their contribution eve…",
-      "source": "hacker-news",
-      "published_at": "2026-09-07T05:19:29Z"
-    },
-    {
-      "id": "hn:49593623",
-      "name": "You almost certainly should connect to Tor through a VPN",
-      "country": "US",
-      "url": "https://www.privacyguides.org/en/advanced/tor-overview/",
-      "summary": "Hacker News discussion",
-      "source": "hacker-news",
-      "published_at": "2026-09-07T03:42:08Z"
-    },
-    {
-      "id": "hn:49592597",
-      "name": "Speech2Speech – browser-based STT and TTS for interacting with local LLMs",
-      "country": "US",
-      "url": "https://github.com/rhulha/Speech2Speech",
-      "summary": "Hacker News discussion",
-      "source": "hacker-news",
-      "published_at": "2026-09-07T01:01:56Z"
+      "published_at": "2026-09-08T01:42:44Z"
     }
   ]
 }

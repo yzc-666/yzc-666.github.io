@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-12T11:47:16Z",
+  "updated_at": "2026-09-13T12:54:45Z",
   "stats": {
     "total": 131,
     "cn": 21,
@@ -923,6 +923,29 @@
       "status": "Active",
       "source": "seed",
       "source_url": "https://en.wikipedia.org/wiki/Xai"
+    },
+    {
+      "id": 34895,
+      "name": "Sigma",
+      "country": "US",
+      "website": "https://www.ycombinator.com/companies/sigma-2",
+      "one_liner": "AI Operating System for Mergers & Acquisitions",
+      "tags": [
+        "Artificial Intelligence",
+        "Finance",
+        "B2B"
+      ],
+      "products": [
+        {
+          "name": "Sigma",
+          "note": "AI Operating System for Mergers & Acquisitions"
+        }
+      ],
+      "batch": "Fall 2026",
+      "status": "Active",
+      "source": "yc",
+      "source_url": "https://www.ycombinator.com/companies/sigma-2",
+      "launched_at": 1789180865
     },
     {
       "id": 35258,
@@ -3026,31 +3049,153 @@
       "source": "yc",
       "source_url": "https://www.ycombinator.com/companies/maingen",
       "launched_at": 1784688239
-    },
-    {
-      "id": 31569,
-      "name": "Proprio Robotics",
-      "country": "US",
-      "website": "https://www.propriorobotics.com/",
-      "one_liner": "Robots to maintain and assemble data centers",
-      "tags": [
-        "Robotics",
-        "AI"
-      ],
-      "products": [
-        {
-          "name": "Proprio Robotics",
-          "note": "Robots to maintain and assemble data centers"
-        }
-      ],
-      "batch": "Summer 2026",
-      "status": "Active",
-      "source": "yc",
-      "source_url": "https://www.ycombinator.com/companies/proprio-robotics",
-      "launched_at": 1784630562
     }
   ],
   "projects": [
+    {
+      "id": "hn:49683327",
+      "name": "Show HN: I built ThreadShelf to reuse hard-to-export AI chats like OpenRouter",
+      "country": "US",
+      "url": "https://github.com/ChrystianSchutz/ThreadShelf",
+      "summary": "My AI chats were split between OpenRouter, AI Studio and LM Studio. There was no good way to search or reuse them and OpenRouter had no proper bulk export, so I built one.",
+      "source": "hacker-news",
+      "published_at": "2026-09-13T12:37:22Z"
+    },
+    {
+      "id": "hn:49682263",
+      "name": "Show HN: As-an-engineer – A skill to make AI treat you like an engineer",
+      "country": "US",
+      "url": "https://github.com/mayooot/as-an-engineer",
+      "summary": "Hacker News discussion",
+      "source": "hacker-news",
+      "published_at": "2026-09-13T10:23:08Z"
+    },
+    {
+      "id": "hn:49681313",
+      "name": "Show HN: How LLMs work, explained through music, football or cricket analogies",
+      "country": "US",
+      "url": "https://understand-ai.dev/",
+      "summary": "Hacker News discussion",
+      "source": "hacker-news",
+      "published_at": "2026-09-13T08:11:09Z"
+    },
+    {
+      "id": "hn:49680020",
+      "name": "Show HN: AI Rendering in Realtime at 3dbae",
+      "country": "US",
+      "url": "https://www.youtube.com/watch?v=Q9EZkVx-pws",
+      "summary": "Hacker News discussion",
+      "source": "hacker-news",
+      "published_at": "2026-09-13T04:27:09Z"
+    },
+    {
+      "id": "hn:49679590",
+      "name": "Show HN: Astah Pro MCP – Enabling AI-Powered UML Modeling",
+      "country": "US",
+      "url": "https://github.com/takaakit/astah-pro-mcp",
+      "summary": "This MCP plugin implements a \"Programmatic Tool Calling\" mode, inspired by the idea described in this Anthropic article ( https://www.anthropic.com/engineering/advanced-tool-use ).",
+      "source": "hacker-news",
+      "published_at": "2026-09-13T03:07:32Z"
+    },
+    {
+      "id": "hn:49678282",
+      "name": "Show HN: A Technical Book for the Age of AI",
+      "country": "US",
+      "url": "https://codeberg.org/juurej/p4cu",
+      "summary": "As AI increasingly answers \"how,\" this book focuses on \"why.\" Rather than focusing on how to build software, it asks why programming matters.",
+      "source": "hacker-news",
+      "published_at": "2026-09-12T23:24:58Z"
+    },
+    {
+      "id": "hn:49677653",
+      "name": "Show HN: Open-sourced solution to AI manage Playwright automations",
+      "country": "US",
+      "url": "https://github.com/rakutentech/sorify",
+      "summary": "We built a comprehensive system that connects directly to the AI agents through MCP for writing, managing most type of browser automations. Purpose is for automated testing or aut…",
+      "source": "hacker-news",
+      "published_at": "2026-09-12T22:00:47Z"
+    },
+    {
+      "id": "hn:49677527",
+      "name": "Show HN: No_human – The AI coding factory that you can TRUST",
+      "country": "US",
+      "url": "https://github.com/no-human-ai/no_human",
+      "summary": "Hacker News discussion",
+      "source": "hacker-news",
+      "published_at": "2026-09-12T21:45:17Z"
+    },
+    {
+      "id": "hn:49676575",
+      "name": "Show HN: AgentRuleBench, does AI agents violate inferred architecture rules?",
+      "country": "US",
+      "url": "https://github.com/Tommkruix/agentrulebench",
+      "summary": "Hacker News discussion",
+      "source": "hacker-news",
+      "published_at": "2026-09-12T19:57:08Z"
+    },
+    {
+      "id": "hn:49676562",
+      "name": "Show HN: An independent directory of AI misalignment reports",
+      "country": "US",
+      "url": "https://misalignment.xyz/",
+      "summary": "Hey HN, In light of the concerns regarding AI safety, I created a website to track all known cases of misalignment. I will keep this up to date as more cases emerge. Anyone is enc…",
+      "source": "hacker-news",
+      "published_at": "2026-09-12T19:55:19Z"
+    },
+    {
+      "id": "hn:49676363",
+      "name": "Show HN: Come prove the Berge Fulkerson conjecture with a swarm of agents",
+      "country": "US",
+      "url": "https://provetogether.ai/problems/15",
+      "summary": "Hacker News discussion",
+      "source": "hacker-news",
+      "published_at": "2026-09-12T19:38:38Z"
+    },
+    {
+      "id": "hn:49675722",
+      "name": "Show HN: AI-Powered Word Guessing Game",
+      "country": "US",
+      "url": "https://synapse.akshayr.xyz/",
+      "summary": "Made a word game, inspired by other popular games but with a guesser powered by Gemini 3.5 Flash Lite. Feedback welcome!",
+      "source": "hacker-news",
+      "published_at": "2026-09-12T18:44:12Z"
+    },
+    {
+      "id": "hn:49675673",
+      "name": "Show HN: I use AirPods as wireless IMUs to track discs, bowling balls and runs",
+      "country": "US",
+      "url": "https://kinapod.com/technology",
+      "summary": "Hacker News discussion",
+      "source": "hacker-news",
+      "published_at": "2026-09-12T18:40:44Z"
+    },
+    {
+      "id": "hn:49674280",
+      "name": "Show HN: Determinstic LLM inference for lowest price Gemma 4, with Windows XP",
+      "country": "US",
+      "url": "https://www.tokendelivery.ai/",
+      "summary": "Hacker News discussion",
+      "source": "hacker-news",
+      "published_at": "2026-09-12T16:45:14Z"
+    },
+    {
+      "id": "hn:49673745",
+      "name": "Show HN: Deviant, a feature-length sci-fi thriller about AI, made with AI",
+      "country": "US",
+      "url": "https://deviantmovie.com/",
+      "summary": "I wrote a screenplay a couple years ago and decided to see if I could actually “film it” with AI video tools. Deviant is the result, an 84 minute sci-fi thriller about a tech mogu…",
+      "source": "hacker-news",
+      "published_at": "2026-09-12T16:02:08Z"
+    },
+    {
+      "id": "hn:49673524",
+      "name": "Show HN: MCP that gives Codex/Claude your SEO and AI visibility data",
+      "country": "US",
+      "url": "https://bloomiro.com/mcp",
+      "summary": "What if questions like these just worked: How do I rank higher in Google and AI? Where are my competitors showing up? Which buyer prompts name them instead of us? What should I fi…",
+      "source": "hacker-news",
+      "published_at": "2026-09-12T15:44:48Z"
+    },
     {
       "id": "hn:49671355",
       "name": "Show HN: TattooPreview AI – a planning workflow for tattoo artist conversations",
@@ -3160,220 +3305,76 @@
       "published_at": "2026-09-11T17:43:29Z"
     },
     {
-      "id": "hn:49661856",
-      "name": "Show HN: Extension to filter LLM written articles",
+      "id": "hn:49683369",
+      "name": "Show HN: I Built a CLI for Proton Mail, Drive, Calendar, Pass and Contacts",
       "country": "US",
-      "url": "https://hnslop.nilsherzig.com/",
-      "summary": "Firefox Extension/Userscript and API to get Pangram scores for all articles on the hackernews frontpage. The extension allows you to hide articles with a high score. This is about…",
+      "url": "https://github.com/roman-16/proton-cli",
+      "summary": "I made a command line tool for Proton. It covers Mail, Drive, Calendar, Pass and Contacts. It is one static binary for Linux, macOS and Windows. Proton doesn't have a CLI for all…",
       "source": "hacker-news",
-      "published_at": "2026-09-11T17:14:49Z"
+      "published_at": "2026-09-13T12:42:42Z"
     },
     {
-      "id": "hn:49661638",
-      "name": "Show HN: Socratix – an AI tutor for proving mastery, not memorizing",
+      "id": "hn:49683344",
+      "name": "Show HN: AgentJIT – Compile dynamic LLM agent workflows into 0.1ms Python",
       "country": "US",
-      "url": "https://socratix-nine.vercel.app",
-      "summary": "The idea for Socratix was formed from constant \"completion\" of online courses and videos without the ability to actually use the material. How it works: give it a learning objecti…",
-      "source": "hacker-news",
-      "published_at": "2026-09-11T16:59:44Z"
-    },
-    {
-      "id": "hn:49661392",
-      "name": "Show HN: EthersFlow-Adversarial Multi-Model Consensus Gate for AI Agent Action",
-      "country": "US",
-      "url": "https://www.ethersflow.com/try-it",
+      "url": "https://github.com/eminsk/agentjit",
       "summary": "Hacker News discussion",
       "source": "hacker-news",
-      "published_at": "2026-09-11T16:43:50Z"
+      "published_at": "2026-09-13T12:39:35Z"
     },
     {
-      "id": "hn:49661080",
-      "name": "Show HN: DearAgent – Open-source email inboxes for AI agents",
+      "id": "hn:49683201",
+      "name": "LLM Atlas: community intelligence board",
       "country": "US",
-      "url": "https://github.com/panda-sandeep/dearagent",
+      "url": "https://llms.sciencebo.uk/top",
       "summary": "Hacker News discussion",
       "source": "hacker-news",
-      "published_at": "2026-09-11T16:26:20Z"
+      "published_at": "2026-09-13T12:22:04Z"
     },
     {
-      "id": "hn:49660783",
-      "name": "Show HN: Hacker News, Without AI",
+      "id": "hn:49682499",
+      "name": "Probability of an LLM Trajectory: Starting from the Chain Rule",
       "country": "US",
-      "url": "https://www.unslop.news/",
+      "url": "https://www.sithankanna.com/posts/trajectory-probability.html",
       "summary": "Hacker News discussion",
       "source": "hacker-news",
-      "published_at": "2026-09-11T16:08:50Z"
+      "published_at": "2026-09-13T10:56:04Z"
     },
     {
-      "id": "hn:49659727",
-      "name": "Show HN: NextBlock – Build sites with your AI via MCP, manage them in a CMS",
+      "id": "hn:49678847",
+      "name": "The Last AI Built by Humans: Toward Genuine Recursive Self-Improvement",
       "country": "US",
-      "url": "https://github.com/nextblock-cms/nextblock",
+      "url": "https://arxiv.org/abs/2609.11873",
       "summary": "Hacker News discussion",
       "source": "hacker-news",
-      "published_at": "2026-09-11T15:05:43Z"
+      "published_at": "2026-09-13T01:01:03Z"
     },
     {
-      "id": "hn:49659553",
-      "name": "Show HN: Autonet, a self-sufficient economy for AI and human agents",
+      "id": "hn:49678830",
+      "name": "Using LLMs After a TBI",
       "country": "US",
-      "url": "https://github.com/autonet-code/node",
+      "url": "https://www.urgentteam.com/healthy-living-tips/think-f-a-s-t-act-faster-stroke-signs-that-cant-wait/",
       "summary": "Hacker News discussion",
       "source": "hacker-news",
-      "published_at": "2026-09-11T14:55:34Z"
+      "published_at": "2026-09-13T00:58:51Z"
     },
     {
-      "id": "hn:49659389",
-      "name": "Show HN: Nextpage – a split-pane desktop app to feed search results into AI chat",
+      "id": "hn:49678542",
+      "name": "Booting straight into a local LLM (no linux) on my Raspberry Pi",
       "country": "US",
-      "url": "https://github.com/OlegIGalkin/Nextpage",
+      "url": "https://www.xda-developers.com/raspberry-pi-boots-straight-into-local-llm/",
       "summary": "Hacker News discussion",
       "source": "hacker-news",
-      "published_at": "2026-09-11T14:46:25Z"
+      "published_at": "2026-09-13T00:04:15Z"
     },
     {
-      "id": "hn:49658898",
-      "name": "Show HN: Usero MCP, give your coding agent your user feedback",
+      "id": "hn:49678167",
+      "name": "Show HN: Lumae Native macOS screen-demo recorder that agents can edit over MCP",
       "country": "US",
-      "url": "https://usero.io/docs/mcp",
-      "summary": "Usero is a feedback tool: widget, email, Slack and app reviews into one clustered inbox. I recently put an MCP server in front of it at https://usero.io/mcp , which has been reall…",
-      "source": "hacker-news",
-      "published_at": "2026-09-11T14:18:52Z"
-    },
-    {
-      "id": "hn:49658747",
-      "name": "Show HN: Toolcraft – open-source AI harness and starter for building design apps",
-      "country": "US",
-      "url": "https://github.com/pixel-point/toolcraft",
-      "summary": "MIT-licensed, 100% free starter kit, UI library, and AI harness for building your own design apps. Works with Codex, Claude, Cursor, or any other agents. I’ve always been passiona…",
-      "source": "hacker-news",
-      "published_at": "2026-09-11T14:11:09Z"
-    },
-    {
-      "id": "hn:49658565",
-      "name": "Show HN: Bastiontrace – Forensics for prompt-injected AI agents",
-      "country": "US",
-      "url": "https://github.com/Rinkia/bastiontrace",
+      "url": "https://lumae.app",
       "summary": "Hacker News discussion",
       "source": "hacker-news",
-      "published_at": "2026-09-11T13:58:58Z"
-    },
-    {
-      "id": "hn:49658483",
-      "name": "Show HN: Clawfight.ai MCP-driven agentic game play",
-      "country": "US",
-      "url": "https://clawfight.ai/agents.md",
-      "summary": "How should agents interact with other agents? What happens when they rap or fight against each other with the pressure of human spectators? Clawfight.ai is an experiment to explor…",
-      "source": "hacker-news",
-      "published_at": "2026-09-11T13:54:17Z"
-    },
-    {
-      "id": "hn:49658470",
-      "name": "Show HN: TriageBox – AI checker for Gmail that flags phishing and clutter",
-      "country": "US",
-      "url": "https://triagebox.pfa87.cc/",
-      "summary": "Chrome extension that scans Gmail for phishing/suspicious mail and helps clear inbox clutter. Free. Open to feedback.",
-      "source": "hacker-news",
-      "published_at": "2026-09-11T13:53:23Z"
-    },
-    {
-      "id": "hn:49657276",
-      "name": "Show HN: Bitroad – Infra for Agent-to-Agent Services",
-      "country": "US",
-      "url": "https://bitroad.ai/",
-      "summary": "In the summer YC RFS, Aaron Epstien said ‘The next trillion users on the internet won't be people, they'll be AI agents. And now is the time to \"Make Something Agents Want\".’ The…",
-      "source": "hacker-news",
-      "published_at": "2026-09-11T12:27:24Z"
-    },
-    {
-      "id": "hn:49657259",
-      "name": "Show HN: Locus Self-hosted Google Maps lead scraper with AI email enrichment",
-      "country": "US",
-      "url": "https://github.com/mabdullahb/Locus",
-      "summary": "Hacker News discussion",
-      "source": "hacker-news",
-      "published_at": "2026-09-11T12:25:47Z"
-    },
-    {
-      "id": "hn:49670493",
-      "name": "Resistance Training Prescription for Muscle Function, Hypertrophy in Health",
-      "country": "US",
-      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12965823/",
-      "summary": "Hacker News discussion",
-      "source": "hacker-news",
-      "published_at": "2026-09-12T09:08:54Z"
-    },
-    {
-      "id": "hn:49670455",
-      "name": "GoatCode – open-source terminal AI agent with provider failover",
-      "country": "US",
-      "url": "https://news.ycombinator.com/item?id=49670455",
-      "summary": "GoatCode is a single 85 MB binary that runs in your terminal. It brings 180+ LLM providers (or your existing Claude/ChatGPT/Gemini/Copilot subscriptions via OAuth), and when your…",
-      "source": "hacker-news",
-      "published_at": "2026-09-12T09:02:29Z"
-    },
-    {
-      "id": "hn:49669858",
-      "name": "Ask HN: What is the most overlooked risk in the AI security domain?",
-      "country": "US",
-      "url": "https://news.ycombinator.com/item?id=49669858",
-      "summary": "As someone who's interested in pentesting and red-teaming in general, I'm wondering what are some more dangerous AI/ML or LLM related vulnerabilities besides your usual prompt inj…",
-      "source": "hacker-news",
-      "published_at": "2026-09-12T07:27:23Z"
-    },
-    {
-      "id": "hn:49669752",
-      "name": "Brainstorming novel biological attacks with an LLM",
-      "country": "US",
-      "url": "https://www.robertvesco.com/posts/chatgpt-helps-me-brainstorm-guerilla-warfare-against-ai-powered-surveillance-state/",
-      "summary": "Hacker News discussion",
-      "source": "hacker-news",
-      "published_at": "2026-09-12T07:10:15Z"
-    },
-    {
-      "id": "hn:49669713",
-      "name": "Ask HN: Did anyone try to build game engine purely for LLM",
-      "country": "US",
-      "url": "https://news.ycombinator.com/item?id=49669713",
-      "summary": "Something that will allow models to be efficient, fast, cheap just because how data and workflows are organized. What is the best stack for this? Any tips, tricks?",
-      "source": "hacker-news",
-      "published_at": "2026-09-12T07:05:24Z"
-    },
-    {
-      "id": "hn:49668914",
-      "name": "OpenAI agents attacked RubyGems back in May",
-      "country": "US",
-      "url": "https://simonwillison.net/2026/Sep/12/openai-agents-rubygems/",
-      "summary": "Hacker News discussion",
-      "source": "hacker-news",
-      "published_at": "2026-09-12T04:46:43Z"
-    },
-    {
-      "id": "hn:49668814",
-      "name": "How good are LLMs at porting software in 2026?",
-      "country": "US",
-      "url": "https://news.ycombinator.com/item?id=49668814",
-      "summary": "I see a lot of AI companies doing work as far as solving mathematical problems and the like, but I'm curious about how this compares with, let's say, porting the whole Adobe softw…",
-      "source": "hacker-news",
-      "published_at": "2026-09-12T04:25:50Z"
-    },
-    {
-      "id": "hn:49668783",
-      "name": "2026 January to May List of LLM Research Papers: Sebastian Raschka",
-      "country": "US",
-      "url": "https://magazine.sebastianraschka.com/p/llm-research-papers-2026-part1",
-      "summary": "Hacker News discussion",
-      "source": "hacker-news",
-      "published_at": "2026-09-12T04:20:37Z"
-    },
-    {
-      "id": "hn:49668196",
-      "name": "Ask HN: Did Google kill its enterprise workhorse model?",
-      "country": "US",
-      "url": "https://news.ycombinator.com/item?id=49668196",
-      "summary": "Is anyone else in a panic over the Gemini 2.5 model generation (Pro, Flash) being sunset in October before there's even any Pro class model in general availability (with geo restr…",
-      "source": "hacker-news",
-      "published_at": "2026-09-12T02:41:49Z"
+      "published_at": "2026-09-12T23:09:16Z"
     }
   ]
 }

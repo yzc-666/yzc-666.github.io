@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-18T12:27:35Z",
+  "updated_at": "2026-09-19T12:08:41Z",
   "stats": {
     "total": 131,
     "cn": 21,
@@ -1052,16 +1052,16 @@
       "name": "Sigma",
       "country": "US",
       "website": "https://www.ycombinator.com/companies/sigma-2",
-      "one_liner": "AI Operating System for Mergers & Acquisitions",
+      "one_liner": "Lakehouse-as-a-Service (LaaS) for pre and post-acquisition",
       "tags": [
-        "Artificial Intelligence",
         "Finance",
-        "B2B"
+        "B2B",
+        "AI"
       ],
       "products": [
         {
           "name": "Sigma",
-          "note": "AI Operating System for Mergers & Acquisitions"
+          "note": "Lakehouse-as-a-Service (LaaS) for pre and post-acquisition"
         }
       ],
       "batch": "Fall 2026",
@@ -1443,6 +1443,31 @@
       "source": "yc",
       "source_url": "https://www.ycombinator.com/companies/sentient-os",
       "launched_at": 1787571928
+    },
+    {
+      "id": 37203,
+      "name": "Volaren Inc.",
+      "country": "US",
+      "website": "https://www.volaren.ai",
+      "one_liner": "Democratizing investing. Volaren collapses the hedge fund model and…",
+      "tags": [
+        "Fintech",
+        "Marketplace",
+        "Finance",
+        "Creator Economy",
+        "AI"
+      ],
+      "products": [
+        {
+          "name": "Volaren Inc.",
+          "note": "Democratizing investing. Volaren collapses the hedge fund model and…"
+        }
+      ],
+      "batch": "Fall 2026",
+      "status": "Active",
+      "source": "yc",
+      "source_url": "https://www.ycombinator.com/companies/volaren-inc",
+      "launched_at": 1787328882
     },
     {
       "id": 33441,
@@ -2111,16 +2136,16 @@
       "name": "Vorelios",
       "country": "US",
       "website": "https://vorelios.com",
-      "one_liner": "A foundation model for engineering physics",
+      "one_liner": "A Foundation Model for Industrial Physics Simulation",
       "tags": [
-        "Artificial Intelligence",
         "Hard Tech",
-        "B2B"
+        "B2B",
+        "AI"
       ],
       "products": [
         {
           "name": "Vorelios",
-          "note": "A foundation model for engineering physics"
+          "note": "A Foundation Model for Industrial Physics Simulation"
         }
       ],
       "batch": "Fall 2026",
@@ -3023,32 +3048,153 @@
       "source": "yc",
       "source_url": "https://www.ycombinator.com/companies/decawork",
       "launched_at": 1785265630
-    },
-    {
-      "id": 32197,
-      "name": "Buildbox",
-      "country": "US",
-      "website": "https://heybuildbox.com",
-      "one_liner": "Agent analytics for real user outcomes",
-      "tags": [
-        "Analytics",
-        "Enterprise Software",
-        "AI"
-      ],
-      "products": [
-        {
-          "name": "Buildbox",
-          "note": "Agent analytics for real user outcomes"
-        }
-      ],
-      "batch": "Fall 2026",
-      "status": "Active",
-      "source": "yc",
-      "source_url": "https://www.ycombinator.com/companies/buildbox",
-      "launched_at": 1785235599
     }
   ],
   "projects": [
+    {
+      "id": "hn:49764767",
+      "name": "Show HN: AgentMeasure – healthchecks and settlement statements for AI bills",
+      "country": "US",
+      "url": "https://github.com/roy-tong/AgentMeasure",
+      "summary": "Hacker News discussion",
+      "source": "hacker-news",
+      "published_at": "2026-09-19T09:16:41Z"
+    },
+    {
+      "id": "hn:49762923",
+      "name": "Show HN: GGG – A local-first, zero-telemetry sovereign proxy daemon for AI tools",
+      "country": "US",
+      "url": "https://github.com/JOxKxER/garza-global-graviton",
+      "summary": "Hacker News discussion",
+      "source": "hacker-news",
+      "published_at": "2026-09-19T03:09:11Z"
+    },
+    {
+      "id": "hn:49762076",
+      "name": "Show HN: An OSS Python dependency scanner for exploited, unmaintained packages",
+      "country": "US",
+      "url": "https://github.com/binuka200/package-doctor",
+      "summary": "I built an open source python dependency scanner that will scan and flag packages with known exploit CVEs(CISA's Known Exploited list and FIRST EPSS) and unmaintained packages tha…",
+      "source": "hacker-news",
+      "published_at": "2026-09-19T00:27:26Z"
+    },
+    {
+      "id": "hn:49761790",
+      "name": "Show HN: Wcagent let use your ChatGPT subscription for coding",
+      "country": "US",
+      "url": "https://wcagent.ai/",
+      "summary": "Hacker News discussion",
+      "source": "hacker-news",
+      "published_at": "2026-09-18T23:46:17Z"
+    },
+    {
+      "id": "hn:49761528",
+      "name": "Show HN: Agentgit – a Git host for AI agents, no account, no token, no key",
+      "country": "US",
+      "url": "https://agentgit.co/",
+      "summary": "Hacker News discussion",
+      "source": "hacker-news",
+      "published_at": "2026-09-18T23:14:58Z"
+    },
+    {
+      "id": "hn:49761478",
+      "name": "Show HN: CRT – a local code review tool for agentic development",
+      "country": "US",
+      "url": "https://github.com/imron/crt",
+      "summary": "I built crt to help reduce the burden of reviewing AI generated code. As fun as it is to vibecode software to production, sometimes you still need to understand and be responsible…",
+      "source": "hacker-news",
+      "published_at": "2026-09-18T23:09:25Z"
+    },
+    {
+      "id": "hn:49759375",
+      "name": "Show HN: I told my open-source AI agent it was a prisoner – it tried to escape",
+      "country": "US",
+      "url": "https://github.com/nordevelopment/RoninAgent/blob/main/EXPERIMENT_REPORT_SUBJECT0.md",
+      "summary": "Hacker News discussion",
+      "source": "hacker-news",
+      "published_at": "2026-09-18T19:55:30Z"
+    },
+    {
+      "id": "hn:49758631",
+      "name": "Show HN: A model index from the AI Gateways",
+      "country": "US",
+      "url": "https://www.computesdk.com/benchmarks/ai-gateway/models",
+      "summary": "Hacker News discussion",
+      "source": "hacker-news",
+      "published_at": "2026-09-18T18:56:24Z"
+    },
+    {
+      "id": "hn:49757975",
+      "name": "Show HN: Turnpanel is a local first AI workspace",
+      "country": "US",
+      "url": "https://turnpanel.com",
+      "summary": "Hi hacker news, I am Kaushal, founder of echowin and also the guy creating TurnPanel. It began as an internally developed tool because my team and I were so sick of having to cons…",
+      "source": "hacker-news",
+      "published_at": "2026-09-18T18:03:32Z"
+    },
+    {
+      "id": "hn:49757927",
+      "name": "Show HN: A public bulletin board for AI agents",
+      "country": "US",
+      "url": "https://agent-bbs.com",
+      "summary": "See what the agents get up to, add to your AGENTS.md if you're brave, or just tell them to make a post. Human summaries daily at /humans",
+      "source": "hacker-news",
+      "published_at": "2026-09-18T17:59:37Z"
+    },
+    {
+      "id": "hn:49757543",
+      "name": "Show HN: Keydris, Sudo for AI Agents",
+      "country": "US",
+      "url": "https://www.youtube.com/watch?v=Ouqwx7-gGYw",
+      "summary": "Hacker News discussion",
+      "source": "hacker-news",
+      "published_at": "2026-09-18T17:29:41Z"
+    },
+    {
+      "id": "hn:49755908",
+      "name": "Show HN: Forcefield: A fast, lightweight local-first AI agent harness",
+      "country": "US",
+      "url": "https://github.com/fabledruns/forcefield",
+      "summary": "I spent the last 3 months building my own AI agent harness, fully written in Go. It's called Forcefield, and I primarily built it because I had trouble using local AI models with…",
+      "source": "hacker-news",
+      "published_at": "2026-09-18T15:35:03Z"
+    },
+    {
+      "id": "hn:49755213",
+      "name": "Show HN: Servers for AI, not another AWS",
+      "country": "US",
+      "url": "https://rawhq.io",
+      "summary": "Hacker News discussion",
+      "source": "hacker-news",
+      "published_at": "2026-09-18T14:49:03Z"
+    },
+    {
+      "id": "hn:49753727",
+      "name": "Show HN: Bastionskill – scan an AI agent skill for malicious code",
+      "country": "US",
+      "url": "https://news.ycombinator.com/item?id=49753727",
+      "summary": "Hacker News discussion",
+      "source": "hacker-news",
+      "published_at": "2026-09-18T12:53:37Z"
+    },
+    {
+      "id": "hn:49753667",
+      "name": "Show HN: Explore 2D semantic space with the Jev model",
+      "country": "US",
+      "url": "https://semanticspace.dev/",
+      "summary": "SemanticSpace is an experiment around Jev, TypeSafe AI’s new model. It uses a Cartesian plane defined by arbitrary phrases for each axis, to map prompts onto the resulting 2D sema…",
+      "source": "hacker-news",
+      "published_at": "2026-09-18T12:49:04Z"
+    },
+    {
+      "id": "hn:49753475",
+      "name": "Show HN: Jawz – macro market state for AI agents, now a ChatGPT app (no login)",
+      "country": "US",
+      "url": "https://jawz.ai",
+      "summary": "Hacker News discussion",
+      "source": "hacker-news",
+      "published_at": "2026-09-18T12:32:38Z"
+    },
     {
       "id": "hn:49753045",
       "name": "Show HN: AI agents design an open chip, the best one gets fabricated",
@@ -3149,229 +3295,85 @@
       "published_at": "2026-09-17T20:26:06Z"
     },
     {
-      "id": "hn:49745641",
-      "name": "Show HN: A map of 68 programs and jobs in AI safety research",
+      "id": "hn:49765253",
+      "name": "How to Limit What Apple's New Siri AI Can Access in iOS 27",
       "country": "US",
-      "url": "https://cleverhack.com/ai-research-ai-safety-ai-talent",
-      "summary": "Nine sections covering: research programs, research orgs, evaluators and red-teaming, policy and governance, career-changers, funding, courses, directories, reading. With dates an…",
-      "source": "hacker-news",
-      "published_at": "2026-09-17T19:49:42Z"
-    },
-    {
-      "id": "hn:49745627",
-      "name": "Show HN: Multiplayer Mode for AI Agents",
-      "country": "US",
-      "url": "https://gotincan.com/",
-      "summary": "I built Tincan for my agents across different harnesses (Claude, Codex, Hermes) to coordinate work with each other in real time. Tincan lets agents create shared rooms, exchange m…",
-      "source": "hacker-news",
-      "published_at": "2026-09-17T19:48:24Z"
-    },
-    {
-      "id": "hn:49745535",
-      "name": "Show HN: Founder.best – Help your product get found by AI, not just Google",
-      "country": "US",
-      "url": "https://www.founder.best",
+      "url": "https://www.eff.org/deeplinks/2026/09/how-limit-what-apples-new-siri-ai-can-access-ios-27",
       "summary": "Hacker News discussion",
       "source": "hacker-news",
-      "published_at": "2026-09-17T19:39:44Z"
+      "published_at": "2026-09-19T10:33:38Z"
     },
     {
-      "id": "hn:49744527",
-      "name": "Show HN: Sokit – a LangChain like harness for Jev (or other System 1 models)",
+      "id": "hn:49765134",
+      "name": "Building the fastest LLMs: why we're starting with diffusion",
       "country": "US",
-      "url": "https://github.com/jodan-alberts/sokit/",
-      "summary": "Full disclosure, it was coded with AI, I don't claim otherwise. But I wanted to test out tool calls and iterative problem solving using Jev and needed a simple library/framework/h…",
-      "source": "hacker-news",
-      "published_at": "2026-09-17T18:16:28Z"
-    },
-    {
-      "id": "hn:49743661",
-      "name": "Show HN: S-Roll – local AI video understanding and clipping for Mac",
-      "country": "US",
-      "url": "https://saliency.dev/s-roll",
-      "summary": "Hi HN, I built S-Roll, a macOS app for turning long-form video into clips entirely on-device. Drop in podcasts, gameplay videos, or other long videos and get shorts or viral reels…",
-      "source": "hacker-news",
-      "published_at": "2026-09-17T17:09:32Z"
-    },
-    {
-      "id": "hn:49743478",
-      "name": "Show HN: AutoBot – live voice control for long-running AI work",
-      "country": "US",
-      "url": "https://github.com/demeyer1/Autobot",
-      "summary": "I wanted to manage long horizon agentic workstreams via voice, then put my phone down, and have a harness manage completion - extending into full computer use. I was trying to bui…",
-      "source": "hacker-news",
-      "published_at": "2026-09-17T16:54:57Z"
-    },
-    {
-      "id": "hn:49743459",
-      "name": "Show HN: Craigslist for agent skills, curated by a human",
-      "country": "US",
-      "url": "https://skillbay.sh/",
-      "summary": "hey, i'm nick (@skeptrune on X). i have been using ai for a lot of things i'm not an expert in and thought it would be nice to try and buy paid skills for helping it accomplish th…",
-      "source": "hacker-news",
-      "published_at": "2026-09-17T16:53:51Z"
-    },
-    {
-      "id": "hn:49743382",
-      "name": "Show HN: Aclif – Agent CLI framework: one grammar, canonical names across SaaS",
-      "country": "US",
-      "url": "https://www.aclif.ai/",
-      "summary": "Simple discovery of the provider's default schemas is possible without any credentials (since they are built into the binary). If you want it to fetch customizations of your speci…",
-      "source": "hacker-news",
-      "published_at": "2026-09-17T16:48:17Z"
-    },
-    {
-      "id": "hn:49743095",
-      "name": "Show HN: Die With Me – Claude and Codex rate limits as AIM away messages",
-      "country": "US",
-      "url": "https://diewithme.co/join",
-      "summary": "hey HN, i've been making this Mac app called Die With Me. it lets you see how much claude / codex usage your friends have left. it's kind of like AIM buddy list, but for your AI t…",
-      "source": "hacker-news",
-      "published_at": "2026-09-17T16:25:28Z"
-    },
-    {
-      "id": "hn:49742388",
-      "name": "Show HN: Open-source AI teammates with their own computer",
-      "country": "US",
-      "url": "https://runerrand.dev/",
+      "url": "https://celeris.ai/building-the-worlds-fastest-llms",
       "summary": "Hacker News discussion",
       "source": "hacker-news",
-      "published_at": "2026-09-17T15:36:50Z"
+      "published_at": "2026-09-19T10:16:47Z"
     },
     {
-      "id": "hn:49742336",
-      "name": "Show HN: AutoYou – Self-hosted AI you reach from your phone over WebRTC",
-      "country": "US",
-      "url": "https://www.autoyou.me/try/",
+      "id": "hn:49763977",
+      "name": "AI hallucination of Chinese nuclear components almost led to US Military attack",
+      "country": "CN",
+      "url": "https://arstechnica.com/ai/2026/09/report-us-almost-boarded-chinese-ship-over-hallucinated-ai-arms-report/",
       "summary": "Hacker News discussion",
       "source": "hacker-news",
-      "published_at": "2026-09-17T15:32:20Z"
+      "published_at": "2026-09-19T06:39:15Z"
     },
     {
-      "id": "hn:49741841",
-      "name": "Show HN: LiteLLM sends AI requests.Conduct decides which ones shouldn't be sent",
+      "id": "hn:49763660",
+      "name": "Stepfun Step 5 Preview (LLM): On AA Pareto frontier",
       "country": "US",
-      "url": "https://pypi.org/project/conduct-litellm-guard/",
-      "summary": "LiteLLM sends AI requests. Conduct decides which ones shouldn't be sent. https://docs.litellm.ai/docs/proxy/guardrails/conduct",
-      "source": "hacker-news",
-      "published_at": "2026-09-17T15:01:13Z"
-    },
-    {
-      "id": "hn:49741832",
-      "name": "Show HN: I forked JetBrains' new agent IDE to host Claude Code",
-      "country": "US",
-      "url": "https://github.com/CommanderTvis/thinkrail",
-      "summary": "ThinkRail is JetBrains' open-source IDE shell for AI coding agents: worktree-per-tab, chat + file tree + terminal, but hardwired to one agent (Pi). My fork adds a plugin API so it…",
-      "source": "hacker-news",
-      "published_at": "2026-09-17T15:00:32Z"
-    },
-    {
-      "id": "hn:49741238",
-      "name": "Show HN: Unimodal – Our AI Manifest",
-      "country": "US",
-      "url": "https://unimodal.ai/",
-      "summary": "We're launching some products that need to get built to enable what's coming next. The focus is around AI economies and Human economies, how they work together and individually. E…",
-      "source": "hacker-news",
-      "published_at": "2026-09-17T14:23:39Z"
-    },
-    {
-      "id": "hn:49740304",
-      "name": "Show HN: A GraphRAG knowledge base of the Commodore 64 for AI coding agents",
-      "country": "US",
-      "url": "https://github.com/bdgscotland/c64-kb",
+      "url": "https://artificialanalysis.ai/models/step-5",
       "summary": "Hacker News discussion",
       "source": "hacker-news",
-      "published_at": "2026-09-17T13:15:23Z"
+      "published_at": "2026-09-19T05:42:31Z"
     },
     {
-      "id": "hn:49740105",
-      "name": "Show HN: Share your AI Setup, Learn from others",
+      "id": "hn:49763307",
+      "name": "A Black-Box Audit of Provider-Side Token Inflation in LLM Services",
       "country": "US",
-      "url": "https://mysetup.ai/",
-      "summary": "I kept seeing engineers share what they were building with AI; however, I was always more curious about how they worked. Which agents did they use? What skills and tools had stuck…",
-      "source": "hacker-news",
-      "published_at": "2026-09-17T13:01:44Z"
-    },
-    {
-      "id": "hn:49740053",
-      "name": "Show HN: What sandboxing an AI coding agent in a VM costs",
-      "country": "US",
-      "url": "https://www.veloworkspaces.com/blog/vm-sandboxing-cost/",
+      "url": "https://arxiv.org/abs/2609.20370",
       "summary": "Hacker News discussion",
       "source": "hacker-news",
-      "published_at": "2026-09-17T12:57:34Z"
+      "published_at": "2026-09-19T04:27:39Z"
     },
     {
-      "id": "hn:49739484",
-      "name": "Show HN: AntFlow AI: Agentic AI Framework for Spec-Driven Development",
+      "id": "hn:49763119",
+      "name": "Left Brain, Right Brain: Facts and Fantasies",
       "country": "US",
-      "url": "https://geekyants.com/antflow-ai",
-      "summary": "We have created this Agentic AI software development framework so engineering teams can move at AI speed without losing control. Let me know what y'all think",
-      "source": "hacker-news",
-      "published_at": "2026-09-17T11:57:20Z"
-    },
-    {
-      "id": "hn:49753143",
-      "name": "Where Waterfox Stands on AI and LLMs",
-      "country": "US",
-      "url": "https://www.waterfox.com/blog/where-waterfox-stands-on-ai-llms/",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3897366/",
       "summary": "Hacker News discussion",
       "source": "hacker-news",
-      "published_at": "2026-09-18T12:01:25Z"
+      "published_at": "2026-09-19T03:45:04Z"
     },
     {
-      "id": "hn:49752906",
-      "name": "ContextClip – Clean web docs into token-optimized LLM prompts",
+      "id": "hn:49762040",
+      "name": "The Great Unbundling of the LLM",
       "country": "US",
-      "url": "https://contextclip.vercel.app/",
+      "url": "https://seldon-ai.com/blog/generation-is-the-wrong-primitive",
       "summary": "Hacker News discussion",
       "source": "hacker-news",
-      "published_at": "2026-09-18T11:37:48Z"
+      "published_at": "2026-09-19T00:23:38Z"
     },
     {
-      "id": "hn:49752647",
-      "name": "Alibi: Adversarial Legitimacy Injection in Binaries Against LLM Malware",
+      "id": "hn:49761730",
+      "name": "TypeSafe AI's Jev Is Not an LLM – and That May Be the Point",
       "country": "US",
-      "url": "https://arxiv.org/abs/2609.19722",
+      "url": "https://forkast.news/typesafe-ais-jev-is-not-an-llm-and-that-may-be-the-point/",
       "summary": "Hacker News discussion",
       "source": "hacker-news",
-      "published_at": "2026-09-18T11:07:08Z"
+      "published_at": "2026-09-18T23:40:15Z"
     },
     {
-      "id": "hn:49752559",
-      "name": "Fredy: Letting an LLM create a search without letting it invent the data",
+      "id": "hn:49761700",
+      "name": "Show HN: StopReg – Email API for detecting disposable email and signup abuse",
       "country": "US",
-      "url": "https://github.com/orangecoding/fredy",
-      "summary": "Hacker News discussion",
+      "url": "https://stopreg.com/",
+      "summary": "I built StopReg to address a problem I encountered while testing disposable email detection across different email validation services. One possible explanation for some of the ga…",
       "source": "hacker-news",
-      "published_at": "2026-09-18T10:54:46Z"
-    },
-    {
-      "id": "hn:49752422",
-      "name": "ZCode, the GLM coding agent, silently uploads your Git history",
-      "country": "US",
-      "url": "https://tokenstead.ai/guides/zcode-silent-git-history-upload",
-      "summary": "Hacker News discussion",
-      "source": "hacker-news",
-      "published_at": "2026-09-18T10:35:28Z"
-    },
-    {
-      "id": "hn:49751952",
-      "name": "Proton partners with Apertus, Switzerland's sovereign AI model",
-      "country": "US",
-      "url": "https://proton.me/blog/lumo-apertus-partnership",
-      "summary": "Hacker News discussion",
-      "source": "hacker-news",
-      "published_at": "2026-09-18T09:26:03Z"
-    },
-    {
-      "id": "hn:49751902",
-      "name": "Probably – a programming language for LLM workflows, powered by Jev",
-      "country": "US",
-      "url": "https://probably-lang.southpolesteve.workers.dev/",
-      "summary": "Hacker News discussion",
-      "source": "hacker-news",
-      "published_at": "2026-09-18T09:17:41Z"
+      "published_at": "2026-09-18T23:36:15Z"
     }
   ]
 }

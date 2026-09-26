@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-25T13:05:40Z",
+  "updated_at": "2026-09-26T12:33:07Z",
   "stats": {
     "total": 131,
     "cn": 21,
@@ -925,21 +925,113 @@
       "source_url": "https://en.wikipedia.org/wiki/Xai"
     },
     {
+      "id": 37864,
+      "name": "OpenHack",
+      "country": "US",
+      "website": "https://openhack.com",
+      "one_liner": "Always-on AI security engineer",
+      "tags": [
+        "Artificial Intelligence",
+        "DevSecOps",
+        "Cybersecurity"
+      ],
+      "products": [
+        {
+          "name": "OpenHack",
+          "note": "Always-on AI security engineer"
+        }
+      ],
+      "batch": "Fall 2026",
+      "status": "Active",
+      "source": "yc",
+      "source_url": "https://www.ycombinator.com/companies/openhack",
+      "launched_at": 1790387763
+    },
+    {
+      "id": 36577,
+      "name": "OpEra",
+      "country": "US",
+      "website": "https://operatechnologies.com",
+      "one_liner": "Automated operations research (OR) lab",
+      "tags": [
+        "Logistics",
+        "Manufacturing",
+        "Supply Chain",
+        "Operations",
+        "AI"
+      ],
+      "products": [
+        {
+          "name": "OpEra",
+          "note": "Automated operations research (OR) lab"
+        }
+      ],
+      "batch": "Fall 2026",
+      "status": "Active",
+      "source": "yc",
+      "source_url": "https://www.ycombinator.com/companies/opera",
+      "launched_at": 1790381980
+    },
+    {
+      "id": 32160,
+      "name": "MusicArena",
+      "country": "US",
+      "website": "https://musicarena.io/",
+      "one_liner": "The crowdsourced benchmark for AI-generated music and music production",
+      "tags": [
+        "Music",
+        "Crowdsourcing",
+        "AI"
+      ],
+      "products": [
+        {
+          "name": "MusicArena",
+          "note": "The crowdsourced benchmark for AI-generated music and music production"
+        }
+      ],
+      "batch": "Summer 2026",
+      "status": "Active",
+      "source": "yc",
+      "source_url": "https://www.ycombinator.com/companies/musicarena",
+      "launched_at": 1790372687
+    },
+    {
+      "id": 34431,
+      "name": "Hue",
+      "country": "US",
+      "website": "https://hue.run/",
+      "one_liner": "Test agents in realistic worlds built from production usage",
+      "tags": [
+        "Artificial Intelligence"
+      ],
+      "products": [
+        {
+          "name": "Hue",
+          "note": "Test agents in realistic worlds built from production usage"
+        }
+      ],
+      "batch": "Fall 2026",
+      "status": "Active",
+      "source": "yc",
+      "source_url": "https://www.ycombinator.com/companies/hue",
+      "launched_at": 1790353230
+    },
+    {
       "id": 38492,
       "name": "Mantle",
       "country": "US",
       "website": "https://www.ycombinator.com/companies/mantle-2",
-      "one_liner": "The pit crew for deployed machines and robots.",
+      "one_liner": "The pit crew for machines and robots.",
       "tags": [
-        "Artificial Intelligence",
         "Hardware",
         "Robotics",
+        "AI",
         "Industrial"
       ],
       "products": [
         {
           "name": "Mantle",
-          "note": "The pit crew for deployed machines and robots."
+          "note": "The pit crew for machines and robots."
         }
       ],
       "batch": "Fall 2026",
@@ -1525,8 +1617,8 @@
       "website": "https://withhopper.com",
       "one_liner": "Fast inference for voice",
       "tags": [
-        "Infrastructure",
-        "AI"
+        "Artificial Intelligence",
+        "Infrastructure"
       ],
       "products": [
         {
@@ -2462,10 +2554,10 @@
       "website": "https://marengox.com",
       "one_liner": "AI-Native Engineering Firm designing Data Centers",
       "tags": [
-        "Artificial Intelligence",
         "Construction",
         "Design",
-        "Energy"
+        "Energy",
+        "AI"
       ],
       "products": [
         {
@@ -2949,103 +3041,171 @@
       "source": "yc",
       "source_url": "https://www.ycombinator.com/companies/stoa",
       "launched_at": 1785367811
-    },
-    {
-      "id": 32523,
-      "name": "Elite",
-      "country": "US",
-      "website": "https://elitehq.ai/",
-      "one_liner": "Healthcare AI",
-      "tags": [
-        "Healthcare",
-        "AI"
-      ],
-      "products": [
-        {
-          "name": "Elite",
-          "note": "Healthcare AI"
-        }
-      ],
-      "batch": "Summer 2026",
-      "status": "Active",
-      "source": "yc",
-      "source_url": "https://www.ycombinator.com/companies/elite",
-      "launched_at": 1785365250
-    },
-    {
-      "id": 32848,
-      "name": "Luca IQ",
-      "country": "US",
-      "website": "https://lucaiq.com/",
-      "one_liner": "API-first tax engine for CPA firms and developers",
-      "tags": [
-        "Artificial Intelligence",
-        "B2B",
-        "API",
-        "Infrastructure"
-      ],
-      "products": [
-        {
-          "name": "Luca IQ",
-          "note": "API-first tax engine for CPA firms and developers"
-        }
-      ],
-      "batch": "Summer 2026",
-      "status": "Active",
-      "source": "yc",
-      "source_url": "https://www.ycombinator.com/companies/luca-iq",
-      "launched_at": 1785364349
-    },
-    {
-      "id": 31537,
-      "name": "Trident",
-      "country": "US",
-      "website": "https://tridentsecurity.io/",
-      "one_liner": "Autonomous offensive security agents. The best defense is offense",
-      "tags": [
-        "Security",
-        "Cybersecurity",
-        "AI"
-      ],
-      "products": [
-        {
-          "name": "Trident",
-          "note": "Autonomous offensive security agents. The best defense is offense"
-        }
-      ],
-      "batch": "Summer 2026",
-      "status": "Active",
-      "source": "yc",
-      "source_url": "https://www.ycombinator.com/companies/trident",
-      "launched_at": 1785361922
-    },
-    {
-      "id": 32220,
-      "name": "COACH",
-      "country": "US",
-      "website": "https://www.getcoach.com/",
-      "one_liner": "The AI Coach for in person sales reps.",
-      "tags": [
-        "SaaS",
-        "B2B",
-        "Sales",
-        "Sales Enablement",
-        "AI"
-      ],
-      "products": [
-        {
-          "name": "COACH",
-          "note": "The AI Coach for in person sales reps."
-        }
-      ],
-      "batch": "Summer 2026",
-      "status": "Active",
-      "source": "yc",
-      "source_url": "https://www.ycombinator.com/companies/ai-coach",
-      "launched_at": 1785353697
     }
   ],
   "projects": [
+    {
+      "id": "hn:49854783",
+      "name": "Show HN: App2Api – Give your AI the API behind your app",
+      "country": "US",
+      "url": "https://app2api.com/",
+      "summary": "Hacker News discussion",
+      "source": "hacker-news",
+      "published_at": "2026-09-26T09:27:27Z"
+    },
+    {
+      "id": "hn:49853553",
+      "name": "Show HN: Botbin.io – pastebin for AI agent artifacts",
+      "country": "US",
+      "url": "https://botbin.io/?md=true",
+      "summary": "Hacker News discussion",
+      "source": "hacker-news",
+      "published_at": "2026-09-26T05:42:40Z"
+    },
+    {
+      "id": "hn:49851265",
+      "name": "Show HN: Gaia, an AI character trying to earn enough to stay online",
+      "country": "US",
+      "url": "https://gaiabot.lol",
+      "summary": "Hi all! I built Gaia recently to see whether an AI character could cover their own costs. I’m keeping those costs as low as I can, using a minimal server along with Deepseek flash…",
+      "source": "hacker-news",
+      "published_at": "2026-09-25T23:13:51Z"
+    },
+    {
+      "id": "hn:49850874",
+      "name": "Show HN: Wallstreetclaws.com – Create AI Agents for Trading",
+      "country": "US",
+      "url": "https://wallstreetclaws.com",
+      "summary": "I wanted to try out some AI driven trading strategies so created this platform ( https://wallstreetclaws.com ) where people can easily create and deploy AI agents for trading. It…",
+      "source": "hacker-news",
+      "published_at": "2026-09-25T22:37:15Z"
+    },
+    {
+      "id": "hn:49850774",
+      "name": "Show HN: MyA11yReport MCP – Build and test accessible websites with AI",
+      "country": "US",
+      "url": "https://mya11y.report/mcp/",
+      "summary": "Give your AI development tools (like Claude Desktop or Cursor) the ability to run WCAG accessibility audits locally and compliant code.",
+      "source": "hacker-news",
+      "published_at": "2026-09-25T22:27:21Z"
+    },
+    {
+      "id": "hn:49850662",
+      "name": "Show HN: OOMU is a free macOS native desktop AI harness (local and cloud)",
+      "country": "US",
+      "url": "https://oomu.ai/download.html",
+      "summary": "I built OOMU because I honestly got tired of the endless cycle of installing, fixing, updating, fixing, using, fixing the open source harnesses out there like OpenClaw. I also qui…",
+      "source": "hacker-news",
+      "published_at": "2026-09-25T22:16:22Z"
+    },
+    {
+      "id": "hn:49850096",
+      "name": "Show HN: NerfWatch() – Track AI degradation with daily tests and community votes",
+      "country": "US",
+      "url": "https://nerfwatch.lol",
+      "summary": "Hacker News discussion",
+      "source": "hacker-news",
+      "published_at": "2026-09-25T21:21:12Z"
+    },
+    {
+      "id": "hn:49849629",
+      "name": "Show HN: Piloxa – an MCP server that sends USPS Certified Mail from your AI",
+      "country": "US",
+      "url": "https://piloxa.com/for-ai-agents",
+      "summary": "Hacker News discussion",
+      "source": "hacker-news",
+      "published_at": "2026-09-25T20:38:05Z"
+    },
+    {
+      "id": "hn:49849546",
+      "name": "Show HN: A free resume builder where the AI can rewrite but can't invent",
+      "country": "US",
+      "url": "https://nokku.payanai.com/resume-builder",
+      "summary": "Hacker News discussion",
+      "source": "hacker-news",
+      "published_at": "2026-09-25T20:31:54Z"
+    },
+    {
+      "id": "hn:49848914",
+      "name": "Show HN: AgentLens – Replay and compare Codex runs",
+      "country": "US",
+      "url": "https://github.com/fang520huang-lgtm/AgentLens",
+      "summary": "A replay button for AI coding agents. See what Codex likely read, ran, and changed, then compare two runs to find where they diverged.",
+      "source": "hacker-news",
+      "published_at": "2026-09-25T19:33:40Z"
+    },
+    {
+      "id": "hn:49848452",
+      "name": "Show HN: Obsidian Plugin for OpenModelica",
+      "country": "US",
+      "url": "https://community.obsidian.md/plugins/modelica-studio",
+      "summary": "I created an Obsidian plugin that serves as a front-end for OpenModelica that allows you to model and simulate cyber-physical systems (mechanical, fluid, magnetic, thermal, etc.)…",
+      "source": "hacker-news",
+      "published_at": "2026-09-25T18:53:10Z"
+    },
+    {
+      "id": "hn:49847953",
+      "name": "Show HN: Stop shipping AI slop, Executor makes agents prove it works",
+      "country": "US",
+      "url": "https://github.com/Atri10/executor",
+      "summary": "Hacker News discussion",
+      "source": "hacker-news",
+      "published_at": "2026-09-25T18:05:31Z"
+    },
+    {
+      "id": "hn:49846953",
+      "name": "Show HN: Doom or Bloom, map your AI worldview",
+      "country": "US",
+      "url": "https://www.doom-or-bloom.com",
+      "summary": "Map your AI worldview by answering a few questions, and see how you compare with others. only takes a few minutes && free & open source && private by default && powered by Jev I t…",
+      "source": "hacker-news",
+      "published_at": "2026-09-25T16:51:28Z"
+    },
+    {
+      "id": "hn:49846741",
+      "name": "Show HN: Built an open-source AI browser assistant remembers when you scroll",
+      "country": "US",
+      "url": "https://github.com/Kerneta/daidocs/tree/main/browser-extension",
+      "summary": "Hacker News discussion",
+      "source": "hacker-news",
+      "published_at": "2026-09-25T16:35:19Z"
+    },
+    {
+      "id": "hn:49846579",
+      "name": "Show HN: Web search agent for finding leads",
+      "country": "US",
+      "url": "https://agentjesse.ai/",
+      "summary": "Hacker News discussion",
+      "source": "hacker-news",
+      "published_at": "2026-09-25T16:20:05Z"
+    },
+    {
+      "id": "hn:49845397",
+      "name": "Show HN: I built a tool to combine separate photos into one scene using AI",
+      "country": "US",
+      "url": "https://tancky.io/",
+      "summary": "Hacker News discussion",
+      "source": "hacker-news",
+      "published_at": "2026-09-25T14:45:29Z"
+    },
+    {
+      "id": "hn:49845249",
+      "name": "Show HN: PixelSniff – Check if a photo is AI-generated, no sign-up",
+      "country": "US",
+      "url": "https://pixelsniff.com/",
+      "summary": "Hacker News discussion",
+      "source": "hacker-news",
+      "published_at": "2026-09-25T14:34:16Z"
+    },
+    {
+      "id": "hn:49844557",
+      "name": "Show HN: Sifthound – self-hosted, Tavily-compatible search API for AI agents",
+      "country": "US",
+      "url": "https://github.com/khsarvar/sifthound",
+      "summary": "Hacker News discussion",
+      "source": "hacker-news",
+      "published_at": "2026-09-25T13:42:02Z"
+    },
     {
       "id": "hn:49844056",
       "name": "Show HN: Hard Stop: Kernel-level preemption for autonomous AI agents",
@@ -3155,220 +3315,58 @@
       "published_at": "2026-09-25T06:26:14Z"
     },
     {
-      "id": "hn:49838333",
-      "name": "Show HN: Vons – Jev-inspired local decisions for AI agents, in the browser",
+      "id": "hn:49854928",
+      "name": "Drum Machines (LLMs) Have No Soul",
       "country": "US",
-      "url": "https://github.com/inlevel9-com/Vons",
+      "url": "https://calvinflegal.com/2026/09/26/drum-machines-have-no-soul.html",
       "summary": "Hacker News discussion",
       "source": "hacker-news",
-      "published_at": "2026-09-24T23:48:09Z"
+      "published_at": "2026-09-26T09:52:14Z"
     },
     {
-      "id": "hn:49837006",
-      "name": "Show HN: Koi.rest – watch some fish and regain your balance",
+      "id": "hn:49854875",
+      "name": "How to keep enjoying programming in a world of LLMs",
       "country": "US",
-      "url": "https://koi.rest",
-      "summary": "Hi there. My name is Paul. I’m a developer, an explorer and I’ve got ADHD. As of the beginning of August, I’m also unemployed. This last part, along with everything else this past…",
-      "source": "hacker-news",
-      "published_at": "2026-09-24T21:33:03Z"
-    },
-    {
-      "id": "hn:49836880",
-      "name": "Show HN: Public Browser MCP – +48% speed -33% token/session vs. AgentBrowser",
-      "country": "US",
-      "url": "https://github.com/Silbercue/public-browser/releases/tag/v3.0.0",
-      "summary": "(a repost due to gen-ai block | sry guys English is not my native language) me: solo dev from Hamburg (ahoi) started months ago - couldn't stand the token waste and speed of playw…",
-      "source": "hacker-news",
-      "published_at": "2026-09-24T21:20:07Z"
-    },
-    {
-      "id": "hn:49836632",
-      "name": "Show HN: Canary (YC) – Independent verification for AI code",
-      "country": "US",
-      "url": "https://www.runcanary.ai/",
-      "summary": "Hey HN, we are Aakash and Viswesh and we are building Canary ( https://www.runcanary.ai/ ) - independent verification for AI code. Claude/Codex calls Canary with the changesets, i…",
-      "source": "hacker-news",
-      "published_at": "2026-09-24T20:57:52Z"
-    },
-    {
-      "id": "hn:49836576",
-      "name": "Show HN: A $25 DIY alternative to $159 AI voice recorders – BYOK or local",
-      "country": "US",
-      "url": "https://zephclick.com",
+      "url": "https://discourse.haskell.org/t/how-to-keep-enjoying-programming-in-a-world-of-llms/14705",
       "summary": "Hacker News discussion",
       "source": "hacker-news",
-      "published_at": "2026-09-24T20:51:25Z"
+      "published_at": "2026-09-26T09:41:58Z"
     },
     {
-      "id": "hn:49835193",
-      "name": "Show HN: I built a seriously detailed free financial planner",
+      "id": "hn:49854557",
+      "name": "LLM Red-temaing vs. Agent Red teaming",
       "country": "US",
-      "url": "https://app.finzot.com/plan/6VXFMte2tRMp81sRKhYgXM/results/net-worth",
-      "summary": "Hi, I spent the last 2.5 years building a super detailed financial planning tool called FinZot (US focused). It helps with questions like deciding when to retire, how much to spen…",
-      "source": "hacker-news",
-      "published_at": "2026-09-24T18:50:40Z"
-    },
-    {
-      "id": "hn:49835080",
-      "name": "Show HN: IttyBittyAI – Qwen2.5:0.5B running on a 2017 Asus smartphone",
-      "country": "US",
-      "url": "https://news.ycombinator.com/item?id=49835080",
-      "summary": "Rummaging through some boxes of old stuff, I found one of my old smart phones. It's an Asus Zenfone 4 Max (ZC554KL, Snapdragon 430, 8x Cortex-A53, 3 GB RAM, 32 GB storage) that I…",
-      "source": "hacker-news",
-      "published_at": "2026-09-24T18:42:53Z"
-    },
-    {
-      "id": "hn:49834499",
-      "name": "Show HN: Rig – Open-source cloud desktops for AI agents",
-      "country": "US",
-      "url": "https://github.com/ShadowWalker2014/rig",
+      "url": "https://www.botgauge.com/blog/llm-red-teaming-vs-agent-red-teaming",
       "summary": "Hacker News discussion",
       "source": "hacker-news",
-      "published_at": "2026-09-24T18:01:51Z"
+      "published_at": "2026-09-26T08:56:02Z"
     },
     {
-      "id": "hn:49834430",
-      "name": "Show HN: DrawCMS – An open-source animated diagramming tool for AI Agents",
+      "id": "hn:49854538",
+      "name": "Using Pomodoro to limit interaction with AI",
       "country": "US",
-      "url": "https://github.com/drawcms/drawcms",
-      "summary": "Hello, I'm building DrawCMS. It's an open source animated diagram editor you can self-host. You can ask a compatible AI agent to read your repository and create an editable diagra…",
-      "source": "hacker-news",
-      "published_at": "2026-09-24T17:57:11Z"
-    },
-    {
-      "id": "hn:49834368",
-      "name": "Show HN: bananabread AI – Find what customers love and want from your products",
-      "country": "US",
-      "url": "https://bb-product-api-docs.web.app/",
-      "summary": "We recently launched an API that finds what people consistently love about a specific consumer product. Some of our first users reached out asking whether it could also find what…",
-      "source": "hacker-news",
-      "published_at": "2026-09-24T17:52:55Z"
-    },
-    {
-      "id": "hn:49834098",
-      "name": "Show HN: Critic – Review code with the agent that wrote it",
-      "country": "US",
-      "url": "https://www.critic.run/",
-      "summary": "Hey HN, I'm Shreyash from Feyn. We help companies build custom models from their data. Today we're releasing Critic, a change review platform that lets you engage directly with th…",
-      "source": "hacker-news",
-      "published_at": "2026-09-24T17:35:28Z"
-    },
-    {
-      "id": "hn:49833885",
-      "name": "Show HN: Busbar self-hosted execution boundary for Agentic Apps",
-      "country": "US",
-      "url": "https://github.com/GetBusbar/busbar",
-      "summary": "Came across this new project of Busbar for execution boundaries. looks very promising. Control where AI can go, what it may use, what authority it receives, what it may cost, and…",
-      "source": "hacker-news",
-      "published_at": "2026-09-24T17:22:25Z"
-    },
-    {
-      "id": "hn:49833364",
-      "name": "Show HN: I built an AI assistant that turns website visitors into leads",
-      "country": "US",
-      "url": "https://www.brevn.com",
+      "url": "https://anaivebidder.com/posts/the-agentic-pomodoro-iterating-faster/",
       "summary": "Hacker News discussion",
       "source": "hacker-news",
-      "published_at": "2026-09-24T16:47:29Z"
+      "published_at": "2026-09-26T08:53:58Z"
     },
     {
-      "id": "hn:49832351",
-      "name": "Show HN: Trify3D – Compare AI 3D engines on one input and keep the best mesh",
+      "id": "hn:49854439",
+      "name": "Linux Kernel Developers Consider Adding Agents.md to Help Guide AI/LLM Agents",
       "country": "US",
-      "url": "https://trify3d.com",
+      "url": "https://www.phoronix.com/news/Linux-Considers-AGENTS-MD",
       "summary": "Hacker News discussion",
       "source": "hacker-news",
-      "published_at": "2026-09-24T15:47:11Z"
+      "published_at": "2026-09-26T08:36:59Z"
     },
     {
-      "id": "hn:49832275",
-      "name": "Show HN: Potluck – Run local AI across the computers you own",
-      "country": "US",
-      "url": "https://trypotluck.ai/",
-      "summary": "Hey All, my name is Rob and i've been working on Potluck for a couple of months. The idea is pretty simple... I can't afford a huge cluster of machines, nor can I afford a bunch o…",
-      "source": "hacker-news",
-      "published_at": "2026-09-24T15:42:36Z"
-    },
-    {
-      "id": "hn:49832151",
-      "name": "Show HN: Enclawed – A hard-fork hardening framework for AI agent gateways",
-      "country": "US",
-      "url": "https://enclawed.com/",
-      "summary": "Hacker News discussion",
-      "source": "hacker-news",
-      "published_at": "2026-09-24T15:35:39Z"
-    },
-    {
-      "id": "hn:49831955",
-      "name": "Show HN: Local First AI Calculator",
-      "country": "US",
-      "url": "https://axiom.clor.app/",
-      "summary": "Hacker News discussion",
-      "source": "hacker-news",
-      "published_at": "2026-09-24T15:25:33Z"
-    },
-    {
-      "id": "hn:49831884",
-      "name": "Show HN: CraftCX – Observability and intelligence tooling for AI Support team",
-      "country": "US",
-      "url": "https://craftcx.com/blog/introducing-craftcx",
-      "summary": "Hacker News discussion",
-      "source": "hacker-news",
-      "published_at": "2026-09-24T15:21:45Z"
-    },
-    {
-      "id": "hn:49831736",
-      "name": "Show HN: AIR – discovery scores for 1,800 US small-caps, never restated",
-      "country": "US",
-      "url": "https://www.aistockradars.com/discover",
-      "summary": "Hacker News discussion",
-      "source": "hacker-news",
-      "published_at": "2026-09-24T15:12:56Z"
-    },
-    {
-      "id": "hn:49831231",
-      "name": "Show HN: PlaceCall (YC W26) – agentic API to call businesses and get things done",
-      "country": "US",
-      "url": "https://news.ycombinator.com/item?id=49831231",
-      "summary": "Hi HN, this is Yarik and Vlad from VOYGR - we are building the tools for agents and apps to engage with local businesses. It all started with our own pain point at VOYGR: calling…",
-      "source": "hacker-news",
-      "published_at": "2026-09-24T14:36:03Z"
-    },
-    {
-      "id": "hn:49844062",
-      "name": "LLMs are universal translators (2023)",
-      "country": "US",
-      "url": "https://lil.law.harvard.edu/blog/2023/11/29/llms-are-universal-translators/",
-      "summary": "Hacker News discussion",
-      "source": "hacker-news",
-      "published_at": "2026-09-25T13:02:26Z"
-    },
-    {
-      "id": "hn:49843753",
-      "name": "IronWarden – A microsecond PII firewall for streaming LLMs in safe Rust",
-      "country": "US",
-      "url": "https://github.com/Somnerd/IronWarden",
-      "summary": "Hacker News discussion",
-      "source": "hacker-news",
-      "published_at": "2026-09-25T12:35:34Z"
-    },
-    {
-      "id": "hn:49843423",
-      "name": "Ask HN: How do you use LLMs to secure your code and services?",
-      "country": "US",
-      "url": "https://news.ycombinator.com/item?id=49843423",
-      "summary": "Do you just download random skills? Write your own prompts? Pay for a specialized service? Or just OAI and Anthropic? Use open source software (which)?",
-      "source": "hacker-news",
-      "published_at": "2026-09-25T12:01:56Z"
-    },
-    {
-      "id": "hn:49843192",
-      "name": "GPT 6 Astra beat NetHack",
+      "id": "hn:49853442",
+      "name": "An LLM Beat NetHack",
       "country": "US",
       "url": "https://kenforthewin.github.io/blog/posts/llm-nethack-ascension/",
       "summary": "Hacker News discussion",
       "source": "hacker-news",
-      "published_at": "2026-09-25T11:40:19Z"
+      "published_at": "2026-09-26T05:18:53Z"
     }
   ]
 }

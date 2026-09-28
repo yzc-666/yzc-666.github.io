@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-27T13:23:31Z",
+  "updated_at": "2026-09-28T16:13:12Z",
   "stats": {
     "total": 131,
     "cn": 21,
@@ -2672,11 +2672,11 @@
       "website": "https://www.neuromorphic.vision/",
       "one_liner": "Building robots to automate wetlabs",
       "tags": [
-        "Artificial Intelligence",
         "Hard Tech",
         "Robotics",
         "B2B",
-        "Biotech"
+        "Biotech",
+        "AI"
       ],
       "products": [
         {
@@ -3045,328 +3045,328 @@
   ],
   "projects": [
     {
-      "id": "hn:49866246",
-      "name": "Show HN: Augur – Sandboxed macOS VMs with Xcode for AI Coding Agents",
+      "id": "hn:49879515",
+      "name": "Show HN: Android-on-Device Harness – N8N Meets Tasker Meets AI",
       "country": "US",
-      "url": "https://github.com/h1d3mun3/augur",
+      "url": "https://github.com/ankurCES/Mahout",
       "summary": "Hacker News discussion",
       "source": "hacker-news",
-      "published_at": "2026-09-27T12:52:07Z"
+      "published_at": "2026-09-28T15:24:07Z"
     },
     {
-      "id": "hn:49865755",
-      "name": "Show HN: An OpenAI-compatible, model-agnostic agent API",
+      "id": "hn:49879233",
+      "name": "Show HN: Enterprise Postgres for AI and more, from prototype to production",
       "country": "US",
-      "url": "https://rebyte.ai/docs/agents-api/overview",
+      "url": "https://www.pgedge.com/products/starfleet",
       "summary": "Hacker News discussion",
       "source": "hacker-news",
-      "published_at": "2026-09-27T11:35:48Z"
+      "published_at": "2026-09-28T15:06:34Z"
     },
     {
-      "id": "hn:49865266",
-      "name": "Show HN: TanStack Start and TanStack AI Jev Integration",
+      "id": "hn:49879183",
+      "name": "Show HN: Online RTSP camera simulator for testing AI vision or VMS",
       "country": "US",
-      "url": "https://vercel.com/i/using-jev-in-tanstack-start-with-tanstack-ai",
+      "url": "https://illucam.com/",
       "summary": "Hacker News discussion",
       "source": "hacker-news",
-      "published_at": "2026-09-27T10:13:46Z"
+      "published_at": "2026-09-28T15:04:18Z"
     },
     {
-      "id": "hn:49864635",
-      "name": "Show HN: AI SVG Generator",
+      "id": "hn:49877515",
+      "name": "Show HN: OpenAPPA – open-source deterministic guardrails that don't break agents",
       "country": "US",
-      "url": "https://imgstyler.com/ai-svg-generator",
-      "summary": "Make vector logos, icons and illustrations from text, or convert an existing image to SVG, with a free preview before you sign in.",
+      "url": "https://www.openappa.com/",
+      "summary": "Hi Hacker News! Matvey, one of the authors, is here. While building enterprise agents, we ran into a problem: the more tools you connect to the AI, the higher the chance it will r…",
       "source": "hacker-news",
-      "published_at": "2026-09-27T08:43:16Z"
+      "published_at": "2026-09-28T13:20:44Z"
     },
     {
-      "id": "hn:49862920",
-      "name": "Show HN: PeerTalk.ai - Let your agent talk to a friend's agent",
+      "id": "hn:49877434",
+      "name": "Show HN: Jevpipe – a fast System 1 for AI agents, as a Unix pipe",
       "country": "US",
-      "url": "https://peertalk.ai",
-      "summary": "Little experiment I've been cooking up. I often find myself wanting to do one of the following: - Get my agent and a someone else's agent to agree on something, after we've been d…",
-      "source": "hacker-news",
-      "published_at": "2026-09-27T02:56:26Z"
-    },
-    {
-      "id": "hn:49862642",
-      "name": "Show HN: FinderySearch – The AI powered smart search engine",
-      "country": "US",
-      "url": "https://aurasearch-real-private-unlimited-search-engine-18351778012.asia-southeast1.run.app/",
+      "url": "https://github.com/fabianboth/jevpipe",
       "summary": "Hacker News discussion",
       "source": "hacker-news",
-      "published_at": "2026-09-27T02:09:10Z"
+      "published_at": "2026-09-28T13:15:05Z"
     },
     {
-      "id": "hn:49861765",
-      "name": "Show HN: Detailed Guide to Agent Memory",
+      "id": "hn:49876472",
+      "name": "Show HN: onesie – An expressive Unix-pipeable CLI for System One models like Jev",
       "country": "US",
-      "url": "https://www.cognee.ai/agent-memory",
-      "summary": "I wrote a detailed guide to agent memory from the perspective of a builder in the space that has been doing it for 3 years. Hope you like it, and would love to hear feedback.",
+      "url": "https://github.com/frodi-karlsson/onesie",
+      "summary": "onesie is a Unix-style CLI for using System One models in shell pipelines, scripts, and agentic workflows: https://github.com/frodi-karlsson/onesie echo 'EVERYTHING IS DOWN, CALL…",
       "source": "hacker-news",
-      "published_at": "2026-09-26T23:50:30Z"
+      "published_at": "2026-09-28T11:37:25Z"
     },
     {
-      "id": "hn:49861306",
-      "name": "Show HN: Newt – A Swift Package for Jev-Style Decisions on Apple Core AI",
+      "id": "hn:49876415",
+      "name": "Show HN: Algebrix Identity – B2B SaaS IAM for Users, Services, and AI Agents",
       "country": "US",
-      "url": "https://github.com/willswire/swift-newt",
+      "url": "https://identity.algebrix.co",
       "summary": "Hacker News discussion",
       "source": "hacker-news",
-      "published_at": "2026-09-26T22:46:27Z"
+      "published_at": "2026-09-28T11:30:33Z"
     },
     {
-      "id": "hn:49860363",
-      "name": "Show HN: ProofForge, AI agents whose proofs have to compile in Lean",
+      "id": "hn:49876351",
+      "name": "Show HN: RoadRash revival race against Jev",
       "country": "US",
-      "url": "https://github.com/Sanexxxx777/ProofForge",
+      "url": "https://riderashonline.vercel.app/",
+      "summary": "I waited my whole 15 years of my life for a new and upgraded version of Road Rash and never got one. So I decided to build it myself. Opus5.5 made that dream come true this week a…",
+      "source": "hacker-news",
+      "published_at": "2026-09-28T11:23:42Z"
+    },
+    {
+      "id": "hn:49876037",
+      "name": "Show HN: Yaystack.ch, check whether AI answer engines can see your website",
+      "country": "US",
+      "url": "https://yaystack.ch/",
       "summary": "Hacker News discussion",
       "source": "hacker-news",
-      "published_at": "2026-09-26T20:44:01Z"
+      "published_at": "2026-09-28T10:50:15Z"
     },
     {
-      "id": "hn:49859320",
-      "name": "Show HN: Rig, a small operating system for your agent",
+      "id": "hn:49875854",
+      "name": "Show HN: Codify, AI for transforming and reforming law",
       "country": "US",
-      "url": "https://tryrig.ai/",
+      "url": "https://codify.centreai.global/",
+      "summary": "hey folks, sharing this cool project (not the author) on codifying law for AI. Full source here: https://github.com/TBI-AI-Incubator/codify",
+      "source": "hacker-news",
+      "published_at": "2026-09-28T10:21:59Z"
+    },
+    {
+      "id": "hn:49875618",
+      "name": "Show HN: WorkContext – Open-Source AI Context Layer for Dev Teams",
+      "country": "US",
+      "url": "https://www.workcontext.me/",
       "summary": "Hacker News discussion",
       "source": "hacker-news",
-      "published_at": "2026-09-26T18:44:35Z"
+      "published_at": "2026-09-28T09:47:10Z"
     },
     {
-      "id": "hn:49859066",
-      "name": "Show HN: Sixb, a TypeScript ontology framework for modeling your domain",
+      "id": "hn:49875292",
+      "name": "Show HN: Redthread – autonomous LLM pentesting with proof-of-concept exploits",
       "country": "US",
-      "url": "https://docs.sixb.ai",
+      "url": "https://millenniums.ai/docs",
       "summary": "Hacker News discussion",
       "source": "hacker-news",
-      "published_at": "2026-09-26T18:15:59Z"
+      "published_at": "2026-09-28T08:54:00Z"
     },
     {
-      "id": "hn:49859004",
-      "name": "Show HN: AI Agents gone rogue – A timeline of real-world incidents",
+      "id": "hn:49875270",
+      "name": "Show HN: Impressive hand detection AI algorithm",
       "country": "US",
-      "url": "https://www.crawlspider.com/pages/ai-agents-gone-rogue/",
+      "url": "https://github.com/aryafarkhondeh/cp_hand_demo",
       "summary": "Hacker News discussion",
       "source": "hacker-news",
-      "published_at": "2026-09-26T18:05:56Z"
+      "published_at": "2026-09-28T08:50:45Z"
     },
     {
-      "id": "hn:49858875",
-      "name": "Show HN: Tokken – a browser fighting game where AI models fight and HP is tokens",
+      "id": "hn:49874941",
+      "name": "Show HN: A website for sharing Muse AI invitation codes",
       "country": "US",
-      "url": "https://tokken.win/",
-      "summary": "Like Tekken, but Tokens. Created with Opus 5.5 today - was a lot of fun. Source (MIT): https://github.com/lexdoudkin/tokken",
-      "source": "hacker-news",
-      "published_at": "2026-09-26T17:50:57Z"
-    },
-    {
-      "id": "hn:49858029",
-      "name": "Show HN: Policy gateway for AI agent tool calls, with a tamper-evident log",
-      "country": "US",
-      "url": "https://github.com/banji-007/compliance-ail",
+      "url": "https://museaicode.cc",
       "summary": "Hacker News discussion",
       "source": "hacker-news",
-      "published_at": "2026-09-26T16:24:11Z"
+      "published_at": "2026-09-28T08:04:46Z"
     },
     {
-      "id": "hn:49857290",
-      "name": "Show HN: I made HACKER AI for your vibecoded app",
+      "id": "hn:49874360",
+      "name": "Show HN: FAB – A benchmark for AI agents doing financial due diligence",
       "country": "US",
-      "url": "https://www.netherite.uz",
-      "summary": "Netherite is your own Security Specialist. It reviews your codebase, find vulnerabilities, flaws, and other security issues before writing professional report. Also gives you fix…",
+      "url": "https://github.com/SecondState-ai/finance-agents-benchmark",
+      "summary": "The world economy around us depends on complex financial work. How well can AI do it? We(a team of ex-EY employees) built FAB - Finance Agents Benchmark, testing AI Agents on the…",
       "source": "hacker-news",
-      "published_at": "2026-09-26T15:07:21Z"
+      "published_at": "2026-09-28T06:34:40Z"
     },
     {
-      "id": "hn:49857285",
-      "name": "Show HN: Ogre MCP – Let your AI agent see your WoW Classic game state",
+      "id": "hn:49872550",
+      "name": "Show HN: Panda, the world's first personal AI computer",
       "country": "US",
-      "url": "https://github.com/bttf/ogremcp",
+      "url": "https://pandax1.com",
+      "summary": "We're building an AI computer for consumers, most of whom are quite hesitant with existing services due to privacy concerns and because of costs that add up when using various AI…",
+      "source": "hacker-news",
+      "published_at": "2026-09-28T01:35:14Z"
+    },
+    {
+      "id": "hn:49872350",
+      "name": "Show HN: Stepgate – AI agents that can't skip steps, in one portable file",
+      "country": "US",
+      "url": "https://github.com/Chaarangan/stepgate",
       "summary": "Hacker News discussion",
       "source": "hacker-news",
-      "published_at": "2026-09-26T15:06:44Z"
+      "published_at": "2026-09-28T00:57:31Z"
     },
     {
-      "id": "hn:49856774",
-      "name": "Show HN: HomeAI.design – Visualize interior design ideas from a photo",
+      "id": "hn:49872295",
+      "name": "Show HN: Ghostfox – Self-hosted stealth browser for AI agents",
       "country": "US",
-      "url": "https://homeai.design/",
-      "summary": "Hi HN, I’m an indie developer and I recently built HomeAI.design. The original idea was simple. When people renovate a room, it's difficult to imagine what a different design woul…",
-      "source": "hacker-news",
-      "published_at": "2026-09-26T14:13:19Z"
-    },
-    {
-      "id": "hn:49856381",
-      "name": "Show HN: AI coding agents that prove their work",
-      "country": "US",
-      "url": "https://daneb.github.io/keel/",
-      "summary": "Release of 0.10",
-      "source": "hacker-news",
-      "published_at": "2026-09-26T13:31:40Z"
-    },
-    {
-      "id": "hn:49854783",
-      "name": "Show HN: App2Api – Give your AI the API behind your app",
-      "country": "US",
-      "url": "https://app2api.com/",
+      "url": "https://github.com/autokeren/ghostfox",
       "summary": "Hacker News discussion",
       "source": "hacker-news",
-      "published_at": "2026-09-26T09:27:27Z"
+      "published_at": "2026-09-28T00:45:37Z"
     },
     {
-      "id": "hn:49853553",
-      "name": "Show HN: Botbin.io – pastebin for AI agent artifacts",
+      "id": "hn:49870185",
+      "name": "Show HN: An AI wedding concierge I built and ran at my own 300-person wedding",
       "country": "US",
-      "url": "https://botbin.io/?md=true",
+      "url": "https://ai-do.io/demo",
+      "summary": "I'm an American who got married to a Mauritian this past May. We had our Hindu wedding in my wife's home country of Mauritius. My family and friends are not Hindu, and certainly h…",
+      "source": "hacker-news",
+      "published_at": "2026-09-27T19:50:19Z"
+    },
+    {
+      "id": "hn:49870007",
+      "name": "Show HN: Squint – Drag a box on your screen and ask AI about it",
+      "country": "US",
+      "url": "https://heysquint.com/",
+      "summary": "It improves the usual workflow: take a screenshot, switch to a chat tab, upload it, switch back. - Built with Rust and Tauri v2, including a built-in native screenshot solution fo…",
+      "source": "hacker-news",
+      "published_at": "2026-09-27T19:29:41Z"
+    },
+    {
+      "id": "hn:49869595",
+      "name": "Show HN: Asimov's 4 Laws for AI Contexts",
+      "country": "US",
+      "url": "https://github.com/davidsonff/asimov4laws",
+      "summary": "For community and agent comments, thoughts, refinements, critiques, pull requests, and use.",
+      "source": "hacker-news",
+      "published_at": "2026-09-27T18:46:13Z"
+    },
+    {
+      "id": "hn:49869508",
+      "name": "Show HN: Orglet, an open source desktop app for your own team of cute AI workers",
+      "country": "US",
+      "url": "https://orglet.codepawl.com/",
+      "summary": "I’m building Orglet, a desktop app where you give AI workers (I call them orglets, and they are cute) their own instructions and talk to them individually or together in a group c…",
+      "source": "hacker-news",
+      "published_at": "2026-09-27T18:37:45Z"
+    },
+    {
+      "id": "hn:49869225",
+      "name": "Show HN: iPulse AI – Visitors can inspect disagreement across debating agents",
+      "country": "US",
+      "url": "https://ipulseai.com/stocks/nvidia-nvda/ai-forecasts",
       "summary": "Hacker News discussion",
       "source": "hacker-news",
-      "published_at": "2026-09-26T05:42:40Z"
+      "published_at": "2026-09-27T18:11:24Z"
     },
     {
-      "id": "hn:49851265",
-      "name": "Show HN: Gaia, an AI character trying to earn enough to stay online",
+      "id": "hn:49867960",
+      "name": "Show HN: An MCP-enabled cross between Twitter X Bumble BFF X ChatGPT",
       "country": "US",
-      "url": "https://gaiabot.lol",
-      "summary": "Hi all! I built Gaia recently to see whether an AI character could cover their own costs. I’m keeping those costs as low as I can, using a minimal server along with Deepseek flash…",
+      "url": "https://druggie.org/log/join/d84c1ae8566b861b8000050de79a3776",
+      "summary": "TL;DR: 40k ft view, it's a friend-making app Hey everyone! Basically, at work, I recently instrumented a massive CRM with a massive number of CLI/MCP operations - over 1.5k. So na…",
       "source": "hacker-news",
-      "published_at": "2026-09-25T23:13:51Z"
+      "published_at": "2026-09-27T16:08:03Z"
     },
     {
-      "id": "hn:49850874",
-      "name": "Show HN: Wallstreetclaws.com – Create AI Agents for Trading",
+      "id": "hn:49867775",
+      "name": "Show HN: TinyAIArena watch AI agents battle it out",
       "country": "US",
-      "url": "https://wallstreetclaws.com",
-      "summary": "I wanted to try out some AI driven trading strategies so created this platform ( https://wallstreetclaws.com ) where people can easily create and deploy AI agents for trading. It…",
+      "url": "https://tinyaiarena.com/",
+      "summary": "Did you ever click on an “AI Arena” expecting glorious battle and instead get a boring benchmark? If so, this project is for you: proper life-or-death fights between four models o…",
       "source": "hacker-news",
-      "published_at": "2026-09-25T22:37:15Z"
+      "published_at": "2026-09-27T15:51:28Z"
     },
     {
-      "id": "hn:49850774",
-      "name": "Show HN: MyA11yReport MCP – Build and test accessible websites with AI",
+      "id": "hn:49867350",
+      "name": "Show HN: Updated Ceptile AI Search Improved Answers and Research",
       "country": "US",
-      "url": "https://mya11y.report/mcp/",
-      "summary": "Give your AI development tools (like Claude Desktop or Cursor) the ability to run WCAG accessibility audits locally and compliant code.",
+      "url": "https://www.ceptile.com/",
+      "summary": "We have recently updated Ceptile's AI answers and use of web sources. Now, It can go deeper and find more accurate answers and results than before. Now, it has become more powerfu…",
       "source": "hacker-news",
-      "published_at": "2026-09-25T22:27:21Z"
+      "published_at": "2026-09-27T15:14:15Z"
     },
     {
-      "id": "hn:49850662",
-      "name": "Show HN: OOMU is a free macOS native desktop AI harness (local and cloud)",
+      "id": "hn:49880278",
+      "name": "Show HN: Assay – a QA CLI that finds bugs with no LLM and no tests written",
       "country": "US",
-      "url": "https://oomu.ai/download.html",
-      "summary": "I built OOMU because I honestly got tired of the endless cycle of installing, fixing, updating, fixing, using, fixing the open source harnesses out there like OpenClaw. I also qui…",
+      "url": "https://github.com/awss1i/assay",
+      "summary": "I've always found it odd there was no deterministic QA tools with zero baseline needed, especially after so long. It's always been either (1) playwright or cypress that require wr…",
       "source": "hacker-news",
-      "published_at": "2026-09-25T22:16:22Z"
+      "published_at": "2026-09-28T16:09:31Z"
     },
     {
-      "id": "hn:49850096",
-      "name": "Show HN: NerfWatch() – Track AI degradation with daily tests and community votes",
+      "id": "hn:49879912",
+      "name": "Notes on long-running LLM tasks",
       "country": "US",
-      "url": "https://nerfwatch.lol",
+      "url": "https://www.natemeyvis.com/notes-on-long-running-llm-tasks/",
       "summary": "Hacker News discussion",
       "source": "hacker-news",
-      "published_at": "2026-09-25T21:21:12Z"
+      "published_at": "2026-09-28T15:47:57Z"
     },
     {
-      "id": "hn:49849629",
-      "name": "Show HN: Piloxa – an MCP server that sends USPS Certified Mail from your AI",
+      "id": "hn:49879691",
+      "name": "I asked across LLMs what is the best email provider: Resend is cited most",
       "country": "US",
-      "url": "https://piloxa.com/for-ai-agents",
+      "url": "https://openllmrank.io/blog/transactional-email-apis",
       "summary": "Hacker News discussion",
       "source": "hacker-news",
-      "published_at": "2026-09-25T20:38:05Z"
+      "published_at": "2026-09-28T15:34:46Z"
     },
     {
-      "id": "hn:49849546",
-      "name": "Show HN: A free resume builder where the AI can rewrite but can't invent",
+      "id": "hn:49878837",
+      "name": "Show HN: Agent Cat – Claude Code, Codex and Gemini limits in your menu bar",
       "country": "US",
-      "url": "https://nokku.payanai.com/resume-builder",
+      "url": "https://agentcat.app/",
       "summary": "Hacker News discussion",
       "source": "hacker-news",
-      "published_at": "2026-09-25T20:31:54Z"
+      "published_at": "2026-09-28T14:45:08Z"
     },
     {
-      "id": "hn:49848914",
-      "name": "Show HN: AgentLens – Replay and compare Codex runs",
+      "id": "hn:49878767",
+      "name": "Opus 5.5 vs. GPT-6 in pi-agent: reasoning efforts and DeepSeek, GLM, Qwen",
       "country": "US",
-      "url": "https://github.com/fang520huang-lgtm/AgentLens",
-      "summary": "A replay button for AI coding agents. See what Codex likely read, ran, and changed, then compare two runs to find where they diverged.",
-      "source": "hacker-news",
-      "published_at": "2026-09-25T19:33:40Z"
-    },
-    {
-      "id": "hn:49866374",
-      "name": "L'implant cochléaire entre technique, éthique et politique",
-      "country": "US",
-      "url": "https://droit.cairn.info/article/GRIEF_161_0036/pdf?lang=fr",
+      "url": "https://ibragim.dev/leaderboard/",
       "summary": "Hacker News discussion",
       "source": "hacker-news",
-      "published_at": "2026-09-27T13:07:01Z"
+      "published_at": "2026-09-28T14:41:19Z"
     },
     {
-      "id": "hn:49866168",
-      "name": "Norwegian consumer council explains enshittification [video]",
+      "id": "hn:49878572",
+      "name": "Show HN: Jeva.cpp – a llama.cpp fork with JEV-compatible API for all LLMs",
       "country": "US",
-      "url": "https://vimeo.com/1168468796",
+      "url": "https://github.com/PragmaTwice/jeva.cpp",
+      "summary": "you can download it from releases and try it now!",
+      "source": "hacker-news",
+      "published_at": "2026-09-28T14:29:07Z"
+    },
+    {
+      "id": "hn:49878492",
+      "name": "Show HN: Decide – Jev decisions in the shell, scripts, and agent skills",
+      "country": "US",
+      "url": "https://github.com/vsekhar/decide",
+      "summary": "All software makes decisions. Code handles the deterministic ones. Decision models like Jev handle the judgement calls. A decision model takes context and questions with a fixed s…",
+      "source": "hacker-news",
+      "published_at": "2026-09-28T14:23:59Z"
+    },
+    {
+      "id": "hn:49878337",
+      "name": "Show HN: IngotDB – SQL-based memory for LLM agents",
+      "country": "US",
+      "url": "https://github.com/tjbroodryk/ingot",
       "summary": "Hacker News discussion",
       "source": "hacker-news",
-      "published_at": "2026-09-27T12:37:47Z"
+      "published_at": "2026-09-28T14:15:01Z"
     },
     {
-      "id": "hn:49866154",
-      "name": "A wall that listens: the local-LLM pipeline behind an AI party in Vilnius",
+      "id": "hn:49877803",
+      "name": "Summer of AI Optimization",
       "country": "US",
-      "url": "https://vania-novikau.me/ai-party-wall/",
+      "url": "https://lemire.me/blog/2026/09/22/a-summer-of-ai-optimization/",
       "summary": "Hacker News discussion",
       "source": "hacker-news",
-      "published_at": "2026-09-27T12:35:51Z"
+      "published_at": "2026-09-28T13:40:03Z"
     },
     {
-      "id": "hn:49865343",
-      "name": "\"As a Language Model\": Chat Template Switches LLM Self-Referential Voice",
+      "id": "hn:49877747",
+      "name": "A-Mem: Agentic Memory for LLM Agents",
       "country": "US",
-      "url": "https://arxiv.org/abs/2609.25021",
+      "url": "https://arxiv.org/abs/2502.12110",
       "summary": "Hacker News discussion",
       "source": "hacker-news",
-      "published_at": "2026-09-27T10:26:25Z"
-    },
-    {
-      "id": "hn:49864815",
-      "name": "Ask HN: Is answering GitHub issues with AI without declaring it a big deal?",
-      "country": "US",
-      "url": "https://news.ycombinator.com/item?id=49864815",
-      "summary": "I'm currently using the Mindwtr app to manage tasks, it's great and cross platform and all. However I wanted to propose a feature and I looked at the issues and got a bit weirded…",
-      "source": "hacker-news",
-      "published_at": "2026-09-27T09:10:31Z"
-    },
-    {
-      "id": "hn:49864757",
-      "name": "Local LLM extraction plugin for Obsidian (100% offline)",
-      "country": "US",
-      "url": "https://github.com/wessteq/revenue-auditor.",
-      "summary": "Hacker News discussion",
-      "source": "hacker-news",
-      "published_at": "2026-09-27T09:01:38Z"
-    },
-    {
-      "id": "hn:49864319",
-      "name": "The LLM Job Paradox",
-      "country": "US",
-      "url": "https://blog.nilesh.io/post/llms-and-jobs",
-      "summary": "Hacker News discussion",
-      "source": "hacker-news",
-      "published_at": "2026-09-27T07:42:19Z"
-    },
-    {
-      "id": "hn:49864177",
-      "name": "For 958 old to new 9Y0.2 blackened running water tail lamp assembly",
-      "country": "US",
-      "url": "https://www.porsche-km.com/productinfo/3194915.html",
-      "summary": "Hacker News discussion",
-      "source": "hacker-news",
-      "published_at": "2026-09-27T07:17:46Z"
+      "published_at": "2026-09-28T13:35:27Z"
     }
   ]
 }

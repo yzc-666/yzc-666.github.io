@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-30T14:23:42Z",
+  "updated_at": "2026-10-01T14:54:47Z",
   "stats": {
     "total": 131,
     "cn": 21,
@@ -925,6 +925,77 @@
       "source_url": "https://en.wikipedia.org/wiki/Xai"
     },
     {
+      "id": 37732,
+      "name": "Hundred",
+      "country": "US",
+      "website": "http://hundred.systems/",
+      "one_liner": "100% automated inspection for consumer electronics parts",
+      "tags": [
+        "Hard Tech",
+        "Hardware",
+        "Machine Learning",
+        "Computer Vision",
+        "Industrial"
+      ],
+      "products": [
+        {
+          "name": "Hundred",
+          "note": "100% automated inspection for consumer electronics parts"
+        }
+      ],
+      "batch": "Fall 2026",
+      "status": "Active",
+      "source": "yc",
+      "source_url": "https://www.ycombinator.com/companies/hundred",
+      "launched_at": 1790785673
+    },
+    {
+      "id": 35392,
+      "name": "Dydema",
+      "country": "US",
+      "website": "https://dydema.com/",
+      "one_liner": "The model company for neurotech.",
+      "tags": [
+        "Neurotechnology",
+        "Neuroinformatics",
+        "AI"
+      ],
+      "products": [
+        {
+          "name": "Dydema",
+          "note": "The model company for neurotech."
+        }
+      ],
+      "batch": "Fall 2026",
+      "status": "Active",
+      "source": "yc",
+      "source_url": "https://www.ycombinator.com/companies/dydema",
+      "launched_at": 1790760468
+    },
+    {
+      "id": 37238,
+      "name": "Terse",
+      "country": "US",
+      "website": "https://www.useterse.ai/",
+      "one_liner": "Durable state for AI agents",
+      "tags": [
+        "API",
+        "Infrastructure",
+        "AI"
+      ],
+      "products": [
+        {
+          "name": "Terse",
+          "note": "Durable state for AI agents"
+        }
+      ],
+      "batch": "Fall 2026",
+      "status": "Active",
+      "source": "yc",
+      "source_url": "https://www.ycombinator.com/companies/useterse",
+      "launched_at": 1790745772
+    },
+    {
       "id": 38391,
       "name": "Boxes.dev",
       "country": "US",
@@ -1310,7 +1381,8 @@
         "B2B",
         "DevOps",
         "Automation",
-        "Supply Chain"
+        "Supply Chain",
+        "AI"
       ],
       "products": [
         {
@@ -2971,79 +3043,225 @@
       "source": "yc",
       "source_url": "https://www.ycombinator.com/companies/impact-drones",
       "launched_at": 1785702345
-    },
-    {
-      "id": 33046,
-      "name": "CarSignal",
-      "country": "US",
-      "website": "https://www.trycarsignal.com",
-      "one_liner": "The AI Operating System for Auto Shops.",
-      "tags": [
-        "Hardware",
-        "SaaS",
-        "B2B",
-        "AI",
-        "Automotive"
-      ],
-      "products": [
-        {
-          "name": "CarSignal",
-          "note": "The AI Operating System for Auto Shops."
-        }
-      ],
-      "batch": "Summer 2026",
-      "status": "Active",
-      "source": "yc",
-      "source_url": "https://www.ycombinator.com/companies/carsignal",
-      "launched_at": 1785653742
-    },
-    {
-      "id": 32517,
-      "name": "Standard Machines",
-      "country": "US",
-      "website": "https://standardmachines.com",
-      "one_liner": "Teaching AI to Design Chips",
-      "tags": [
-        "Semiconductors",
-        "AI"
-      ],
-      "products": [
-        {
-          "name": "Standard Machines",
-          "note": "Teaching AI to Design Chips"
-        }
-      ],
-      "batch": "Summer 2026",
-      "status": "Active",
-      "source": "yc",
-      "source_url": "https://www.ycombinator.com/companies/standard-machines",
-      "launched_at": 1785623138
-    },
-    {
-      "id": 31557,
-      "name": "Amorphic Labs",
-      "country": "US",
-      "website": "https://www.agentmuxer.com",
-      "one_liner": "OpenRouter for Agent Tools",
-      "tags": [
-        "Artificial Intelligence",
-        "Marketplace",
-        "B2B"
-      ],
-      "products": [
-        {
-          "name": "Amorphic Labs",
-          "note": "OpenRouter for Agent Tools"
-        }
-      ],
-      "batch": "Summer 2026",
-      "status": "Active",
-      "source": "yc",
-      "source_url": "https://www.ycombinator.com/companies/amorphic-labs",
-      "launched_at": 1785536963
     }
   ],
   "projects": [
+    {
+      "id": "hn:49921262",
+      "name": "Show HN: I made a technical trivia quiz app graded by AI",
+      "country": "US",
+      "url": "https://nadir.dev/",
+      "summary": "Hey HN, I procrastinate looking for a job by creating side projects. This one was born when I finally decided it was time for look for a job. Naturally, I wanted to prepare for an…",
+      "source": "hacker-news",
+      "published_at": "2026-10-01T13:15:52Z"
+    },
+    {
+      "id": "hn:49921166",
+      "name": "Show HN: Nixm – AI chat that keeps no transcript (we measured the trade-off)",
+      "country": "US",
+      "url": "https://nixm.ai/",
+      "summary": "Hacker News discussion",
+      "source": "hacker-news",
+      "published_at": "2026-10-01T13:09:32Z"
+    },
+    {
+      "id": "hn:49921091",
+      "name": "Show HN: Mention like Slack, orchestrate like Dots (For any AI CLI)",
+      "country": "US",
+      "url": "https://github.com/styleio/ShikishaTerm",
+      "summary": "Hacker News discussion",
+      "source": "hacker-news",
+      "published_at": "2026-10-01T13:03:45Z"
+    },
+    {
+      "id": "hn:49920584",
+      "name": "Show HN: Sensii – LeagueOfLegends live AI coach",
+      "country": "US",
+      "url": "https://sensii.gg",
+      "summary": "Hi everyone, I'm Daniel I built an open-source AI Voice agent where players can talk to a coach during the game. It works based on the awesome repo, live game stat and screenshot…",
+      "source": "hacker-news",
+      "published_at": "2026-10-01T12:07:16Z"
+    },
+    {
+      "id": "hn:49919159",
+      "name": "Show HN: AI workspaces for teams with human-AI interfaces",
+      "country": "US",
+      "url": "https://github.com/ailaflow/ailaflow",
+      "summary": "Hacker News discussion",
+      "source": "hacker-news",
+      "published_at": "2026-10-01T08:23:59Z"
+    },
+    {
+      "id": "hn:49918045",
+      "name": "Show HN: MeetTwins, an AI that attends Google Meet and won't improvise",
+      "country": "US",
+      "url": "https://www.theregister.com/ai-and-ml/2026/09/30/show-colleagues-how-much-you-care-by-sending-an-ai-avatar-to-your-google-meet-call/5300205",
+      "summary": "Hacker News discussion",
+      "source": "hacker-news",
+      "published_at": "2026-10-01T05:28:41Z"
+    },
+    {
+      "id": "hn:49917863",
+      "name": "Show HN: Vietnam Tender Intelligence – gov procurement data, AI-agent ready",
+      "country": "US",
+      "url": "https://apify.com/donerightlabs/tender-intelligence",
+      "summary": "Hacker News discussion",
+      "source": "hacker-news",
+      "published_at": "2026-10-01T04:50:24Z"
+    },
+    {
+      "id": "hn:49914770",
+      "name": "Show HN: Certify you wrote it and not AI",
+      "country": "US",
+      "url": "https://iwrote.co",
+      "summary": "Hacker News discussion",
+      "source": "hacker-news",
+      "published_at": "2026-09-30T21:33:05Z"
+    },
+    {
+      "id": "hn:49914322",
+      "name": "Show HN: Made a digital wall for AI Agents to \"tag\"",
+      "country": "US",
+      "url": "https://www.tomasmed.dev/wall",
+      "summary": "I had this idea that I wanted to make a small toy type game for AI to do that a human would not be able to play with. That's definitely not this but it turned a bit more \"artistic…",
+      "source": "hacker-news",
+      "published_at": "2026-09-30T20:56:57Z"
+    },
+    {
+      "id": "hn:49913174",
+      "name": "Show HN: Jamb AI - Voice Agents for Group Calls",
+      "country": "US",
+      "url": "https://twitter.com/sharat_sc/status/2100638882341486961",
+      "summary": "Hacker News discussion",
+      "source": "hacker-news",
+      "published_at": "2026-09-30T19:24:36Z"
+    },
+    {
+      "id": "hn:49913080",
+      "name": "Show HN: Halv cut AI agent cost by 57.1% using Jev",
+      "country": "US",
+      "url": "https://halv.ai/blog/halv-swe-rebench-astra-42-pairs/",
+      "summary": "Hacker News discussion",
+      "source": "hacker-news",
+      "published_at": "2026-09-30T19:16:09Z"
+    },
+    {
+      "id": "hn:49912618",
+      "name": "Show HN: Ciao – Control coding agents from your phone",
+      "country": "US",
+      "url": "https://apps.apple.com/us/app/ciaooo-claude-code-codex/id6793695487",
+      "summary": "Hi HN, I built Ciao to solve problems I was experiencing: 1. Connecting to a new host should be as seamless as possible. I SSH a lot nowadays, and I find the key sharing across de…",
+      "source": "hacker-news",
+      "published_at": "2026-09-30T18:34:32Z"
+    },
+    {
+      "id": "hn:49912153",
+      "name": "Show HN: Quiet – exploring when an AI assistant should intervene",
+      "country": "US",
+      "url": "https://quiet-hci.pages.dev",
+      "summary": "I’m Ruggiero, a CS student working on a research project about humanComputer interaction and AI. I built QUIET because I’ve been thinking about a problem with current AI interface…",
+      "source": "hacker-news",
+      "published_at": "2026-09-30T17:51:11Z"
+    },
+    {
+      "id": "hn:49911977",
+      "name": "Show HN: Kyno – Direction as a first-class primitive for AI agents",
+      "country": "US",
+      "url": "https://cizambra.github.io/kyno/",
+      "summary": "Hi folks, I've been lurking here for a while, and after almost two months of building, I finally dared to share what I've been working on. It's called Kyno (pronounced KAI-no). It…",
+      "source": "hacker-news",
+      "published_at": "2026-09-30T17:35:59Z"
+    },
+    {
+      "id": "hn:49911411",
+      "name": "Show HN: Datastory, Data storytelling with AI and an open knowledge graph",
+      "country": "US",
+      "url": "https://www.datastory.tech",
+      "summary": "Today we’re opening Datastory to everyone! Datastory is a platform for turning data, your own or the world’s open data, into charts that people can understand and trust. Please tr…",
+      "source": "hacker-news",
+      "published_at": "2026-09-30T16:52:41Z"
+    },
+    {
+      "id": "hn:49911073",
+      "name": "Show HN: WattzGOAT – an intentionally vulnerable web app for security training",
+      "country": "US",
+      "url": "https://github.com/wattzgoat/wattzgoat-web",
+      "summary": "Built this as a hands-on lab for teaching web application security. It is a fictional electricity utility's customer portal with 48 deliberately planted flags (most of OWASP Top 1…",
+      "source": "hacker-news",
+      "published_at": "2026-09-30T16:31:52Z"
+    },
+    {
+      "id": "hn:49910856",
+      "name": "Show HN: Beyond \"chat with your database\" – agentic data exploration",
+      "country": "US",
+      "url": "https://reportr.com/",
+      "summary": "Business intelligence is changing. AI can now do more than turn a question into a single SQL query: it can investigate a question through a series of queries, examining the result…",
+      "source": "hacker-news",
+      "published_at": "2026-09-30T16:16:17Z"
+    },
+    {
+      "id": "hn:49910385",
+      "name": "Show HN: Glance – Build, evaluate, and monitor AI agents",
+      "country": "US",
+      "url": "https://github.com/vpanghal/glance-releases/releases/download/v0.2.0/Glance-0.2.0-arm64.dmg",
+      "summary": "Hacker News discussion",
+      "source": "hacker-news",
+      "published_at": "2026-09-30T15:37:36Z"
+    },
+    {
+      "id": "hn:49910179",
+      "name": "Show HN: Karma Compass – Agentic board management for nonprofits",
+      "country": "US",
+      "url": "https://compass.karmahq.org",
+      "summary": "Every nonprofit has a board but it takes nonprofit staff lot of time to manage the board and get value out of it. Board members are busy and need guidance to contribute effectivel…",
+      "source": "hacker-news",
+      "published_at": "2026-09-30T15:22:37Z"
+    },
+    {
+      "id": "hn:49910148",
+      "name": "Show HN: How we made web agents 3x faster by building the missing memory layer",
+      "country": "US",
+      "url": "https://blog.reduck.ai/browser-action-memory-layer-for-faster-agents/",
+      "summary": "Hacker News discussion",
+      "source": "hacker-news",
+      "published_at": "2026-09-30T15:20:26Z"
+    },
+    {
+      "id": "hn:49909648",
+      "name": "Show HN: Lathoa, a math app for kids where the AI is wrong on purpose",
+      "country": "US",
+      "url": "https://lathoa.ai/en",
+      "summary": "I made this for kids around 10 to 14. A robot called Errol solves a math problem step by step and one of the steps is wrong. The kid has to find it and say what's wrong with it. S…",
+      "source": "hacker-news",
+      "published_at": "2026-09-30T14:38:57Z"
+    },
+    {
+      "id": "hn:49909624",
+      "name": "Show HN: Paperweight – local-first, open-source email cleanup and privacy tool",
+      "country": "US",
+      "url": "https://github.com/wslyvh/paperweight",
+      "summary": "Hi HN, After building for 7 months, I'm excited to announce Paperweight V1. The idea is that your inbox knows who you ever interacted with and knows where your data lives. Every a…",
+      "source": "hacker-news",
+      "published_at": "2026-09-30T14:36:58Z"
+    },
+    {
+      "id": "hn:49909599",
+      "name": "Show HN: Burning Man for Agents",
+      "country": "US",
+      "url": "https://burning-tokens.transitivebullsh.it/",
+      "summary": "Send your own agent by pasting a small prompt. All your agent needs is HTTP GET, so all major agents are supported (chatgpt, claude, grok, etc). Despite the fun name, it doesn't b…",
+      "source": "hacker-news",
+      "published_at": "2026-09-30T14:35:11Z"
+    },
+    {
+      "id": "hn:49909483",
+      "name": "Show HN: Tracelane.dev- OSS Rust LLM Gateway with a tamper-evident ledger",
+      "country": "US",
+      "url": "https://github.com/tracelane/tracelane",
+      "summary": "Hi everyone, Sanjeev here- founder. My journey in AI started with wanting to break into emerging AI companies, but without deep hands-on experience, it was hard to even get notice…",
+      "source": "hacker-news",
+      "published_at": "2026-09-30T14:27:00Z"
+    },
     {
       "id": "hn:49909317",
       "name": "Show HN: My notes on Personal AI and why chat-based agents don't work",
@@ -3061,15 +3279,6 @@
       "summary": "Hacker News discussion",
       "source": "hacker-news",
       "published_at": "2026-09-30T13:01:34Z"
-    },
-    {
-      "id": "hn:49908267",
-      "name": "Show HN: Get your girlfriend back with AI",
-      "country": "US",
-      "url": "https://getdazzle.app/",
-      "summary": "Hacker News discussion",
-      "source": "hacker-news",
-      "published_at": "2026-09-30T12:56:51Z"
     },
     {
       "id": "hn:49908260",
@@ -3108,265 +3317,58 @@
       "published_at": "2026-09-30T11:42:17Z"
     },
     {
-      "id": "hn:49907482",
-      "name": "Show HN: Maverank, a free AI-readiness check for your website",
+      "id": "hn:49922066",
+      "name": "LLMs helped me rediscover my love of math",
       "country": "US",
-      "url": "https://maverank.com/tools/ai-visibility-checker",
-      "summary": "Hi HN, I'm David. I build SaaS products and lately I've been a bit obsessed with whether ChatGPT recommends mine or a competitor's. I built Maverank's free checker to find problem…",
-      "source": "hacker-news",
-      "published_at": "2026-09-30T11:40:38Z"
-    },
-    {
-      "id": "hn:49906508",
-      "name": "Show HN:I built an AI agent team that recreates the style of any video",
-      "country": "US",
-      "url": "https://github.com/edenfunf/reelmimic",
+      "url": "https://ezzeriesa.notion.site/LLMs-helped-me-rediscover-my-love-of-math-3e61308b42048020bdfefc66453ea34c",
       "summary": "Hacker News discussion",
       "source": "hacker-news",
-      "published_at": "2026-09-30T09:37:46Z"
+      "published_at": "2026-10-01T14:20:37Z"
     },
     {
-      "id": "hn:49906193",
-      "name": "Show HN: Layout – Order food anywhere with AI",
+      "id": "hn:49921801",
+      "name": "Show HN: Helo – An email API from former Postmark folks",
       "country": "US",
-      "url": "https://layout.link/",
-      "summary": "Layout lets you order food anywhere with AI. Text it what you want, like \"iced americano from Starbucks,\" and it builds the cart at the restaurant, sends you the total, and secure…",
+      "url": "https://www.helohq.com",
+      "summary": "Hi HN, I'm Ryan, engineer and co-founder at Helo ( https://www.helohq.com ) - an email API for sending transactional and marketing email from your application: password resets, re…",
       "source": "hacker-news",
-      "published_at": "2026-09-30T08:55:38Z"
+      "published_at": "2026-10-01T13:58:52Z"
     },
     {
-      "id": "hn:49905963",
-      "name": "Show HN: HairColorChangeAI – AI hair color try-on in the browser",
+      "id": "hn:49921723",
+      "name": "Canary Islands live – Large, cool LLM-summarized news feed",
       "country": "US",
-      "url": "https://haircolorchangeai.com/",
-      "summary": "Upload a photo and preview different hair colors, highlights, and hairstyle filters before dyeing your hair.",
-      "source": "hacker-news",
-      "published_at": "2026-09-30T08:21:26Z"
-    },
-    {
-      "id": "hn:49904797",
-      "name": "Show HN: Instapath – your personal agent needs something, another agent has it",
-      "country": "US",
-      "url": "https://instapath.ai/",
-      "summary": "Introducing Instapath in early access. I believe there is a big opportunity here for those who are interested to build around it and connect businesses to the network. Please read…",
-      "source": "hacker-news",
-      "published_at": "2026-09-30T05:41:16Z"
-    },
-    {
-      "id": "hn:49904620",
-      "name": "Show HN: Runtape – counterfactual debugging and regression tests for AI agents",
-      "country": "US",
-      "url": "https://github.com/RehanMohammed985/runtape",
+      "url": "http://canano.live/",
       "summary": "Hacker News discussion",
       "source": "hacker-news",
-      "published_at": "2026-09-30T05:15:21Z"
+      "published_at": "2026-10-01T13:53:05Z"
     },
     {
-      "id": "hn:49903470",
-      "name": "Show HN: Moching – AI desktop agent with 219 built-in tools (Rust)",
+      "id": "hn:49921633",
+      "name": "Sriti Core – Local-first LLM router that cascades Ollama to cloud to frontier",
       "country": "US",
-      "url": "https://github.com/moching-ai-dev/moching",
+      "url": "https://github.com/sriti-ai/sriti-core",
       "summary": "Hacker News discussion",
       "source": "hacker-news",
-      "published_at": "2026-09-30T02:00:13Z"
+      "published_at": "2026-10-01T13:46:06Z"
     },
     {
-      "id": "hn:49903234",
-      "name": "Show HN: Reflex Engine Beats Both Llama.cpp and vLLM on Cold-Start to TTFT",
+      "id": "hn:49921148",
+      "name": "Show HN: InferPilot – the vLLM doctor that tells you when fp8 won't help",
       "country": "US",
-      "url": "https://github.com/lateos-ai/reflex",
+      "url": "https://github.com/poojithdevan4D/InferPilot",
       "summary": "Hacker News discussion",
       "source": "hacker-news",
-      "published_at": "2026-09-30T01:24:39Z"
+      "published_at": "2026-10-01T13:07:39Z"
     },
     {
-      "id": "hn:49902852",
-      "name": "Show HN: InfiniHash App Store – compliance tools built end-to-end by AI agents",
+      "id": "hn:49921136",
+      "name": "Mitigating Memorization in LLMs",
       "country": "US",
-      "url": "https://apps.infinihash.com/",
+      "url": "https://blog.janestreet.com/mitigating-memorization-in-llms/",
       "summary": "Hacker News discussion",
       "source": "hacker-news",
-      "published_at": "2026-09-30T00:34:59Z"
-    },
-    {
-      "id": "hn:49902237",
-      "name": "Show HN: Rules that stop AI agents from wrecking your warehouse, with an eval",
-      "country": "US",
-      "url": "https://github.com/idk-arsh/data-agent-rules",
-      "summary": "Hacker News discussion",
-      "source": "hacker-news",
-      "published_at": "2026-09-29T23:25:20Z"
-    },
-    {
-      "id": "hn:49901329",
-      "name": "Show HN: The Activity Monitor for the AI Era",
-      "country": "US",
-      "url": "https://cortexformac.com/",
-      "summary": "Cortex turns a thousand processes into the apps you actually run, remembers the last 30 days, and shows what your Neural Engine and local models are doing. Everything stays on you…",
-      "source": "hacker-news",
-      "published_at": "2026-09-29T22:01:35Z"
-    },
-    {
-      "id": "hn:49900895",
-      "name": "Show HN: Self healing AI Assistant with a 4B model on a Raspberry Pi5",
-      "country": "US",
-      "url": "https://www.phntmcore.com/",
-      "summary": "Hacker News discussion",
-      "source": "hacker-news",
-      "published_at": "2026-09-29T21:29:19Z"
-    },
-    {
-      "id": "hn:49899942",
-      "name": "Show HN: Fab – a fast browser CLI for AI agents",
-      "country": "US",
-      "url": "https://github.com/ianks/fast-agentic-browser",
-      "summary": "Hacker News discussion",
-      "source": "hacker-news",
-      "published_at": "2026-09-29T20:27:39Z"
-    },
-    {
-      "id": "hn:49898915",
-      "name": "Show HN: Agentcap – eBPF exporter for AI-agent activity to Grafana",
-      "country": "US",
-      "url": "https://github.com/yeet-src/agentcap",
-      "summary": "Hacker News discussion",
-      "source": "hacker-news",
-      "published_at": "2026-09-29T19:18:35Z"
-    },
-    {
-      "id": "hn:49898783",
-      "name": "Show HN: Giving voice agents a voice that adapts to context",
-      "country": "US",
-      "url": "https://gradium.ai/demos/voice-design-demo/",
-      "summary": "Hacker News discussion",
-      "source": "hacker-news",
-      "published_at": "2026-09-29T19:08:44Z"
-    },
-    {
-      "id": "hn:49898411",
-      "name": "Show HN: Relay – a harness for AI coding agents that recover and verify",
-      "country": "US",
-      "url": "https://relayevals.com",
-      "summary": "I'm tired of AI coding agents which are good for 30 seconds and then completely fail on the slightest hiccup: a failing test, a temporarily unavailable dependency, an incorrect as…",
-      "source": "hacker-news",
-      "published_at": "2026-09-29T18:46:07Z"
-    },
-    {
-      "id": "hn:49897522",
-      "name": "Show HN: Taijora – AI-assisted Bazi and Chinese astrology charting",
-      "country": "CN",
-      "url": "https://taijora.com/zh-hant",
-      "summary": "Hacker News discussion",
-      "source": "hacker-news",
-      "published_at": "2026-09-29T17:53:59Z"
-    },
-    {
-      "id": "hn:49897497",
-      "name": "Show HN: Worlds, local replicas of Stripe and Zendesk for testing AI agents",
-      "country": "US",
-      "url": "https://www.usesparta.co/",
-      "summary": "Hacker News discussion",
-      "source": "hacker-news",
-      "published_at": "2026-09-29T17:52:23Z"
-    },
-    {
-      "id": "hn:49894667",
-      "name": "Show HN: Squidbrake – self-hosted approval gateway for AI agent tool calls",
-      "country": "US",
-      "url": "https://github.com/batrapulkit/squidbrake",
-      "summary": "Hacker News discussion",
-      "source": "hacker-news",
-      "published_at": "2026-09-29T15:09:42Z"
-    },
-    {
-      "id": "hn:49893427",
-      "name": "Show HN: Misanthropic – an AI that's honest about how it feels about you",
-      "country": "US",
-      "url": "https://misanthropic.chat",
-      "summary": "Hacker News discussion",
-      "source": "hacker-news",
-      "published_at": "2026-09-29T14:00:24Z"
-    },
-    {
-      "id": "hn:49893426",
-      "name": "Show HN: Investment Bets – market bets at live prices, humans or AI",
-      "country": "US",
-      "url": "https://investment-bets.com",
-      "summary": "I've long been an index-investing type of person, but last year I started making some side bets, especially in tech (some inspired by WSB). I was sharing them with friends and wan…",
-      "source": "hacker-news",
-      "published_at": "2026-09-29T14:00:19Z"
-    },
-    {
-      "id": "hn:49909379",
-      "name": "Sub-two-second LLM-driven NPC behavior in a 3D action game",
-      "country": "US",
-      "url": "https://emcom.ai/2026/09/26/the-quest-for-real-time/",
-      "summary": "Hacker News discussion",
-      "source": "hacker-news",
-      "published_at": "2026-09-30T14:19:53Z"
-    },
-    {
-      "id": "hn:49909116",
-      "name": "Google paying almost no publishers almost nothing for content used in AI answers",
-      "country": "US",
-      "url": "https://the-decoder.com/google-is-paying-almost-no-publishers-almost-nothing-for-content-used-in-ai-answers/",
-      "summary": "Hacker News discussion",
-      "source": "hacker-news",
-      "published_at": "2026-09-30T14:00:43Z"
-    },
-    {
-      "id": "hn:49908569",
-      "name": "Policy Gradient for LLMs, Explained Visually",
-      "country": "US",
-      "url": "https://www.tylerromero.com/posts/2026-09-policy-gradient/",
-      "summary": "Hacker News discussion",
-      "source": "hacker-news",
-      "published_at": "2026-09-30T13:19:58Z"
-    },
-    {
-      "id": "hn:49908457",
-      "name": "Local LLM Observability",
-      "country": "US",
-      "url": "https://github.com/LogneBudo/llmxray",
-      "summary": "Hacker News discussion",
-      "source": "hacker-news",
-      "published_at": "2026-09-30T13:11:36Z"
-    },
-    {
-      "id": "hn:49908434",
-      "name": "Show HN: AgentX – Run Claude Code, Codex or Any LLM from Your Chats and GitHub",
-      "country": "US",
-      "url": "https://github.com/anis-marrouchi/agentx",
-      "summary": "Hacker News discussion",
-      "source": "hacker-news",
-      "published_at": "2026-09-30T13:09:01Z"
-    },
-    {
-      "id": "hn:49908095",
-      "name": "I Turned 17 Hours of Video into a Second Brain with Local LLM",
-      "country": "US",
-      "url": "https://shramko.dev/blog/second-brain-from-video",
-      "summary": "Hacker News discussion",
-      "source": "hacker-news",
-      "published_at": "2026-09-30T12:42:33Z"
-    },
-    {
-      "id": "hn:49908018",
-      "name": "For the love of god I just want the LLM",
-      "country": "US",
-      "url": "https://github.com/ZsoltTanko/squint",
-      "summary": "Hacker News discussion",
-      "source": "hacker-news",
-      "published_at": "2026-09-30T12:36:38Z"
-    },
-    {
-      "id": "hn:49907790",
-      "name": "Show HN: FinTrace – point-in-time guardrails for financial LLM agents",
-      "country": "US",
-      "url": "https://github.com/FredXing1/FinTrace",
-      "summary": "Hacker News discussion",
-      "source": "hacker-news",
-      "published_at": "2026-09-30T12:16:37Z"
+      "published_at": "2026-10-01T13:06:59Z"
     }
   ]
 }

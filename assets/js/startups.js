@@ -1,54 +1,45 @@
-/* AI startup tracker page. */
+/* AI startup tracker: renders data/ai-startups.json into startups.html. */
 
 (function () {
   "use strict";
 
-  var grid = document.getElementById("startup-grid");
-  var projectsEl = document.getElementById("project-list");
-  var emptyEl = document.getElementById("tracker-empty");
-  var statsEl = document.getElementById("tracker-stats");
-  var searchEl = document.getElementById("tracker-q");
-  var filterBtns = document.querySelectorAll(".tracker-filters [data-country]");
-  var updatedMeta = document.getElementById("updated-meta");
+  var companyList = document.getElementById("companies");
+  if (!companyList) return;
 
-  if (!grid) return;
+  var launchList = document.getElementById("launches");
+  var companyEmpty = document.getElementById("companies-empty");
+  var launchEmpty = document.getElementById("launches-empty");
+  var companyCount = document.getElementById("company-count");
+  var launchCount = document.getElementById("launch-count");
+  var updated = document.getElementById("updated");
+  var search = document.getElementById("q");
+  var filters = document.querySelectorAll(".filters [data-country]");
 
-  var state = {
-    country: "all",
-    query: "",
-    companies: [],
-    projects: [],
-  };
+  var COUNTRY = { CN: "China", US: "United States" };
+  var SOURCE = { "hacker-news": "Hacker News" };
+
+  var state = { country: "all", query: "", companies: [], launches: [] };
 
   var esc = function (value) {
-    return String(value || "")
+    return String(value == null ? "" : value)
       .replace(/&/g, "&amp;")
       .replace(/</g, "&lt;")
       .replace(/>/g, "&gt;")
       .replace(/"/g, "&quot;");
   };
 
-  var countryLabel = function (code) {
-    return code === "CN" ? "China" : code === "US" ? "United States" : code;
+  /* The data is crawled from third-party sources, so only http(s) URLs are
+     ever turned into links. */
+  var safeUrl = function (url) {
+    url = String(url || "").trim();
+    return /^https?:\/\//i.test(url) ? url : "";
   };
 
-  var homepageOf = function (company) {
-    return String(company.website || "").trim();
-  };
-
-  var hostLabel = function (url) {
-    try {
-      return new URL(url).hostname.replace(/^www\./, "");
-    } catch (err) {
-      return "Homepage";
-    }
-  };
-
-  var extLink = function (href, label, className) {
+  var link = function (href, label, className) {
     return (
-      '<a class="' +
-      className +
-      '" href="' +
+      "<a" +
+      (className ? ' class="' + className + '"' : "") +
+      ' href="' +
       esc(href) +
       '" target="_blank" rel="noopener">' +
       label +
@@ -56,182 +47,195 @@
     );
   };
 
-  var matches = function (company) {
-    if (state.country !== "all" && company.country !== state.country) return false;
+  var title = function (href, label) {
+    return href
+      ? link(href, label, "row-title")
+      : '<span class="row-title">' + label + "</span>";
+  };
+
+  var sourceLabel = function (url) {
+    var host = "";
+    try {
+      host = new URL(url).hostname;
+    } catch (err) {
+      host = "";
+    }
+    if (/(^|\.)ycombinator\.com$/.test(host)) return "YC profile";
+    if (/(^|\.)wikipedia\.org$/.test(host)) return "Wikipedia";
+    return "Source";
+  };
+
+  var matchesQuery = function (parts) {
     var q = state.query.trim().toLowerCase();
-    if (!q) return true;
-    var hay = [
-      company.name,
-      company.one_liner,
-      (company.tags || []).join(" "),
-      (company.products || [])
+    return !q || parts.join(" ").toLowerCase().indexOf(q) !== -1;
+  };
+
+  var companyMatches = function (c) {
+    if (state.country !== "all" && c.country !== state.country) return false;
+    return matchesQuery([
+      c.name,
+      c.one_liner,
+      (c.tags || []).join(" "),
+      (c.products || [])
         .map(function (p) {
           return p.name + " " + (p.note || "");
         })
         .join(" "),
-    ]
-      .join(" ")
-      .toLowerCase();
-    return hay.indexOf(q) !== -1;
+    ]);
   };
 
-  var renderCompanies = function () {
-    var rows = state.companies.filter(matches);
-    grid.innerHTML = "";
-    if (emptyEl) emptyEl.hidden = rows.length > 0;
-
-    rows.forEach(function (company) {
-      var li = document.createElement("li");
-      li.className = "startup-card reveal is-visible";
-      var home = homepageOf(company);
-
-      var products = (company.products || [])
-        .map(function (p) {
-          var label = esc(p.name);
-          var href = p.url || home;
-          if (href) return extLink(href, label, "chip");
-          return '<span class="chip chip--static">' + label + "</span>";
-        })
-        .join("");
-
-      var tags = (company.tags || [])
-        .slice(0, 4)
-        .map(function (tag) {
-          return '<span class="startup-card__tag">' + esc(tag) + "</span>";
-        })
-        .join("");
-
-      var title = home
-        ? "<h3>" + extLink(home, esc(company.name), "startup-card__name") + "</h3>"
-        : "<h3>" + esc(company.name) + "</h3>";
-
-      var links = [];
-      if (home) {
-        links.push(extLink(home, esc(hostLabel(home)), "chip"));
-      }
-      if (company.source_url && company.source_url !== home) {
-        links.push(extLink(company.source_url, "Source", "chip"));
-      }
-
-      li.innerHTML =
-        '<div class="startup-card__top">' +
-        '<span class="badge ' +
-        (company.country === "CN" ? "badge--magenta" : "badge--cyan") +
-        '">' +
-        esc(countryLabel(company.country)) +
-        "</span>" +
-        (company.batch
-          ? '<span class="startup-card__batch">' + esc(company.batch) + "</span>"
-          : "") +
-        "</div>" +
-        title +
-        (home
-          ? '<p class="startup-card__url">' + esc(hostLabel(home)) + "</p>"
-          : "") +
-        '<p class="startup-card__bio">' +
-        esc(company.one_liner || "") +
-        "</p>" +
-        (tags ? '<p class="startup-card__tags">' + tags + "</p>" : "") +
-        (products
-          ? '<div class="startup-card__products">' + products + "</div>"
-          : "") +
-        (links.length
-          ? '<div class="startup-card__links">' + links.join("") + "</div>"
-          : "");
-
-      grid.appendChild(li);
-    });
+  var launchMatches = function (item) {
+    if (state.country !== "all" && item.country && item.country !== state.country) {
+      return false;
+    }
+    return matchesQuery([item.name, item.summary]);
   };
 
-  var renderProjects = function () {
-    if (!projectsEl) return;
-    var rows = state.projects.filter(function (item) {
-      if (state.country !== "all" && item.country && item.country !== state.country) {
-        return false;
-      }
-      var q = state.query.trim().toLowerCase();
-      if (!q) return true;
-      return (item.name + " " + (item.summary || "")).toLowerCase().indexOf(q) !== -1;
-    });
+  var renderCompany = function (c) {
+    var home = safeUrl(c.website);
 
-    projectsEl.innerHTML = rows
-      .map(function (item) {
-        var href = item.url || "#";
-        return (
-          '<li class="project-item">' +
-          '<span class="badge ' +
-          (item.country === "CN" ? "badge--magenta" : "badge--cyan") +
-          '">' +
-          esc(item.source || countryLabel(item.country)) +
-          "</span>" +
-          '<div><a class="link" href="' +
-          esc(href) +
-          '" target="_blank" rel="noopener">' +
-          esc(item.name) +
-          "</a>" +
-          (item.summary
-            ? '<p class="project-item__sum">' + esc(item.summary) + "</p>"
-            : "") +
-          "</div></li>"
-        );
+    var where = [COUNTRY[c.country] || c.country];
+    if (c.batch) where.push("YC " + c.batch);
+
+    // YC entries list the company itself as its only product; skip those.
+    var own = String(c.name || "").trim().toLowerCase();
+    var products = (c.products || [])
+      .filter(function (p) {
+        return p && p.name && String(p.name).trim().toLowerCase() !== own;
       })
-      .join("");
+      .map(function (p) {
+        var url = safeUrl(p.url);
+        return url ? link(url, esc(p.name)) : esc(p.name);
+      });
+
+    var sub = [];
+    if (products.length) {
+      sub.push('<span class="row-products">' + products.join(", ") + "</span>");
+    }
+    if (c.tags && c.tags.length) sub.push(esc(c.tags.slice(0, 4).join(", ")));
+    var source = safeUrl(c.source_url);
+    if (source && source !== home) sub.push(link(source, sourceLabel(source)));
+
+    return (
+      "<li>" +
+      '<div class="row-head">' +
+      title(home, esc(c.name)) +
+      '<span class="row-meta">' +
+      esc(where.filter(Boolean).join(" · ")) +
+      "</span>" +
+      "</div>" +
+      (c.one_liner ? '<p class="row-desc">' + esc(c.one_liner) + "</p>" : "") +
+      (sub.length ? '<p class="row-sub">' + sub.join(" · ") + "</p>" : "") +
+      "</li>"
+    );
+  };
+
+  var renderLaunch = function (item) {
+    var name = String(item.name || "");
+    var showHn = /^Show HN:\s*/i.test(name);
+
+    var meta = [
+      showHn ? "Show HN" : SOURCE[item.source] || item.source || "",
+      String(item.published_at || "").slice(0, 10),
+    ];
+
+    // "Hacker News discussion" is the crawler's placeholder for stories with
+    // no text of their own.
+    var summary =
+      item.summary && item.summary !== "Hacker News discussion" ? item.summary : "";
+
+    return (
+      "<li>" +
+      '<div class="row-head">' +
+      title(safeUrl(item.url), esc(name.replace(/^Show HN:\s*/i, ""))) +
+      "</div>" +
+      (summary ? '<p class="row-desc">' + esc(summary) + "</p>" : "") +
+      '<p class="row-sub">' +
+      esc(meta.filter(Boolean).join(" · ")) +
+      "</p>" +
+      "</li>"
+    );
+  };
+
+  var fill = function (listEl, emptyEl, countEl, rows, renderRow) {
+    listEl.innerHTML = rows.map(renderRow).join("");
+    if (countEl) countEl.textContent = String(rows.length);
+    if (emptyEl) {
+      emptyEl.textContent = "No matches.";
+      emptyEl.hidden = rows.length > 0;
+    }
   };
 
   var render = function () {
-    renderCompanies();
-    renderProjects();
+    fill(
+      companyList,
+      companyEmpty,
+      companyCount,
+      state.companies.filter(companyMatches),
+      renderCompany
+    );
+    if (launchList) {
+      fill(
+        launchList,
+        launchEmpty,
+        launchCount,
+        state.launches.filter(launchMatches),
+        renderLaunch
+      );
+    }
   };
 
-  Array.prototype.forEach.call(filterBtns, function (btn) {
+  Array.prototype.forEach.call(filters, function (btn) {
     btn.addEventListener("click", function () {
       state.country = btn.getAttribute("data-country") || "all";
-      Array.prototype.forEach.call(filterBtns, function (other) {
-        other.classList.toggle("is-on", other === btn);
+      Array.prototype.forEach.call(filters, function (other) {
+        other.setAttribute("aria-pressed", String(other === btn));
       });
       render();
     });
   });
 
-  if (searchEl) {
-    searchEl.addEventListener("input", function () {
-      state.query = searchEl.value || "";
+  if (search) {
+    search.addEventListener("input", function () {
+      state.query = search.value || "";
       render();
     });
   }
 
   fetch("data/ai-startups.json", { cache: "no-store" })
     .then(function (resp) {
-      if (!resp.ok) throw new Error("tracker missing");
+      if (!resp.ok) throw new Error("HTTP " + resp.status);
       return resp.json();
     })
     .then(function (data) {
       state.companies = data.companies || [];
-      state.projects = data.projects || [];
-      if (statsEl) {
-        statsEl.hidden = false;
-        var set = function (id, value) {
-          var el = document.getElementById(id);
-          if (el) el.textContent = String(value);
-        };
-        set("stat-total", (data.stats && data.stats.total) || state.companies.length);
-        set("stat-cn", (data.stats && data.stats.cn) || 0);
-        set("stat-us", (data.stats && data.stats.us) || 0);
-        set(
-          "stat-projects",
-          (data.stats && data.stats.projects) || state.projects.length
-        );
+      state.launches = data.projects || [];
+
+      var tally = { all: state.companies.length, CN: 0, US: 0 };
+      state.companies.forEach(function (c) {
+        if (c.country === "CN" || c.country === "US") tally[c.country] += 1;
+      });
+      Array.prototype.forEach.call(
+        document.querySelectorAll("[data-count]"),
+        function (el) {
+          el.textContent = String(tally[el.getAttribute("data-count")] || 0);
+        }
+      );
+
+      if (updated && data.updated_at) {
+        updated.textContent =
+          " · Updated " +
+          String(data.updated_at).slice(0, 16).replace("T", " ") +
+          " UTC";
       }
-      if (updatedMeta && data.updated_at) {
-        updatedMeta.textContent = "Updated " + data.updated_at.replace("T", " ").replace("Z", " UTC");
-      }
+
       render();
     })
     .catch(function () {
-      grid.innerHTML = "";
-      if (emptyEl) {
-        emptyEl.hidden = false;
-        emptyEl.textContent =
+      companyList.innerHTML = "";
+      if (companyEmpty) {
+        companyEmpty.hidden = false;
+        companyEmpty.textContent =
           "Tracker data has not been generated yet. The daily GitHub Action will fill this page.";
       }
     });

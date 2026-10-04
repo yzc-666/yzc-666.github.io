@@ -18,164 +18,99 @@
     />
     <meta property="og:url" content="https://yzc-666.github.io/" />
     <meta name="twitter:card" content="summary" />
-    <meta name="theme-color" content="#04060a" />
+
+    <meta name="color-scheme" content="light dark" />
+    <meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)" />
+    <meta name="theme-color" content="#111113" media="(prefers-color-scheme: dark)" />
 
     <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml" />
-
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@400;600;700&family=JetBrains+Mono:wght@300;400;500;700&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="assets/css/style.css?v=20260904" />
-
-    <script>
-      // Gates the reveal animation so content is never hidden from visitors
-      // whose JS never runs.
-      document.documentElement.classList.add("js");
-    </script>
+    <link rel="stylesheet" href="assets/css/style.css?v=20261005" />
   </head>
 
-  <body class="is-cosmos">
-    <canvas id="cosmos" class="cosmos" aria-hidden="true"></canvas>
-    <div class="fx-scanlines" aria-hidden="true"></div>
-
-    <a class="skip-link" href="#main">Skip to content</a>
-
-    <header class="nav" id="nav">
-      <div class="nav__inner">
-        <a class="nav__brand" href="./">
-          <span class="nav__brand-bracket">[</span>
-          ZY
-          <span class="nav__brand-bracket">]</span>
-        </a>
-
-        <button
-          class="nav__toggle"
-          type="button"
-          aria-expanded="false"
-          aria-controls="nav-menu"
-          aria-label="Toggle navigation"
-        >
-          <span></span><span></span><span></span>
-        </button>
-
-        <nav class="nav__menu" id="nav-menu" aria-label="Main">
-          <a href="./" class="is-active">Home</a>
-          <a href="publications.html">Publications</a>
-          <a href="experience.html">Experience</a>
-          <a href="startups.html">AI Startups</a>
-          <a class="nav__follow" href="https://github.com/yzc-666" rel="noopener"
-            >Follow</a
-          >
-        </nav>
-      </div>
-      <div class="nav__progress" aria-hidden="true"></div>
-    </header>
-
-    <main id="main" class="hero">
-      <div class="wrap hero__core">
-        <p class="prompt">
-          <span class="prompt__sigil">$</span> whoami
-          <span class="caret" aria-hidden="true"></span>
+  <body>
+    <main class="page">
+      <header class="intro">
+        <h1>Zichao Yu</h1>
+        <p class="role">
+          PhD Student, School of Computing and Data Science<br />
+          The University of Hong Kong
         </p>
-
-        <h1 class="glitch" data-text="ZICHAO YU">ZICHAO YU</h1>
-
-        <p class="landing__role">
-          <span
-            class="typed"
-            data-typed='["PhD Student, HKU CDS","AI4AI · Autoresearch","Large Language Models"]'
-            >PhD Student, HKU CDS</span
-          >
+        <p class="links">
+          <a href="https://github.com/yzc-666" rel="noopener">GitHub</a>
+          <!-- EDIT: add profile links here once they are ready to publish:
+          <a href="mailto:you@example.com">Email</a>
+          <a href="https://scholar.google.com/citations?user=..." rel="noopener">Google Scholar</a>
+          -->
         </p>
+      </header>
 
-        <p class="landing__affil">
-          School of Computing and Data Science ·
-          <a class="link" href="https://www.hku.hk/" rel="noopener"
-            >The University of Hong Kong</a
-          >
+      <section class="bio" aria-label="About">
+        <p>
+          I am a PhD student at
+          <a href="https://www.cds.hku.hk/" rel="noopener">HKU CDS</a>, advised
+          by
+          <a href="https://difanzou.github.io/" rel="noopener">Prof. Difan Zou</a>.
+          I work on AI4AI, autoresearch, and large language models. I am also
+          interested in interdisciplinary research that connects AI with other
+          scientific fields.
         </p>
+      </section>
 
-        <div class="hero__bio">
-          <p>
-            PhD student at
-            <a class="link" href="https://www.hku.hk/" rel="noopener">HKU</a>
-            CDS, advised by
-            <a class="link" href="https://difanzou.github.io/" rel="noopener"
-              >Prof. Difan Zou</a
-            >. I work on AI4AI, autoresearch, and large language models.
-          </p>
-        </div>
-
-        <ul class="keywords" aria-label="Research interests">
-          <li>AI4AI</li>
-          <li>autoresearch</li>
-          <li>large language models</li>
-          <li>interdisciplinary AI</li>
+      <section class="section" id="publications">
+        <h2>Publications</h2>
+        <p class="muted">
+          Nothing published yet. Code and experiments live on
+          <a href="https://github.com/yzc-666" rel="noopener">GitHub</a>.
+        </p>
+        <!-- EDIT: when the first paper is out, replace the paragraph above with:
+        <ul class="items">
+          <li>
+            <a class="item-title" href="https://arxiv.org/abs/...">Paper Title</a>
+            <p class="item-desc"><strong>Zichao Yu</strong>, Coauthor Name</p>
+            <p class="item-desc">Venue 2027 · <a href="#">PDF</a> · <a href="#">Code</a></p>
+          </li>
         </ul>
+        -->
+      </section>
 
-        <div class="landing__actions">
-          <a
-            class="btn btn--primary"
-            href="https://github.com/yzc-666"
-            rel="noopener"
-          >
-            Follow
-          </a>
-          <button
-            type="button"
-            class="btn btn--like"
-            data-like-btn
-            aria-pressed="false"
-          >
-            Like
-          </button>
-          <a
-            class="btn"
-            href="https://yzc-666.github.io/ai-finance-radar/"
-            rel="noopener"
-          >
-            AI × Finance Radar
-          </a>
-          <!-- EDIT: point at your Google Scholar profile -->
-          <a class="btn" href="#">Google Scholar</a>
-        </div>
+      <section class="section" id="experience">
+        <h2>Experience</h2>
+        <ul class="entries">
+          <li>
+            <span class="entry-date">Jun 2026 – Present</span>
+            <span>Intern, <a href="https://kling.ai/" rel="noopener">Kling</a></span>
+          </li>
+        </ul>
+      </section>
 
-        <!-- ───────────────────────── planet portals ───────────────────────── -->
-        <nav class="portals" aria-label="Sections">
-          <a class="portal portal--cyan" href="publications.html">
-            <span class="portal__planet" aria-hidden="true"></span>
-            <span class="portal__num" aria-hidden="true">01</span>
-            <span class="portal__label">Publications</span>
-            <span class="portal__go" aria-hidden="true">Enter →</span>
-          </a>
+      <section class="section" id="projects">
+        <h2>Projects</h2>
+        <ul class="items">
+          <li>
+            <a class="item-title" href="startups.html">AI Startups</a>
+            <p class="item-desc">
+              A daily-updated tracker of AI startups and products in China and
+              the United States.
+            </p>
+          </li>
+          <li>
+            <a
+              class="item-title"
+              href="https://yzc-666.github.io/ai-finance-radar/"
+              rel="noopener"
+              >AI × Finance Radar</a
+            >
+            <p class="item-desc">
+              A source-linked record of verified AI developments across
+              financial services in China and the United States.
+            </p>
+          </li>
+        </ul>
+      </section>
 
-          <a class="portal portal--magenta" href="experience.html">
-            <span class="portal__planet" aria-hidden="true"></span>
-            <span class="portal__num" aria-hidden="true">02</span>
-            <span class="portal__label">Experience</span>
-            <span class="portal__go" aria-hidden="true">Enter →</span>
-          </a>
-
-          <a class="portal portal--amber" href="startups.html">
-            <span class="portal__planet" aria-hidden="true"></span>
-            <span class="portal__num" aria-hidden="true">03</span>
-            <span class="portal__label">AI Startups</span>
-            <span class="portal__go" aria-hidden="true">Enter →</span>
-          </a>
-        </nav>
-      </div>
+      <footer class="footer">&copy; <span id="year">2026</span> Zichao Yu</footer>
     </main>
 
-    <footer class="footer">
-      <div class="wrap footer__inner">
-        <p>&copy; <span id="year">2026</span> Zichao Yu</p>
-        <p class="footer__meta">Built by hand · Deployed on GitHub Pages</p>
-      </div>
-    </footer>
-
-    <script src="assets/js/main.js?v=20260904" defer></script>
+    <script src="assets/js/main.js?v=20261005" defer></script>
   </body>
 </html>

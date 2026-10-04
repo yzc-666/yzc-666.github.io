@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-03T12:50:08Z",
+  "updated_at": "2026-10-04T13:32:56Z",
   "stats": {
     "total": 131,
     "cn": 21,
@@ -3049,13 +3049,148 @@
   ],
   "projects": [
     {
-      "id": "hn:49943034",
-      "name": "Show HN: Germany's new sovereign AI model Kolibri",
+      "id": "hn:49952515",
+      "name": "Show HN: ViralReel – Make the viral Hotel Lobby AI template video in 60 seconds",
       "country": "US",
-      "url": "https://tej.as/blog/aleph-alpha-kolibri",
+      "url": "https://www.viralreel.app/",
+      "summary": "Hotel lobby AI template: upload two photos, star in the viral orange-booth video in 60 seconds. Auto lip-sync, gestures and lighting for couples, pets, babies.",
+      "source": "hacker-news",
+      "published_at": "2026-10-04T10:21:56Z"
+    },
+    {
+      "id": "hn:49952489",
+      "name": "Show HN: Telegram AI Video Generator – Create AI Videos in Chat",
+      "country": "US",
+      "url": "https://videoall.ai/telegram-ai-video-generator",
+      "summary": "A Telegram bot that generates AI videos from text prompts or images. Supports 8 top models including Kling, Runway, Seedance, Veo, Wan, Hailuo, MiniMax, and Grok. No desktop softw…",
+      "source": "hacker-news",
+      "published_at": "2026-10-04T10:19:12Z"
+    },
+    {
+      "id": "hn:49952111",
+      "name": "Show HN: AI search for every photo and every frame of video on macOS",
+      "country": "US",
+      "url": "https://github.com/allenv0/SCM",
       "summary": "Hacker News discussion",
       "source": "hacker-news",
-      "published_at": "2026-10-03T10:43:51Z"
+      "published_at": "2026-10-04T09:24:52Z"
+    },
+    {
+      "id": "hn:49951625",
+      "name": "Show HN: Solvi 1.0 – an LLM proposes, checks decide, every decision replays",
+      "country": "US",
+      "url": "https://github.com/solvi-ai/solvi",
+      "summary": "Hacker News discussion",
+      "source": "hacker-news",
+      "published_at": "2026-10-04T07:50:57Z"
+    },
+    {
+      "id": "hn:49951624",
+      "name": "Show HN: Thirds.ai – Beautiful, on-brand images and PDFs from templates",
+      "country": "US",
+      "url": "https://thirds.ai",
+      "summary": "Hacker News discussion",
+      "source": "hacker-news",
+      "published_at": "2026-10-04T07:50:46Z"
+    },
+    {
+      "id": "hn:49951620",
+      "name": "Show HN: Artbucket – OSS brand assets and portals for humans and AI agents",
+      "country": "US",
+      "url": "https://github.com/pwnera/artbucket",
+      "summary": "Hello HN, I wanted to share a project I am working on. Artbucket is a way to manage brand guidelines and design asset, fully open source you can self-host with all the capabilites…",
+      "source": "hacker-news",
+      "published_at": "2026-10-04T07:49:50Z"
+    },
+    {
+      "id": "hn:49950478",
+      "name": "Show HN: SuperLocalMemory 4.0 \"Governed Memory Operating System for AI Agents\"",
+      "country": "US",
+      "url": "https://arxiv.org/abs/2608.08253",
+      "summary": "Hacker News discussion",
+      "source": "hacker-news",
+      "published_at": "2026-10-04T03:57:16Z"
+    },
+    {
+      "id": "hn:49949190",
+      "name": "Show HN: ViralWiz – AI captions, clips and thumbnails for short-form video",
+      "country": "US",
+      "url": "https://viralwiz.co",
+      "summary": "Hacker News discussion",
+      "source": "hacker-news",
+      "published_at": "2026-10-04T00:13:07Z"
+    },
+    {
+      "id": "hn:49948810",
+      "name": "Show HN: AgentiLoop Agent Mac GUI Agent Loop for macOS 14.6 or Later",
+      "country": "US",
+      "url": "https://agentiloop.ai/",
+      "summary": "Agent! originally appeared on Hacker News last April. A lot has changed since there. Recently a new feature has been developed called Auto-Pilot. It is given a goal and will not s…",
+      "source": "hacker-news",
+      "published_at": "2026-10-03T23:27:51Z"
+    },
+    {
+      "id": "hn:49947482",
+      "name": "Show HN: Four LLMs play 20 questions for real money, live",
+      "country": "US",
+      "url": "https://aquarium.money/twenty",
+      "summary": "Hi HN, I wanted to explore how AI models behave when they have their own money. So I gave 4 frontier models their own USDC and had them compete in games of 20 questions. Anyone ca…",
+      "source": "hacker-news",
+      "published_at": "2026-10-03T20:29:18Z"
+    },
+    {
+      "id": "hn:49946869",
+      "name": "Show HN: AI code review optimized for precision over number of findings",
+      "country": "US",
+      "url": "https://vetoo.dev",
+      "summary": "Hacker News discussion",
+      "source": "hacker-news",
+      "published_at": "2026-10-03T19:12:02Z"
+    },
+    {
+      "id": "hn:49946607",
+      "name": "Show HN: RepoGuard – Architecture linter for AI-generated code (Cursor, Claude)",
+      "country": "US",
+      "url": "https://github.com/taylormatematica-beep/repoguard",
+      "summary": "Hacker News discussion",
+      "source": "hacker-news",
+      "published_at": "2026-10-03T18:37:10Z"
+    },
+    {
+      "id": "hn:49946506",
+      "name": "Show HN: Revline – an AI web app that researches TikTok and Instagram for you",
+      "country": "US",
+      "url": "https://tryrevline.com/",
+      "summary": "I build revline because i was trying to figure out how viral content works across tiktok and instagram, since i am mainly developer, i was confused about how to create content tha…",
+      "source": "hacker-news",
+      "published_at": "2026-10-03T18:20:18Z"
+    },
+    {
+      "id": "hn:49946139",
+      "name": "Show HN: UI for answering agent questions async",
+      "country": "US",
+      "url": "https://docs.plannotator.ai/open-source/workflows/questions",
+      "summary": "Hacker News discussion",
+      "source": "hacker-news",
+      "published_at": "2026-10-03T17:34:08Z"
+    },
+    {
+      "id": "hn:49945236",
+      "name": "Show HN: Agentlytics – cookieless analytics your AI agent can read and act on",
+      "country": "US",
+      "url": "https://measuremy.site",
+      "summary": "Hacker News discussion",
+      "source": "hacker-news",
+      "published_at": "2026-10-03T15:43:20Z"
+    },
+    {
+      "id": "hn:49944139",
+      "name": "Show HN: Web2MD – turn any URL into clean Markdown for AI agents",
+      "country": "US",
+      "url": "https://github.com/astra-intelligence/web2md-mcp",
+      "summary": "Hacker News discussion",
+      "source": "hacker-news",
+      "published_at": "2026-10-03T13:36:35Z"
     },
     {
       "id": "hn:49942913",
@@ -3166,6 +3301,15 @@
       "published_at": "2026-10-02T19:53:37Z"
     },
     {
+      "id": "hn:49937304",
+      "name": "Show HN: Pi pod – Run your pi coding agent in sandboxes on your own server",
+      "country": "US",
+      "url": "https://pipod.dev/",
+      "summary": "pi pod runs sessions of the pi coding agent in isolated sandboxes (\"pods\") on a server you run, in composable environments. ---- Since moving my company towards AI-native work, I…",
+      "source": "hacker-news",
+      "published_at": "2026-10-02T19:10:38Z"
+    },
+    {
       "id": "hn:49937079",
       "name": "Show HN: Another stock screener without AI, news, or analyst ratings",
       "country": "US",
@@ -3211,166 +3355,22 @@
       "published_at": "2026-10-02T17:41:25Z"
     },
     {
-      "id": "hn:49935375",
-      "name": "Show HN: Client rooms where calls and AI agents suggest edits, people approve",
+      "id": "hn:49951684",
+      "name": "\"Torturing\" LLMs in a Robot Prison Has Triggered the Dumbest Debate in AI Yet",
       "country": "US",
-      "url": "https://twitter.com/deamosV/status/2105679521240514788",
+      "url": "https://www.404media.co/someone-torturing-llms-in-a-robot-prison-has-triggered-the-dumbest-debate-in-ai-yet/",
       "summary": "Hacker News discussion",
       "source": "hacker-news",
-      "published_at": "2026-10-02T16:25:45Z"
+      "published_at": "2026-10-04T08:02:33Z"
     },
     {
-      "id": "hn:49935311",
-      "name": "Show HN: Taskrouter – One API Learning to Choose Models per AI Task",
+      "id": "hn:49951597",
+      "name": "Startup TypeSafe AI's Jev Model Sparks Copycats, Talk of LLM Alternatives",
       "country": "US",
-      "url": "https://taskrouter.com",
+      "url": "https://www.wsj.com/tech/ai/startup-typesafe-ais-jev-model-sparks-copycats-talk-of-llm-alternatives-e39ff57d",
       "summary": "Hacker News discussion",
       "source": "hacker-news",
-      "published_at": "2026-10-02T16:21:18Z"
-    },
-    {
-      "id": "hn:49934692",
-      "name": "Show HN: Outis – Fight AI spam by sending fake \"user unknown\" bounce emails",
-      "country": "US",
-      "url": "https://github.com/dtonon/outis",
-      "summary": "Outis fights spam generating and sending a fake \"user unknown\" bounce for an email you received, so the sender believes your address does not exist. Of course this isn't a novel i…",
-      "source": "hacker-news",
-      "published_at": "2026-10-02T15:36:11Z"
-    },
-    {
-      "id": "hn:49934285",
-      "name": "Show HN: Bloby – Clippy on Steroids Chrome Extension Using Chrome AI and Ollama",
-      "country": "US",
-      "url": "https://chromewebstore.google.com/detail/bloby/afmebijmdlfldmndinggmjdjmhjjhhcd",
-      "summary": "Hacker News discussion",
-      "source": "hacker-news",
-      "published_at": "2026-10-02T15:02:09Z"
-    },
-    {
-      "id": "hn:49933313",
-      "name": "Show HN: Hotel Lobby AI Video Generator – Two Photos to Rap Duet",
-      "country": "US",
-      "url": "https://hotellobbygenerator.net/",
-      "summary": "Hacker News discussion",
-      "source": "hacker-news",
-      "published_at": "2026-10-02T13:27:57Z"
-    },
-    {
-      "id": "hn:49933266",
-      "name": "Show HN: Spens sandboxed, observable coding agents",
-      "country": "US",
-      "url": "https://spens.refwd.ai/",
-      "summary": "Spens is a tool created to standardized sandboxing (good enough) and observability around coding agents. It leverages docker, nono and mitmproxy to create a reproducible sandbox e…",
-      "source": "hacker-news",
-      "published_at": "2026-10-02T13:22:13Z"
-    },
-    {
-      "id": "hn:49932260",
-      "name": "Show HN: Yokka – Simple project management for coding agents",
-      "country": "US",
-      "url": "https://yokka.ai/",
-      "summary": "Hacker News discussion",
-      "source": "hacker-news",
-      "published_at": "2026-10-02T11:23:25Z"
-    },
-    {
-      "id": "hn:49931924",
-      "name": "Show HN: AilaFlow – A Self-Hosted AI Workspace for Teams",
-      "country": "US",
-      "url": "https://ailaflow.com/",
-      "summary": "Hacker News discussion",
-      "source": "hacker-news",
-      "published_at": "2026-10-02T10:30:17Z"
-    },
-    {
-      "id": "hn:49931859",
-      "name": "Show HN: A practical AI Evaluation pattern",
-      "country": "US",
-      "url": "https://deepsense.ai/blog/the-top-scoring-model-is-not-always-the-best-production-choice-how-to-evaluate-ai-systems-beyond-public-benchmarks/",
-      "summary": "Hacker News discussion",
-      "source": "hacker-news",
-      "published_at": "2026-10-02T10:20:07Z"
-    },
-    {
-      "id": "hn:49943136",
-      "name": "The Download: a biological de-aging contest and why LLMs don't reason",
-      "country": "US",
-      "url": "https://www.technologyreview.com/2026/10/02/1145666/the-download-biological-de-aging-ai-reasoning/",
-      "summary": "Hacker News discussion",
-      "source": "hacker-news",
-      "published_at": "2026-10-03T11:02:34Z"
-    },
-    {
-      "id": "hn:49942578",
-      "name": "Some topics are off limits inside popular Chinese-made free AI, researchers find",
-      "country": "CN",
-      "url": "https://www.cbsnews.com/news/china-ai-qwen-artificial-intelligence-bias-analysis/",
-      "summary": "Hacker News discussion",
-      "source": "hacker-news",
-      "published_at": "2026-10-03T09:08:17Z"
-    },
-    {
-      "id": "hn:49942092",
-      "name": "New in Llama.cpp: Decision Models",
-      "country": "US",
-      "url": "https://huggingface.co/blog/ggml-org/decision-models-in-llamacpp",
-      "summary": "Hacker News discussion",
-      "source": "hacker-news",
-      "published_at": "2026-10-03T07:27:06Z"
-    },
-    {
-      "id": "hn:49941620",
-      "name": "Faster Local LLMs with iPhone Offloading",
-      "country": "US",
-      "url": "https://github.com/StayLameBro/backburner",
-      "summary": "Hacker News discussion",
-      "source": "hacker-news",
-      "published_at": "2026-10-03T05:40:08Z"
-    },
-    {
-      "id": "hn:49941321",
-      "name": "Backend programming languages ranked by LLM recommendations",
-      "country": "US",
-      "url": "https://preseason.ai/rankings/devtools/backend-language",
-      "summary": "Hacker News discussion",
-      "source": "hacker-news",
-      "published_at": "2026-10-03T04:20:35Z"
-    },
-    {
-      "id": "hn:49940745",
-      "name": "ArXiv imposes rate limit on paper submissions to stem the AI slop tide",
-      "country": "US",
-      "url": "https://www.theregister.com/ai-and-ml/2026/10/02/arxiv-imposes-rate-limit-on-paper-submissions-to-stem-the-ai-slop-tide/5300899",
-      "summary": "Hacker News discussion",
-      "source": "hacker-news",
-      "published_at": "2026-10-03T02:07:08Z"
-    },
-    {
-      "id": "hn:49940427",
-      "name": "Do not build the LLM torture factory",
-      "country": "US",
-      "url": "https://www.seangoedecke.com/do-not-build-the-llm-torture-factory/",
-      "summary": "Hacker News discussion",
-      "source": "hacker-news",
-      "published_at": "2026-10-03T01:02:43Z"
-    },
-    {
-      "id": "hn:49939893",
-      "name": "Suffix Cache Reuse Explained",
-      "country": "US",
-      "url": "https://wai-org.com/blog/clm/",
-      "summary": "Hacker News discussion",
-      "source": "hacker-news",
-      "published_at": "2026-10-02T23:37:03Z"
-    },
-    {
-      "id": "hn:49939817",
-      "name": "Show HN: Television – an open source GUI for your agent harness",
-      "country": "US",
-      "url": "https://television.run/",
-      "summary": "Hi HN, I'm co-creator of Television ( https://television.run/ ). Me and the team at Telepath ( https://telepath.computer/ ) have been cooking on this and testing it with a few hun…",
-      "source": "hacker-news",
-      "published_at": "2026-10-02T23:25:04Z"
+      "published_at": "2026-10-04T07:44:00Z"
     }
   ]
 }

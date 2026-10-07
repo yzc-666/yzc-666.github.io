@@ -24,120 +24,116 @@
     <meta name="theme-color" content="#191714" media="(prefers-color-scheme: dark)" />
 
     <link rel="icon" href="assets/img/favicon.svg?v=20261007" type="image/svg+xml" />
-    <link rel="stylesheet" href="assets/css/style.css?v=20261007-2" />
+    <link rel="stylesheet" href="assets/css/style.css?v=20261007-3" />
   </head>
 
   <body>
     <main class="home">
       <header class="hero">
-        <figure class="portrait">
-          <img
-            src="assets/img/avatar.jpg"
-            alt="Zichao Yu"
-            width="400"
-            height="400"
-          />
-          <span class="seal" aria-hidden="true">ZY</span>
-        </figure>
-        <div>
-          <h1 class="name">Zichao Yu</h1>
-          <p class="role">
-            PhD Student<br />
-            School of Computing and Data Science<br />
-            The University of Hong Kong
-          </p>
-          <p class="links">
-            <a href="https://github.com/yzc-666" rel="noopener">GitHub</a>
-            <!-- EDIT: add profile links here once they are ready to publish:
-            <a href="mailto:you@example.com">Email</a>
-            <a href="https://scholar.google.com/citations?user=..." rel="noopener">Google Scholar</a>
-            -->
-          </p>
-        </div>
+        <img
+          class="avatar"
+          src="assets/img/avatar.jpg"
+          alt="Zichao Yu"
+          width="400"
+          height="400"
+        />
+        <h1 class="name">Zichao Yu</h1>
+        <p class="role">
+          PhD Student, School of Computing and Data Science<br />
+          The University of Hong Kong
+        </p>
+        <p class="links">
+          <a class="chip" href="https://github.com/yzc-666" rel="noopener">GitHub</a>
+          <!-- EDIT: add profile links here once they are ready to publish:
+          <a class="chip" href="mailto:you@example.com">Email</a>
+          <a class="chip" href="https://scholar.google.com/citations?user=..." rel="noopener">Google Scholar</a>
+          -->
+        </p>
       </header>
 
-      <section class="block" id="about" aria-labelledby="about-label">
-        <h2 class="label" id="about-label">
-          <span lang="zh-CN">关于</span><span class="visually-hidden">About</span>
-        </h2>
-        <div class="block-body">
-          <p>
-            I am a PhD student at
-            <a href="https://www.cds.hku.hk/" rel="noopener">HKU CDS</a>,
-            advised by
-            <a href="https://difanzou.github.io/" rel="noopener">Prof. Difan Zou</a>.
-            I work on AI4AI, autoresearch, and large language models. I am also
-            interested in interdisciplinary research that connects AI with other
-            scientific fields.
-          </p>
-        </div>
+      <section class="about" id="about" aria-label="About">
+        <p>
+          I am a PhD student at
+          <a href="https://www.cds.hku.hk/" rel="noopener">HKU CDS</a>, advised
+          by <a href="https://difanzou.github.io/" rel="noopener">Prof. Difan Zou</a>.
+          I work on AI4AI, autoresearch, and large language models. I am also
+          interested in interdisciplinary research that connects AI with other
+          scientific fields.
+        </p>
       </section>
 
-      <section class="block" id="experience" aria-labelledby="experience-label">
-        <h2 class="label" id="experience-label">
-          <span lang="zh-CN">经历</span><span class="visually-hidden">Experience</span>
-        </h2>
-        <div class="block-body">
-          <ul class="entries">
-            <li>
-              <span>
-                <a href="https://kling.ai/" rel="noopener">Kling</a>
-                <span class="entry-role">· Intern</span>
-              </span>
-              <span class="entry-date">2026.06 – Present</span>
-            </li>
-          </ul>
-        </div>
+      <section class="interests" aria-labelledby="interests-label">
+        <h2 class="label" id="interests-label">Research Interests</h2>
+        <ul class="tags">
+          <li>AI4AI</li>
+          <li>Autoresearch</li>
+          <li>Large Language Models</li>
+          <li>Interdisciplinary AI</li>
+        </ul>
       </section>
 
-      <section class="block" id="projects" aria-labelledby="projects-label">
-        <h2 class="label" id="projects-label">
-          <span lang="zh-CN">项目</span><span class="visually-hidden">Projects</span>
-        </h2>
-        <div class="block-body">
-          <ul class="works">
-            <li>
-              <a class="work-title" href="startups.html">AI Startups</a>
-              <p class="work-desc">
+      <section id="projects" aria-labelledby="projects-heading">
+        <h2 class="heading" id="projects-heading">Projects</h2>
+        <ul class="cards">
+          <li>
+            <a class="card" href="startups.html">
+              <h3 class="card-title">AI Startups</h3>
+              <p class="card-desc">
                 A daily-updated tracker of AI startups and products in China and
                 the United States.
               </p>
-            </li>
-            <li>
-              <a
-                class="work-title"
-                href="https://yzc-666.github.io/ai-finance-radar/"
-                rel="noopener"
-                >AI × Finance Radar</a
-              >
-              <p class="work-desc">
+              <p class="card-tags">
+                <span>Updated daily</span><span>China</span><span>United States</span>
+              </p>
+            </a>
+          </li>
+          <li>
+            <a
+              class="card"
+              href="https://yzc-666.github.io/ai-finance-radar/"
+              rel="noopener"
+            >
+              <h3 class="card-title">AI × Finance Radar</h3>
+              <p class="card-desc">
                 A source-linked record of verified AI developments across
                 financial services in China and the United States.
               </p>
-            </li>
-          </ul>
-        </div>
+              <p class="card-tags">
+                <span>Finance</span><span>Source-linked</span>
+              </p>
+            </a>
+          </li>
+        </ul>
       </section>
 
-      <section class="block" id="publications" aria-labelledby="publications-label">
-        <h2 class="label" id="publications-label">
-          <span lang="zh-CN">论文</span><span class="visually-hidden">Publications</span>
-        </h2>
-        <div class="block-body">
-          <p class="muted">
-            Nothing published yet. Code and experiments live on
-            <a href="https://github.com/yzc-666" rel="noopener">GitHub</a>.
-          </p>
-          <!-- EDIT: when the first paper is out, replace the paragraph above with:
-          <ul class="pubs">
-            <li>
-              <a class="pub-title" href="https://arxiv.org/abs/...">Paper Title</a>
-              <p class="pub-meta"><strong>Zichao Yu</strong>, Coauthor Name</p>
-              <p class="pub-meta">Venue 2027 · <a href="#">PDF</a> · <a href="#">Code</a></p>
-            </li>
-          </ul>
-          -->
-        </div>
+      <section id="experience" aria-labelledby="experience-heading">
+        <h2 class="heading" id="experience-heading">Experience</h2>
+        <ul class="entries">
+          <li>
+            <span>
+              <a class="entry-org" href="https://kling.ai/" rel="noopener">Kling</a>
+              <span class="entry-role">· Intern</span>
+            </span>
+            <span class="entry-date">Jun 2026 – Present</span>
+          </li>
+        </ul>
+      </section>
+
+      <section id="publications" aria-labelledby="publications-heading">
+        <h2 class="heading" id="publications-heading">Publications</h2>
+        <p class="muted">
+          Nothing published yet. Code and experiments live on
+          <a href="https://github.com/yzc-666" rel="noopener">GitHub</a>.
+        </p>
+        <!-- EDIT: when the first paper is out, replace the paragraph above with:
+        <ul class="pubs">
+          <li>
+            <a class="pub-title" href="https://arxiv.org/abs/...">Paper Title</a>
+            <p class="pub-meta"><strong>Zichao Yu</strong>, Coauthor Name</p>
+            <p class="pub-meta">Venue 2027 · <a href="#">PDF</a> · <a href="#">Code</a></p>
+          </li>
+        </ul>
+        -->
       </section>
 
       <footer class="footer">&copy; <span id="year">2026</span> Zichao Yu</footer>

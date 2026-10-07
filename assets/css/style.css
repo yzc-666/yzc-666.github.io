@@ -1,5 +1,16 @@
 /* Zichao Yu — site styles. Flat paper and ink with a vermilion accent.
-   System fonts only; light and dark follow the OS. */
+   System fonts plus a self-hosted script face for the name; light and dark
+   follow the OS. */
+
+/* Great Vibes, SIL Open Font License 1.1 (assets/fonts/OFL-great-vibes.txt),
+   subset to Basic Latin. */
+@font-face {
+  font-family: "Great Vibes";
+  src: url("../fonts/great-vibes.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
 
 :root {
   color-scheme: light dark;
@@ -22,6 +33,7 @@
     sans-serif;
   --mono: ui-monospace, "SF Mono", SFMono-Regular, Menlo, Consolas,
     "Liberation Mono", monospace;
+  --script: "Great Vibes", "Snell Roundhand", "Segoe Script", cursive;
 
   --measure: 40rem;
 }
@@ -172,9 +184,10 @@ a:hover {
 }
 
 .name {
-  font-size: 2.5rem;
-  letter-spacing: -0.01em;
-  line-height: 1.15;
+  font-family: var(--script);
+  font-size: 3.75rem;
+  font-weight: 400;
+  line-height: 1.25;
 }
 
 .role {
@@ -512,7 +525,7 @@ a.row-title:hover {
   }
 
   .name {
-    font-size: 2rem;
+    font-size: 3.125rem;
   }
 
   .about {

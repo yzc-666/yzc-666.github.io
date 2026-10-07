@@ -130,6 +130,16 @@ a:hover {
 
 /* -------------------------------------------------------------------- home */
 
+.avatar {
+  display: block;
+  width: 7rem;
+  height: 7rem;
+  margin-bottom: 1.5rem;
+  border-radius: 50%;
+  border: 1px solid var(--line);
+  object-fit: cover;
+}
+
 .intro h1 {
   font-size: 2rem;
   letter-spacing: -0.015em;

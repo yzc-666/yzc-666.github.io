@@ -17,7 +17,7 @@ const themes = [
 
 const paletteNames: Record<string, string[]> = {
   classic: ['Burgundy', 'Navy', 'Forest', 'Plum', 'Slate'],
-  modern: ['Blue', 'Indigo', 'Teal', 'Rose', 'Amber'],
+  modern: ['Wisteria', 'Indigo', 'Teal', 'Rose', 'Amber'],
   minimal: ['Black', 'Red', 'Blue', 'Green', 'Orange'],
   elegant: ['Gold', 'Rose', 'Emerald', 'Sapphire', 'Wine'],
   bold: ['Electric', 'Magenta', 'Lime', 'Orange', 'Crimson'],
@@ -88,7 +88,7 @@ document.addEventListener('astro:after-swap', function() {
   if (window.__themePickerInit) return;
   window.__themePickerInit = true;
 
-  var PN = {"classic":["Burgundy","Navy","Forest","Plum","Slate"],"modern":["Blue","Indigo","Teal","Rose","Amber"],"minimal":["Black","Red","Blue","Green","Orange"],"elegant":["Gold","Rose","Emerald","Sapphire","Wine"],"bold":["Electric","Magenta","Lime","Orange","Crimson"],"geek":["Green","Amber","Cyan","Red","Purple"],"newspaper":["Red","Blue","Black","Green","Purple"],"aurora":["Purple","Sunset","Ocean","Forest","Cosmic"],"ocean":["Cyan","Deep","Coral","Emerald","Arctic"],"retro":["Orange","Olive","Burgundy","Teal","Purple"]};
+  var PN = {"classic":["Burgundy","Navy","Forest","Plum","Slate"],"modern":["Wisteria","Indigo","Teal","Rose","Amber"],"minimal":["Black","Red","Blue","Green","Orange"],"elegant":["Gold","Rose","Emerald","Sapphire","Wine"],"bold":["Electric","Magenta","Lime","Orange","Crimson"],"geek":["Green","Amber","Cyan","Red","Purple"],"newspaper":["Red","Blue","Black","Green","Purple"],"aurora":["Purple","Sunset","Ocean","Forest","Cosmic"],"ocean":["Cyan","Deep","Coral","Emerald","Arctic"],"retro":["Orange","Olive","Burgundy","Teal","Purple"]};
   var PI = {"classic":["default","navy","forest","plum","slate"],"modern":["default","indigo","teal","rose","amber"],"minimal":["default","red","blue","green","orange"],"elegant":["default","rose","emerald","sapphire","wine"],"bold":["default","magenta","lime","orange","crimson"],"geek":["default","amber","cyan","red","purple"],"newspaper":["default","blue","black","green","purple"],"aurora":["default","sunset","ocean","forest","cosmic"],"ocean":["default","deep","coral","emerald","arctic"],"retro":["default","olive","burgundy","teal","purple"]};
   var ALL = ['classic','modern','minimal','elegant','bold','geek','newspaper','aurora','ocean','retro'];
 

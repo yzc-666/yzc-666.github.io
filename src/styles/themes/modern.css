@@ -5,8 +5,9 @@
   --color-bg: #FAFAFA;
   --color-text: #1D1D1F;
   --color-text-secondary: #6E6E73;
-  --color-accent: #2563EB;
-  --color-accent-hover: #1D4ED8;
+  --color-accent: #6B4FBB;
+  --color-accent-hover: #573F9E;
+  --color-accent-2: #B07CC6;
   --color-border: #E5E5E7;
   --color-card-bg: #FFFFFF;
   --color-glass: rgba(255, 255, 255, 0.72);
@@ -29,8 +30,9 @@
   --color-bg: #0A0A0A;
   --color-text: #F5F5F7;
   --color-text-secondary: #A1A1A6;
-  --color-accent: #60A5FA;
-  --color-accent-hover: #93C5FD;
+  --color-accent: #B49CF0;
+  --color-accent-hover: #C9B8F5;
+  --color-accent-2: #E0A8E6;
   --color-border: #2A2A2E;
   --color-card-bg: #141416;
   --color-glass: rgba(0,0,0,0.72);
@@ -78,14 +80,14 @@
 }
 
 [data-theme="modern"] .gradient-text {
-  background: linear-gradient(135deg, var(--color-accent), #818cf8);
+  background: linear-gradient(135deg, var(--color-accent), var(--color-accent-2, #818cf8));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
 }
 
 [data-theme="modern"].dark .gradient-text {
-  background: linear-gradient(135deg, var(--color-accent), #c4b5fd);
+  background: linear-gradient(135deg, var(--color-accent), var(--color-accent-2, #c4b5fd));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;

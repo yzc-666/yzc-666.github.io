@@ -137,14 +137,14 @@ a:hover { color: var(--color-accent-hover); text-decoration: underline; }
 
 /* ── Gradient text accent ────────────────────────────── */
 .gradient-text {
-  background: linear-gradient(135deg, var(--color-accent), #818cf8);
+  background: linear-gradient(135deg, var(--color-accent), var(--color-accent-2, #818cf8));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
 }
 
 .dark .gradient-text {
-  background: linear-gradient(135deg, var(--color-accent), #c4b5fd);
+  background: linear-gradient(135deg, var(--color-accent), var(--color-accent-2, #c4b5fd));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;

@@ -29,10 +29,10 @@ social:
 
 pages:
   about: true
-  publications: true
+  publications: false
   cv: false
-  news: true
-  startups: true
+  news: false
+  startups: false
   projects: false
   teaching: false
   talks: false

@@ -17,14 +17,18 @@ try {
   hasNews = files.length > 0;
 } catch {}
 
-const gridCols = hasNews ? 'lg:grid-cols-2' : '';
+const showPapers = config.pages.publications;
+const showNews = config.pages.news && hasNews;
+const gridCols = showPapers && showNews ? 'lg:grid-cols-2' : '';
 ---
 
 <BaseLayout>
   <Hero />
 
-  <div class={`mt-8 grid grid-cols-1 ${gridCols} gap-12`}>
-    <SelectedPapers />
-    {hasNews && <NewsWidget />}
-  </div>
+  {(showPapers || showNews) && (
+    <div class={`mt-8 grid grid-cols-1 ${gridCols} gap-12`}>
+      {showPapers && <SelectedPapers />}
+      {showNews && <NewsWidget />}
+    </div>
+  )}
 </BaseLayout>

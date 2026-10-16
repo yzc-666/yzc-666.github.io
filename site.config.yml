@@ -1,0 +1,80 @@
+# Lumina — Site Configuration
+# Edit this file to configure your site. Toggle pages, set info, customize theme.
+
+site:
+  title: "Zichao Yu"
+  description: "Zichao Yu, PhD student at the School of Computing and Data Science, The University of Hong Kong. Working on AI4AI, autoresearch, and large language models."
+  url: "https://yzc-666.github.io"
+  language: "en"
+
+profile:
+  name: "Zichao Yu"
+  position: "PhD Student"
+  affiliation: "School of Computing and Data Science"
+  university: "The University of Hong Kong"
+  email: ""
+  avatar: "/images/avatar.jpg"
+  bio: "I am a PhD student at HKU CDS, advised by Prof. Difan Zou. I work on AI4AI, autoresearch, and large language models."
+  bio_short: "AI4AI, autoresearch, and large language models."
+
+social:
+  google_scholar: "https://scholar.google.com/citations?user=PgNtTBEAAAAJ"
+  github: "https://github.com/yzc-666"
+  twitter: ""
+  linkedin: ""
+  orcid: ""
+  semantic_scholar: ""
+  dblp: ""
+  email: ""
+
+pages:
+  about: true
+  publications: true
+  cv: false
+  news: true
+  startups: true
+  projects: false
+  teaching: false
+  talks: false
+  awards: false
+  team: false
+  positions: false
+  collaborators: false
+  service: false
+  repositories: false
+  blog: false
+  gallery: false
+  books: false
+  media: false
+  travel: false
+
+theme:
+  cursor_spotlight: false
+  style: "modern"
+  palette: "default"
+  random_theme: false
+  avatars:
+    - "/images/avatar.jpg"
+
+cv:
+  hide_pdf_download: true
+
+publications:
+  author_name: "Zichao Yu"
+  bibtex_file: "papers.bib"
+  group_by_year: true
+  show_badges: true
+
+analytics:
+  google_analytics: ""
+
+blog:
+  posts_per_page: 10
+  show_reading_time: true
+  show_table_of_contents: true
+  comments:
+    enabled: false
+    repo: ""
+    repo_id: ""
+    category: ""
+    category_id: ""

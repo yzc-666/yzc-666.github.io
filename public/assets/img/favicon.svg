@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <rect width="64" height="64" rx="6" fill="#b23a2c" />
+  <rect
+    x="5"
+    y="5"
+    width="54"
+    height="54"
+    rx="3"
+    fill="none"
+    stroke="#f6f2ea"
+    stroke-width="2.5"
+  />
+  <text
+    x="32"
+    y="41.5"
+    font-family="'Iowan Old Style', 'Palatino Linotype', Palatino, Georgia, serif"
+    font-size="26"
+    font-weight="700"
+    text-anchor="middle"
+    fill="#f6f2ea"
+  >
+    ZY
+  </text>
+</svg>

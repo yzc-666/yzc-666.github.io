@@ -31,7 +31,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/ai-startups.json
+          git add public/data/ai-startups.json
           if git diff --staged --quiet; then
             echo "No tracker changes"
             exit 0

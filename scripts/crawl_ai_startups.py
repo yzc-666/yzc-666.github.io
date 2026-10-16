@@ -22,7 +22,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 SEED_PATH = Path(__file__).resolve().parent / "seed_ai_startups.json"
-OUT_PATH = ROOT / "data" / "ai-startups.json"
+OUT_PATH = ROOT / "public" / "data" / "ai-startups.json"
 
 USER_AGENT = (
     "yzc-666.github.io-ai-tracker/1.0 "

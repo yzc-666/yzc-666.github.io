@@ -1,0 +1,28 @@
+{
+  "name": "lumina",
+  "type": "module",
+  "version": "0.1.0",
+  "_versionNote": "Version follows semver. Bump on each release.",
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro",
+    "test": "vitest run",
+    "test:watch": "vitest"
+  },
+  "dependencies": {
+    "@astrojs/mdx": "^4.3.13",
+    "@astrojs/rss": "^4.0.15",
+    "@astrojs/sitemap": "^3.7.0",
+    "@tailwindcss/vite": "^4.1.18",
+    "astro": "^5.17.1",
+    "lucide-astro": "^0.556.0",
+    "sharp": "^0.34.5",
+    "tailwindcss": "^4.1.18",
+    "yaml": "^2.8.2"
+  },
+  "devDependencies": {
+    "vitest": "^3.2.4"
+  }
+}

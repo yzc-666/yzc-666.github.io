@@ -1,4 +1,0 @@
-User-agent: *
-Allow: /
-
-Sitemap: https://yzc-666.github.io/sitemap.xml

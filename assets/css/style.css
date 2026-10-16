@@ -1,51 +1,33 @@
-/* Zichao Yu — site styles. Flat paper and ink with a vermilion accent.
-   System fonts plus a self-hosted script face for the name; light and dark
-   follow the OS. */
-
-/* Great Vibes, SIL Open Font License 1.1 (assets/fonts/OFL-great-vibes.txt),
-   subset to Basic Latin. */
-@font-face {
-  font-family: "Great Vibes";
-  src: url("../fonts/great-vibes.woff2") format("woff2");
-  font-weight: 400;
-  font-style: normal;
-  font-display: swap;
-}
+/* Zichao Yu — site styles. Minimal single column, system fonts, neutral
+   palette; light and dark follow the OS. */
 
 :root {
   color-scheme: light dark;
 
-  --bg: #f4f1ea;
-  --card: #fbf9f4;
-  --fg: #24211d;
-  --muted: #6f665a;
-  --line: #e2dacb;
-  --field: #ebe5d9;
-  --seal: #b23a2c;
-  --seal-line: rgba(178, 58, 44, 0.38);
+  --bg: #ffffff;
+  --card: #ffffff;
+  --fg: #1a1a1a;
+  --muted: #6b6b6b;
+  --line: #e6e6e6;
+  --accent: #1a1a1a;
+  --accent-line: rgba(26, 26, 26, 0.3);
 
-  --serif: "Iowan Old Style", "Palatino Linotype", Palatino, "Book Antiqua",
-    Georgia, serif;
   --sans: -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue",
     Helvetica, Arial, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei",
     sans-serif;
-  --mono: ui-monospace, "SF Mono", SFMono-Regular, Menlo, Consolas,
-    "Liberation Mono", monospace;
-  --script: "Great Vibes", "Snell Roundhand", "Segoe Script", cursive;
 
-  --measure: 40rem;
+  --measure: 36rem;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --bg: #191714;
-    --card: #211e1a;
-    --fg: #e8e1d3;
-    --muted: #a0978a;
-    --line: #36312b;
-    --field: #2a2621;
-    --seal: #d4604f;
-    --seal-line: rgba(212, 96, 79, 0.45);
+    --bg: #111111;
+    --card: #181818;
+    --fg: #e6e6e6;
+    --muted: #8f8f8f;
+    --line: #2a2a2a;
+    --accent: #ffffff;
+    --accent-line: rgba(230, 230, 230, 0.35);
   }
 }
 
@@ -72,7 +54,7 @@ body {
 }
 
 ::selection {
-  background: var(--seal-line);
+  background: var(--accent-line);
 }
 
 h1,
@@ -85,8 +67,7 @@ p {
 h1,
 h2,
 h3 {
-  font-family: var(--serif);
-  font-weight: 500;
+  font-weight: 600;
   line-height: 1.3;
 }
 
@@ -97,19 +78,19 @@ p {
 a {
   color: inherit;
   text-decoration: underline;
-  text-decoration-color: var(--seal-line);
+  text-decoration-color: var(--accent-line);
   text-decoration-thickness: 1px;
-  text-underline-offset: 0.24em;
-  transition: color 0.15s ease, text-decoration-color 0.15s ease;
+  text-underline-offset: 0.2em;
+  transition: text-decoration-color 0.15s ease;
 }
 
 a:hover {
-  color: var(--seal);
+  color: var(--accent);
   text-decoration-color: currentColor;
 }
 
 :focus-visible {
-  outline: 2px solid var(--seal);
+  outline: 2px solid var(--accent);
   outline-offset: 2px;
 }
 
@@ -131,180 +112,54 @@ a:hover {
 
 /* ------------------------------------------------------------------ layout */
 
-.page {
+.page,
+.home {
   max-width: var(--measure);
   margin: 0 auto;
   padding: 6rem 1.5rem 3rem;
 }
 
 .section {
-  margin-top: 3rem;
+  margin-top: 2.5rem;
 }
 
-.section > h2,
-.label {
-  margin-bottom: 0.75rem;
-  font-family: var(--mono);
-  font-size: 0.75rem;
-  font-weight: 400;
-  letter-spacing: 0.08em;
+.section > h2 {
+  margin-bottom: 0.5rem;
+  font-size: 0.8125rem;
+  font-weight: 500;
+  letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--muted);
 }
 
 .footer {
-  margin-top: 5rem;
-  font-size: 0.875rem;
+  margin-top: 4rem;
+  font-size: 0.8125rem;
   color: var(--muted);
 }
 
 /* -------------------------------------------------------------------- home */
 
-.home {
-  max-width: 44rem;
-  margin: 0 auto;
-  padding: 5rem 1.5rem 3rem;
-}
-
-.hero {
-  text-align: center;
-}
-
-.avatar {
-  display: block;
-  width: 7.5rem;
-  height: 7.5rem;
-  margin: 0 auto 1.5rem;
-  border-radius: 6px;
-  object-fit: cover;
-}
-
 .name {
-  font-family: var(--script);
-  font-size: 3.75rem;
-  font-weight: 400;
-  line-height: 1.25;
+  font-size: 1.75rem;
+  letter-spacing: -0.01em;
 }
 
 .role {
-  margin-top: 0.625rem;
-  font-size: 0.9375rem;
-  line-height: 1.6;
+  margin-top: 0.25rem;
   color: var(--muted);
 }
 
 .links {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
-  gap: 0.5rem;
-  margin-top: 1.25rem;
-}
-
-.chip {
-  display: inline-block;
-  padding: 0.25rem 0.75rem;
-  font-family: var(--mono);
-  font-size: 0.75rem;
-  line-height: 1.6;
-  letter-spacing: 0.02em;
-  color: var(--fg);
-  text-decoration: none;
-  border: 1px solid var(--line);
-  border-radius: 4px;
-  transition: color 0.15s ease, border-color 0.15s ease;
-}
-
-.chip:hover {
-  border-color: currentColor;
-}
-
-.about {
-  margin-top: 3.5rem;
-}
-
-.interests {
-  margin-top: 2.25rem;
-}
-
-.tags {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.5rem;
-  margin: 0;
-  padding: 0;
-  list-style: none;
-}
-
-.tags li {
-  padding: 0.25rem 0.625rem;
-  font-size: 0.875rem;
-  line-height: 1.5;
-  background: var(--field);
-  border-radius: 4px;
-}
-
-.heading {
-  margin: 4rem 0 1.25rem;
-  font-size: 1.75rem;
-  letter-spacing: -0.01em;
-}
-
-.entries,
-.pubs {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-}
-
-.entries li {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  align-items: baseline;
-  gap: 0.125rem 1.5rem;
-}
-
-.entries li + li {
+  gap: 0.25rem 1.25rem;
   margin-top: 0.75rem;
 }
 
-.entry-org {
-  font-weight: 600;
-}
-
-.entry-role {
-  color: var(--muted);
-}
-
-.entry-date {
-  font-family: var(--mono);
-  font-size: 0.8125rem;
-  color: var(--muted);
-}
-
-.pubs li + li {
-  margin-top: 1.5rem;
-}
-
-.pub-title {
-  font-weight: 600;
-}
-
-.pub-meta {
-  margin-top: 0.25rem;
-  font-size: 0.9375rem;
-  line-height: 1.65;
-  color: var(--muted);
-}
-
-.pub-meta strong {
-  color: var(--fg);
-  font-weight: 600;
-}
-
-.home .footer {
-  text-align: center;
+.plain {
+  margin: 0;
+  padding-left: 1.125rem;
 }
 
 /* ---------------------------------------------------------------- subpages */
@@ -318,7 +173,7 @@ a:hover {
 }
 
 .page-title {
-  font-size: 2rem;
+  font-size: 1.75rem;
   letter-spacing: -0.01em;
 }
 
@@ -422,7 +277,6 @@ a:hover {
 }
 
 a.row-title:hover {
-  color: var(--seal);
   text-decoration: underline;
 }
 
@@ -449,29 +303,6 @@ a.row-title:hover {
 @media (max-width: 34rem) {
   .page,
   .home {
-    padding-left: 1.25rem;
-    padding-right: 1.25rem;
-  }
-
-  .page {
-    padding-top: 3.5rem;
-    padding-bottom: 2.5rem;
-  }
-
-  .home {
-    padding-top: 3.5rem;
-  }
-
-  .name {
-    font-size: 3.125rem;
-  }
-
-  .about {
-    margin-top: 2.75rem;
-  }
-
-  .heading {
-    margin-top: 3.25rem;
-    font-size: 1.5rem;
+    padding: 3.5rem 1.25rem 2.5rem;
   }
 }

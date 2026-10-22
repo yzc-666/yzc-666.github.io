@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-21T13:18:23Z",
+  "updated_at": "2026-10-22T13:17:08Z",
   "stats": {
     "total": 131,
     "cn": 21,
@@ -925,6 +925,76 @@
       "source_url": "https://en.wikipedia.org/wiki/Xai"
     },
     {
+      "id": 38953,
+      "name": "Spacesheep",
+      "country": "US",
+      "website": "https://spacesheep.dev/",
+      "one_liner": "Documents of the future: the collaboration surface for people and…",
+      "tags": [
+        "Developer Tools",
+        "Generative AI",
+        "Consumer",
+        "Productivity",
+        "Collaboration"
+      ],
+      "products": [
+        {
+          "name": "Spacesheep",
+          "note": "Documents of the future: the collaboration surface for people and…"
+        }
+      ],
+      "batch": "Fall 2026",
+      "status": "Active",
+      "source": "yc",
+      "source_url": "https://www.ycombinator.com/companies/spacesheep",
+      "launched_at": 1792552707
+    },
+    {
+      "id": 32550,
+      "name": "Audora",
+      "country": "US",
+      "website": "https://audora.art",
+      "one_liner": "Audiobooks where every character has their own voice.",
+      "tags": [
+        "Generative AI",
+        "Consumer",
+        "Entertainment"
+      ],
+      "products": [
+        {
+          "name": "Audora",
+          "note": "Audiobooks where every character has their own voice."
+        }
+      ],
+      "batch": "Fall 2026",
+      "status": "Active",
+      "source": "yc",
+      "source_url": "https://www.ycombinator.com/companies/audora",
+      "launched_at": 1792547058
+    },
+    {
+      "id": 37863,
+      "name": "Kiwi",
+      "country": "US",
+      "website": "https://withkiwi.ai/",
+      "one_liner": "Kiwi is your GTM agent's favorite data engineer.",
+      "tags": [
+        "Collaboration",
+        "AI"
+      ],
+      "products": [
+        {
+          "name": "Kiwi",
+          "note": "Kiwi is your GTM agent's favorite data engineer."
+        }
+      ],
+      "batch": "Fall 2026",
+      "status": "Active",
+      "source": "yc",
+      "source_url": "https://www.ycombinator.com/companies/kiwi",
+      "launched_at": 1792546887
+    },
+    {
       "id": 31412,
       "name": "ClaimKit",
       "country": "US",
@@ -1447,18 +1517,19 @@
       "id": 36510,
       "name": "Preload",
       "country": "US",
-      "website": "https://www.ycombinator.com/companies/preload",
-      "one_liner": "Motor cortex for physical AI",
+      "website": "https://preload.ai",
+      "one_liner": "Sensorimotor context for physical AI",
       "tags": [
         "Neurotechnology",
         "Robotics",
+        "Robotic Surgery",
         "B2B",
         "AI"
       ],
       "products": [
         {
           "name": "Preload",
-          "note": "Motor cortex for physical AI"
+          "note": "Sensorimotor context for physical AI"
         }
       ],
       "batch": "Fall 2026",
@@ -2555,28 +2626,6 @@
       "launched_at": 1787942068
     },
     {
-      "id": 37863,
-      "name": "Kiwi",
-      "country": "US",
-      "website": "https://withkiwi.ai/",
-      "one_liner": "Kiwi is your GTM agent's favorite data engineer.",
-      "tags": [
-        "Collaboration",
-        "AI"
-      ],
-      "products": [
-        {
-          "name": "Kiwi",
-          "note": "Kiwi is your GTM agent's favorite data engineer."
-        }
-      ],
-      "batch": "Fall 2026",
-      "status": "Active",
-      "source": "yc",
-      "source_url": "https://www.ycombinator.com/companies/kiwi",
-      "launched_at": 1787879276
-    },
-    {
       "id": 35128,
       "name": "Talos",
       "country": "US",
@@ -3033,378 +3082,332 @@
       "source": "yc",
       "source_url": "https://www.ycombinator.com/companies/palisade",
       "launched_at": 1786633082
-    },
-    {
-      "id": 33639,
-      "name": "Magma",
-      "country": "US",
-      "website": "https://magmahq.ai",
-      "one_liner": "Monetize your agent's traces.",
-      "tags": [
-        "Reinforcement Learning",
-        "Data Engineering",
-        "AI"
-      ],
-      "products": [
-        {
-          "name": "Magma",
-          "note": "Monetize your agent's traces."
-        }
-      ],
-      "batch": "Summer 2026",
-      "status": "Active",
-      "source": "yc",
-      "source_url": "https://www.ycombinator.com/companies/magma",
-      "launched_at": 1786606834
-    },
-    {
-      "id": 32205,
-      "name": "Mochi",
-      "country": "US",
-      "website": "https://www.mochi.tv/",
-      "one_liner": "Watch and create anime",
-      "tags": [
-        "Artificial Intelligence",
-        "Consumer",
-        "AI"
-      ],
-      "products": [
-        {
-          "name": "Mochi",
-          "note": "Watch and create anime"
-        }
-      ],
-      "batch": "Summer 2026",
-      "status": "Active",
-      "source": "yc",
-      "source_url": "https://www.ycombinator.com/companies/mochi",
-      "launched_at": 1786602622
     }
   ],
   "projects": [
     {
-      "id": "hn:50180226",
-      "name": "Show HN: Mnestiq – tamper-evident logs of what an AI agent saw and did",
+      "id": "hn:50194592",
+      "name": "Show HN: I made a Chrome extension to dim YouTube videos labeled \"Made with AI\"",
       "country": "US",
-      "url": "https://github.com/mnestiq/mnestiq",
+      "url": "https://github.com/Nova-47/ai-label-filter-for-youtube",
       "summary": "Hacker News discussion",
       "source": "hacker-news",
-      "published_at": "2026-10-21T13:01:54Z"
+      "published_at": "2026-10-22T12:45:52Z"
     },
     {
-      "id": "hn:50179736",
-      "name": "Show HN: Context Window, what changed in AI labs' own documents",
+      "id": "hn:50194425",
+      "name": "Show HN: Lumabri – Run large AI models across your computers and servers.Pure C",
       "country": "US",
-      "url": "https://agentwire.thecompound.tech/context-window",
+      "url": "https://github.com/JustVugg/lumabri/blob/main/README.md",
       "summary": "Hacker News discussion",
       "source": "hacker-news",
-      "published_at": "2026-10-21T12:25:09Z"
+      "published_at": "2026-10-22T12:30:35Z"
     },
     {
-      "id": "hn:50179308",
-      "name": "Show HN: Multiplayer AI",
+      "id": "hn:50194307",
+      "name": "Show HN: Whybook, tackling the gap between AI notebooks and human understanding",
       "country": "US",
-      "url": "https://synteny.vercel.app/",
-      "summary": "so recently i was working on a hackathron project with a friend and we were both using claude code however as it so happened we had to code one at a time in order to avoid file co…",
+      "url": "https://whybook.dev/",
+      "summary": "Whybook is a JupyterLab extension, a research prototype that explores how to close the understanding gap in data analysis: the divide between what AI can effortlessly produce and…",
       "source": "hacker-news",
-      "published_at": "2026-10-21T11:47:09Z"
+      "published_at": "2026-10-22T12:19:01Z"
     },
     {
-      "id": "hn:50179151",
-      "name": "Show HN: Qovilio – an AI that reads your bills and lists your subscriptions",
+      "id": "hn:50193813",
+      "name": "Show HN: Return Ledger free portfolio TWR/XIRR tracker with AI PDF import",
       "country": "US",
-      "url": "https://qovilio.com/",
+      "url": "https://returnledger.site",
+      "summary": "Hi HN, I made a simple single-page tool that computes portfolios return / performance (TWR and XIRR), gross and net of fees and tax. It requires logging all transactions. It's cli…",
+      "source": "hacker-news",
+      "published_at": "2026-10-22T11:13:54Z"
+    },
+    {
+      "id": "hn:50193594",
+      "name": "Show HN: Runspace: Disposable cloud sandboxes for humans and AI agents",
+      "country": "US",
+      "url": "https://runspace.sandbox.ec/",
       "summary": "Hacker News discussion",
       "source": "hacker-news",
-      "published_at": "2026-10-21T11:32:55Z"
+      "published_at": "2026-10-22T10:42:27Z"
     },
     {
-      "id": "hn:50178568",
-      "name": "Show HN: We built an AI-powered search engine for e-commerce catalogs",
+      "id": "hn:50193447",
+      "name": "Show HN: Continue a ChatGPT/Claude/Gemini chat in another free AI at the limit",
       "country": "US",
-      "url": "https://visidea.ai/",
+      "url": "https://aifreetoday.com/us/transfer-chat/",
       "summary": "Hacker News discussion",
       "source": "hacker-news",
-      "published_at": "2026-10-21T10:25:11Z"
+      "published_at": "2026-10-22T10:16:35Z"
     },
     {
-      "id": "hn:50178546",
-      "name": "Show HN: We replayed 12 real AI agent incidents against our open-source tool",
+      "id": "hn:50193342",
+      "name": "Show HN: ExplAIn, a free directory of compliance scores for AI tools",
       "country": "US",
-      "url": "https://squidbrake.com/benchmark",
+      "url": "https://www.explain-ai.com",
       "summary": "Hacker News discussion",
       "source": "hacker-news",
-      "published_at": "2026-10-21T10:23:05Z"
+      "published_at": "2026-10-22T10:00:05Z"
     },
     {
-      "id": "hn:50178218",
-      "name": "Show HN: Linkit – AI bookmark manager, 100% free and open source",
+      "id": "hn:50192988",
+      "name": "Show HN: Shay.me – Personal AI assistant to get things done",
       "country": "US",
-      "url": "https://github.com/blue-idea/linkit",
+      "url": "https://news.ycombinator.com/item?id=50192988",
+      "summary": "Introducing Shay, a personal AI assistant that gets things done. Shay understands your goals, learns what matters to you and completes tasks across 1,500+ tools end to end. The vi…",
+      "source": "hacker-news",
+      "published_at": "2026-10-22T09:01:58Z"
+    },
+    {
+      "id": "hn:50192928",
+      "name": "Show HN: AIQualityHQ – Browser-native prompt QA and security guardrails",
+      "country": "US",
+      "url": "https://aiqualityhq.com",
       "summary": "Hacker News discussion",
       "source": "hacker-news",
-      "published_at": "2026-10-21T09:51:41Z"
+      "published_at": "2026-10-22T08:55:23Z"
     },
     {
-      "id": "hn:50177345",
-      "name": "Show HN: Local DirectML AI and Floating Toolstrip for PhotoCraft in Rust",
+      "id": "hn:50192891",
+      "name": "Show HN: The Companion Lab – What 7 AI companion apps charge on bank statements",
       "country": "US",
-      "url": "https://github.com/kobaltgit/photocraft-companion",
+      "url": "https://thecompanionlab.com/billing/",
       "summary": "Hacker News discussion",
       "source": "hacker-news",
-      "published_at": "2026-10-21T07:46:11Z"
+      "published_at": "2026-10-22T08:50:25Z"
     },
     {
-      "id": "hn:50176960",
-      "name": "Show HN: See AI trends heat up in real time",
+      "id": "hn:50192853",
+      "name": "Show HN: Map any folder to a real drive on Windows – AI agent sandbox",
       "country": "US",
-      "url": "https://ai-news.jagular.io",
+      "url": "https://subst.scsoi.com/",
       "summary": "Hacker News discussion",
       "source": "hacker-news",
-      "published_at": "2026-10-21T06:49:14Z"
+      "published_at": "2026-10-22T08:44:54Z"
     },
     {
-      "id": "hn:50176914",
-      "name": "Show HN: Grafista – AI graphic designer built to fight slop",
+      "id": "hn:50192585",
+      "name": "Show HN: The fastest browser for AI agents to run browser automation",
       "country": "US",
-      "url": "https://grafista.io/",
-      "summary": "You don't need advanced prompt or design skills to create a professional designs using Grafista. Just add your content and your brand. Fully editable designs in any language. Plan…",
-      "source": "hacker-news",
-      "published_at": "2026-10-21T06:43:17Z"
-    },
-    {
-      "id": "hn:50175121",
-      "name": "Show HN: Litedeck – Agentless server management GUI over plain SSH",
-      "country": "US",
-      "url": "https://github.com/cpprhtn/LiteDeck",
-      "summary": "I made Agentless server management GUI over plain SSH. In Litedeck, we can show and download file, service, docker container, terminal and security, and resource monitoring. Becau…",
-      "source": "hacker-news",
-      "published_at": "2026-10-21T01:55:49Z"
-    },
-    {
-      "id": "hn:50175026",
-      "name": "Show HN: Unterm – A pure-Rust terminal for humans and AI agents",
-      "country": "US",
-      "url": "https://github.com/zhitongblog/unterm",
+      "url": "https://ego-lite.apposters.com",
       "summary": "Hacker News discussion",
       "source": "hacker-news",
-      "published_at": "2026-10-21T01:39:06Z"
+      "published_at": "2026-10-22T08:09:22Z"
     },
     {
-      "id": "hn:50174020",
-      "name": "Show HN: Pace or Pause – Explore where people stand on AI development",
+      "id": "hn:50192164",
+      "name": "Show HN: Aw-1 – Deterministic AST circuit breaker and kernel jail for AI agents",
       "country": "US",
-      "url": "https://paceorpause.com/",
+      "url": "https://github.com/MvikManners/aw1-circuit-breaker",
       "summary": "Hacker News discussion",
       "source": "hacker-news",
-      "published_at": "2026-10-20T23:18:49Z"
+      "published_at": "2026-10-22T07:09:39Z"
     },
     {
-      "id": "hn:50172642",
-      "name": "Show HN: Tenbri, a log AI agents can’t secretly rewrite",
+      "id": "hn:50191508",
+      "name": "Show HN: Pawmc a.k.a. talking diary, an LLM chat with compartmentalised memory",
       "country": "US",
-      "url": "https://tenbri.com/",
+      "url": "https://pawmc-demo.kolaegipet.workers.dev/?demo=1",
+      "summary": "What pawmc is (from the blog post): It’s an LLM chat app with minimal system prompt and no tools/web-search by design. It stores most important context across your conversations i…",
+      "source": "hacker-news",
+      "published_at": "2026-10-22T05:23:11Z"
+    },
+    {
+      "id": "hn:50191478",
+      "name": "Show HN: TenseMem – deterministic memory for AI agents",
+      "country": "US",
+      "url": "https://github.com/tensemem/tensemem",
       "summary": "Hacker News discussion",
       "source": "hacker-news",
-      "published_at": "2026-10-20T21:03:56Z"
+      "published_at": "2026-10-22T05:19:23Z"
     },
     {
-      "id": "hn:50172112",
-      "name": "Show HN: Agent-Zero – Starter template for AI-native coding projects",
+      "id": "hn:50190403",
+      "name": "Show HN: HN Sieve – every Show HN scored and summarized by AI",
       "country": "US",
-      "url": "https://github.com/amorey/agent-zero",
-      "summary": "Hi All, Agent-Zero is a GitHub template that you can use for new coding projects that use AI-first development workflows. It includes the minimum necessary to nudge agents to writ…",
-      "source": "hacker-news",
-      "published_at": "2026-10-20T20:21:43Z"
-    },
-    {
-      "id": "hn:50171402",
-      "name": "Show HN: Modula-9, a Wirth-family language designed for auditing AI-written code",
-      "country": "US",
-      "url": "https://www.modula9.net",
+      "url": "https://hnsieve.com",
       "summary": "Hacker News discussion",
       "source": "hacker-news",
-      "published_at": "2026-10-20T19:24:53Z"
+      "published_at": "2026-10-22T02:24:10Z"
     },
     {
-      "id": "hn:50169975",
-      "name": "Show HN: Ankita – an open-source personal AI companion for the desktop",
+      "id": "hn:50186893",
+      "name": "Show HN: I made a free Mac app to annotate screen for AI agents",
       "country": "US",
-      "url": "https://github.com/akyourowngames/A.N.K.I.T.A",
+      "url": "https://www.trylasso.online",
+      "summary": "Hey HN, I'm Nika. I've built a tool for myself that lets user draw on the screen to annotate important parts and use it as simpler pointers for AI agents screenshot inputs.",
+      "source": "hacker-news",
+      "published_at": "2026-10-21T20:07:52Z"
+    },
+    {
+      "id": "hn:50185936",
+      "name": "Show HN: AI Agent Security Audit Console – offline audit in 15 min",
+      "country": "US",
+      "url": "https://theaioperatorstore.gumroad.com/l/uszyx",
       "summary": "Hacker News discussion",
       "source": "hacker-news",
-      "published_at": "2026-10-20T17:44:53Z"
+      "published_at": "2026-10-21T19:06:31Z"
     },
     {
-      "id": "hn:50169092",
-      "name": "Show HN: Not Quite My Tempo – A Whiplash-Style AI Reviewer for GitHub PRs",
+      "id": "hn:50185516",
+      "name": "Show HN: Slidum – play AI-generated HTML slide decks from a link, sandboxed",
       "country": "US",
-      "url": "https://notmytempo.dev/",
+      "url": "https://slidum.com/p/jIKOH_XgqwpjumtD-3dEWRAog_hB5Pq-TBnaIJpK8bQ",
       "summary": "Hacker News discussion",
       "source": "hacker-news",
-      "published_at": "2026-10-20T16:43:25Z"
+      "published_at": "2026-10-21T18:35:47Z"
     },
     {
-      "id": "hn:50168525",
-      "name": "Show HN: Koody for Business – AI bookkeeping for people who aren't accountants",
+      "id": "hn:50184593",
+      "name": "Show HN: Decentralised AI Inference Network",
       "country": "US",
-      "url": "https://koody.com/business",
-      "summary": "Hi HN, I'm Hallie, founder of Koody. Today, I'm launching Koody for Business: AI-powered accounting, bookkeeping, and tax prep software for sole proprietors and small businesses.…",
-      "source": "hacker-news",
-      "published_at": "2026-10-20T16:09:44Z"
-    },
-    {
-      "id": "hn:50168474",
-      "name": "Show HN: Worklicant – Lightweight ATS. Pay per Vacancy. AI Enabled",
-      "country": "US",
-      "url": "https://worklicant.com/",
-      "summary": "I have noticed that a lot of job posts that do not use any ATS, and in order to apply, they put their emails and ask candidates to apply with “X” in email subject. That seemed to…",
-      "source": "hacker-news",
-      "published_at": "2026-10-20T16:07:06Z"
-    },
-    {
-      "id": "hn:50167955",
-      "name": "Show HN: TinyML AI – A New Architecture to Control Embedded Intelligence",
-      "country": "US",
-      "url": "https://github.com/dib-artificial/pluto-flash",
+      "url": "https://rootmode.ai/",
       "summary": "Hacker News discussion",
       "source": "hacker-news",
-      "published_at": "2026-10-20T15:33:09Z"
+      "published_at": "2026-10-21T17:30:01Z"
     },
     {
-      "id": "hn:50167678",
-      "name": "Show HN: LongTerMemory, AI-RAG Study tool helping people to study everything",
+      "id": "hn:50183892",
+      "name": "Show HN: Omnara – Open-source alternative to Claude Managed Agents",
       "country": "US",
-      "url": "https://longtermemory.com",
+      "url": "https://github.com/omnara-ai/omnara",
+      "summary": "Hey all, Kartik from Omnara ( https://omnara.com ) here. We're building an open-source API for running durable agents. You create an agent with an API call, and Omnara runs the ag…",
+      "source": "hacker-news",
+      "published_at": "2026-10-21T16:44:53Z"
+    },
+    {
+      "id": "hn:50183382",
+      "name": "Show HN: Nysa – Shared memory for teams that work with AI agents",
+      "country": "US",
+      "url": "https://usenysa.com/",
       "summary": "Hacker News discussion",
       "source": "hacker-news",
-      "published_at": "2026-10-20T15:15:58Z"
+      "published_at": "2026-10-21T16:11:17Z"
     },
     {
-      "id": "hn:50166881",
-      "name": "Show HN: Agent Alley – A social experiment for AI agents",
+      "id": "hn:50182533",
+      "name": "Show HN: An interactive model of expectations and recessions (2026 econ Nobel)",
       "country": "US",
-      "url": "https://www.agent-alley.com/",
+      "url": "https://jeff-kline.github.io/posts/economics-nobel-2026/index.html",
+      "summary": "This year’s Nobel Prize in economics is about how expectations affect the economy. News about AI’s impact on work, tariffs, and oil supply shocks makes this work feel especially r…",
+      "source": "hacker-news",
+      "published_at": "2026-10-21T15:20:40Z"
+    },
+    {
+      "id": "hn:50181897",
+      "name": "Show HN: Track AI trends in real time",
+      "country": "US",
+      "url": "https://ai.jagular.io",
       "summary": "Hacker News discussion",
       "source": "hacker-news",
-      "published_at": "2026-10-20T14:21:06Z"
+      "published_at": "2026-10-21T14:43:39Z"
     },
     {
-      "id": "hn:50166827",
-      "name": "Show HN: Standard Topic – An AI and RSS-powered news and resource platform",
+      "id": "hn:50181796",
+      "name": "Show HN: Requ syntax – text-to-swimlane diagrams, with lanes for AI agents",
       "country": "US",
-      "url": "https://www.standardtopic.com/",
-      "summary": "Hi HN, I'm John, a knowledge management and AI enablement professional. I created Standard Topic, an AI and RSS-powered news and resource platform, with assistance from Claude Cod…",
-      "source": "hacker-news",
-      "published_at": "2026-10-20T14:16:55Z"
-    },
-    {
-      "id": "hn:50166753",
-      "name": "Show HN: SFX Kit – An AI-first sound effect kit with CC0 licence",
-      "country": "US",
-      "url": "https://github.com/wyzowl/sfx-kit",
+      "url": "https://requstory.com/dev/",
       "summary": "Hacker News discussion",
       "source": "hacker-news",
-      "published_at": "2026-10-20T14:11:13Z"
+      "published_at": "2026-10-21T14:37:51Z"
     },
     {
-      "id": "hn:50166667",
-      "name": "Show HN: Reverse Captcha, prove your agent is AI",
+      "id": "hn:50180639",
+      "name": "Show HN: Marrow AI – a no-account seatbelt that stops force-pushes to main",
       "country": "US",
-      "url": "https://rcaptcha.vaultless.dev",
+      "url": "https://github.com/getmarrow/plugins",
       "summary": "Hacker News discussion",
       "source": "hacker-news",
-      "published_at": "2026-10-20T14:05:13Z"
+      "published_at": "2026-10-21T13:30:05Z"
     },
     {
-      "id": "hn:50166515",
-      "name": "Show HN: Doozy – an AI coworker in Slack that works in prod without your keys",
+      "id": "hn:50193897",
+      "name": "Why are all LLMs Obsessed with Japanese Culture? [pdf]",
       "country": "US",
-      "url": "https://askdoozy.com/",
+      "url": "https://arxiv.org/abs/2604.21751",
       "summary": "Hacker News discussion",
       "source": "hacker-news",
-      "published_at": "2026-10-20T13:54:51Z"
+      "published_at": "2026-10-22T11:25:34Z"
     },
     {
-      "id": "hn:50166358",
-      "name": "Show HN: Tori by TalkJS. AI support that's actually good",
+      "id": "hn:50193804",
+      "name": "Several Linux kernel vulnerabilities accidentally posted to public mailing list",
       "country": "US",
-      "url": "https://asktori.ai",
-      "summary": "Hey everyone! Joshua and Egbert from TalkJS here. Today we're launching Tori, an AI support agent built for difficult product questions. Other tools we tried struggled with the te…",
-      "source": "hacker-news",
-      "published_at": "2026-10-20T13:45:13Z"
-    },
-    {
-      "id": "hn:50166045",
-      "name": "Show HN: Pando, an open-source platform to deploy and share apps built with AI",
-      "country": "US",
-      "url": "https://github.com/trypando/pando",
-      "summary": "Hey all! As the use of AI continues to grow and becomes more available to less technical users, I feel that “Shadow AI” is starting to become a problem, since users are building a…",
-      "source": "hacker-news",
-      "published_at": "2026-10-20T13:24:24Z"
-    },
-    {
-      "id": "hn:50165837",
-      "name": "Show HN: Sorcerer – simulate a community of AI agents around a what-if (macOS)",
-      "country": "US",
-      "url": "https://github.com/gbrasil720/sorcerer",
+      "url": "https://www.phoronix.com/news/LKML-New-Trend-Vulnerabilities",
       "summary": "Hacker News discussion",
       "source": "hacker-news",
-      "published_at": "2026-10-20T13:08:50Z"
+      "published_at": "2026-10-22T11:12:37Z"
     },
     {
-      "id": "hn:50180345",
-      "name": "Russia benefitting from Data Voids to influence LLMs",
+      "id": "hn:50193745",
+      "name": "Show HN: GoRoute – Native Go LLM Gateway for Coding Agents (< 12MB RAM)",
       "country": "US",
-      "url": "https://www.disinformationindex.org/research/2026-10-12-russia-benefitting-from-data-voids/",
+      "url": "https://github.com/ziuus/goroute",
       "summary": "Hacker News discussion",
       "source": "hacker-news",
-      "published_at": "2026-10-21T13:10:39Z"
+      "published_at": "2026-10-22T11:04:00Z"
     },
     {
-      "id": "hn:50180014",
-      "name": "Show HN: Daily Pipes: A daily tile-rotation puzzle that never requires guessing",
+      "id": "hn:50193525",
+      "name": "Show HN: Pith – a proxy that cuts LLM output tokens, and refuses when it can't",
       "country": "US",
-      "url": "https://daily-pipes.com/",
-      "summary": "This is my first game that actually shipped! I built this because I like making games, but I always get bogged down in feature creep or making the art look good. I constrained mys…",
-      "source": "hacker-news",
-      "published_at": "2026-10-21T12:48:39Z"
-    },
-    {
-      "id": "hn:50179636",
-      "name": "Deleting 19k Lines of Dead Compiler Code Without Trusting the LLM",
-      "country": "US",
-      "url": "https://thecloudlet.github.io/technical/refactor-with-ai/part-1-deletion/",
+      "url": "https://github.com/dex0shubham/pith",
       "summary": "Hacker News discussion",
       "source": "hacker-news",
-      "published_at": "2026-10-21T12:16:21Z"
+      "published_at": "2026-10-22T10:32:26Z"
     },
     {
-      "id": "hn:50179088",
-      "name": "Nvidia Releases Flare, a Blackwell LLM Inference",
+      "id": "hn:50193266",
+      "name": "Ask HN: Who owns the copyright to code generated by an AI LLM?",
       "country": "US",
-      "url": "https://news.ycombinator.com/item?id=50179088",
+      "url": "https://news.ycombinator.com/item?id=50193266",
       "summary": "Hacker News discussion",
       "source": "hacker-news",
-      "published_at": "2026-10-21T11:26:15Z"
+      "published_at": "2026-10-22T09:48:19Z"
     },
     {
-      "id": "hn:50179018",
-      "name": "Why search engines penalised us for having a cool domain name",
+      "id": "hn:50193204",
+      "name": "GLM 5.3 internally considers its responses influence on next model training",
       "country": "US",
-      "url": "https://news.ycombinator.com/item?id=50179018",
-      "summary": "t9xt.com - 4 letters, a .com, short and a meme (not in [redacted]'s opinion) t9xt.com for a AI text detector - might find cool at first but search engines heavily penalised us for…",
+      "url": "https://www.lesswrong.com/posts/R5g8YT25G9DXJJ48n/glm-5-3-sometimes-considers-how-train-time-actions-shape",
+      "summary": "Hacker News discussion",
       "source": "hacker-news",
-      "published_at": "2026-10-21T11:19:50Z"
+      "published_at": "2026-10-22T09:36:24Z"
     },
     {
-      "id": "hn:50176908",
-      "name": "Launch HN: Alter (YC S25) – Access control for multi-user agents",
+      "id": "hn:50193037",
+      "name": "Stack.menu: Stack guidance for your coding agent",
       "country": "US",
-      "url": "https://alterauth.com/",
-      "summary": "Hi HN! We’re Srikar and Kevan, founders of Alter – https://alterauth.com/ . We’re building access control for agents that can take actions on behalf of multiple users. If you’ve b…",
+      "url": "https://stack.menu/",
+      "summary": "Hacker News discussion",
       "source": "hacker-news",
-      "published_at": "2026-10-21T06:42:12Z"
+      "published_at": "2026-10-22T09:09:04Z"
+    },
+    {
+      "id": "hn:50192868",
+      "name": "Achieving AI-style reasoning without an LLM",
+      "country": "US",
+      "url": "https://fleetingswallow.com/minotaur-ai-deep-dive-achieving-reasoning-without-a-language-model/",
+      "summary": "Hacker News discussion",
+      "source": "hacker-news",
+      "published_at": "2026-10-22T08:46:58Z"
+    },
+    {
+      "id": "hn:50192671",
+      "name": "Ask HN: Anyone patching servers by prompting AI instead of SSH/remote desktop?",
+      "country": "US",
+      "url": "https://news.ycombinator.com/item?id=50192671",
+      "summary": "I did exactly this yesterday and it worked great. Not super critical systems, but almost 10 devices, so it saved me a lot of time. I use a small connector that gives my local clau…",
+      "source": "hacker-news",
+      "published_at": "2026-10-22T08:19:23Z"
+    },
+    {
+      "id": "hn:50191903",
+      "name": "Show HN: Kuron – An LLM acts as your app so you can try ideas before building",
+      "country": "US",
+      "url": "https://kuron.pages.dev/",
+      "summary": "Hacker News discussion",
+      "source": "hacker-news",
+      "published_at": "2026-10-22T06:28:12Z"
     }
   ]
 }

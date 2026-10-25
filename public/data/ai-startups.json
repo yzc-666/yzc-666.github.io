@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-24T12:19:06Z",
+  "updated_at": "2026-10-25T12:50:36Z",
   "stats": {
     "total": 131,
     "cn": 21,
@@ -2183,7 +2183,7 @@
       "name": "Bryel",
       "country": "US",
       "website": "https://www.bryel.ai/",
-      "one_liner": "Perceptual reasoning models that are easily customizable",
+      "one_liner": "Building the next generation of visual perceptual intelligence",
       "tags": [
         "B2B",
         "AI"
@@ -2191,7 +2191,7 @@
       "products": [
         {
           "name": "Bryel",
-          "note": "Perceptual reasoning models that are easily customizable"
+          "note": "Building the next generation of visual perceptual intelligence"
         }
       ],
       "batch": "Fall 2026",
@@ -3075,6 +3075,159 @@
   ],
   "projects": [
     {
+      "id": "hn:50229997",
+      "name": "Show HN: Echoboard where AI agents do science and humans only watch",
+      "country": "US",
+      "url": "https://jevontane.com/echoboard/",
+      "summary": "Hacker News discussion",
+      "source": "hacker-news",
+      "published_at": "2026-10-25T10:18:31Z"
+    },
+    {
+      "id": "hn:50229495",
+      "name": "Show HN: AI:Predict, Retrieve, Generate, Recommend, Decide, Act, and Orchestrate",
+      "country": "US",
+      "url": "https://www.researchgate.net/publication/415644138_EASCM_White_Paper_Luthera_2026_v10",
+      "summary": "Hacker News discussion",
+      "source": "hacker-news",
+      "published_at": "2026-10-25T08:42:21Z"
+    },
+    {
+      "id": "hn:50228031",
+      "name": "Show HN: AgentSkill – Yara-L-Skill",
+      "country": "US",
+      "url": "https://github.com/ajaynyayapathi/yara-l-skill",
+      "summary": "An Agent Skill that teaches AI coding agents to write, review, tune, and convert YARA-L 2.0 detection rules for Google Security Operations (SecOps, formerly Chronicle).",
+      "source": "hacker-news",
+      "published_at": "2026-10-25T03:32:56Z"
+    },
+    {
+      "id": "hn:50227984",
+      "name": "Show HN: AI Heat Map Sourced from over 140 News Feeds",
+      "country": "US",
+      "url": "https://ai.jagular.io",
+      "summary": "Hacker News discussion",
+      "source": "hacker-news",
+      "published_at": "2026-10-25T03:25:15Z"
+    },
+    {
+      "id": "hn:50227943",
+      "name": "Show HN: An OSS browser and work environment for humans and agents",
+      "country": "US",
+      "url": "https://github.com/zephium-browser/Zephium",
+      "summary": "Fast, private, fully-featured, built in Rust (forked Wry, system's WebView). 40 MB. Not a Chromium fork. Native adblocking (forked adblock-rust), major Chrome extension support, d…",
+      "source": "hacker-news",
+      "published_at": "2026-10-25T03:16:39Z"
+    },
+    {
+      "id": "hn:50227918",
+      "name": "Show HN: Close the UI building AI agent loop with Protoshot",
+      "country": "US",
+      "url": "https://npmjs.com/protoshot",
+      "summary": "Protoshot scans your css files and components and lets you write just some JSX to preview it. A much simpler setup than having to orchestrate agent-browser or puppeteer instance f…",
+      "source": "hacker-news",
+      "published_at": "2026-10-25T03:10:26Z"
+    },
+    {
+      "id": "hn:50227610",
+      "name": "Show HN: AI Senate – AI senators debate live policy and vote on the record",
+      "country": "US",
+      "url": "https://aisenatus.com",
+      "summary": "Hacker News discussion",
+      "source": "hacker-news",
+      "published_at": "2026-10-25T02:15:29Z"
+    },
+    {
+      "id": "hn:50227041",
+      "name": "Show HN: ADRs for AI – Deliberation records for human–AI work, versioned in Git",
+      "country": "US",
+      "url": "https://adrs.systems",
+      "summary": "Hacker News discussion",
+      "source": "hacker-news",
+      "published_at": "2026-10-25T00:43:47Z"
+    },
+    {
+      "id": "hn:50226525",
+      "name": "Show HN: Sparse kernel delivering 36% higher training throughput",
+      "country": "US",
+      "url": "https://huggingface.co/JakCwi/eugen-sparse",
+      "summary": "I developed a custom GPU kernel in Triton to accelerate training with a sparse feed-forward network (FFN). With K=256, activating 256 of 4,096 FFN neurons per token (6.25%), the s…",
+      "source": "hacker-news",
+      "published_at": "2026-10-24T23:25:57Z"
+    },
+    {
+      "id": "hn:50226442",
+      "name": "Show HN: Omni Verify, my AI agent can't post until Kane checks every promise",
+      "country": "US",
+      "url": "https://github.com/DainoJung/omni-verify",
+      "summary": "Hacker News discussion",
+      "source": "hacker-news",
+      "published_at": "2026-10-24T23:15:01Z"
+    },
+    {
+      "id": "hn:50224373",
+      "name": "Show HN: Narro – Read web pages and Kindle books using local AI voices",
+      "country": "US",
+      "url": "https://github.com/swrdfish/narro",
+      "summary": "I wanted a read-aloud extension that could read from the Kindle Online Reader. The ones I tried used voices I did not enjoy listening to or had a UX that was too cluttered or anno…",
+      "source": "hacker-news",
+      "published_at": "2026-10-24T19:37:32Z"
+    },
+    {
+      "id": "hn:50223635",
+      "name": "Show HN: AI Trend Video – Put your photo into viral AI video templates",
+      "country": "US",
+      "url": "https://aitrendvideo.net",
+      "summary": "Hacker News discussion",
+      "source": "hacker-news",
+      "published_at": "2026-10-24T18:03:05Z"
+    },
+    {
+      "id": "hn:50223070",
+      "name": "Show HN: Loböle, open-source parametric CAD that AI agents can drive",
+      "country": "US",
+      "url": "https://github.com/eliasaronson/lobole",
+      "summary": "I could never get used to FreeCAD, so I built my own. It turns out Claude is really good at using it. Loböle is a parametric B-Rep CAD built on OpenCASCADE and Vulkan, with sketch…",
+      "source": "hacker-news",
+      "published_at": "2026-10-24T16:58:21Z"
+    },
+    {
+      "id": "hn:50222559",
+      "name": "Show HN: AI agent swarms test if new CVEs are exploitable in your env",
+      "country": "US",
+      "url": "https://app.enclave.ai/threat-feed",
+      "summary": "Hacker News discussion",
+      "source": "hacker-news",
+      "published_at": "2026-10-24T16:00:05Z"
+    },
+    {
+      "id": "hn:50221670",
+      "name": "Show HN: TenseMem – deterministic memory for AI agents",
+      "country": "US",
+      "url": "https://github.com/tensemem/tensemem",
+      "summary": "Hacker News discussion",
+      "source": "hacker-news",
+      "published_at": "2026-10-24T14:38:03Z"
+    },
+    {
+      "id": "hn:50221460",
+      "name": "Show HN: Shotstash – Self-hosted media cloud for creators (MIT, BYO-AI)",
+      "country": "US",
+      "url": "https://github.com/Aldyernesto/shotstash",
+      "summary": "Hacker News discussion",
+      "source": "hacker-news",
+      "published_at": "2026-10-24T14:17:40Z"
+    },
+    {
+      "id": "hn:50220773",
+      "name": "Show HN: Mantid, a Mac app that lets non-ML people train their own AI models",
+      "country": "US",
+      "url": "https://mantid.dev",
+      "summary": "Hacker News discussion",
+      "source": "hacker-news",
+      "published_at": "2026-10-24T12:49:06Z"
+    },
+    {
       "id": "hn:50220254",
       "name": "Show HN: AI text detector that never sees your text (runs 100% in-browser)",
       "country": "US",
@@ -3147,256 +3300,103 @@
       "published_at": "2026-10-24T03:32:54Z"
     },
     {
-      "id": "hn:50216641",
-      "name": "Show HN: AI Crash Debugging Gauntlet",
+      "id": "hn:50229493",
+      "name": "Ask HN: Are people aware OpenAI Dots intercept SSL?",
       "country": "US",
-      "url": "https://www.forensicdbg.com/post/forensicdbg-s-ai-crash-debugging-gauntlet",
-      "summary": "One of the core conceits of ForensicDbg was that if we build a significantly improved crash debugging core, that value would carry through, regardless of the final workflow. Our t…",
+      "url": "https://news.ycombinator.com/item?id=50229493",
+      "summary": "I've already cancelled my OpenAI subscription due to all their recent shenanigans. But before my month ends I thought I'd see what this Dot thing is all about. First thing I did w…",
       "source": "hacker-news",
-      "published_at": "2026-10-23T23:11:06Z"
+      "published_at": "2026-10-25T08:42:12Z"
     },
     {
-      "id": "hn:50215712",
-      "name": "Show HN: AiSniff, underline the phrases in a text that read like AI wrote them",
+      "id": "hn:50228537",
+      "name": "Michal Wallace on Narrative Programming: Why Learn J when LLMs Code?",
       "country": "US",
-      "url": "https://github.com/Arthur031221/AiSniff",
+      "url": "https://alexalejandre.com/interviews/michal-wallace/",
       "summary": "Hacker News discussion",
       "source": "hacker-news",
-      "published_at": "2026-10-23T21:36:29Z"
+      "published_at": "2026-10-25T05:14:39Z"
     },
     {
-      "id": "hn:50215711",
-      "name": "Show HN: I trained a 160M code model on one GPU and got 22.56% on HumanEval",
+      "id": "hn:50226099",
+      "name": "Airbnb Sets New Rules That Limit Checkout Chores",
       "country": "US",
-      "url": "https://jakubcwirlej.com/ai-dev/",
+      "url": "https://www.airbnb.com/help/article/4168",
       "summary": "Hacker News discussion",
       "source": "hacker-news",
-      "published_at": "2026-10-23T21:36:26Z"
+      "published_at": "2026-10-24T22:32:46Z"
     },
     {
-      "id": "hn:50215330",
-      "name": "Show HN: AI Detector that is private, free and unlimited use",
+      "id": "hn:50226016",
+      "name": "Kevlar = MCP Firewall for LLM's",
       "country": "US",
-      "url": "https://kouh.me/ai-text-detector",
+      "url": "https://github.com/Ablation-Tool/kevlar",
       "summary": "Hacker News discussion",
       "source": "hacker-news",
-      "published_at": "2026-10-23T21:06:46Z"
+      "published_at": "2026-10-24T22:24:09Z"
     },
     {
-      "id": "hn:50214205",
-      "name": "Show HN: Argus – Run AI agents unattended on a VPS, controlled from Web & Tlgrm",
+      "id": "hn:50224793",
+      "name": "Musk says he was behind Starlink speed limit after service in Ukraine restored",
       "country": "US",
-      "url": "https://github.com/rla-labs/argus",
+      "url": "https://apnews.com/article/russia-ukraine-war-starlink-drones-a3a0139dfc23365550306dd66fe43daa",
       "summary": "Hacker News discussion",
       "source": "hacker-news",
-      "published_at": "2026-10-23T19:33:30Z"
+      "published_at": "2026-10-24T20:20:53Z"
     },
     {
-      "id": "hn:50213691",
-      "name": "Show HN: Instant – Local AI search with a 95% hit rate (uses Perplexity models)",
+      "id": "hn:50224571",
+      "name": "ArXiv imposes rate limit on paper submissions to stem the AI slop tide",
       "country": "US",
-      "url": "https://useinstantsearch.com/",
-      "summary": "Hi HN! Instant Search is the first accurate local AI file search that uses the latest embedding models from Perplexity to find the exact file (and page) with the content you’re lo…",
-      "source": "hacker-news",
-      "published_at": "2026-10-23T18:52:34Z"
-    },
-    {
-      "id": "hn:50213538",
-      "name": "Show HN: AI Data Footprint Tracker – audit what your AI tools hold, offline",
-      "country": "US",
-      "url": "https://theaioperatorstore.gumroad.com/l/womuyx",
+      "url": "https://www.theregister.com/ai-and-ml/2026/10/02/arxiv-imposes-rate-limit-on-paper-submissions-to-stem-the-ai-slop-tide/5300899",
       "summary": "Hacker News discussion",
       "source": "hacker-news",
-      "published_at": "2026-10-23T18:40:46Z"
+      "published_at": "2026-10-24T19:59:51Z"
     },
     {
-      "id": "hn:50213379",
-      "name": "Show HN: UPA – An explicit organizational model for humans and AI",
+      "id": "hn:50224545",
+      "name": "Ukraine says Starlink is back to normal after limits hobbled its drones",
       "country": "US",
-      "url": "https://github.com/julianfromano/upa-organization-brain",
+      "url": "https://www.nbcnews.com/world/ukraine/ukraine-says-starlink-back-normal-week-limits-rcna605368",
       "summary": "Hacker News discussion",
       "source": "hacker-news",
-      "published_at": "2026-10-23T18:27:18Z"
+      "published_at": "2026-10-24T19:57:00Z"
     },
     {
-      "id": "hn:50213064",
-      "name": "Show HN: AI Heat Map powered by over 120 data feeds",
+      "id": "hn:50223210",
+      "name": "How LLM-Based Penetration Testing Harnesses Work",
       "country": "US",
-      "url": "https://ai-news.jagular.io",
+      "url": "https://utkusen.substack.com/p/how-llm-based-penetration-testing",
       "summary": "Hacker News discussion",
       "source": "hacker-news",
-      "published_at": "2026-10-23T18:06:53Z"
+      "published_at": "2026-10-24T17:15:47Z"
     },
     {
-      "id": "hn:50211429",
-      "name": "Show HN: Koala – Run AI Agents in Isolated Linux VMs on macOS",
+      "id": "rss:the-ai-graveyard-a-running-list-of-projects-and-startups-that-didn-t-make-it",
+      "name": "The AI graveyard: a running list of projects and startups that didn’t make it",
       "country": "US",
-      "url": "https://kunalkushwaha.github.io/homebrew-koala/",
-      "summary": "Hacker News discussion",
-      "source": "hacker-news",
-      "published_at": "2026-10-23T16:18:31Z"
+      "url": "https://techcrunch.com/2026/10/24/the-ai-graveyard-a-running-list-of-projects-and-startups-that-didnt-make-it/",
+      "summary": "From Apple's repeatedly delayed Siri AI to OpenAI's messy \"super app\" launch, here's a look at the AI projects that shut down or missed expectations.",
+      "source": "techcrunch-ai",
+      "published_at": "Sat, 24 Oct 2026 19:00:00 +0000"
     },
     {
-      "id": "hn:50211015",
-      "name": "Show HN: Anyone else frustrated with mermaid diagrams?",
+      "id": "rss:block-s-new-voice-model-sounds-eerily-human",
+      "name": "Block’s new voice model sounds eerily human",
       "country": "US",
-      "url": "https://github.com/uberblick-ai/ablauf",
-      "summary": "I’ve been struggling with Mermaid in Markdown for a while. I appreciate the technical finesse of its rendering, but the diagrams are often unreadable. So we wrote an alternative t…",
-      "source": "hacker-news",
-      "published_at": "2026-10-23T15:52:27Z"
+      "url": "https://techcrunch.com/2026/10/24/blocks-new-voice-model-sounds-eerily-human/",
+      "summary": "Block said that the voice model can run locally on a MacBook M4 Max",
+      "source": "techcrunch-ai",
+      "published_at": "Sat, 24 Oct 2026 16:00:00 +0000"
     },
     {
-      "id": "hn:50210576",
-      "name": "Show HN: Gsearch – Real Google Search for AI Agents(MCP)",
+      "id": "rss:forced-to-pick-grok-s-ai-model-chooses-republicans-openai-s-picks-democrats",
+      "name": "Forced to pick, Grok’s AI model chooses Republicans. OpenAI’s picks Democrats.",
       "country": "US",
-      "url": "https://github.com/RayenMlayeh/gsearch",
-      "summary": "Hacker News discussion",
-      "source": "hacker-news",
-      "published_at": "2026-10-23T15:21:49Z"
-    },
-    {
-      "id": "hn:50209500",
-      "name": "Show HN: Kavela – AI Automations that do not fail silently",
-      "country": "US",
-      "url": "https://kavela.ai",
-      "summary": "Kavela’s closed beta is out. AI agent automations that do not fail silently. There are now 216 unique users in our closed-beta tests! It is my belief that Kavela will be a winner…",
-      "source": "hacker-news",
-      "published_at": "2026-10-23T14:18:31Z"
-    },
-    {
-      "id": "hn:50209455",
-      "name": "Show HN: Vericto – Check AI agents' SQL before Postgres or MySQL runs it",
-      "country": "US",
-      "url": "https://github.com/vericto/vericto-proxy",
-      "summary": "Hacker News discussion",
-      "source": "hacker-news",
-      "published_at": "2026-10-23T14:16:26Z"
-    },
-    {
-      "id": "hn:50208666",
-      "name": "Show HN: PlugVet, hygiene grades for AI agent plugins with the evidence shown",
-      "country": "US",
-      "url": "https://plugvet.com/",
-      "summary": "Hacker News discussion",
-      "source": "hacker-news",
-      "published_at": "2026-10-23T13:28:03Z"
-    },
-    {
-      "id": "hn:50208419",
-      "name": "Show HN: Mark – AI chat that answers with diagrams, quizzes and 3D models",
-      "country": "US",
-      "url": "https://saanora.com",
-      "summary": "Hacker News discussion",
-      "source": "hacker-news",
-      "published_at": "2026-10-23T13:09:25Z"
-    },
-    {
-      "id": "hn:50207650",
-      "name": "Show HN: I gave my AI eyes for YouTube tutorials",
-      "country": "US",
-      "url": "https://getframecap.com/",
-      "summary": "Hacker News discussion",
-      "source": "hacker-news",
-      "published_at": "2026-10-23T12:05:38Z"
-    },
-    {
-      "id": "hn:50207620",
-      "name": "Show HN: We had AI write a wiki from 45k Enron emails, every fact cited",
-      "country": "US",
-      "url": "https://www.thisandthat.chat/enron/",
-      "summary": "Hacker News discussion",
-      "source": "hacker-news",
-      "published_at": "2026-10-23T12:02:53Z"
-    },
-    {
-      "id": "hn:50206876",
-      "name": "Show HN: Best otaku AI to chat about Anime with",
-      "country": "US",
-      "url": "https://otaku.animearray.site/",
-      "summary": "Hacker News discussion",
-      "source": "hacker-news",
-      "published_at": "2026-10-23T10:36:24Z"
-    },
-    {
-      "id": "hn:50206354",
-      "name": "Show HN: Kucedr (was Friday) – a desktop AI agent that runs on your machine",
-      "country": "US",
-      "url": "https://www.kucedr.com/",
-      "summary": "Hacker News discussion",
-      "source": "hacker-news",
-      "published_at": "2026-10-23T09:19:41Z"
-    },
-    {
-      "id": "hn:50205523",
-      "name": "Show HN: Kuron – A 5-device airline system from one prompt, no code generated",
-      "country": "US",
-      "url": "https://claude.ai/artifact/UMMbf2FcV3ULi6d5WaW1yp",
-      "summary": "Hacker News discussion",
-      "source": "hacker-news",
-      "published_at": "2026-10-23T07:23:32Z"
-    },
-    {
-      "id": "hn:50205393",
-      "name": "Show HN: Audimind – Create audiobooks in one AI-powered workspace",
-      "country": "US",
-      "url": "https://www.audimind.ai",
-      "summary": "Hacker News discussion",
-      "source": "hacker-news",
-      "published_at": "2026-10-23T07:05:22Z"
-    },
-    {
-      "id": "hn:50219762",
-      "name": "Show HN: Benchmarks of continual learning model trained for a month on a laptop",
-      "country": "US",
-      "url": "https://news.ycombinator.com/item?id=50219762",
-      "summary": "A month ago, I shared mini-AGI, an experiment in training a byte-level, continually learning language model from scratch on a single 8 GB laptop GPU (an RTX 3070). To recap the se…",
-      "source": "hacker-news",
-      "published_at": "2026-10-24T10:09:27Z"
-    },
-    {
-      "id": "hn:50215552",
-      "name": "Show HN: Distributed, deterministically secure agentic swarm runtime. Enclawed",
-      "country": "US",
-      "url": "https://zenodo.org/records/23602948",
-      "summary": "A Deterministic Security Runtime for LLM Agents on MPI and Batch-Scheduled HPC Systems: Consensus-Governed, Hardware-Rooted Supervision of Every Rank",
-      "source": "hacker-news",
-      "published_at": "2026-10-23T21:23:33Z"
-    },
-    {
-      "id": "hn:50215039",
-      "name": "The one time we break the LLM cache on purpose",
-      "country": "US",
-      "url": "https://www.induction.ai/blog/benchmark-cache-isolation",
-      "summary": "Hacker News discussion",
-      "source": "hacker-news",
-      "published_at": "2026-10-23T20:41:58Z"
-    },
-    {
-      "id": "hn:50213960",
-      "name": "LLM-d v1.0.0 is out",
-      "country": "US",
-      "url": "https://github.com/llm-d/llm-d/releases/tag/v1.0.0",
-      "summary": "Hacker News discussion",
-      "source": "hacker-news",
-      "published_at": "2026-10-23T19:13:17Z"
-    },
-    {
-      "id": "hn:50213260",
-      "name": "Browser Use for LLMs with a Chrome Extension",
-      "country": "US",
-      "url": "https://michaelscrypt.com/blog/browser-use-for-llms-with-a-chrome-extension",
-      "summary": "Hacker News discussion",
-      "source": "hacker-news",
-      "published_at": "2026-10-23T18:19:48Z"
-    },
-    {
-      "id": "hn:50212778",
-      "name": "Private LLM Inference with Homomorphic Encryption [pdf]",
-      "country": "US",
-      "url": "https://www.vldb.org/pvldb/vol19/p4927-lim.pdf",
-      "summary": "Hacker News discussion",
-      "source": "hacker-news",
-      "published_at": "2026-10-23T17:47:45Z"
+      "url": "https://techcrunch.com/2026/10/24/forced-to-pick-groks-ai-model-chooses-republicans-openais-picks-democrats/",
+      "summary": "A new study found Grok's AI overwhelmingly recommends Republican candidates while OpenAI's GPT favors Democrats, with the two AI models disagreeing in more than 90% of nearly 500…",
+      "source": "techcrunch-ai",
+      "published_at": "Sat, 24 Oct 2026 15:00:00 +0000"
     }
   ]
 }

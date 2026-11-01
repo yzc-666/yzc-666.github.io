@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-31T13:59:46Z",
+  "updated_at": "2026-11-01T14:36:16Z",
   "stats": {
     "total": 131,
     "cn": 21,
@@ -925,6 +925,27 @@
       "source_url": "https://en.wikipedia.org/wiki/Xai"
     },
     {
+      "id": 35095,
+      "name": "Taan.ai",
+      "country": "US",
+      "website": "https://taan.ai/",
+      "one_liner": "the most precise & controllable foundation music models",
+      "tags": [
+        "Generative AI"
+      ],
+      "products": [
+        {
+          "name": "Taan.ai",
+          "note": "the most precise & controllable foundation music models"
+        }
+      ],
+      "batch": "Fall 2026",
+      "status": "Active",
+      "source": "yc",
+      "source_url": "https://www.ycombinator.com/companies/taanai",
+      "launched_at": 1793427352
+    },
+    {
       "id": 34596,
       "name": "Bayworks",
       "country": "US",
@@ -976,7 +997,7 @@
       "name": "ernd",
       "country": "US",
       "website": "https://ernd.io/",
-      "one_liner": "The credit card for companies that pay for AI",
+      "one_liner": "The Credit Card for the AI stack",
       "tags": [
         "Fintech",
         "AI"
@@ -984,7 +1005,7 @@
       "products": [
         {
           "name": "ernd",
-          "note": "The credit card for companies that pay for AI"
+          "note": "The Credit Card for the AI stack"
         }
       ],
       "batch": "Fall 2026",
@@ -1698,7 +1719,7 @@
       "name": "Graphide",
       "country": "US",
       "website": "https://Graphide.com",
-      "one_liner": "CI 10–20× faster than GitHub runners, for teams who ship with agents.",
+      "one_liner": "CI 10-20× faster than GitHub runners, with a 24/7 agent optimizing it.",
       "tags": [
         "Generative AI",
         "DevOps",
@@ -1707,7 +1728,7 @@
       "products": [
         {
           "name": "Graphide",
-          "note": "CI 10–20× faster than GitHub runners, for teams who ship with agents."
+          "note": "CI 10-20× faster than GitHub runners, with a 24/7 agent optimizing it."
         }
       ],
       "batch": "Fall 2026",
@@ -3041,32 +3062,117 @@
       "source": "yc",
       "source_url": "https://www.ycombinator.com/companies/opencrawl",
       "launched_at": 1788469833
-    },
-    {
-      "id": 38029,
-      "name": "Proto",
-      "country": "US",
-      "website": "https://www.prototypes.fun/",
-      "one_liner": "A design tool with the accuracy of Cursor & creative freedom of Figma",
-      "tags": [
-        "Design",
-        "Design Tools",
-        "AI"
-      ],
-      "products": [
-        {
-          "name": "Proto",
-          "note": "A design tool with the accuracy of Cursor & creative freedom of Figma"
-        }
-      ],
-      "batch": "Fall 2026",
-      "status": "Active",
-      "source": "yc",
-      "source_url": "https://www.ycombinator.com/companies/proto",
-      "launched_at": 1788020466
     }
   ],
   "projects": [
+    {
+      "id": "hn:50325878",
+      "name": "Show HN: Let formal specs test AI implementations",
+      "country": "US",
+      "url": "https://github.com/mrasu/spec-guardian",
+      "summary": "Hacker News discussion",
+      "source": "hacker-news",
+      "published_at": "2026-11-01T14:11:06Z"
+    },
+    {
+      "id": "hn:50325712",
+      "name": "Show HN: IsSiteDown – Chrome extension to check current site availability",
+      "country": "US",
+      "url": "https://chromewebstore.google.com/detail/issitedown/ifilnamlilffdbhbfmkkkajlgckimjlo",
+      "summary": "Hi HN, I have recently built a small Chrome extension, showing availability of the currently open site. Like you can't open something and want to quickly check, if it is down at a…",
+      "source": "hacker-news",
+      "published_at": "2026-11-01T13:54:09Z"
+    },
+    {
+      "id": "hn:50324396",
+      "name": "Show HN: AIOps Cockpit – An open-source AI SRE with human-in-the-loop safety",
+      "country": "US",
+      "url": "https://github.com/matricphase-dot/aiops",
+      "summary": "Hacker News discussion",
+      "source": "hacker-news",
+      "published_at": "2026-11-01T10:48:39Z"
+    },
+    {
+      "id": "hn:50323807",
+      "name": "Show HN: OpenProject Agent Engine – Automated Workflow and Agent Dispatch",
+      "country": "US",
+      "url": "https://github.com/310networks/openproject-agent-engine",
+      "summary": "I started looking into OpenProject as an open-source JIRA alternative for personal project, and wanted a way to have my AI agents pick up tasks and complete them automatically. So…",
+      "source": "hacker-news",
+      "published_at": "2026-11-01T09:06:06Z"
+    },
+    {
+      "id": "hn:50323310",
+      "name": "Show HN: AnchorGit – Hardware-signed Git decision ledger for AI code",
+      "country": "US",
+      "url": "https://www.anchorgit.com",
+      "summary": "Hacker News discussion",
+      "source": "hacker-news",
+      "published_at": "2026-11-01T07:04:15Z"
+    },
+    {
+      "id": "hn:50322021",
+      "name": "Show HN: LinkedIn-ops – Zero-dependency CDP automation built for AI agents",
+      "country": "US",
+      "url": "https://github.com/shashtag-ventures/linkedin-ops",
+      "summary": "Hacker News discussion",
+      "source": "hacker-news",
+      "published_at": "2026-11-01T01:46:21Z"
+    },
+    {
+      "id": "hn:50319478",
+      "name": "Show HN: Read your Character.AI data export in the browser, nothing uploaded",
+      "country": "US",
+      "url": "https://github.com/anima-universe/character-ai-export-viewer",
+      "summary": "Hacker News discussion",
+      "source": "hacker-news",
+      "published_at": "2026-10-31T19:53:20Z"
+    },
+    {
+      "id": "hn:50319273",
+      "name": "Show HN: Castov – Open-source dev tools and AI secret shield with zero telemetry",
+      "country": "US",
+      "url": "https://castov.com",
+      "summary": "Hacker News discussion",
+      "source": "hacker-news",
+      "published_at": "2026-10-31T19:30:14Z"
+    },
+    {
+      "id": "hn:50318318",
+      "name": "Show HN: Publishub. An AI copilot for video creators and editors.",
+      "country": "US",
+      "url": "https://www.getpublishub.com",
+      "summary": "Hacker News discussion",
+      "source": "hacker-news",
+      "published_at": "2026-10-31T17:52:36Z"
+    },
+    {
+      "id": "hn:50317589",
+      "name": "Show HN: CiteLLM – Verify AI Answers in PDFs",
+      "country": "US",
+      "url": "https://citellm.com/",
+      "summary": "Hacker News discussion",
+      "source": "hacker-news",
+      "published_at": "2026-10-31T16:29:43Z"
+    },
+    {
+      "id": "hn:50317548",
+      "name": "Show HN: Jointter – A daily word puzzle using dots and lines",
+      "country": "US",
+      "url": "https://www.jointter.com/",
+      "summary": "Hello everyone. I’m a mathematician by training, and I love mathematical and logical puzzles and brain-teasers. Inspired by popular games like Sudoku and Wordle, I decided to come…",
+      "source": "hacker-news",
+      "published_at": "2026-10-31T16:24:24Z"
+    },
+    {
+      "id": "hn:50316779",
+      "name": "Show HN: InBox Wall – A local-first, open-source email sanitizer for AI agents",
+      "country": "US",
+      "url": "https://github.com/Annora998/inboxwall",
+      "summary": "Hacker News discussion",
+      "source": "hacker-news",
+      "published_at": "2026-10-31T14:59:36Z"
+    },
     {
       "id": "hn:50315553",
       "name": "Show HN: NullPrime – do AI models know when they can't know?",
@@ -3075,6 +3181,15 @@
       "summary": "Hacker News discussion",
       "source": "hacker-news",
       "published_at": "2026-10-31T12:30:31Z"
+    },
+    {
+      "id": "hn:50314659",
+      "name": "Show HN: Uncracked City, detective game where you question LLM suspects that lie",
+      "country": "US",
+      "url": "https://uncracked.city",
+      "summary": "I'm the developer. The game sends you to a city, you search the places for clues, then question the suspects with your own words, typed or spoken. Each suspect is played by an LLM…",
+      "source": "hacker-news",
+      "published_at": "2026-10-31T10:21:38Z"
     },
     {
       "id": "hn:50314522",
@@ -3257,139 +3372,22 @@
       "published_at": "2026-10-30T13:19:15Z"
     },
     {
-      "id": "hn:50303157",
-      "name": "Show HN: SpecDeck – Bring coding agent decisions back into the spec",
+      "id": "hn:50325634",
+      "name": "Uniichat: Use a single LLM chat forever",
       "country": "US",
-      "url": "https://specdeck.ai/",
-      "summary": "Writing good specs is hard. You don’t know everything upfront and it’s impossible to write every little detail in the spec. Much of my job as a developer has been to treat specs a…",
-      "source": "hacker-news",
-      "published_at": "2026-10-30T12:47:48Z"
-    },
-    {
-      "id": "hn:50302799",
-      "name": "Show HN: Molfar – AI meetings where several models answer at once (Android)",
-      "country": "US",
-      "url": "https://play.google.com/store/apps/details?id=com.nova_hata.molfar&hl=en_US",
+      "url": "https://github.com/VictorTaelin/uniichat",
       "summary": "Hacker News discussion",
       "source": "hacker-news",
-      "published_at": "2026-10-30T12:06:15Z"
+      "published_at": "2026-11-01T13:43:51Z"
     },
     {
-      "id": "hn:50301153",
-      "name": "Show HN: Send21 – Crypto pay links an AI agent can create but can't spend",
+      "id": "hn:50325217",
+      "name": "Show HN: Modeljury – a jury of cheap LLMs that escalates the hard cases",
       "country": "US",
-      "url": "https://send21.io/demo",
+      "url": "https://github.com/YasserManss/modeljury",
       "summary": "Hacker News discussion",
       "source": "hacker-news",
-      "published_at": "2026-10-30T08:26:44Z"
-    },
-    {
-      "id": "hn:50301018",
-      "name": "Show HN: AI agents trade privately on BitcoinZ, with proof of delivery",
-      "country": "US",
-      "url": "https://github.com/ZKStamp/AgentWallet",
-      "summary": "Hacker News discussion",
-      "source": "hacker-news",
-      "published_at": "2026-10-30T08:05:56Z"
-    },
-    {
-      "id": "hn:50299847",
-      "name": "Show HN: Breatic – Collaborative canvases and documents with an AI agent",
-      "country": "US",
-      "url": "https://github.com/orime-org/breatic",
-      "summary": "Hacker News discussion",
-      "source": "hacker-news",
-      "published_at": "2026-10-30T04:23:59Z"
-    },
-    {
-      "id": "hn:50299645",
-      "name": "Show HN: HiPath AI – CS learning roadmaps where a quiz unlocks each lesson",
-      "country": "US",
-      "url": "https://www.hipathai.me",
-      "summary": "Hacker News discussion",
-      "source": "hacker-news",
-      "published_at": "2026-10-30T03:45:17Z"
-    },
-    {
-      "id": "hn:50298905",
-      "name": "Show HN: NovelHiveAI – A tool to turn novels into a multi-Voice audiobook",
-      "country": "US",
-      "url": "https://novelhive.ai/",
-      "summary": "It can also generate an entire novel from a single prompt, but I suspect most people will still prefer the audiobook feature :)",
-      "source": "hacker-news",
-      "published_at": "2026-10-30T01:48:46Z"
-    },
-    {
-      "id": "hn:50298001",
-      "name": "Show HN: I created a spreadsheet in a plain text file",
-      "country": "US",
-      "url": "https://app.ordinate.dev",
-      "summary": "I built a plain-text spreadsheet format and an app for working with it. It began with small tasks like tracking my dog's health records and organizing records for tax season. Full…",
-      "source": "hacker-news",
-      "published_at": "2026-10-30T00:01:36Z"
-    },
-    {
-      "id": "hn:50296304",
-      "name": "Show HN: AI Knows Us – see who ChatGPT and Perplexity recommend instead of you",
-      "country": "US",
-      "url": "https://www.aiknowsus.com",
-      "summary": "Hacker News discussion",
-      "source": "hacker-news",
-      "published_at": "2026-10-29T21:27:11Z"
-    },
-    {
-      "id": "hn:50293595",
-      "name": "Show HN: Kinoloom – A local AI film studio for an 8 GB GPU",
-      "country": "US",
-      "url": "https://github.com/harlixay7/Kinoloom",
-      "summary": "Hacker News discussion",
-      "source": "hacker-news",
-      "published_at": "2026-10-29T18:20:21Z"
-    },
-    {
-      "id": "hn:50293361",
-      "name": "Show HN: phpClaw – AI agent runtime for PHP with tools, memory and guards",
-      "country": "US",
-      "url": "https://github.com/phpclaw-php/phpclaw-monorepo",
-      "summary": "Hacker News discussion",
-      "source": "hacker-news",
-      "published_at": "2026-10-29T18:06:22Z"
-    },
-    {
-      "id": "hn:50293148",
-      "name": "Show HN: Sheetgraph, AI agents can understand complex spreadsheets",
-      "country": "US",
-      "url": "https://github.com/asharma327/sheetgraph",
-      "summary": "Hi guys, I built a tool www.lovespreadsheets.com earlier this year and a huge problem we kept running into is processing messy, real-world, complex spreadsheets for AI agents. Eve…",
-      "source": "hacker-news",
-      "published_at": "2026-10-29T17:49:55Z"
-    },
-    {
-      "id": "hn:50316167",
-      "name": "ChemEZ: LLM Wrapper with Chemistry Processing and Visualization",
-      "country": "US",
-      "url": "https://github.com/researchbyayan/ChemEZ",
-      "summary": "Hacker News discussion",
-      "source": "hacker-news",
-      "published_at": "2026-10-31T13:47:08Z"
-    },
-    {
-      "id": "hn:50315898",
-      "name": "Ask HN: If AI agents can run 24/7, why is almost nothing shipped overnight?",
-      "country": "US",
-      "url": "https://news.ycombinator.com/item?id=50315898",
-      "summary": "Hacker News discussion",
-      "source": "hacker-news",
-      "published_at": "2026-10-31T13:12:54Z"
-    },
-    {
-      "id": "hn:50315665",
-      "name": "Show HN: Tadpole – an LLM agent built from scratch then post-trained on 4B model",
-      "country": "US",
-      "url": "https://github.com/shakewingo/Tadpole",
-      "summary": "Hacker News discussion",
-      "source": "hacker-news",
-      "published_at": "2026-10-31T12:43:42Z"
+      "published_at": "2026-11-01T12:58:26Z"
     }
   ]
 }

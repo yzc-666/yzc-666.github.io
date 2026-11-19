@@ -1,0 +1,5 @@
+# Coauthors whose names should link to their homepages in publication lists.
+# Keyed by lowercase last name; firstname lists the spellings used in papers.bib.
+"zou":
+  - firstname: ["Difan", "D."]
+    url: https://difanzou.github.io/

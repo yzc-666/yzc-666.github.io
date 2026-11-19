@@ -1,0 +1,5 @@
+# Local preview overrides. Use with:
+#   bundle exec jekyll serve --config _config.yml,_config.dev.yml
+# Skips responsive WebP generation so images work without ImageMagick installed.
+imagemagick:
+  enabled: false

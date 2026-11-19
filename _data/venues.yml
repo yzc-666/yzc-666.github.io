@@ -1,0 +1,16 @@
+# Venue badges for publications: match the `abbr` field in papers.bib.
+# Add `color: "#hex"` to give a venue its own badge color.
+"NeurIPS":
+  url: https://neurips.cc/
+
+"ICML":
+  url: https://icml.cc/
+
+"ICLR":
+  url: https://iclr.cc/
+
+"ACL":
+  url: https://www.aclweb.org/
+
+"arXiv":
+  url: https://arxiv.org/

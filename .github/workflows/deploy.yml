@@ -1,7 +1,6 @@
 name: Deploy to GitHub Pages
 
-# Builds the al-folio site with Jekyll and publishes it through GitHub Pages
-# (Settings → Pages → Source: GitHub Actions).
+# Publishes the static site through GitHub Pages (source: GitHub Actions).
 
 on:
   push:
@@ -18,43 +17,21 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
-  build:
+  package:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
 
-      - uses: ruby/setup-ruby@v1
-        with:
-          ruby-version: "3.3.5"
-          bundler-cache: true
-
-      - uses: actions/setup-node@v4
-        with:
-          node-version: 20
-
-      - name: Install ImageMagick (responsive images)
-        run: sudo apt-get update && sudo apt-get install -y imagemagick
-
-      - name: Build site
-        env:
-          JEKYLL_ENV: production
-        run: bundle exec jekyll build
-
-      - name: Purge unused CSS
-        run: |
-          npm install -g purgecss
-          purgecss -c purgecss.config.js
-
       - uses: actions/upload-pages-artifact@v3
         with:
-          path: _site
+          path: site
 
   deploy:
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
-    needs: build
+    needs: package
     steps:
       - name: Deploy to GitHub Pages
         id: deployment
